@@ -3181,6 +3181,7 @@ This counts as an academic skill.</description>
         <entryLink id="d109-cdfc-3b3c-73e8" name="+1 W" hidden="false" collective="false" import="true" targetId="7918-b440-5d63-bd5e" type="selectionEntry"/>
         <entryLink id="1d4b-f425-6e4c-b130" name="+1 WS" hidden="false" collective="false" import="true" targetId="7418-394e-fe13-2a96" type="selectionEntry"/>
       </entryLinks>
+      <comment>Heroes</comment>
     </selectionEntryGroup>
     <selectionEntryGroup id="ee2c-89e3-489b-d0cb" name="Combat Skills" hidden="false" collective="false" import="true">
       <constraints>
@@ -4511,14 +4512,60 @@ Warriors without Ride may not use this skill.</description>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
+    <selectionEntryGroup id="e07e-3360-173d-8db7" name="Characteristic Increases" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="244f-61df-dfad-d723" type="min"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="f924-54f2-63d5-17a5" name="+1 A" hidden="false" collective="false" import="true" targetId="37c4-dcb1-8949-d4eb" type="selectionEntry" sortIndex="5">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8747-6fa6-43e7-b589"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="0b5b-507f-68db-7101"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8a5f-8b52-870f-6cf8" name="+1 BS" hidden="false" collective="false" import="true" targetId="5a83-274a-bba8-f498" type="selectionEntry" sortIndex="3">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4311-85c6-bfee-f1f1"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="517d-c4d2-b73e-4190"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="fb8d-c74a-6727-d14e" name="+1 I" hidden="false" collective="false" import="true" targetId="da26-8381-781a-6149" type="selectionEntry" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="0e37-2fc2-ca82-6b25"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7410-6a4e-edda-688e"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ee8c-8365-de5e-0c4b" name="+1 LD" hidden="false" collective="false" import="true" targetId="27d8-c790-a4c1-b9cc" type="selectionEntry" sortIndex="6">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6320-8426-aaa6-11e6"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="4a92-b0f0-fc38-2ac1"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="612a-811f-25ca-a59d" name="+1 S" hidden="false" collective="false" import="true" targetId="9368-3616-516f-5178" type="selectionEntry" sortIndex="2">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2df1-5598-b820-a3f9"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="34ea-d70f-3add-6005"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8cd7-9737-090c-4064" name="+1 WS" hidden="false" collective="false" import="true" targetId="7418-394e-fe13-2a96" type="selectionEntry" sortIndex="4">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ae2e-07c5-22f2-2901"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="58ca-3eaa-d00d-0eec"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <comment>Henchmen
+
+</comment>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Campaign" id="c9ed-449e-6799-ca69" hidden="false"/>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="98ac-2376-00c1-4f65" name="+1 Enemy armour save" page="0" hidden="false">
       <description>An enemy wounded by this weapon gains a +1 bonus to his armour save, and a 6+ armour save if he normally has none.</description>
     </rule>
     <rule id="8747-e16d-0f7e-5561" name="Avoid stun" page="0" hidden="false">
-      <description>A model that is equipped with a helmet has a special 4+ save on a D6 against being stunned. If the save is made, treat the stunned
-result as knocked down instead. This save is not modified by the opponent’s Strength.</description>
+      <description>A model that is equipped with a helmet has a special 4+ save on a D6 against being stunned. If the save is made, treat the stunned result as knocked down instead. This save is not modified by the opponent’s Strength.</description>
     </rule>
     <rule id="ef77-8d02-8707-afc4" name="Cavalry bonus" page="0" hidden="false">
       <description>If using the rules for mounted models, a mounted warrior armed with a &apos;cavalry weapon&apos; receives a +1 Strength bonus when he charges. This bonus only applies for that turn.</description>
