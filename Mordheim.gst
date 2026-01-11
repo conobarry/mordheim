@@ -51,6 +51,7 @@
     <categoryEntry id="a31acb39-8ce9-d6d7-bcc9-f3144d63db48" name="Stash" hidden="false"/>
     <categoryEntry id="0aea-26b8-980b-28aa" name="Dramatis Personae" hidden="false"/>
     <categoryEntry id="71f7-5ee6-ab09-7fd9" name="Hired Swords" hidden="false"/>
+    <categoryEntry name="Configuration" id="e1f1-ce7b-e13e-5dcf" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="7451d7da-3cc0-0299-775b-2f48162a731d" name="Warband" hidden="false">
@@ -67,6 +68,7 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink name="Configuration" hidden="false" id="6fee-820a-861e-2ed0" targetId="e1f1-ce7b-e13e-5dcf"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="1f34-e353-569e-f6b9" name="Characters" hidden="false">
@@ -79,4 +81,11 @@
   <publications>
     <publication name="GitHub" hidden="false" id="ff7c-2cb8-2105-563f" publisherUrl="https://github.com/BSData/mordheim"/>
   </publications>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Campaign Settings" hidden="false" id="b947-a645-1afd-8c5a">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Enable Campaign" hidden="false" id="d7a6-9fc0-d325-136f"/>
+      </selectionEntries>
+    </selectionEntry>
+  </sharedSelectionEntries>
 </gameSystem>
