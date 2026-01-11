@@ -34,7 +34,7 @@ If any enemy model wishes to shoot at a Bretonnian Knight (Questing Knights an
       <selectionEntryGroups>
         <selectionEntryGroup name="Hand-to-hand Weapons" hidden="false" id="100a-887d-1054-83ae">
           <entryLinks>
-            <entryLink import="true" name="Free Dagger" hidden="false" type="selectionEntry" id="4b9-fdf8-84dd-3113" targetId="0d0b-ed37-d8b0-4cbf"/>
+            <entryLink import="true" name="Free Dagger" hidden="false" type="selectionEntry" id="4b9-fdf8-84dd-3113" targetId="0d0b-ed37-d8b0-4cbf" sortIndex="1"/>
             <entryLink import="true" name="Dagger" hidden="false" type="selectionEntry" id="fb63-22d7-1cc4-ff04" targetId="64e0-0bb6-542b-4beb"/>
             <entryLink import="true" name="Hammer, staff, mace or club" hidden="false" type="selectionEntry" id="4cec-1af6-13a5-29e4" targetId="cfcc-39fd-aeb4-876a">
               <modifiers>
@@ -117,7 +117,7 @@ If any enemy model wishes to shoot at a Bretonnian Knight (Questing Knights an
       <selectionEntryGroups>
         <selectionEntryGroup name="Hand-to-hand Weapons" hidden="false" id="7e65-6071-79c3-5fb6">
           <entryLinks>
-            <entryLink import="true" name="Free Dagger" hidden="false" type="selectionEntry" id="e851-30c0-1e9c-52a2" targetId="0d0b-ed37-d8b0-4cbf"/>
+            <entryLink import="true" name="Free Dagger" hidden="false" type="selectionEntry" id="e851-30c0-1e9c-52a2" targetId="0d0b-ed37-d8b0-4cbf" sortIndex="1"/>
             <entryLink import="true" name="Dagger" hidden="false" type="selectionEntry" id="fd6b-8542-1277-9f1a" targetId="64e0-0bb6-542b-4beb"/>
             <entryLink import="true" name="Hammer, staff, mace or club" hidden="false" type="selectionEntry" id="a187-4524-eac0-d2b7" targetId="cfcc-39fd-aeb4-876a">
               <modifiers>
@@ -154,7 +154,7 @@ If any enemy model wishes to shoot at a Bretonnian Knight (Questing Knights an
       <selectionEntryGroups>
         <selectionEntryGroup name="Hand-to-hand Weapons" hidden="false" id="bf8d-5c27-ee2a-9b59">
           <entryLinks>
-            <entryLink import="true" name="Free Dagger" hidden="false" type="selectionEntry" id="b20f-6221-322d-5413" targetId="0d0b-ed37-d8b0-4cbf"/>
+            <entryLink import="true" name="Free Dagger" hidden="false" type="selectionEntry" id="b20f-6221-322d-5413" targetId="0d0b-ed37-d8b0-4cbf" sortIndex="1"/>
             <entryLink import="true" name="Dagger" hidden="false" type="selectionEntry" id="4c5b-b551-3d5f-bcd" targetId="64e0-0bb6-542b-4beb"/>
             <entryLink import="true" name="Sword" hidden="false" type="selectionEntry" id="53bf-eb86-ed93-2847" targetId="34fd-d6a3-50ee-ee06">
               <modifiers>
@@ -1066,6 +1066,28 @@ He will never panic and break from combat and so does not have to pass a Leade
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Man-at-Arms" hidden="false" id="bf5d-87e1-b71c-c6d1">
+      <costs>
+        <cost name="pts" typeId="points" value="20"/>
+        <cost name="Warband Rating" typeId="wb-rating" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Men-at-Arms Group" hidden="false" id="ae3b-570c-1a70-630a">
+      <entryLinks>
+        <entryLink import="true" name="Experience" hidden="false" id="3e38-132e-1803-d580" collective="false" targetId="d769-0d85-e810-df60" type="selectionEntry" sortIndex="2"/>
+        <entryLink import="true" name="Characteristic Increases" hidden="false" id="784d-de72-2acd-adf7" collective="false" targetId="e07e-3360-173d-8db7" type="selectionEntryGroup" sortIndex="3" collapsible="true"/>
+        <entryLink import="true" name="Men-at-Arms Equipment" hidden="false" id="be7-72a5-649a-15ad" collective="false" targetId="7661-6b84-3ec8-1d23" type="selectionEntryGroup" sortIndex="4" collapsible="true"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Men-at-Arms" id="a324-3d7e-5d01-cbf2" hidden="false" sortIndex="1">
+          <entryLinks>
+            <entryLink import="true" name="Man-at-Arms" hidden="false" id="0b85-7993-4386-4f99" type="selectionEntry" targetId="bf5d-87e1-b71c-c6d1"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fec9-093a-b72d-6b59"/>
+            <constraint type="max" value="8" field="selections" scope="parent" shared="true" id="9159-4a90-abaf-087e"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <profiles>
         <profile name="Men-at-Arms" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model" hidden="false" id="d361-7648-cf78-1e69">
           <characteristics>
@@ -1082,138 +1104,37 @@ He will never panic and break from combat and so does not have to pass a Leade
           <modifiers>
             <modifier type="increment" value="1" field="d5aca8ba-0204-b324-b976-c2b536e09924">
               <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="4daa-b55-5952-cf81" childId="7418-394e-fe13-2a96" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="7418-394e-fe13-2a96" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
               </repeats>
             </modifier>
             <modifier type="increment" value="1" field="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">
               <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="4daa-b55-5952-cf81" childId="9368-3616-516f-5178" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="9368-3616-516f-5178" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
               </repeats>
             </modifier>
             <modifier type="increment" value="1" field="e234eaea-a02a-2fb7-3e1f-605392aabb89">
               <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="4daa-b55-5952-cf81" childId="27d8-c790-a4c1-b9cc" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" value="1" field="54f4796b-dedb-c296-8b1a-ff7f8043293a">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="4daa-b55-5952-cf81" childId="6fe1-7bba-3ca0-06b7" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="27d8-c790-a4c1-b9cc" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
               </repeats>
             </modifier>
             <modifier type="increment" value="1" field="a6fd52b0-be0a-655e-6314-87b392c9c90e">
               <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="4daa-b55-5952-cf81" childId="da26-8381-781a-6149" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" value="1" field="3172c8dc-ebe4-0c40-72ab-8fd0076b9442">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="4daa-b55-5952-cf81" childId="7918-b440-5d63-bd5e" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="da26-8381-781a-6149" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
               </repeats>
             </modifier>
             <modifier type="increment" value="1" field="bf393c37-9d10-fc85-c147-62b1c01a89fe">
               <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="4daa-b55-5952-cf81" childId="37c4-dcb1-8949-d4eb" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="37c4-dcb1-8949-d4eb" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
               </repeats>
             </modifier>
             <modifier type="increment" value="1" field="5b4d181b-23ae-5ed7-9262-c1d2f79246a8">
               <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="4daa-b55-5952-cf81" childId="5a83-274a-bba8-f498" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" value="1" field="2a0bcc4c-8266-418f-13d6-a6b44def5e92">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="4daa-b55-5952-cf81" childId="c4db-7b50-a4f9-cd5f" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" value="1" field="d5aca8ba-0204-b324-b976-c2b536e09924">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="4daa-b55-5952-cf81" childId="ae44-58f4-4440-5777" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" value="1" field="e234eaea-a02a-2fb7-3e1f-605392aabb89">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="4daa-b55-5952-cf81" childId="a519-13dc-1b04-e39e" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" value="1" field="54f4796b-dedb-c296-8b1a-ff7f8043293a">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="4daa-b55-5952-cf81" childId="ca62-64c2-488a-f17c" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" value="1" field="3172c8dc-ebe4-0c40-72ab-8fd0076b9442">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="4daa-b55-5952-cf81" childId="9209-0067-18d2-b78c" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" value="1" field="2a0bcc4c-8266-418f-13d6-a6b44def5e92">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="4daa-b55-5952-cf81" childId="7dee-74f8-7707-ce64" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" value="1" field="5b4d181b-23ae-5ed7-9262-c1d2f79246a8">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="4daa-b55-5952-cf81" childId="0e79-80b9-77e3-fcc9" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" value="1" field="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="4daa-b55-5952-cf81" childId="8e57-5d0b-5279-b4ab" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" value="1" field="a6fd52b0-be0a-655e-6314-87b392c9c90e">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="4daa-b55-5952-cf81" childId="7531-eebe-fabf-7cf5" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" value="1" field="bf393c37-9d10-fc85-c147-62b1c01a89fe">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="4daa-b55-5952-cf81" childId="9faf-d3bf-a2ba-411e" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="5a83-274a-bba8-f498" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
               </repeats>
             </modifier>
           </modifiers>
         </profile>
       </profiles>
-      <entryLinks>
-        <entryLink import="true" name="Men-at-Arms Equipment" hidden="false" id="be7-72a5-649a-15ad" collective="false" targetId="7661-6b84-3ec8-1d23" type="selectionEntryGroup"/>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="20"/>
-        <cost name="Warband Rating" typeId="wb-rating" value="5"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Men-at-Arms Group" hidden="false" id="ae3b-570c-1a70-630a">
-      <entryLinks>
-        <entryLink import="true" name="Experience" hidden="false" id="3e38-132e-1803-d580" collective="false" targetId="d769-0d85-e810-df60" type="selectionEntry" sortIndex="2"/>
-        <entryLink import="true" name="Characteristic Increases" hidden="false" id="784d-de72-2acd-adf7" collective="false" targetId="7879-46ac-5598-aa00" type="selectionEntryGroup" sortIndex="4"/>
-        <entryLink import="true" name="Serious Injuries" hidden="true" id="9af5-2911-3db0-b6b8" collective="false" targetId="313b-a816-0a89-926c" type="selectionEntryGroup" sortIndex="5">
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <conditions>
-                <condition type="equalTo" value="1" field="selections" scope="parent" childId="534a-6ec6-5d82-da7f" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink import="true" name="Skills" hidden="true" id="bd7b-d1f7-1009-4f02" collective="false" targetId="e018-3f11-c082-1817" type="selectionEntryGroup" sortIndex="3">
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <conditions>
-                <condition type="equalTo" value="1" field="selections" scope="parent" childId="534a-6ec6-5d82-da7f" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
-      </entryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Men-at-Arms" id="a324-3d7e-5d01-cbf2" hidden="false" sortIndex="1">
-          <entryLinks>
-            <entryLink import="true" name="Man-at-Arms" hidden="false" id="0b85-7993-4386-4f99" type="selectionEntry" targetId="bf5d-87e1-b71c-c6d1"/>
-          </entryLinks>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fec9-093a-b72d-6b59"/>
-          </constraints>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
