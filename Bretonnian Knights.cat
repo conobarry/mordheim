@@ -128,15 +128,7 @@ If any enemy model wishes to shoot at a Bretonnian Knight (Questing Knights an
             <entryLink import="true" name="Double Handed Weapon" hidden="false" type="selectionEntry" id="90d-3b9b-5a85-a002" targetId="a0a1-b311-e3aa-6c3b"/>
             <entryLink import="true" name="Spear" hidden="false" type="selectionEntry" id="3983-6285-45af-d2ea" targetId="005e-e397-8108-f198"/>
             <entryLink import="true" name="Axe" hidden="false" type="selectionEntry" id="dc03-90a8-d175-a98e" targetId="5d01-06b9-3a86-73c9"/>
-            <entryLink import="true" name="Halberd" hidden="false" type="selectionEntry" id="9a6b-6695-a394-69be" targetId="3c52-9e92-25ec-1939">
-              <modifiers>
-                <modifier type="multiply" value="2" field="costs">
-                  <repeats>
-                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="9a6b-6695-a394-69be" shared="true" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
-            </entryLink>
+            <entryLink import="true" name="Halberd" hidden="false" type="selectionEntry" id="9a6b-6695-a394-69be" targetId="3c52-9e92-25ec-1939"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="11f9-b977-5c10-27aa"/>
@@ -1074,6 +1066,9 @@ He will never panic and break from combat and so does not have to pass a Leade
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Man-at-Arms" hidden="false" id="bf5d-87e1-b71c-c6d1">
+      <entryLinks>
+        <entryLink import="true" name="Men-at-Arms Equipment" hidden="false" id="be7-72a5-649a-15ad" collective="false" targetId="7661-6b84-3ec8-1d23" type="selectionEntryGroup" collapsible="true"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="20"/>
         <cost name="Warband Rating" typeId="wb-rating" value="5"/>
@@ -1083,7 +1078,6 @@ He will never panic and break from combat and so does not have to pass a Leade
       <entryLinks>
         <entryLink import="true" name="Experience" hidden="false" id="3e38-132e-1803-d580" collective="false" targetId="d769-0d85-e810-df60" type="selectionEntry" sortIndex="2"/>
         <entryLink import="true" name="Characteristic Increases" hidden="false" id="784d-de72-2acd-adf7" collective="false" targetId="e07e-3360-173d-8db7" type="selectionEntryGroup" sortIndex="3" collapsible="true"/>
-        <entryLink import="true" name="Men-at-Arms Equipment" hidden="false" id="be7-72a5-649a-15ad" collective="false" targetId="7661-6b84-3ec8-1d23" type="selectionEntryGroup" sortIndex="4" collapsible="true"/>
       </entryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Men-at-Arms" id="a324-3d7e-5d01-cbf2" hidden="false" sortIndex="1">
