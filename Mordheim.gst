@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem id="9481a749-7900-614b-1695-bdc2899069c1" name="Mordheim" revision="16" battleScribeVersion="2.03" authorName="James" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <costTypes>
-    <costType id="points" name="Gold Crowns" defaultCostLimit="0" hidden="false"/>
+    <costType id="points" name="Gold Crowns" defaultCostLimit="500" hidden="false"/>
     <costType id="wb-rating" name="Warband Rating" defaultCostLimit="-1" hidden="false"/>
+    <costType name="Warriors" id="b677-8cc2-f3d9-d65e" defaultCostLimit="12"/>
   </costTypes>
   <profileTypes>
     <profileType id="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" name="Model">
