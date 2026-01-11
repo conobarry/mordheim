@@ -30,7 +30,7 @@ If any enemy model wishes to shoot at a Bretonnian Knight (Questing Knights an
     </rule>
   </rules>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Knights Equipment" hidden="false" id="3362-9fcd-f200-b7a">
+    <selectionEntryGroup name="Knights Equipment" hidden="false" id="3362-9fcd-f200-b7a" collapsible="true">
       <selectionEntryGroups>
         <selectionEntryGroup name="Hand-to-hand Weapons" hidden="false" id="100a-887d-1054-83ae">
           <entryLinks>
@@ -113,7 +113,7 @@ If any enemy model wishes to shoot at a Bretonnian Knight (Questing Knights an
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Men-at-Arms Equipment" hidden="false" id="7661-6b84-3ec8-1d23">
+    <selectionEntryGroup name="Men-at-Arms Equipment" hidden="false" id="7661-6b84-3ec8-1d23" collapsible="true">
       <selectionEntryGroups>
         <selectionEntryGroup name="Hand-to-hand Weapons" hidden="false" id="7e65-6071-79c3-5fb6">
           <entryLinks>
@@ -150,7 +150,7 @@ If any enemy model wishes to shoot at a Bretonnian Knight (Questing Knights an
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Bowmen Equipment" hidden="false" id="6185-96d4-862f-b96e">
+    <selectionEntryGroup name="Bowmen Equipment" hidden="false" id="6185-96d4-862f-b96e" collapsible="true">
       <selectionEntryGroups>
         <selectionEntryGroup name="Hand-to-hand Weapons" hidden="false" id="bf8d-5c27-ee2a-9b59">
           <entryLinks>
@@ -350,701 +350,6 @@ Roll the dice each time you wish to charge and before moving the model.</descrip
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <selectionEntries>
-    <selectionEntry id="1170-d5d1-7af3-94d3" name="Questing Knight" hidden="false" collective="false" import="true" type="model">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d510-24a5-8bd7-8b27" type="min"/>
-        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42f5-787e-a19f-88c0" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="4590-e6ae-5863-6162" name="Questing Knight" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
-          <modifiers>
-            <modifier type="increment" field="54f4796b-dedb-c296-8b1a-ff7f8043293a" value="1">
-              <repeats>
-                <repeat field="selections" scope="1170-d5d1-7af3-94d3" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6fe1-7bba-3ca0-06b7" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="a6fd52b0-be0a-655e-6314-87b392c9c90e" value="1">
-              <repeats>
-                <repeat field="selections" scope="1170-d5d1-7af3-94d3" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="da26-8381-781a-6149" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="3172c8dc-ebe4-0c40-72ab-8fd0076b9442" value="1">
-              <repeats>
-                <repeat field="selections" scope="1170-d5d1-7af3-94d3" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7918-b440-5d63-bd5e" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="bf393c37-9d10-fc85-c147-62b1c01a89fe" value="1">
-              <repeats>
-                <repeat field="selections" scope="1170-d5d1-7af3-94d3" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="37c4-dcb1-8949-d4eb" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="2a0bcc4c-8266-418f-13d6-a6b44def5e92" value="1">
-              <repeats>
-                <repeat field="selections" scope="1170-d5d1-7af3-94d3" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c4db-7b50-a4f9-cd5f" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="5b4d181b-23ae-5ed7-9262-c1d2f79246a8" value="1">
-              <repeats>
-                <repeat field="selections" scope="1170-d5d1-7af3-94d3" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5a83-274a-bba8-f498" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="e234eaea-a02a-2fb7-3e1f-605392aabb89" value="1">
-              <repeats>
-                <repeat field="selections" scope="1170-d5d1-7af3-94d3" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="27d8-c790-a4c1-b9cc" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9" value="1">
-              <repeats>
-                <repeat field="selections" scope="1170-d5d1-7af3-94d3" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9368-3616-516f-5178" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="d5aca8ba-0204-b324-b976-c2b536e09924" value="1">
-              <repeats>
-                <repeat field="selections" scope="1170-d5d1-7af3-94d3" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7418-394e-fe13-2a96" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="a6fd52b0-be0a-655e-6314-87b392c9c90e" value="1">
-              <repeats>
-                <repeat field="selections" scope="1170-d5d1-7af3-94d3" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7531-eebe-fabf-7cf5" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="54f4796b-dedb-c296-8b1a-ff7f8043293a" value="1">
-              <repeats>
-                <repeat field="selections" scope="1170-d5d1-7af3-94d3" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ca62-64c2-488a-f17c" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="e234eaea-a02a-2fb7-3e1f-605392aabb89" value="1">
-              <repeats>
-                <repeat field="selections" scope="1170-d5d1-7af3-94d3" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a519-13dc-1b04-e39e" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="3172c8dc-ebe4-0c40-72ab-8fd0076b9442" value="1">
-              <repeats>
-                <repeat field="selections" scope="1170-d5d1-7af3-94d3" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9209-0067-18d2-b78c" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="2a0bcc4c-8266-418f-13d6-a6b44def5e92" value="1">
-              <repeats>
-                <repeat field="selections" scope="1170-d5d1-7af3-94d3" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7dee-74f8-7707-ce64" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="5b4d181b-23ae-5ed7-9262-c1d2f79246a8" value="1">
-              <repeats>
-                <repeat field="selections" scope="1170-d5d1-7af3-94d3" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0e79-80b9-77e3-fcc9" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="bf393c37-9d10-fc85-c147-62b1c01a89fe" value="1">
-              <repeats>
-                <repeat field="selections" scope="1170-d5d1-7af3-94d3" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9faf-d3bf-a2ba-411e" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9" value="1">
-              <repeats>
-                <repeat field="selections" scope="1170-d5d1-7af3-94d3" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8e57-5d0b-5279-b4ab" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="d5aca8ba-0204-b324-b976-c2b536e09924" value="1">
-              <repeats>
-                <repeat field="selections" scope="1170-d5d1-7af3-94d3" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae44-58f4-4440-5777" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <characteristics>
-            <characteristic name="M" typeId="2a0bcc4c-8266-418f-13d6-a6b44def5e92">4</characteristic>
-            <characteristic name="WS" typeId="d5aca8ba-0204-b324-b976-c2b536e09924">4</characteristic>
-            <characteristic name="BS" typeId="5b4d181b-23ae-5ed7-9262-c1d2f79246a8">3</characteristic>
-            <characteristic name="S" typeId="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">4</characteristic>
-            <characteristic name="T" typeId="54f4796b-dedb-c296-8b1a-ff7f8043293a">3</characteristic>
-            <characteristic name="W" typeId="3172c8dc-ebe4-0c40-72ab-8fd0076b9442">1</characteristic>
-            <characteristic name="I" typeId="a6fd52b0-be0a-655e-6314-87b392c9c90e">4</characteristic>
-            <characteristic name="A" typeId="bf393c37-9d10-fc85-c147-62b1c01a89fe">1</characteristic>
-            <characteristic name="LD" typeId="e234eaea-a02a-2fb7-3e1f-605392aabb89">8</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="5250-b24e-56ed-84c4" name="Human max" hidden="false" targetId="d9c2-4427-8e2b-586a" type="profile"/>
-        <infoLink id="eed2-ffe1-56f7-55bf" name="Leader" hidden="false" targetId="8712-d0f2-fe64-07bd" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="fecc-8beb-1918-4bc1" name="Heroes" hidden="false" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="9a39-a293-13a2-4209" name="Extra Equipment" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbc8-7052-c17d-a882" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c16b-aaf8-137a-3767" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="7b61-4ab6-e353-3193" name="Equipment" hidden="false" collective="false" import="true" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0"/>
-            <cost name="Warband Rating" typeId="wb-rating" value="0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="fbd4-a790-324c-67bc" name="Skills" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13d1-5656-6163-b4ff" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcda-4a16-4dc7-c631" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="def-6867-46cc-952c" name="Combat Skills" hidden="false" collective="false" import="true" targetId="ee2c-89e3-489b-d0cb" type="selectionEntryGroup"/>
-            <entryLink id="c4e3-b4b6-4466-77cc" name="Speed Skills" hidden="false" collective="false" import="true" targetId="e134-0fdf-67a2-4684" type="selectionEntryGroup"/>
-            <entryLink id="594e-7e64-2b64-d56f" name="Strength Skills" hidden="false" collective="false" import="true" targetId="e5ac-cd5b-9057-e096" type="selectionEntryGroup"/>
-            <entryLink import="true" name="Special Skills (Bretonnian Knights)" hidden="false" type="selectionEntryGroup" id="d262-a7c-c8fb-2cd6" targetId="11ac-59f2-9e9-d01f"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0"/>
-            <cost name="Warband Rating" typeId="wb-rating" value="0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <entryLinks>
-        <entryLink id="2217-a62b-462c-916" name="Experience" hidden="false" collective="false" import="true" targetId="d769-0d85-e810-df60" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="20" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cf5-69e8-273-f491" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="af0d-9fbd-845a-989" name="Characteristic Increases" hidden="false" collective="false" import="true" targetId="7879-46ac-5598-aa00" type="selectionEntryGroup"/>
-        <entryLink id="e2c-486-dfae-6261" name="Serious Injuries" hidden="false" collective="false" import="true" targetId="313b-a816-0a89-926c" type="selectionEntryGroup"/>
-        <entryLink import="true" name="Knights Equipment" hidden="false" type="selectionEntryGroup" id="190e-1140-738-e4e6" targetId="3362-9fcd-f200-b7a"/>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="80"/>
-        <cost name="Warband Rating" typeId="wb-rating" value="5"/>
-      </costs>
-      <rules>
-        <rule name="Knights Virtue" hidden="false" id="2c07-4989-da03-9e33">
-          <description>A Questing Knight is a chivalrous warrior who is superior to ordinary warriors.
-He will never panic and break from combat and so does not have to pass a Leadership test for being all alone.</description>
-        </rule>
-      </rules>
-    </selectionEntry>
-    <selectionEntry id="6798-76dd-48cb-58d5" name="Squires" hidden="false" collective="false" import="true" type="model">
-      <constraints>
-        <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a1c-1bc9-1d5c-3afd" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="2263-c94-94af-8883" name="Squires" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
-          <modifiers>
-            <modifier type="increment" field="54f4796b-dedb-c296-8b1a-ff7f8043293a" value="1">
-              <repeats>
-                <repeat field="selections" scope="6798-76dd-48cb-58d5" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6fe1-7bba-3ca0-06b7" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="a6fd52b0-be0a-655e-6314-87b392c9c90e" value="1">
-              <repeats>
-                <repeat field="selections" scope="6798-76dd-48cb-58d5" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="da26-8381-781a-6149" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="3172c8dc-ebe4-0c40-72ab-8fd0076b9442" value="1">
-              <repeats>
-                <repeat field="selections" scope="6798-76dd-48cb-58d5" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7918-b440-5d63-bd5e" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="bf393c37-9d10-fc85-c147-62b1c01a89fe" value="1">
-              <repeats>
-                <repeat field="selections" scope="6798-76dd-48cb-58d5" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="37c4-dcb1-8949-d4eb" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="2a0bcc4c-8266-418f-13d6-a6b44def5e92" value="1">
-              <repeats>
-                <repeat field="selections" scope="6798-76dd-48cb-58d5" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c4db-7b50-a4f9-cd5f" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="5b4d181b-23ae-5ed7-9262-c1d2f79246a8" value="1">
-              <repeats>
-                <repeat field="selections" scope="6798-76dd-48cb-58d5" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5a83-274a-bba8-f498" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="e234eaea-a02a-2fb7-3e1f-605392aabb89" value="1">
-              <repeats>
-                <repeat field="selections" scope="6798-76dd-48cb-58d5" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="27d8-c790-a4c1-b9cc" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9" value="1">
-              <repeats>
-                <repeat field="selections" scope="6798-76dd-48cb-58d5" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9368-3616-516f-5178" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="d5aca8ba-0204-b324-b976-c2b536e09924" value="1">
-              <repeats>
-                <repeat field="selections" scope="6798-76dd-48cb-58d5" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7418-394e-fe13-2a96" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="a6fd52b0-be0a-655e-6314-87b392c9c90e" value="1">
-              <repeats>
-                <repeat field="selections" scope="6798-76dd-48cb-58d5" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7531-eebe-fabf-7cf5" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="54f4796b-dedb-c296-8b1a-ff7f8043293a" value="1">
-              <repeats>
-                <repeat field="selections" scope="6798-76dd-48cb-58d5" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ca62-64c2-488a-f17c" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="e234eaea-a02a-2fb7-3e1f-605392aabb89" value="1">
-              <repeats>
-                <repeat field="selections" scope="6798-76dd-48cb-58d5" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a519-13dc-1b04-e39e" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="3172c8dc-ebe4-0c40-72ab-8fd0076b9442" value="1">
-              <repeats>
-                <repeat field="selections" scope="6798-76dd-48cb-58d5" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9209-0067-18d2-b78c" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="2a0bcc4c-8266-418f-13d6-a6b44def5e92" value="1">
-              <repeats>
-                <repeat field="selections" scope="6798-76dd-48cb-58d5" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7dee-74f8-7707-ce64" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="5b4d181b-23ae-5ed7-9262-c1d2f79246a8" value="1">
-              <repeats>
-                <repeat field="selections" scope="6798-76dd-48cb-58d5" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0e79-80b9-77e3-fcc9" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="bf393c37-9d10-fc85-c147-62b1c01a89fe" value="1">
-              <repeats>
-                <repeat field="selections" scope="6798-76dd-48cb-58d5" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9faf-d3bf-a2ba-411e" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9" value="1">
-              <repeats>
-                <repeat field="selections" scope="6798-76dd-48cb-58d5" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8e57-5d0b-5279-b4ab" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="d5aca8ba-0204-b324-b976-c2b536e09924" value="1">
-              <repeats>
-                <repeat field="selections" scope="6798-76dd-48cb-58d5" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae44-58f4-4440-5777" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <characteristics>
-            <characteristic name="M" typeId="2a0bcc4c-8266-418f-13d6-a6b44def5e92">4</characteristic>
-            <characteristic name="WS" typeId="d5aca8ba-0204-b324-b976-c2b536e09924">2</characteristic>
-            <characteristic name="BS" typeId="5b4d181b-23ae-5ed7-9262-c1d2f79246a8">2</characteristic>
-            <characteristic name="S" typeId="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">3</characteristic>
-            <characteristic name="T" typeId="54f4796b-dedb-c296-8b1a-ff7f8043293a">3</characteristic>
-            <characteristic name="W" typeId="3172c8dc-ebe4-0c40-72ab-8fd0076b9442">1</characteristic>
-            <characteristic name="I" typeId="a6fd52b0-be0a-655e-6314-87b392c9c90e">3</characteristic>
-            <characteristic name="A" typeId="bf393c37-9d10-fc85-c147-62b1c01a89fe">1</characteristic>
-            <characteristic name="LD" typeId="e234eaea-a02a-2fb7-3e1f-605392aabb89">6</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="5d46-f617-6368-1633" name="Human max" hidden="false" targetId="d9c2-4427-8e2b-586a" type="profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="348b-fd7-b1de-284c" name="Heroes" hidden="false" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="af4b-f6b1-872a-37a9" name="Extra Equipment" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1e9-2084-ec3-161a" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c50-2474-aa67-7a29" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="6f28-b66f-91b5-ea54" name="Equipment" hidden="false" collective="false" import="true" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0"/>
-            <cost name="Warband Rating" typeId="wb-rating" value="0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="ceda-e49d-29de-aab7" name="Skills" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c309-b68e-40d4-254" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9cc-6821-7823-bdbe" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="ecba-dbee-5ecc-2c53" name="Combat Skills" hidden="false" collective="false" import="true" targetId="ee2c-89e3-489b-d0cb" type="selectionEntryGroup"/>
-            <entryLink id="eafd-63e1-1a89-46a1" name="Strength Skills" hidden="false" collective="false" import="true" targetId="e5ac-cd5b-9057-e096" type="selectionEntryGroup"/>
-            <entryLink import="true" name="Special Skills (Bretonnian Knights)" hidden="false" type="selectionEntryGroup" id="cb42-f722-2939-de3e" targetId="11ac-59f2-9e9-d01f"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0"/>
-            <cost name="Warband Rating" typeId="wb-rating" value="0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <entryLinks>
-        <entryLink id="ef04-b2a3-2474-5ec5" name="Experience" hidden="false" collective="false" import="true" targetId="d769-0d85-e810-df60" type="selectionEntry"/>
-        <entryLink id="9adf-d393-f167-1980" name="Characteristic Increases" hidden="false" collective="false" import="true" targetId="7879-46ac-5598-aa00" type="selectionEntryGroup"/>
-        <entryLink id="922d-8d74-1ae-92db" name="Serious Injuries" hidden="false" collective="false" import="true" targetId="313b-a816-0a89-926c" type="selectionEntryGroup"/>
-        <entryLink import="true" name="Squires Equipment" hidden="false" type="selectionEntryGroup" id="fd4f-8bc8-478a-b634" targetId="9376-a570-b687-9a88"/>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="15"/>
-        <cost name="Warband Rating" typeId="wb-rating" value="5"/>
-      </costs>
-      <rules>
-        <rule name="Horse" hidden="false" id="535a-eda7-bfcb-2e4b">
-          <description>A Squire may not ride a horse unless the Questing Knight and any Knight Errant in the warband are riding warhorses.</description>
-        </rule>
-      </rules>
-      <modifiers>
-        <modifier type="increment" value="1" field="9a1c-1bc9-1d5c-3afd" id="e2db-7689-cfb5-6a58">
-          <repeats>
-            <repeat value="1" repeats="1" field="selections" scope="roster" childId="1170-d5d1-7af3-94d3" shared="true" roundUp="false" id="eac9-a57-2ba4-1f5a"/>
-            <repeat value="1" repeats="1" field="selections" scope="parent" childId="c596-3fa0-ca3f-8b1a" shared="true" roundUp="false" id="5c32-cb60-fb35-18ea"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-    </selectionEntry>
-    <selectionEntry id="c596-3fa0-ca3f-8b1a" name="Knights Errant" hidden="false" collective="false" import="true" type="model">
-      <constraints>
-        <constraint field="selections" scope="roster" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0a7-9945-8e6f-2de0" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="fc2c-4c1d-1b76-910c" name="Knights Errant" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
-          <modifiers>
-            <modifier type="increment" field="54f4796b-dedb-c296-8b1a-ff7f8043293a" value="1">
-              <repeats>
-                <repeat field="selections" scope="c596-3fa0-ca3f-8b1a" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6fe1-7bba-3ca0-06b7" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="a6fd52b0-be0a-655e-6314-87b392c9c90e" value="1">
-              <repeats>
-                <repeat field="selections" scope="c596-3fa0-ca3f-8b1a" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="da26-8381-781a-6149" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="3172c8dc-ebe4-0c40-72ab-8fd0076b9442" value="1">
-              <repeats>
-                <repeat field="selections" scope="c596-3fa0-ca3f-8b1a" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7918-b440-5d63-bd5e" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="bf393c37-9d10-fc85-c147-62b1c01a89fe" value="1">
-              <repeats>
-                <repeat field="selections" scope="c596-3fa0-ca3f-8b1a" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="37c4-dcb1-8949-d4eb" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="2a0bcc4c-8266-418f-13d6-a6b44def5e92" value="1">
-              <repeats>
-                <repeat field="selections" scope="c596-3fa0-ca3f-8b1a" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c4db-7b50-a4f9-cd5f" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="5b4d181b-23ae-5ed7-9262-c1d2f79246a8" value="1">
-              <repeats>
-                <repeat field="selections" scope="c596-3fa0-ca3f-8b1a" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5a83-274a-bba8-f498" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="e234eaea-a02a-2fb7-3e1f-605392aabb89" value="1">
-              <repeats>
-                <repeat field="selections" scope="c596-3fa0-ca3f-8b1a" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="27d8-c790-a4c1-b9cc" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9" value="1">
-              <repeats>
-                <repeat field="selections" scope="c596-3fa0-ca3f-8b1a" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9368-3616-516f-5178" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="d5aca8ba-0204-b324-b976-c2b536e09924" value="1">
-              <repeats>
-                <repeat field="selections" scope="c596-3fa0-ca3f-8b1a" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7418-394e-fe13-2a96" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="a6fd52b0-be0a-655e-6314-87b392c9c90e" value="1">
-              <repeats>
-                <repeat field="selections" scope="c596-3fa0-ca3f-8b1a" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7531-eebe-fabf-7cf5" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="54f4796b-dedb-c296-8b1a-ff7f8043293a" value="1">
-              <repeats>
-                <repeat field="selections" scope="c596-3fa0-ca3f-8b1a" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ca62-64c2-488a-f17c" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="e234eaea-a02a-2fb7-3e1f-605392aabb89" value="1">
-              <repeats>
-                <repeat field="selections" scope="c596-3fa0-ca3f-8b1a" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a519-13dc-1b04-e39e" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="3172c8dc-ebe4-0c40-72ab-8fd0076b9442" value="1">
-              <repeats>
-                <repeat field="selections" scope="c596-3fa0-ca3f-8b1a" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9209-0067-18d2-b78c" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="2a0bcc4c-8266-418f-13d6-a6b44def5e92" value="1">
-              <repeats>
-                <repeat field="selections" scope="c596-3fa0-ca3f-8b1a" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7dee-74f8-7707-ce64" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="5b4d181b-23ae-5ed7-9262-c1d2f79246a8" value="1">
-              <repeats>
-                <repeat field="selections" scope="c596-3fa0-ca3f-8b1a" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0e79-80b9-77e3-fcc9" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="bf393c37-9d10-fc85-c147-62b1c01a89fe" value="1">
-              <repeats>
-                <repeat field="selections" scope="c596-3fa0-ca3f-8b1a" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9faf-d3bf-a2ba-411e" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9" value="1">
-              <repeats>
-                <repeat field="selections" scope="c596-3fa0-ca3f-8b1a" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8e57-5d0b-5279-b4ab" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="d5aca8ba-0204-b324-b976-c2b536e09924" value="1">
-              <repeats>
-                <repeat field="selections" scope="c596-3fa0-ca3f-8b1a" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae44-58f4-4440-5777" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <characteristics>
-            <characteristic name="M" typeId="2a0bcc4c-8266-418f-13d6-a6b44def5e92">4</characteristic>
-            <characteristic name="WS" typeId="d5aca8ba-0204-b324-b976-c2b536e09924">3</characteristic>
-            <characteristic name="BS" typeId="5b4d181b-23ae-5ed7-9262-c1d2f79246a8">3</characteristic>
-            <characteristic name="S" typeId="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">3</characteristic>
-            <characteristic name="T" typeId="54f4796b-dedb-c296-8b1a-ff7f8043293a">3</characteristic>
-            <characteristic name="W" typeId="3172c8dc-ebe4-0c40-72ab-8fd0076b9442">1</characteristic>
-            <characteristic name="I" typeId="a6fd52b0-be0a-655e-6314-87b392c9c90e">3</characteristic>
-            <characteristic name="A" typeId="bf393c37-9d10-fc85-c147-62b1c01a89fe">1</characteristic>
-            <characteristic name="LD" typeId="e234eaea-a02a-2fb7-3e1f-605392aabb89">7</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="6a86-ac0e-55b1-a8b8" name="Human max" hidden="false" targetId="d9c2-4427-8e2b-586a" type="profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="e9cb-bfd7-4848-e50b" name="Heroes" hidden="false" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="3ec3-d430-679b-3a0d" name="Extra Equipment" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b-c684-8b11-5c3b" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c79f-1c96-a696-acc5" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="1eb6-b6ee-de7d-8f57" name="Equipment" hidden="false" collective="false" import="true" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0"/>
-            <cost name="Warband Rating" typeId="wb-rating" value="0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="3432-1799-259d-4418" name="Skills" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4201-5697-e2b6-6455" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="535f-b18f-ef38-50e7" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="e164-4f23-c282-d875" name="Combat Skills" hidden="false" collective="false" import="true" targetId="ee2c-89e3-489b-d0cb" type="selectionEntryGroup"/>
-            <entryLink id="daae-82d3-9f22-c794" name="Speed Skills" hidden="false" collective="false" import="true" targetId="e134-0fdf-67a2-4684" type="selectionEntryGroup"/>
-            <entryLink import="true" name="Special Skills (Bretonnian Knights)" hidden="false" type="selectionEntryGroup" id="8e16-e76f-d93e-deb5" targetId="11ac-59f2-9e9-d01f"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0"/>
-            <cost name="Warband Rating" typeId="wb-rating" value="0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <entryLinks>
-        <entryLink id="d30-bb52-57cd-9c2c" name="Experience" hidden="false" collective="false" import="true" targetId="d769-0d85-e810-df60" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="8" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d351-f018-9464-7db9" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="4985-a919-8e00-91c0" name="Characteristic Increases" hidden="false" collective="false" import="true" targetId="7879-46ac-5598-aa00" type="selectionEntryGroup"/>
-        <entryLink id="9d59-c2e3-1f3c-ee1c" name="Serious Injuries" hidden="false" collective="false" import="true" targetId="313b-a816-0a89-926c" type="selectionEntryGroup"/>
-        <entryLink import="true" name="Knights Equipment" hidden="false" type="selectionEntryGroup" id="7329-8011-8fae-36d1" targetId="3362-9fcd-f200-b7a"/>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="50"/>
-        <cost name="Warband Rating" typeId="wb-rating" value="5"/>
-      </costs>
-      <rules>
-        <rule name="Knights Virtue" hidden="false" id="be98-b35c-f41a-9a8b">
-          <description>A Knight Errant is a chivalrous warrior who is superior to ordinary warriors.
-He will never panic and break from combat and so does not have to pass a Leadership test for being all alone.</description>
-        </rule>
-      </rules>
-    </selectionEntry>
-    <selectionEntry id="4daa-b55-5952-cf81" name="Men-at-Arms" hidden="true" collective="false" import="true" type="unit">
-      <infoLinks>
-        <infoLink id="64d6-3d0c-e89c-3259" name="Human max" hidden="false" targetId="d9c2-4427-8e2b-586a" type="profile"/>
-      </infoLinks>
-      <selectionEntries>
-        <selectionEntry id="5738-dea7-7e75-1e0a" name="Extra Equipment" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e0b-c262-b013-b10d" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a539-bce7-18c1-d9a3" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="9f49-a590-b0c8-d149" name="Equipment" hidden="false" collective="false" import="true" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0"/>
-            <cost name="Warband Rating" typeId="wb-rating" value="0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <entryLinks>
-        <entryLink id="c815-c185-369-150d" name="Promoted" hidden="false" collective="false" import="true" targetId="534a-6ec6-5d82-da7f" type="selectionEntry"/>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="25"/>
-        <cost name="Warband Rating" typeId="wb-rating" value="5"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="660b-527f-4dd3-6b1e" name="Bowmen" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="bd77-d104-ff3b-21a2" name="Bowmen" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
-          <modifiers>
-            <modifier type="increment" field="d5aca8ba-0204-b324-b976-c2b536e09924" value="1">
-              <repeats>
-                <repeat field="selections" scope="660b-527f-4dd3-6b1e" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7418-394e-fe13-2a96" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9" value="1">
-              <repeats>
-                <repeat field="selections" scope="660b-527f-4dd3-6b1e" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9368-3616-516f-5178" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="e234eaea-a02a-2fb7-3e1f-605392aabb89" value="1">
-              <repeats>
-                <repeat field="selections" scope="660b-527f-4dd3-6b1e" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="27d8-c790-a4c1-b9cc" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="54f4796b-dedb-c296-8b1a-ff7f8043293a" value="1">
-              <repeats>
-                <repeat field="selections" scope="660b-527f-4dd3-6b1e" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6fe1-7bba-3ca0-06b7" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="a6fd52b0-be0a-655e-6314-87b392c9c90e" value="1">
-              <repeats>
-                <repeat field="selections" scope="660b-527f-4dd3-6b1e" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="da26-8381-781a-6149" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="3172c8dc-ebe4-0c40-72ab-8fd0076b9442" value="1">
-              <repeats>
-                <repeat field="selections" scope="660b-527f-4dd3-6b1e" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7918-b440-5d63-bd5e" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="bf393c37-9d10-fc85-c147-62b1c01a89fe" value="1">
-              <repeats>
-                <repeat field="selections" scope="660b-527f-4dd3-6b1e" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="37c4-dcb1-8949-d4eb" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="5b4d181b-23ae-5ed7-9262-c1d2f79246a8" value="1">
-              <repeats>
-                <repeat field="selections" scope="660b-527f-4dd3-6b1e" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5a83-274a-bba8-f498" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="2a0bcc4c-8266-418f-13d6-a6b44def5e92" value="1">
-              <repeats>
-                <repeat field="selections" scope="660b-527f-4dd3-6b1e" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c4db-7b50-a4f9-cd5f" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="d5aca8ba-0204-b324-b976-c2b536e09924" value="1">
-              <repeats>
-                <repeat field="selections" scope="660b-527f-4dd3-6b1e" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae44-58f4-4440-5777" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="e234eaea-a02a-2fb7-3e1f-605392aabb89" value="1">
-              <repeats>
-                <repeat field="selections" scope="660b-527f-4dd3-6b1e" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a519-13dc-1b04-e39e" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="54f4796b-dedb-c296-8b1a-ff7f8043293a" value="1">
-              <repeats>
-                <repeat field="selections" scope="660b-527f-4dd3-6b1e" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ca62-64c2-488a-f17c" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="3172c8dc-ebe4-0c40-72ab-8fd0076b9442" value="1">
-              <repeats>
-                <repeat field="selections" scope="660b-527f-4dd3-6b1e" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9209-0067-18d2-b78c" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="2a0bcc4c-8266-418f-13d6-a6b44def5e92" value="1">
-              <repeats>
-                <repeat field="selections" scope="660b-527f-4dd3-6b1e" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7dee-74f8-7707-ce64" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="5b4d181b-23ae-5ed7-9262-c1d2f79246a8" value="1">
-              <repeats>
-                <repeat field="selections" scope="660b-527f-4dd3-6b1e" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0e79-80b9-77e3-fcc9" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9" value="1">
-              <repeats>
-                <repeat field="selections" scope="660b-527f-4dd3-6b1e" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8e57-5d0b-5279-b4ab" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="a6fd52b0-be0a-655e-6314-87b392c9c90e" value="1">
-              <repeats>
-                <repeat field="selections" scope="660b-527f-4dd3-6b1e" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7531-eebe-fabf-7cf5" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="bf393c37-9d10-fc85-c147-62b1c01a89fe" value="1">
-              <repeats>
-                <repeat field="selections" scope="660b-527f-4dd3-6b1e" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9faf-d3bf-a2ba-411e" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <characteristics>
-            <characteristic name="M" typeId="2a0bcc4c-8266-418f-13d6-a6b44def5e92">4</characteristic>
-            <characteristic name="WS" typeId="d5aca8ba-0204-b324-b976-c2b536e09924">3</characteristic>
-            <characteristic name="BS" typeId="5b4d181b-23ae-5ed7-9262-c1d2f79246a8">3</characteristic>
-            <characteristic name="S" typeId="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">3</characteristic>
-            <characteristic name="T" typeId="54f4796b-dedb-c296-8b1a-ff7f8043293a">3</characteristic>
-            <characteristic name="W" typeId="3172c8dc-ebe4-0c40-72ab-8fd0076b9442">1</characteristic>
-            <characteristic name="I" typeId="a6fd52b0-be0a-655e-6314-87b392c9c90e">3</characteristic>
-            <characteristic name="A" typeId="bf393c37-9d10-fc85-c147-62b1c01a89fe">1</characteristic>
-            <characteristic name="LD" typeId="e234eaea-a02a-2fb7-3e1f-605392aabb89">6</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="9741-acad-c0ff-836a" name="Human max" hidden="false" targetId="d9c2-4427-8e2b-586a" type="profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="7b39-e5eb-854c-4404" name="Henchmen" hidden="false" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="57aa-978e-c6bc-dc80" name="Extra Equipment" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4c6-df05-816b-91c1" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb4f-233a-bc40-10a1" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="2ab2-e9f8-410a-d263" name="Equipment" hidden="false" collective="false" import="true" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0"/>
-            <cost name="Warband Rating" typeId="wb-rating" value="0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <entryLinks>
-        <entryLink id="d1ce-558a-4297-f9ec" name="Experience" hidden="false" collective="false" import="true" targetId="d769-0d85-e810-df60" type="selectionEntry"/>
-        <entryLink id="eb3a-7b93-4d8c-efac" name="Promoted" hidden="false" collective="false" import="true" targetId="534a-6ec6-5d82-da7f" type="selectionEntry"/>
-        <entryLink id="9443-38a-5e5c-d91e" name="Characteristic Increases" hidden="false" collective="false" import="true" targetId="7879-46ac-5598-aa00" type="selectionEntryGroup"/>
-        <entryLink id="b7ed-9bc1-6a7a-e51e" name="Skills" hidden="true" collective="false" import="true" targetId="e018-3f11-c082-1817" type="selectionEntryGroup">
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="534a-6ec6-5d82-da7f" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink id="5365-fc01-4e02-6c7a" name="Serious Injuries" hidden="true" collective="false" import="true" targetId="313b-a816-0a89-926c" type="selectionEntryGroup">
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="534a-6ec6-5d82-da7f" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink id="dd3b-7d83-ed4c-9d37" name="Bowmen Equipment" hidden="false" collective="false" import="true" targetId="6185-96d4-862f-b96e" type="selectionEntryGroup"/>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="20"/>
-        <cost name="Warband Rating" typeId="wb-rating" value="5"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Stash" hidden="false" id="65be-ab2e-83e9-18e4" collective="false">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cdb2-f4da-df98-7821" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -1054,8 +359,8 @@ He will never panic and break from combat and so does not have to pass a Leade
         <categoryLink name="Stash" hidden="false" id="fd96-0f06-a088-550b" targetId="a31acb39-8ce9-d6d7-bcc9-f3144d63db48" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Gold" hidden="false" id="730a-2de1-017c-a997" collective="false" targetId="deca-5737-6234-23a1" type="selectionEntry"/>
-        <entryLink import="true" name="Wyrdstone" hidden="false" id="0823-2adf-aeaa-123f" collective="false" targetId="60f8-e6e7-c2ea-0dad" type="selectionEntry"/>
+        <entryLink import="true" name="Gold Crowns" hidden="false" id="730a-2de1-017c-a997" collective="false" targetId="deca-5737-6234-23a1" type="selectionEntry"/>
+        <entryLink import="true" name="Wyrdstone Shards" hidden="false" id="0823-2adf-aeaa-123f" collective="false" targetId="60f8-e6e7-c2ea-0dad" type="selectionEntry"/>
         <entryLink import="true" name="Equipment" hidden="false" id="8866-b0ba-b7e4-b2dc" collective="false" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -1070,28 +375,28 @@ He will never panic and break from combat and so does not have to pass a Leade
         <entryLink import="true" name="Men-at-Arms Equipment" hidden="false" id="be7-72a5-649a-15ad" collective="false" targetId="7661-6b84-3ec8-1d23" type="selectionEntryGroup" collapsible="true"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="20"/>
+        <cost name="pts" typeId="points" value="25"/>
         <cost name="Warband Rating" typeId="wb-rating" value="5"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Men-at-Arms Group" hidden="false" id="ae3b-570c-1a70-630a">
       <entryLinks>
-        <entryLink import="true" name="Experience" hidden="false" id="3e38-132e-1803-d580" collective="false" targetId="d769-0d85-e810-df60" type="selectionEntry" sortIndex="2"/>
+        <entryLink import="true" name="Experience" hidden="false" id="3e38-132e-1803-d580" collective="false" targetId="d769-0d85-e810-df60" type="selectionEntry" sortIndex="1"/>
         <entryLink import="true" name="Characteristic Increases" hidden="false" id="784d-de72-2acd-adf7" collective="false" targetId="e07e-3360-173d-8db7" type="selectionEntryGroup" sortIndex="3" collapsible="true"/>
       </entryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Men-at-Arms" id="a324-3d7e-5d01-cbf2" hidden="false" sortIndex="1">
+        <selectionEntryGroup name="Men-at-Arms" id="a324-3d7e-5d01-cbf2" hidden="false" sortIndex="2">
           <entryLinks>
             <entryLink import="true" name="Man-at-Arms" hidden="false" id="0b85-7993-4386-4f99" type="selectionEntry" targetId="bf5d-87e1-b71c-c6d1"/>
           </entryLinks>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fec9-093a-b72d-6b59"/>
-            <constraint type="max" value="8" field="selections" scope="parent" shared="true" id="9159-4a90-abaf-087e"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="9159-4a90-abaf-087e"/>
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <profiles>
-        <profile name="Men-at-Arms" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model" hidden="false" id="d361-7648-cf78-1e69">
+        <profile name="Man-at-Arms" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model" hidden="false" id="d361-7648-cf78-1e69">
           <characteristics>
             <characteristic name="M" typeId="2a0bcc4c-8266-418f-13d6-a6b44def5e92">4</characteristic>
             <characteristic name="WS" typeId="d5aca8ba-0204-b324-b976-c2b536e09924">3</characteristic>
@@ -1111,38 +416,584 @@ He will never panic and break from combat and so does not have to pass a Leade
             </modifier>
             <modifier type="increment" value="1" field="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">
               <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="unit" childId="9368-3616-516f-5178" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="9368-3616-516f-5178" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
               </repeats>
             </modifier>
             <modifier type="increment" value="1" field="e234eaea-a02a-2fb7-3e1f-605392aabb89">
               <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="model-or-unit" childId="27d8-c790-a4c1-b9cc" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="27d8-c790-a4c1-b9cc" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
               </repeats>
             </modifier>
             <modifier type="increment" value="1" field="a6fd52b0-be0a-655e-6314-87b392c9c90e">
               <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="f900-c5f9-493b-e3d1" childId="da26-8381-781a-6149" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="da26-8381-781a-6149" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
               </repeats>
             </modifier>
             <modifier type="increment" value="1" field="bf393c37-9d10-fc85-c147-62b1c01a89fe">
               <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="ae3b-570c-1a70-630a" childId="37c4-dcb1-8949-d4eb" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="37c4-dcb1-8949-d4eb" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
               </repeats>
             </modifier>
             <modifier type="increment" value="1" field="5b4d181b-23ae-5ed7-9262-c1d2f79246a8">
               <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="unit" childId="5a83-274a-bba8-f498" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="5a83-274a-bba8-f498" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
               </repeats>
             </modifier>
           </modifiers>
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Bowmen Group" hidden="false" id="e38c-76e4-d8f0-7a91">
+      <entryLinks>
+        <entryLink import="true" name="Experience" hidden="false" id="0386-53a0-9fec-0d63" collective="false" targetId="d769-0d85-e810-df60" type="selectionEntry" sortIndex="1"/>
+        <entryLink import="true" name="Characteristic Increases" hidden="false" id="404d-7d7e-eade-41be" collective="false" targetId="e07e-3360-173d-8db7" type="selectionEntryGroup" collapsible="true" sortIndex="3"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Bowman" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model" hidden="false" id="a71e-ce2c-60a8-c893">
+          <characteristics>
+            <characteristic name="M" typeId="2a0bcc4c-8266-418f-13d6-a6b44def5e92">4</characteristic>
+            <characteristic name="WS" typeId="d5aca8ba-0204-b324-b976-c2b536e09924">3</characteristic>
+            <characteristic name="BS" typeId="5b4d181b-23ae-5ed7-9262-c1d2f79246a8">3</characteristic>
+            <characteristic name="S" typeId="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">3</characteristic>
+            <characteristic name="T" typeId="54f4796b-dedb-c296-8b1a-ff7f8043293a">3</characteristic>
+            <characteristic name="W" typeId="3172c8dc-ebe4-0c40-72ab-8fd0076b9442">1</characteristic>
+            <characteristic name="I" typeId="a6fd52b0-be0a-655e-6314-87b392c9c90e">3</characteristic>
+            <characteristic name="A" typeId="bf393c37-9d10-fc85-c147-62b1c01a89fe">1</characteristic>
+            <characteristic name="LD" typeId="e234eaea-a02a-2fb7-3e1f-605392aabb89">6</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" value="1" field="d5aca8ba-0204-b324-b976-c2b536e09924">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="7418-394e-fe13-2a96" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="9368-3616-516f-5178" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="e234eaea-a02a-2fb7-3e1f-605392aabb89">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="27d8-c790-a4c1-b9cc" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="a6fd52b0-be0a-655e-6314-87b392c9c90e">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="da26-8381-781a-6149" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="bf393c37-9d10-fc85-c147-62b1c01a89fe">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="37c4-dcb1-8949-d4eb" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="5b4d181b-23ae-5ed7-9262-c1d2f79246a8">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="5a83-274a-bba8-f498" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Bowmen" id="4ebe-8557-37e6-62f9" hidden="false" sortIndex="2">
+          <entryLinks>
+            <entryLink import="true" name="Bowman" hidden="false" id="3ff4-2a8c-685c-87ee" type="selectionEntry" targetId="d8e0-23c2-7593-063b"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b756-147c-45e1-8d58"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="b99e-d3b2-c256-99ea"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Bowman" hidden="false" id="d8e0-23c2-7593-063b">
+      <costs>
+        <cost name="Gold Crowns" typeId="points" value="20"/>
+        <cost name="Warband Rating" typeId="wb-rating" value="5"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Bowmen Equipment" hidden="false" id="dd3b-7d83-ed4c-9d37" collective="false" targetId="6185-96d4-862f-b96e" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Questing Knight" hidden="false" id="3136-d1ac-5820-2be7">
+      <costs>
+        <cost name="Gold Crowns" typeId="points" value="80"/>
+        <cost name="Warband Rating" typeId="wb-rating" value="5"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Experience" hidden="false" id="2217-a62b-462c-916" collective="false" targetId="d769-0d85-e810-df60" type="selectionEntry" sortIndex="1" collapsible="true">
+          <constraints>
+            <constraint type="min" value="20" field="selections" scope="parent" shared="true" id="7cf5-69e8-273-f491" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Characteristic Increases" hidden="false" id="af0d-9fbd-845a-989" collective="false" targetId="7879-46ac-5598-aa00" type="selectionEntryGroup" sortIndex="3" collapsible="true"/>
+        <entryLink import="true" name="Knights Equipment" hidden="false" id="190e-1140-738-e4e6" type="selectionEntryGroup" targetId="3362-9fcd-f200-b7a" sortIndex="5" collapsible="true"/>
+        <entryLink import="true" name="Serious Injuries" hidden="false" id="e2c-486-dfae-6261" collective="false" targetId="313b-a816-0a89-926c" type="selectionEntryGroup" sortIndex="4" collapsible="true"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Questing Knight" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model" hidden="false" id="4590-e6ae-5863-6162">
+          <characteristics>
+            <characteristic name="M" typeId="2a0bcc4c-8266-418f-13d6-a6b44def5e92">4</characteristic>
+            <characteristic name="WS" typeId="d5aca8ba-0204-b324-b976-c2b536e09924">4</characteristic>
+            <characteristic name="BS" typeId="5b4d181b-23ae-5ed7-9262-c1d2f79246a8">3</characteristic>
+            <characteristic name="S" typeId="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">4</characteristic>
+            <characteristic name="T" typeId="54f4796b-dedb-c296-8b1a-ff7f8043293a">3</characteristic>
+            <characteristic name="W" typeId="3172c8dc-ebe4-0c40-72ab-8fd0076b9442">1</characteristic>
+            <characteristic name="I" typeId="a6fd52b0-be0a-655e-6314-87b392c9c90e">4</characteristic>
+            <characteristic name="A" typeId="bf393c37-9d10-fc85-c147-62b1c01a89fe">1</characteristic>
+            <characteristic name="LD" typeId="e234eaea-a02a-2fb7-3e1f-605392aabb89">8</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" value="1" field="54f4796b-dedb-c296-8b1a-ff7f8043293a">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="6fe1-7bba-3ca0-06b7" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="a6fd52b0-be0a-655e-6314-87b392c9c90e">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="da26-8381-781a-6149" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="3172c8dc-ebe4-0c40-72ab-8fd0076b9442">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="7918-b440-5d63-bd5e" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="bf393c37-9d10-fc85-c147-62b1c01a89fe">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="37c4-dcb1-8949-d4eb" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="2a0bcc4c-8266-418f-13d6-a6b44def5e92">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="c4db-7b50-a4f9-cd5f" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="5b4d181b-23ae-5ed7-9262-c1d2f79246a8">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="5a83-274a-bba8-f498" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="e234eaea-a02a-2fb7-3e1f-605392aabb89">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="27d8-c790-a4c1-b9cc" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="9368-3616-516f-5178" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="d5aca8ba-0204-b324-b976-c2b536e09924">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="7418-394e-fe13-2a96" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="a6fd52b0-be0a-655e-6314-87b392c9c90e">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="7531-eebe-fabf-7cf5" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="54f4796b-dedb-c296-8b1a-ff7f8043293a">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="ca62-64c2-488a-f17c" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="e234eaea-a02a-2fb7-3e1f-605392aabb89">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="a519-13dc-1b04-e39e" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="3172c8dc-ebe4-0c40-72ab-8fd0076b9442">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="9209-0067-18d2-b78c" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="2a0bcc4c-8266-418f-13d6-a6b44def5e92">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="7dee-74f8-7707-ce64" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="5b4d181b-23ae-5ed7-9262-c1d2f79246a8">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="0e79-80b9-77e3-fcc9" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="bf393c37-9d10-fc85-c147-62b1c01a89fe">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="9faf-d3bf-a2ba-411e" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="8e57-5d0b-5279-b4ab" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="d5aca8ba-0204-b324-b976-c2b536e09924">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="ae44-58f4-4440-5777" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="d510-24a5-8bd7-8b27" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="42f5-787e-a19f-88c0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Leader" id="eed2-ffe1-56f7-55bf" hidden="false" targetId="8712-d0f2-fe64-07bd" type="rule"/>
+      </infoLinks>
+      <rules>
+        <rule name="Knights Virtue" id="2c07-4989-da03-9e33" hidden="false">
+          <description>A Questing Knight is a chivalrous warrior who is superior to ordinary warriors. He will never panic and break from combat and so does not have to pass a Leadership test for being all alone.</description>
+        </rule>
+      </rules>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Skills" hidden="false" id="fbd4-a790-324c-67bc" collective="false" sortIndex="2" collapsible="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="13d1-5656-6163-b4ff" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bcda-4a16-4dc7-c631" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Combat Skills" hidden="false" id="def-6867-46cc-952c" collective="false" targetId="ee2c-89e3-489b-d0cb" type="selectionEntryGroup" sortIndex="1"/>
+            <entryLink import="true" name="Speed Skills" hidden="false" id="c4e3-b4b6-4466-77cc" collective="false" targetId="e134-0fdf-67a2-4684" type="selectionEntryGroup" sortIndex="3"/>
+            <entryLink import="true" name="Strength Skills" hidden="false" id="594e-7e64-2b64-d56f" collective="false" targetId="e5ac-cd5b-9057-e096" type="selectionEntryGroup" sortIndex="2"/>
+            <entryLink import="true" name="Special Skills (Bretonnian Knights)" hidden="false" id="d262-a7c-c8fb-2cd6" type="selectionEntryGroup" targetId="11ac-59f2-9e9-d01f" sortIndex="4"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0"/>
+            <cost name="Warband Rating" typeId="wb-rating" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Knight Errant" hidden="false" id="2902-7aa0-1ab5-c630">
+      <entryLinks>
+        <entryLink import="true" name="Experience" hidden="false" id="d30-bb52-57cd-9c2c" collective="false" targetId="d769-0d85-e810-df60" type="selectionEntry" sortIndex="1" collapsible="true">
+          <constraints>
+            <constraint type="min" value="8" field="selections" scope="parent" shared="true" id="d351-f018-9464-7db9" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Characteristic Increases" hidden="false" id="4985-a919-8e00-91c0" collective="false" targetId="7879-46ac-5598-aa00" type="selectionEntryGroup" sortIndex="3" collapsible="true"/>
+        <entryLink import="true" name="Knights Equipment" hidden="false" id="7329-8011-8fae-36d1" type="selectionEntryGroup" targetId="3362-9fcd-f200-b7a" sortIndex="5" collapsible="true"/>
+        <entryLink import="true" name="Serious Injuries" hidden="false" id="9d59-c2e3-1f3c-ee1c" collective="false" targetId="313b-a816-0a89-926c" type="selectionEntryGroup" sortIndex="4" collapsible="true"/>
+      </entryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Skills" hidden="false" id="3432-1799-259d-4418" collective="false" sortIndex="2" collapsible="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4201-5697-e2b6-6455" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="535f-b18f-ef38-50e7" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Combat Skills" hidden="false" id="e164-4f23-c282-d875" collective="false" targetId="ee2c-89e3-489b-d0cb" type="selectionEntryGroup" sortIndex="1"/>
+            <entryLink import="true" name="Speed Skills" hidden="false" id="daae-82d3-9f22-c794" collective="false" targetId="e134-0fdf-67a2-4684" type="selectionEntryGroup" sortIndex="2"/>
+            <entryLink import="true" name="Special Skills (Bretonnian Knights)" hidden="false" id="8e16-e76f-d93e-deb5" type="selectionEntryGroup" targetId="11ac-59f2-9e9-d01f" sortIndex="3"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0"/>
+            <cost name="Warband Rating" typeId="wb-rating" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="e0a7-9945-8e6f-2de0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Knight Errant" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model" hidden="false" id="fc2c-4c1d-1b76-910c">
+          <characteristics>
+            <characteristic name="M" typeId="2a0bcc4c-8266-418f-13d6-a6b44def5e92">4</characteristic>
+            <characteristic name="WS" typeId="d5aca8ba-0204-b324-b976-c2b536e09924">3</characteristic>
+            <characteristic name="BS" typeId="5b4d181b-23ae-5ed7-9262-c1d2f79246a8">3</characteristic>
+            <characteristic name="S" typeId="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">3</characteristic>
+            <characteristic name="T" typeId="54f4796b-dedb-c296-8b1a-ff7f8043293a">3</characteristic>
+            <characteristic name="W" typeId="3172c8dc-ebe4-0c40-72ab-8fd0076b9442">1</characteristic>
+            <characteristic name="I" typeId="a6fd52b0-be0a-655e-6314-87b392c9c90e">3</characteristic>
+            <characteristic name="A" typeId="bf393c37-9d10-fc85-c147-62b1c01a89fe">1</characteristic>
+            <characteristic name="LD" typeId="e234eaea-a02a-2fb7-3e1f-605392aabb89">7</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" value="1" field="54f4796b-dedb-c296-8b1a-ff7f8043293a">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="6fe1-7bba-3ca0-06b7" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="a6fd52b0-be0a-655e-6314-87b392c9c90e">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="da26-8381-781a-6149" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="3172c8dc-ebe4-0c40-72ab-8fd0076b9442">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="7918-b440-5d63-bd5e" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="bf393c37-9d10-fc85-c147-62b1c01a89fe">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="37c4-dcb1-8949-d4eb" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="2a0bcc4c-8266-418f-13d6-a6b44def5e92">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="c4db-7b50-a4f9-cd5f" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="5b4d181b-23ae-5ed7-9262-c1d2f79246a8">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="5a83-274a-bba8-f498" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="e234eaea-a02a-2fb7-3e1f-605392aabb89">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="27d8-c790-a4c1-b9cc" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="9368-3616-516f-5178" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="d5aca8ba-0204-b324-b976-c2b536e09924">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="7418-394e-fe13-2a96" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="a6fd52b0-be0a-655e-6314-87b392c9c90e">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="7531-eebe-fabf-7cf5" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="54f4796b-dedb-c296-8b1a-ff7f8043293a">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="ca62-64c2-488a-f17c" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="e234eaea-a02a-2fb7-3e1f-605392aabb89">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="a519-13dc-1b04-e39e" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="3172c8dc-ebe4-0c40-72ab-8fd0076b9442">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="9209-0067-18d2-b78c" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="2a0bcc4c-8266-418f-13d6-a6b44def5e92">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="7dee-74f8-7707-ce64" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="5b4d181b-23ae-5ed7-9262-c1d2f79246a8">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="0e79-80b9-77e3-fcc9" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="bf393c37-9d10-fc85-c147-62b1c01a89fe">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="9faf-d3bf-a2ba-411e" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="8e57-5d0b-5279-b4ab" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="d5aca8ba-0204-b324-b976-c2b536e09924">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="ae44-58f4-4440-5777" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Knights Virtue" id="be98-b35c-f41a-9a8b" hidden="false">
+          <description>A Knight Errant is a chivalrous warrior who is superior to ordinary warriors.
+He will never panic and break from combat and so does not have to pass a Leadership test for being all alone.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="Gold Crowns" typeId="points" value="15"/>
+        <cost name="Warband Rating" typeId="wb-rating" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Squire" hidden="false" id="c702-61c9-05df-28a7">
+      <entryLinks>
+        <entryLink import="true" name="Experience" hidden="false" id="2074-26b8-2884-9f0d" collective="false" targetId="d769-0d85-e810-df60" type="selectionEntry" sortIndex="1"/>
+        <entryLink import="true" name="Characteristic Increases" hidden="false" id="23f7-1121-2e77-b2c7" collective="false" targetId="7879-46ac-5598-aa00" type="selectionEntryGroup" collapsible="true" sortIndex="3"/>
+        <entryLink import="true" name="Serious Injuries" hidden="false" id="2b3f-9fc0-c1f1-09dc" collective="false" targetId="313b-a816-0a89-926c" type="selectionEntryGroup" collapsible="true" sortIndex="4"/>
+        <entryLink import="true" name="Squires Equipment" hidden="false" id="287a-c8b8-1cce-922c" type="selectionEntryGroup" targetId="9376-a570-b687-9a88" collapsible="true" sortIndex="5"/>
+      </entryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Skills" hidden="false" id="e3b8-0cce-fe2c-3577" collective="false" sortIndex="2" collapsible="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d1e3-0c2b-a336-7f33" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7226-6e3b-113c-ecb8" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Combat Skills" hidden="false" id="0e69-e5eb-e16f-5f3d" collective="false" targetId="ee2c-89e3-489b-d0cb" type="selectionEntryGroup" sortIndex="1"/>
+            <entryLink import="true" name="Strength Skills" hidden="false" id="3b28-8c99-2c2a-8872" collective="false" targetId="e5ac-cd5b-9057-e096" type="selectionEntryGroup" sortIndex="2"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0"/>
+            <cost name="Warband Rating" typeId="wb-rating" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="0cec-d0bc-f11c-454e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Squire" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model" hidden="false" id="d810-8088-8c66-8d65">
+          <characteristics>
+            <characteristic name="M" typeId="2a0bcc4c-8266-418f-13d6-a6b44def5e92">4</characteristic>
+            <characteristic name="WS" typeId="d5aca8ba-0204-b324-b976-c2b536e09924">2</characteristic>
+            <characteristic name="BS" typeId="5b4d181b-23ae-5ed7-9262-c1d2f79246a8">2</characteristic>
+            <characteristic name="S" typeId="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">3</characteristic>
+            <characteristic name="T" typeId="54f4796b-dedb-c296-8b1a-ff7f8043293a">3</characteristic>
+            <characteristic name="W" typeId="3172c8dc-ebe4-0c40-72ab-8fd0076b9442">1</characteristic>
+            <characteristic name="I" typeId="a6fd52b0-be0a-655e-6314-87b392c9c90e">3</characteristic>
+            <characteristic name="A" typeId="bf393c37-9d10-fc85-c147-62b1c01a89fe">1</characteristic>
+            <characteristic name="LD" typeId="e234eaea-a02a-2fb7-3e1f-605392aabb89">6</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" value="1" field="54f4796b-dedb-c296-8b1a-ff7f8043293a">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="6fe1-7bba-3ca0-06b7" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="a6fd52b0-be0a-655e-6314-87b392c9c90e">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="da26-8381-781a-6149" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="3172c8dc-ebe4-0c40-72ab-8fd0076b9442">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="7918-b440-5d63-bd5e" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="bf393c37-9d10-fc85-c147-62b1c01a89fe">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="37c4-dcb1-8949-d4eb" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="2a0bcc4c-8266-418f-13d6-a6b44def5e92">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="c4db-7b50-a4f9-cd5f" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="5b4d181b-23ae-5ed7-9262-c1d2f79246a8">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="5a83-274a-bba8-f498" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="e234eaea-a02a-2fb7-3e1f-605392aabb89">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="27d8-c790-a4c1-b9cc" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="9368-3616-516f-5178" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="d5aca8ba-0204-b324-b976-c2b536e09924">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="7418-394e-fe13-2a96" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="a6fd52b0-be0a-655e-6314-87b392c9c90e">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="7531-eebe-fabf-7cf5" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="54f4796b-dedb-c296-8b1a-ff7f8043293a">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="ca62-64c2-488a-f17c" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="e234eaea-a02a-2fb7-3e1f-605392aabb89">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="a519-13dc-1b04-e39e" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="3172c8dc-ebe4-0c40-72ab-8fd0076b9442">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="9209-0067-18d2-b78c" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="2a0bcc4c-8266-418f-13d6-a6b44def5e92">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="7dee-74f8-7707-ce64" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="5b4d181b-23ae-5ed7-9262-c1d2f79246a8">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="0e79-80b9-77e3-fcc9" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="bf393c37-9d10-fc85-c147-62b1c01a89fe">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="9faf-d3bf-a2ba-411e" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="8e57-5d0b-5279-b4ab" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="d5aca8ba-0204-b324-b976-c2b536e09924">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="ae44-58f4-4440-5777" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Horse" id="263f-50c4-6453-6906" hidden="false">
+          <description>A Squire may not ride a horse unless the Questing Knight and any Knight Errant in the warband are riding warhorses.</description>
+        </rule>
+      </rules>
+      <modifiers>
+        <modifier type="increment" value="1" field="0cec-d0bc-f11c-454e" id="8578-a3f2-28c0-7468">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="roster" childId="a6b7-4b68-42f6-c5f1" shared="true" roundUp="false" id="5ac9-36bf-ac0c-c8a3"/>
+            <repeat value="1" repeats="1" field="selections" scope="parent" childId="585c-2174-6042-946e" shared="true" roundUp="false" id="2acc-e5cc-18e5-8124"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <costs>
+        <cost name="Gold Crowns" typeId="points" value="15"/>
+        <cost name="Warband Rating" typeId="wb-rating" value="5"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink import="true" name="Men-at-Arms Group" hidden="false" id="f900-c5f9-493b-e3d1" type="selectionEntry" targetId="ae3b-570c-1a70-630a">
       <categoryLinks>
         <categoryLink name="Henchmen" hidden="false" id="0223-b08b-c201-020d" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Bowmen Group" hidden="false" id="5a52-810f-4ee1-be65" type="selectionEntry" targetId="e38c-76e4-d8f0-7a91">
+      <categoryLinks>
+        <categoryLink name="Henchmen" hidden="false" id="b9aa-9742-8ac8-94e2" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Questing Knight" hidden="false" id="585c-2174-6042-946e" type="selectionEntry" targetId="3136-d1ac-5820-2be7">
+      <categoryLinks>
+        <categoryLink name="Heroes" hidden="false" id="0e79-89d0-228d-36f7" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Squire" hidden="false" id="8ba8-c86d-49a8-4ccf" type="selectionEntry" targetId="c702-61c9-05df-28a7">
+      <categoryLinks>
+        <categoryLink name="Heroes" hidden="false" id="092a-2892-fc08-0925" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Knight Errant" hidden="false" id="a6b7-4b68-42f6-c5f1" type="selectionEntry" targetId="2902-7aa0-1ab5-c630">
+      <categoryLinks>
+        <categoryLink name="Heroes" hidden="false" id="afe7-c8f1-9a2a-7efe" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
