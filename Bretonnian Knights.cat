@@ -78,7 +78,7 @@ If any enemy model wishes to shoot at a Bretonnian Knight (Questing Knights an
       <selectionEntryGroups>
         <selectionEntryGroup name="Hand-to-hand Weapons" hidden="false" id="40ed-f2c8-b2e3-6f1e">
           <entryLinks>
-            <entryLink import="true" name="Free Dagger" hidden="false" type="selectionEntry" id="e17b-9488-4024-7444" targetId="0d0b-ed37-d8b0-4cbf"/>
+            <entryLink import="true" name="Free Dagger" hidden="false" type="selectionEntry" id="e17b-9488-4024-7444" targetId="0d0b-ed37-d8b0-4cbf" sortIndex="1"/>
             <entryLink import="true" name="Dagger" hidden="false" type="selectionEntry" id="697d-86eb-9722-e7f9" targetId="64e0-0bb6-542b-4beb"/>
             <entryLink import="true" name="Hammer, staff, mace or club" hidden="false" type="selectionEntry" id="9ddd-ba89-2689-a837" targetId="cfcc-39fd-aeb4-876a">
               <modifiers>
@@ -359,7 +359,11 @@ Roll the dice each time you wish to charge and before moving the model.</descrip
         <categoryLink name="Stash" hidden="false" id="fd96-0f06-a088-550b" targetId="a31acb39-8ce9-d6d7-bcc9-f3144d63db48" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Gold Crowns" hidden="false" id="730a-2de1-017c-a997" collective="false" targetId="deca-5737-6234-23a1" type="selectionEntry"/>
+        <entryLink import="true" name="Gold Crowns" hidden="false" id="730a-2de1-017c-a997" collective="false" targetId="deca-5737-6234-23a1" type="selectionEntry">
+          <costs>
+            <cost name="Gold Crowns" typeId="points" value="0"/>
+          </costs>
+        </entryLink>
         <entryLink import="true" name="Wyrdstone Shards" hidden="false" id="0823-2adf-aeaa-123f" collective="false" targetId="60f8-e6e7-c2ea-0dad" type="selectionEntry"/>
         <entryLink import="true" name="Equipment" hidden="false" id="8866-b0ba-b7e4-b2dc" collective="false" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup"/>
       </entryLinks>
@@ -377,6 +381,7 @@ Roll the dice each time you wish to charge and before moving the model.</descrip
       <costs>
         <cost name="pts" typeId="points" value="25"/>
         <cost name="Warband Rating" typeId="wb-rating" value="5"/>
+        <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Men-at-Arms Group" hidden="false" id="ae3b-570c-1a70-630a">
@@ -511,6 +516,7 @@ Roll the dice each time you wish to charge and before moving the model.</descrip
       <costs>
         <cost name="Gold Crowns" typeId="points" value="20"/>
         <cost name="Warband Rating" typeId="wb-rating" value="5"/>
+        <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
       </costs>
       <entryLinks>
         <entryLink import="true" name="Bowmen Equipment" hidden="false" id="dd3b-7d83-ed4c-9d37" collective="false" targetId="6185-96d4-862f-b96e" type="selectionEntryGroup"/>
@@ -520,6 +526,7 @@ Roll the dice each time you wish to charge and before moving the model.</descrip
       <costs>
         <cost name="Gold Crowns" typeId="points" value="80"/>
         <cost name="Warband Rating" typeId="wb-rating" value="5"/>
+        <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
       </costs>
       <entryLinks>
         <entryLink import="true" name="Experience" hidden="false" id="2217-a62b-462c-916" collective="false" targetId="d769-0d85-e810-df60" type="selectionEntry" sortIndex="1" collapsible="true">
@@ -816,6 +823,7 @@ He will never panic and break from combat and so does not have to pass a Leade
       <costs>
         <cost name="Gold Crowns" typeId="points" value="15"/>
         <cost name="Warband Rating" typeId="wb-rating" value="5"/>
+        <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Squire" hidden="false" id="c702-61c9-05df-28a7">
@@ -967,6 +975,7 @@ He will never panic and break from combat and so does not have to pass a Leade
       <costs>
         <cost name="Gold Crowns" typeId="points" value="15"/>
         <cost name="Warband Rating" typeId="wb-rating" value="5"/>
+        <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
