@@ -115,7 +115,7 @@
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="deca-5737-6234-23a1" name="Gold" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="deca-5737-6234-23a1" name="Gold Crowns" page="0" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="pts" typeId="points" value="1"/>
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
@@ -1776,7 +1776,7 @@ Only available to Humans.</description>
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="60f8-e6e7-c2ea-0dad" name="Wyrdstone" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="60f8-e6e7-c2ea-0dad" name="Wyrdstone Shards" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="pts" typeId="points" value="0"/>
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
@@ -3175,7 +3175,6 @@ This counts as an academic skill.</description>
         <entryLink id="cbda-2a04-5608-f22f" name="+1 BS" hidden="false" collective="false" import="true" targetId="5a83-274a-bba8-f498" type="selectionEntry"/>
         <entryLink id="cbb8-3519-a47d-d25d" name="+1 I" hidden="false" collective="false" import="true" targetId="da26-8381-781a-6149" type="selectionEntry"/>
         <entryLink id="0aa3-1315-c36e-b714" name="+1 LD" hidden="false" collective="false" import="true" targetId="27d8-c790-a4c1-b9cc" type="selectionEntry"/>
-        <entryLink id="8940-05b3-71ef-5ef1" name="+1 M" hidden="false" collective="false" import="true" targetId="c4db-7b50-a4f9-cd5f" type="selectionEntry"/>
         <entryLink id="f821-c7fb-88d7-c1e3" name="+1 S" hidden="false" collective="false" import="true" targetId="9368-3616-516f-5178" type="selectionEntry"/>
         <entryLink id="cd8f-b6e3-91ef-9fac" name="+1 T" hidden="false" collective="false" import="true" targetId="6fe1-7bba-3ca0-06b7" type="selectionEntry"/>
         <entryLink id="d109-cdfc-3b3c-73e8" name="+1 W" hidden="false" collective="false" import="true" targetId="7918-b440-5d63-bd5e" type="selectionEntry"/>
@@ -3700,7 +3699,7 @@ Strength is used for close combat weapons, the bonus applies to all such weapons
             <cost name="Warband Rating" typeId="wb-rating" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7d82-1ea4-5499-172c" name="Severe Arm Wound" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7d82-1ea4-5499-172c" name="Arm Wound" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="428e-09c4-6969-6155" name="Severe Arm Wound" page="0" hidden="false">
               <description>Severe arm wound. The arm must be amputated. The warrior may only use a single onehanded weapon from now on</description>
@@ -3711,7 +3710,7 @@ Strength is used for close combat weapons, the bonus applies to all such weapons
             <cost name="Warband Rating" typeId="wb-rating" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f480-dbf6-473e-d864" name="Maddness: Stupidity" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f480-dbf6-473e-d864" name="Madness: Stupidity" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
             <infoLink id="babf-70b4-0e56-27a5" name="Stupidity" hidden="false" targetId="20f0-4428-0681-c9f9" type="rule"/>
           </infoLinks>
@@ -3748,9 +3747,9 @@ Strength is used for close combat weapons, the bonus applies to all such weapons
             <cost name="Warband Rating" typeId="wb-rating" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2100-c2a5-734c-2ea9" name="Blind In one Eye" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2100-c2a5-734c-2ea9" name="Blinded In one Eye" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
-            <rule id="e532-fb6f-d093-20f1" name="Blind In one Eye" page="0" hidden="false">
+            <rule id="e532-fb6f-d093-20f1" name="Blinded In one Eye" page="0" hidden="false">
               <description>A character that loses an eye has his Ballistic Skill reduced by -1. If the warrior is subsequently blinded in his remaining good eye he
 must retire from the warband.</description>
             </rule>
