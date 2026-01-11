@@ -3642,6 +3642,9 @@ Strength is used for close combat weapons, the bonus applies to all such weapons
         <entryLink id="b1e6-5b0e-41d7-eeaf" name="Claw of the Old Ones" hidden="false" collective="false" import="true" targetId="993b-b4c4-118f-3ce3" type="selectionEntry"/>
         <entryLink import="true" name="Pike" hidden="false" id="9f83-3b50-5491-90f2" type="selectionEntry" targetId="68ec-2a33-6ca8-d146"/>
         <entryLink import="true" name="Boat Hook" hidden="false" id="355b-13e-2e5b-921c" type="selectionEntry" targetId="8bf0-e215-6bbb-383e"/>
+        <entryLink import="true" name="Mace" hidden="false" id="bd83-1e0d-63c9-38a1" type="selectionEntry" targetId="e656-5da4-161f-5bd9"/>
+        <entryLink import="true" name="Club" hidden="false" id="7c40-0579-ff13-5da7" type="selectionEntry" targetId="07fc-ee77-165f-5cde"/>
+        <entryLink import="true" name="Staff" hidden="false" id="538f-b8ba-bb52-02cc" type="selectionEntry" targetId="d537-b189-8020-ba4a"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="1937-df4f-3c68-e0be" name="Missile Weapons" hidden="false" collective="false" import="true">
