@@ -1281,5 +1281,15 @@ He will never panic and break from combat and so does not have to pass a Leade
         <categoryLink name="Heroes" hidden="false" id="afe7-c8f1-9a2a-7efe" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Promoted Bowman" hidden="false" id="1844-50e1-90be-7b7b" type="selectionEntry" targetId="700b-0282-4968-9b84">
+      <categoryLinks>
+        <categoryLink name="Heroes" hidden="false" id="9222-25a4-2951-e704" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Promoted Man-at-Arms" hidden="false" id="291c-ca9c-6c2a-7e32" type="selectionEntry" targetId="498f-331c-53c6-c906">
+      <categoryLinks>
+        <categoryLink name="Heroes" hidden="false" id="e085-e360-361e-45c7" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>
