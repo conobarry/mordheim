@@ -36,7 +36,7 @@ If any enemy model wishes to shoot at a Bretonnian Knight (Questing Knights an
           <entryLinks>
             <entryLink import="true" name="Free Dagger" hidden="false" type="selectionEntry" id="4b9-fdf8-84dd-3113" targetId="0d0b-ed37-d8b0-4cbf" sortIndex="1"/>
             <entryLink import="true" name="Dagger" hidden="false" type="selectionEntry" id="fb63-22d7-1cc4-ff04" targetId="64e0-0bb6-542b-4beb"/>
-            <entryLink import="true" name="Hammer, staff, mace or club" hidden="false" type="selectionEntry" id="4cec-1af6-13a5-29e4" targetId="cfcc-39fd-aeb4-876a">
+            <entryLink import="true" name="Hammer" hidden="false" type="selectionEntry" id="4cec-1af6-13a5-29e4" targetId="cfcc-39fd-aeb4-876a">
               <modifiers>
                 <modifier type="set" value="Mace" field="name"/>
               </modifiers>
@@ -80,7 +80,7 @@ If any enemy model wishes to shoot at a Bretonnian Knight (Questing Knights an
           <entryLinks>
             <entryLink import="true" name="Free Dagger" hidden="false" type="selectionEntry" id="e17b-9488-4024-7444" targetId="0d0b-ed37-d8b0-4cbf" sortIndex="1"/>
             <entryLink import="true" name="Dagger" hidden="false" type="selectionEntry" id="697d-86eb-9722-e7f9" targetId="64e0-0bb6-542b-4beb"/>
-            <entryLink import="true" name="Hammer, staff, mace or club" hidden="false" type="selectionEntry" id="9ddd-ba89-2689-a837" targetId="cfcc-39fd-aeb4-876a">
+            <entryLink import="true" name="Hammer" hidden="false" type="selectionEntry" id="9ddd-ba89-2689-a837" targetId="cfcc-39fd-aeb4-876a">
               <modifiers>
                 <modifier type="set" value="Hammer" field="name"/>
               </modifiers>
@@ -119,7 +119,7 @@ If any enemy model wishes to shoot at a Bretonnian Knight (Questing Knights an
           <entryLinks>
             <entryLink import="true" name="Free Dagger" hidden="false" type="selectionEntry" id="e851-30c0-1e9c-52a2" targetId="0d0b-ed37-d8b0-4cbf" sortIndex="1"/>
             <entryLink import="true" name="Dagger" hidden="false" type="selectionEntry" id="fd6b-8542-1277-9f1a" targetId="64e0-0bb6-542b-4beb"/>
-            <entryLink import="true" name="Hammer, staff, mace or club" hidden="false" type="selectionEntry" id="a187-4524-eac0-d2b7" targetId="cfcc-39fd-aeb4-876a">
+            <entryLink import="true" name="Hammer" hidden="false" type="selectionEntry" id="a187-4524-eac0-d2b7" targetId="cfcc-39fd-aeb4-876a">
               <modifiers>
                 <modifier type="set" value="Mace" field="name"/>
               </modifiers>
@@ -964,14 +964,6 @@ He will never panic and break from combat and so does not have to pass a Leade
           <description>A Squire may not ride a horse unless the Questing Knight and any Knight Errant in the warband are riding warhorses.</description>
         </rule>
       </rules>
-      <modifiers>
-        <modifier type="increment" value="1" field="0cec-d0bc-f11c-454e" id="8578-a3f2-28c0-7468">
-          <repeats>
-            <repeat value="1" repeats="1" field="selections" scope="roster" childId="a6b7-4b68-42f6-c5f1" shared="true" roundUp="false" id="5ac9-36bf-ac0c-c8a3"/>
-            <repeat value="1" repeats="1" field="selections" scope="parent" childId="585c-2174-6042-946e" shared="true" roundUp="false" id="2acc-e5cc-18e5-8124"/>
-          </repeats>
-        </modifier>
-      </modifiers>
       <costs>
         <cost name="Gold Crowns" typeId="points" value="15"/>
         <cost name="Warband Rating" typeId="wb-rating" value="5"/>
