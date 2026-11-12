@@ -323,7 +323,7 @@ Take armor saves as normal.</description>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Night Goblin Warriors" hidden="false" id="c0b9-dd67-5092-7a54">
       <entryLinks>
-        <entryLink import="true" name="Night Goblin Warrior" hidden="false" id="d67f-9cdb-b3d4-c52d" type="selectionEntry" targetId="0c7c-5c24-98d4-5a4d">
+        <entryLink import="true" name="Night Goblin Warrior" hidden="false" id="d67f-9cdb-b3d4-c52d" type="selectionEntry" targetId="0c7c-5c24-98d4-5a4d" collective="true">
           <constraints>
             <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="224a-6907-8ed3-351a"/>
           </constraints>
@@ -335,7 +335,7 @@ Take armor saves as normal.</description>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Night Goblin Fanatics" hidden="false" id="635e-6a45-0490-a729">
       <entryLinks>
-        <entryLink import="true" name="Night Goblin Fanatic" hidden="false" id="ec66-b15d-9d2a-bd2e" type="selectionEntry" targetId="6acb-85ba-b36b-c336">
+        <entryLink import="true" name="Night Goblin Fanatic" hidden="false" id="ec66-b15d-9d2a-bd2e" type="selectionEntry" targetId="6acb-85ba-b36b-c336" collective="true">
           <constraints>
             <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="6a56-12ce-6952-875f"/>
           </constraints>
@@ -350,7 +350,7 @@ Take armor saves as normal.</description>
         <categoryLink name="Henchmen" hidden="false" id="8557-2c40-69c2-25e2" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Cave Squig" hidden="false" id="4cb7-fbbb-73a0-700a" type="selectionEntry" targetId="e168-a345-3df7-b0d3">
+        <entryLink import="true" name="Cave Squig" hidden="false" id="4cb7-fbbb-73a0-700a" type="selectionEntry" targetId="e168-a345-3df7-b0d3" collective="true">
           <constraints>
             <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="0084-33f2-0154-c9d6"/>
           </constraints>
@@ -362,7 +362,7 @@ Take armor saves as normal.</description>
         <categoryLink name="Henchmen" hidden="false" id="d024-10c0-fd4c-def2" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Snotling" hidden="false" id="8331-aa91-a52b-6c18" type="selectionEntry" targetId="3484-1703-dd3e-52f6">
+        <entryLink import="true" name="Snotling" hidden="false" id="8331-aa91-a52b-6c18" type="selectionEntry" targetId="3484-1703-dd3e-52f6" collective="true">
           <constraints>
             <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="f9a5-0daf-8361-76d4"/>
           </constraints>
