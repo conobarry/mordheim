@@ -1238,7 +1238,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="bcb2-4f05-6757-ad68" name="Firearm save modifier" hidden="false" targetId="5d21-2b30-4219-ec86" type="rule"/>
+        <infoLink id="bcb2-4f05-6757-ad68" name="Save modifier" hidden="false" targetId="5d21-2b30-4219-ec86" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="30"/>
@@ -1268,7 +1268,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3706-6421-53b4-940d" name="Shortbow" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3706-6421-53b4-940d" name="Short Bow" page="0" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="6bae-8763-feca-a52f" name="Shortbow" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
           <characteristics>
@@ -3018,6 +3018,29 @@ Additionally, only 1 attack is allowed, no matter the number on the wielder’s 
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Boss Pole" hidden="false" id="9510-d071-4cce-6d20">
+      <profiles>
+        <profile name="Boss Pole" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon" hidden="false" id="3254-66c7-5593-fd97">
+          <characteristics>
+            <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">As User</characteristic>
+            <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Strike First, Cavalry Bonus</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="20"/>
+        <cost name="Warband Rating" typeId="wb-rating" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Strike First" hidden="false" type="rule" id="83bd-8977-6f6d-2355" targetId="744d-bb7c-09b9-ab1c"/>
+        <infoLink name="Cavalry bonus" hidden="false" type="rule" id="93df-3679-a8f8-37c1" targetId="ef77-8d02-8707-afc4"/>
+      </infoLinks>
+      <rules>
+        <rule id="fc51-782d-eb52-c94c" name="Rarity" hidden="false">
+          <description>Common (Goblins Only)</description>
+        </rule>
+      </rules>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="df9d-8724-d362-9d7c" name="Academic Skills" hidden="false" collective="false" import="true">
@@ -3736,7 +3759,7 @@ Strength is used for close combat weapons, the bonus applies to all such weapons
         <entryLink id="0af6-ca33-8390-fe31" name="Double Handed Weapon" hidden="false" collective="false" import="true" targetId="a0a1-b311-e3aa-6c3b" type="selectionEntry"/>
         <entryLink id="8e21-6a26-6d56-b358" name="Flail" hidden="false" collective="false" import="true" targetId="fea6-684b-02c4-6c62" type="selectionEntry"/>
         <entryLink id="496a-78c5-ac2a-28ea" name="Halberd" hidden="false" collective="false" import="true" targetId="3c52-9e92-25ec-1939" type="selectionEntry"/>
-        <entryLink id="0f30-0baf-444b-41ef" name="Hammer, staff, mace or club" hidden="false" collective="false" import="true" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry"/>
+        <entryLink id="0f30-0baf-444b-41ef" name="Hammer" hidden="false" collective="false" import="true" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry"/>
         <entryLink id="d36b-b7a5-972c-1b09" name="Lance" hidden="false" collective="false" import="true" targetId="5223-13a6-14ec-f372" type="selectionEntry"/>
         <entryLink id="34d9-99b5-1f17-6ce2" name="Morning Star" hidden="false" collective="false" import="true" targetId="d5f3-1906-da91-4e8f" type="selectionEntry"/>
         <entryLink id="b875-8164-dca6-2e7a" name="Spear" hidden="false" collective="false" import="true" targetId="005e-e397-8108-f198" type="selectionEntry"/>
@@ -4666,9 +4689,7 @@ Warriors without Ride may not use this skill.</description>
           </constraints>
         </entryLink>
       </entryLinks>
-      <comment>Henchmen
-
-</comment>
+      <comment>Henchmen</comment>
     </selectionEntryGroup>
     <selectionEntryGroup name="Campaign" id="c9ed-449e-6799-ca69" hidden="false"/>
   </sharedSelectionEntryGroups>

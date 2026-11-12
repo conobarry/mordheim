@@ -12,29 +12,6 @@
     <infoLink name="Animosity" hidden="false" type="rule" id="3c62-2031-8e1a-c8c7" targetId="c214-2ad0-8f27-7328"/>
   </infoLinks>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Boss Pole" hidden="false" id="9510-d071-4cce-6d20">
-      <profiles>
-        <profile name="Boss Pole" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon" hidden="false" id="3254-66c7-5593-fd97">
-          <characteristics>
-            <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">As User</characteristic>
-            <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Strike First, Cavalry Bonus</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="points" value="20"/>
-        <cost name="Warband Rating" typeId="wb-rating" value="0"/>
-      </costs>
-      <infoLinks>
-        <infoLink name="Strike First" hidden="false" type="rule" id="83bd-8977-6f6d-2355" targetId="744d-bb7c-09b9-ab1c"/>
-        <infoLink name="Cavalry bonus" hidden="false" type="rule" id="93df-3679-a8f8-37c1" targetId="ef77-8d02-8707-afc4"/>
-      </infoLinks>
-      <rules>
-        <rule id="fc51-782d-eb52-c94c" name="Rarity" hidden="false">
-          <description>Common (Goblins Only)</description>
-        </rule>
-      </rules>
-    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Spear" hidden="false" id="9510-d071-4cce-6d21">
       <profiles>
         <profile name="Spear" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon" hidden="false" id="3254-66c7-5593-fd97">
@@ -442,7 +419,7 @@ The effects last until the Shaman takes a wound.</characteristic>
         <infoLink id="3177-dd11-286b-1e3d" name="Leader" hidden="false" targetId="8712-d0f2-fe64-07bd" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="4b13-db19-e4cc-c13c" name="New CategoryLink" hidden="false" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" primary="true"/>
+        <categoryLink id="4b13-db19-e4cc-c13c" name="Heroes" hidden="false" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="aae6-594b-8ccb-9e22" name="Extra Equipment" hidden="false" collective="false" import="true" type="upgrade">
@@ -611,7 +588,7 @@ The effects last until the Shaman takes a wound.</characteristic>
         <infoLink id="d444-4aca-a763-94a1" name="Goblin max" hidden="false" targetId="de0f-ab0b-13a4-cefc" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="2ace-ab-cd50-cd47" name="New CategoryLink" hidden="false" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" primary="true"/>
+        <categoryLink id="2ace-ab-cd50-cd47" name="Heroes" hidden="false" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="10-5099-2ce6-cae4" name="Extra Equipment" hidden="false" collective="false" import="true" type="upgrade">
@@ -780,7 +757,7 @@ The effects last until the Shaman takes a wound.</characteristic>
         <infoLink name="Animosity" hidden="false" type="rule" id="906-f5b2-6cd7-f0f7" targetId="c214-2ad0-8f27-7328"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="35d7-a014-6e1b-5bb" name="New CategoryLink" hidden="false" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" primary="true"/>
+        <categoryLink id="35d7-a014-6e1b-5bb" name="Heroes" hidden="false" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="229-bcb5-3ddf-d279" name="Extra Equipment" hidden="false" collective="false" import="true" type="upgrade">
@@ -954,7 +931,7 @@ The effects last until the Shaman takes a wound.</characteristic>
         <infoLink name="Animosity" hidden="false" type="rule" id="3e3f-9125-2e3f-7206" targetId="c214-2ad0-8f27-7328"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="96e4-2a67-cf96-d697" name="New CategoryLink" hidden="false" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
+        <categoryLink id="96e4-2a67-cf96-d697" name="Henchmen" hidden="false" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1a2a-7d9d-c3ed-59a1" name="Extra Equipment" hidden="false" collective="false" import="true" type="upgrade">
@@ -1114,7 +1091,7 @@ The effects last until the Shaman takes a wound.</characteristic>
         <infoLink name="Frenzy" hidden="false" type="rule" id="143f-e266-7983-138c" targetId="ce28-23a1-7b2a-7e6c"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="a17b-4974-4cfc-448e" name="New CategoryLink" hidden="false" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
+        <categoryLink id="a17b-4974-4cfc-448e" name="Henchmen" hidden="false" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c20a-7795-d762-4439" name="Extra Equipment" hidden="false" collective="false" import="true" type="upgrade">
@@ -1288,7 +1265,7 @@ In addition, if they begin their turn within charge range of an enemy, they ar
         <infoLink name="Animosity" hidden="false" type="rule" id="cfcd-a043-1c93-3305" targetId="c214-2ad0-8f27-7328"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5ef4-803e-3475-bdc2" name="New CategoryLink" hidden="false" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
+        <categoryLink id="5ef4-803e-3475-bdc2" name="Henchmen" hidden="false" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d2bb-887f-c565-61ed" name="Extra Equipment" hidden="false" collective="false" import="true" type="upgrade">
@@ -1460,7 +1437,7 @@ This may not be combined with Quick Shot if they should be promoted to hero st
         <infoLink name="Animals" hidden="false" type="rule" id="c2ea-e835-e14c-126b" targetId="daaa-38f1-8c4c-3140"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="19de-811e-9a5-2bb3" name="New CategoryLink" hidden="false" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
+        <categoryLink id="19de-811e-9a5-2bb3" name="Henchmen" hidden="false" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="200"/>
