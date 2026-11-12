@@ -183,9 +183,6 @@ Take armor saves as normal.</description>
           </characteristics>
         </profile>
       </profiles>
-      <categoryLinks>
-        <categoryLink name="Henchmen" hidden="false" id="90eb-bb29-4fc0-a4ae" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
-      </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Henchmen Equipment List" hidden="false" id="8d03-3b67-e0bd-7b22" type="selectionEntryGroup" targetId="9d91-dd71-9e38-e3ec"/>
       </entryLinks>
@@ -217,9 +214,6 @@ Take armor saves as normal.</description>
       <entryLinks>
         <entryLink import="true" name="Fanatic Equipment List" hidden="false" id="f335-4556-ba50-bded" type="selectionEntryGroup" targetId="182d-6571-6c68-f645"/>
       </entryLinks>
-      <categoryLinks>
-        <categoryLink name="Henchmen" hidden="false" id="ca3c-7e4a-d82f-ddc2" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
-      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Cave Squig" hidden="false" id="e168-a345-3df7-b0d3">
       <costs>
@@ -245,14 +239,8 @@ Take armor saves as normal.</description>
       <constraints>
         <constraint type="max" value="5" field="selections" scope="roster" shared="true" id="e672-896e-733f-a8aa" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
-      <categoryLinks>
-        <categoryLink name="Henchmen" hidden="false" id="782f-ba3c-afe0-8016" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
-      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Snotling" hidden="false" id="3484-1703-dd3e-52f6">
-      <categoryLinks>
-        <categoryLink name="Henchmen" hidden="false" id="6909-4927-2d91-fc5a" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
-      </categoryLinks>
       <costs>
         <cost name="Gold Crowns" typeId="points" value="10"/>
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
@@ -279,7 +267,7 @@ Take armor saves as normal.</description>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Great Squig" hidden="false" id="6059-315f-1e1a-0bea">
       <categoryLinks>
-        <categoryLink name="Henchmen" hidden="false" id="823c-e223-e582-c6c6" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
+        <categoryLink name="Henchmen" hidden="false" id="ab48-6c20-a707-fff6" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="Gold Crowns" typeId="points" value="210"/>
@@ -312,7 +300,7 @@ Take armor saves as normal.</description>
         <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
       </costs>
       <categoryLinks>
-        <categoryLink name="Henchmen" hidden="false" id="2751-1a04-3df5-5921" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
+        <categoryLink name="Henchmen" hidden="false" id="6e8c-1076-02d3-67f1" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
       </categoryLinks>
       <profiles>
         <profile name="Troll" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model" hidden="false" id="23a4-6ebb-0454-3cd2">
@@ -332,6 +320,59 @@ Take armor saves as normal.</description>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1f6d-bd78-c747-b8cb" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Night Goblin Warriors" hidden="false" id="c0b9-dd67-5092-7a54">
+      <entryLinks>
+        <entryLink import="true" name="Night Goblin Warrior" hidden="false" id="d67f-9cdb-b3d4-c52d" type="selectionEntry" targetId="0c7c-5c24-98d4-5a4d">
+          <constraints>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="224a-6907-8ed3-351a"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Henchmen" hidden="false" id="ee74-e6da-8e33-2d83" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Night Goblin Fanatics" hidden="false" id="635e-6a45-0490-a729">
+      <entryLinks>
+        <entryLink import="true" name="Night Goblin Fanatic" hidden="false" id="ec66-b15d-9d2a-bd2e" type="selectionEntry" targetId="6acb-85ba-b36b-c336">
+          <constraints>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="6a56-12ce-6952-875f"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Henchmen" hidden="false" id="2592-e669-6901-26c4" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Cave Squigs" hidden="false" id="20e6-7796-3377-452a">
+      <categoryLinks>
+        <categoryLink name="Henchmen" hidden="false" id="8557-2c40-69c2-25e2" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Cave Squig" hidden="false" id="4cb7-fbbb-73a0-700a" type="selectionEntry" targetId="e168-a345-3df7-b0d3">
+          <constraints>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="0084-33f2-0154-c9d6"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Snotlings" hidden="false" id="905e-6322-5b92-0703">
+      <categoryLinks>
+        <categoryLink name="Henchmen" hidden="false" id="d024-10c0-fd4c-def2" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Snotling" hidden="false" id="8331-aa91-a52b-6c18" type="selectionEntry" targetId="3484-1703-dd3e-52f6">
+          <constraints>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="f9a5-0daf-8361-76d4"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Gold Crowns" typeId="points" value="0"/>
+        <cost name="Warband Rating" typeId="wb-rating" value="5"/>
+        <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>
@@ -354,7 +395,7 @@ Take armor saves as normal.</description>
         </selectionEntryGroup>
         <selectionEntryGroup name="Missile Weapons" id="533d-4c13-a77a-6bce" hidden="false">
           <entryLinks>
-            <entryLink import="true" name="Shortbow" hidden="false" id="39fe-98ce-4ec4-0ffe" type="selectionEntry" targetId="3706-6421-53b4-940d"/>
+            <entryLink import="true" name="Short Bow" hidden="false" id="39fe-98ce-4ec4-0ffe" type="selectionEntry" targetId="3706-6421-53b4-940d"/>
             <entryLink import="true" name="Sling" hidden="false" id="8b2f-4b10-54c3-ddb1" type="selectionEntry" targetId="87c7-49b5-f1e7-6662"/>
             <entryLink import="true" name="Throwing Knives/Stars" hidden="false" id="053a-3f52-72ef-4a4b" type="selectionEntry" targetId="23f5-19c3-5a6c-a8fb"/>
           </entryLinks>
@@ -440,14 +481,14 @@ Take armor saves as normal.</description>
   </sharedSelectionEntryGroups>
   <entryLinks>
     <entryLink import="true" name="Boss" hidden="false" id="93b6-25ef-cbd5-4b60" type="selectionEntry" targetId="1007-8550-ef2c-ea8f"/>
-    <entryLink import="true" name="Cave Squig" hidden="false" id="9d0c-b636-5701-6190" type="selectionEntry" targetId="e168-a345-3df7-b0d3"/>
     <entryLink import="true" name="Goon" hidden="false" id="9279-72de-a58f-e24d" type="selectionEntry" targetId="82dc-015b-1d97-1525"/>
-    <entryLink import="true" name="Great Squig" hidden="false" id="28f0-2c0b-ae54-8bf5" type="selectionEntry" targetId="6059-315f-1e1a-0bea"/>
-    <entryLink import="true" name="Night Goblin Fanatic" hidden="false" id="3d3d-5edf-afe2-8687" type="selectionEntry" targetId="6acb-85ba-b36b-c336"/>
-    <entryLink import="true" name="Night Goblin Warrior" hidden="false" id="5fee-54c3-2291-6078" type="selectionEntry" targetId="0c7c-5c24-98d4-5a4d"/>
     <entryLink import="true" name="Shaman" hidden="false" id="d78b-5d43-c121-b329" type="selectionEntry" targetId="2dc0-7fac-36da-d74c"/>
-    <entryLink import="true" name="Snotling" hidden="false" id="9aa6-23fb-c5c4-7265" type="selectionEntry" targetId="3484-1703-dd3e-52f6"/>
     <entryLink import="true" name="Squig Herder" hidden="false" id="cd09-dfe2-99d3-c847" type="selectionEntry" targetId="4d73-43b1-6a59-3fc8"/>
-    <entryLink import="true" name="Troll" hidden="false" id="bd1e-0178-a917-ed47" type="selectionEntry" targetId="4038-4cc8-456f-8466"/>
+    <entryLink import="true" name="Night Goblin Warriors" hidden="false" id="10ca-a03f-0dfc-df13" type="selectionEntry" targetId="c0b9-dd67-5092-7a54"/>
+    <entryLink import="true" name="Night Goblin Fanatics" hidden="false" id="7d34-c2cf-7897-86e2" type="selectionEntry" targetId="635e-6a45-0490-a729"/>
+    <entryLink import="true" name="Snotlings" hidden="false" id="3876-5285-a7b6-65ae" type="selectionEntry" targetId="905e-6322-5b92-0703"/>
+    <entryLink import="true" name="Cave Squigs" hidden="false" id="0707-d70a-e7bc-8070" type="selectionEntry" targetId="20e6-7796-3377-452a"/>
+    <entryLink import="true" name="Troll" hidden="false" id="f1a7-47ff-db6b-188c" type="selectionEntry" targetId="4038-4cc8-456f-8466"/>
+    <entryLink import="true" name="Great Squig" hidden="false" id="7aa4-c8eb-0832-abc8" type="selectionEntry" targetId="6059-315f-1e1a-0bea"/>
   </entryLinks>
 </catalogue>
