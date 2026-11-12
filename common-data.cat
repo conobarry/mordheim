@@ -587,7 +587,7 @@ ignores the special rules for Animosity.</description>
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0d0b-ed37-d8b0-4cbf" name="Free Dagger" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0d0b-ed37-d8b0-4cbf" name="Free Dagger" page="0" hidden="false" collective="false" import="true" type="upgrade" defaultAmount="1">
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="93a9-8d81-e8a0-373b" type="max"/>
       </constraints>

@@ -391,6 +391,7 @@ Take armor saves as normal.</description>
             <entryLink import="true" name="Double Handed Weapon" hidden="false" id="e887-98c3-c88e-3a48" type="selectionEntry" targetId="a0a1-b311-e3aa-6c3b"/>
             <entryLink import="true" name="Boss Pole" hidden="false" id="37fe-c16e-7a23-861b" type="selectionEntry" targetId="9510-d071-4cce-6d20"/>
             <entryLink import="true" name="Poison Daggers" hidden="false" id="1714-3697-41fb-75d5" type="selectionEntry" targetId="fcf8-f138-133e-1d6d"/>
+            <entryLink import="true" name="Free Dagger" hidden="false" id="a8e1-ece6-5ec5-d1b5" type="selectionEntry" targetId="0d0b-ed37-d8b0-4cbf"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Missile Weapons" id="533d-4c13-a77a-6bce" hidden="false">
@@ -432,6 +433,7 @@ Take armor saves as normal.</description>
                 <cost name="Gold Crowns" typeId="points" value="5"/>
               </costs>
             </entryLink>
+            <entryLink import="true" name="Free Dagger" hidden="false" id="2886-15a1-3644-af43" type="selectionEntry" targetId="0d0b-ed37-d8b0-4cbf"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Missile Weapons" id="cb0f-a22b-a1ce-3e49" hidden="false">
