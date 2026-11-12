@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="9481a749-7900-614b-1695-bdc2899069c1" name="Mordheim" revision="16" battleScribeVersion="2.03" authorName="James" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="9481a749-7900-614b-1695-bdc2899069c1" name="Mordheim" revision="17" battleScribeVersion="2.03" authorName="James" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <costTypes>
     <costType id="points" name="Gold Crowns" defaultCostLimit="500" hidden="false"/>
     <costType id="wb-rating" name="Warband Rating" defaultCostLimit="-1" hidden="false"/>
@@ -88,5 +88,13 @@
         <selectionEntry type="upgrade" import="true" name="Enable Campaign" hidden="false" id="d7a6-9fc0-d325-136f"/>
       </selectionEntries>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Enable Homebrew" hidden="false" id="1d6f-c93f-6523-75ab">
+      <categoryLinks>
+        <categoryLink name="Configuration" hidden="false" id="19e6-8857-184e-15a1" targetId="e1f1-ce7b-e13e-5dcf" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Enable Homebrew" hidden="false" id="6d1f-7b9c-0dd8-ab0b" type="selectionEntry" targetId="1d6f-c93f-6523-75ab"/>
+  </entryLinks>
 </gameSystem>

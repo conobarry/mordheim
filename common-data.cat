@@ -163,6 +163,13 @@ Warhorses only.</description>
             <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b"/>
             <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">Parry</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier type="append" value="+1 to Armour save while in combat and wielded with a one-handed weapon" field="ff797ec4-8d7e-cab1-656e-896ae3ed005f" join=", ">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="6d1f-7b9c-0dd8-ab0b" shared="true" childName="Enable Homebrew" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
       <infoLinks>
@@ -263,6 +270,13 @@ Warhorses only.</description>
             <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">+1</characteristic>
             <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f"/>
           </characteristics>
+          <modifiers>
+            <modifier type="set" value="+2 to Armour save while in combat and wielded with a one-handed weapon" field="ff797ec4-8d7e-cab1-656e-896ae3ed005f">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="6d1f-7b9c-0dd8-ab0b" shared="true" childName="Enable Homebrew" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
       <costs>
@@ -1270,31 +1284,23 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
     </selectionEntry>
     <selectionEntry id="3706-6421-53b4-940d" name="Short Bow" page="0" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="6bae-8763-feca-a52f" name="Shortbow" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile id="6bae-8763-feca-a52f" name="Short Bow" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">16</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">3</characteristic>
             <characteristic name="Special" typeId="fde90816-abbb-f019-75a0-0c24662facf3"/>
           </characteristics>
+          <modifiers>
+            <modifier type="set" value="20" field="a275054b-9b3d-9e68-49e9-7fbb6c714412">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="6d1f-7b9c-0dd8-ab0b" shared="true" childName="Enable Homebrew" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
       <costs>
         <cost name="pts" typeId="points" value="5"/>
-        <cost name="Warband Rating" typeId="wb-rating" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="3706-6421-53b4-940e" name="Shortbow" page="0" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="6bae-8763-feca-a52f" name="Shortbow" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">16</characteristic>
-            <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">3</characteristic>
-            <characteristic name="Special" typeId="fde90816-abbb-f019-75a0-0c24662facf3"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="points" value="10"/>
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
     </selectionEntry>
@@ -1318,6 +1324,13 @@ If the model fires twice then each shot is at -1 to hit.</description>
         <cost name="pts" typeId="points" value="2"/>
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="5" field="points">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="6d1f-7b9c-0dd8-ab0b" shared="true" childName="Enable Homebrew" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="23f5-19c3-5a6c-a8fb" name="Throwing Knives/Stars" page="0" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1362,6 +1375,16 @@ You can only ignore the first Leadership test in any single game – owning two 
         <cost name="pts" typeId="points" value="15"/>
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="999" field="selections" scope="roster" shared="true" id="c65d-3b02-044a-4057" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="c65d-3b02-044a-4057">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="6d1f-7b9c-0dd8-ab0b" shared="true" childName="Enable Homebrew" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="e7a3-2c8a-19a7-75a9" name="Black Lotus" page="0" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
@@ -1641,6 +1664,16 @@ Only available to Humans.</description>
         <cost name="pts" typeId="points" value="10"/>
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="999" field="selections" scope="roster" shared="true" id="15cf-f53d-f5b4-9890" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="15cf-f53d-f5b4-9890">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="6d1f-7b9c-0dd8-ab0b" shared="true" childName="Enable Homebrew" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="edc4-3728-be2f-d50d" name="Mad Cap Mushrooms" page="0" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
@@ -3796,7 +3829,7 @@ Strength is used for close combat weapons, the bonus applies to all such weapons
         <entryLink id="f9f4-cf69-0204-85f5" name="Pistol" hidden="false" collective="false" import="true" targetId="67e9-a4f5-8f76-168c" type="selectionEntry"/>
         <entryLink id="f9f4-cf69-0204-85f5" name="Brace of Pistols" hidden="false" collective="false" import="true" targetId="67e9-a4f5-8f76-168d" type="selectionEntry"/>
         <entryLink id="5c2b-dc41-890d-00b9" name="Repeater Crossbow" hidden="false" collective="false" import="true" targetId="a802-b7c6-caea-a5b1" type="selectionEntry"/>
-        <entryLink id="ec95-3895-9311-cdac" name="Shortbow" hidden="false" collective="false" import="true" targetId="3706-6421-53b4-940d" type="selectionEntry"/>
+        <entryLink id="ec95-3895-9311-cdac" name="Short Bow" hidden="false" collective="false" import="true" targetId="3706-6421-53b4-940d" type="selectionEntry"/>
         <entryLink id="b99a-dc1c-d2d8-31c5" name="Sling" hidden="false" collective="false" import="true" targetId="87c7-49b5-f1e7-6662" type="selectionEntry"/>
         <entryLink id="dc4f-68e4-d582-55e6" name="Throwing Knives/Stars" hidden="false" collective="false" import="true" targetId="23f5-19c3-5a6c-a8fb" type="selectionEntry"/>
         <entryLink id="fede-5933-f805-838d" name="Double Barreled Pistol" hidden="false" collective="false" import="true" targetId="b8bb-20cf-ae3a-693f" type="selectionEntry"/>
@@ -4759,6 +4792,13 @@ no longer frenzied. He continues to fight as normal for the rest of the battle.<
     </rule>
     <rule id="744d-bb7c-09b9-ab1c" name="Strike First" page="0" hidden="false">
       <description>A warrior with Strike First strikes first in the first turn of hand-to-hand combat</description>
+      <modifiers>
+        <modifier type="append" value="Additionally add +2 I against enemies that charged this turn." field="description" join=". ">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="6d1f-7b9c-0dd8-ab0b" shared="true" childName="Enable Homebrew" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </rule>
     <rule id="a365-c068-5790-d61d" name="Strike Last" page="0" hidden="false">
       <description>weapons are so heavy that the model using them always strikes last, even when charging.</description>
