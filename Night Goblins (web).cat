@@ -438,4 +438,16 @@ Take armor saves as normal.</description>
       </selectionEntryGroups>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <entryLinks>
+    <entryLink import="true" name="Boss" hidden="false" id="93b6-25ef-cbd5-4b60" type="selectionEntry" targetId="1007-8550-ef2c-ea8f"/>
+    <entryLink import="true" name="Cave Squig" hidden="false" id="9d0c-b636-5701-6190" type="selectionEntry" targetId="e168-a345-3df7-b0d3"/>
+    <entryLink import="true" name="Goon" hidden="false" id="9279-72de-a58f-e24d" type="selectionEntry" targetId="82dc-015b-1d97-1525"/>
+    <entryLink import="true" name="Great Squig" hidden="false" id="28f0-2c0b-ae54-8bf5" type="selectionEntry" targetId="6059-315f-1e1a-0bea"/>
+    <entryLink import="true" name="Night Goblin Fanatic" hidden="false" id="3d3d-5edf-afe2-8687" type="selectionEntry" targetId="6acb-85ba-b36b-c336"/>
+    <entryLink import="true" name="Night Goblin Warrior" hidden="false" id="5fee-54c3-2291-6078" type="selectionEntry" targetId="0c7c-5c24-98d4-5a4d"/>
+    <entryLink import="true" name="Shaman" hidden="false" id="d78b-5d43-c121-b329" type="selectionEntry" targetId="2dc0-7fac-36da-d74c"/>
+    <entryLink import="true" name="Snotling" hidden="false" id="9aa6-23fb-c5c4-7265" type="selectionEntry" targetId="3484-1703-dd3e-52f6"/>
+    <entryLink import="true" name="Squig Herder" hidden="false" id="cd09-dfe2-99d3-c847" type="selectionEntry" targetId="4d73-43b1-6a59-3fc8"/>
+    <entryLink import="true" name="Troll" hidden="false" id="bd1e-0178-a917-ed47" type="selectionEntry" targetId="4038-4cc8-456f-8466"/>
+  </entryLinks>
 </catalogue>
