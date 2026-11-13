@@ -1172,12 +1172,13 @@ Take armor saves as normal.</description>
         <categoryLink name="Henchmen" id="2592-e669-6901-26c4" hidden="false" primary="true" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink name="Night Goblin Fanatic" id="ec66-b15d-9d2a-bd2e" collective="true" hidden="false" import="true" sortIndex="2" targetId="6acb-85ba-b36b-c336" type="selectionEntry">
+        <entryLink name="Night Goblin Fanatic" id="ec66-b15d-9d2a-bd2e" collective="true" hidden="false" import="true" sortIndex="3" targetId="6acb-85ba-b36b-c336" type="selectionEntry">
           <constraints>
             <constraint id="6a56-12ce-6952-875f" field="selections" scope="parent" shared="true" type="max" value="5"/>
           </constraints>
         </entryLink>
         <entryLink name="Experience" id="347b-6181-9e3f-7089" hidden="false" import="true" sortIndex="1" targetId="724c-5ced-65aa-6cfe" type="selectionEntry"/>
+        <entryLink name="Advancements" id="654f-a2e3-a55d-3faf" hidden="false" import="true" sortIndex="2" targetId="cf0e-bc32-65c5-eaed" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Night Goblin Special Rules" id="0d7c-4543-331f-5f66" hidden="false" targetId="9f5d-5ec8-ba0f-04c5" type="infoGroup"/>
@@ -1262,6 +1263,12 @@ Take armor saves as normal.</description>
       <categoryLinks>
         <categoryLink name="Henchmen" id="5906-92d1-55cb-81b8" hidden="false" primary="true" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8"/>
       </categoryLinks>
+      <costs>
+        <cost name="Gold Crowns" typeId="points" value="15"/>
+        <cost name="Warband Rating" typeId="wb-rating" value="5"/>
+        <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
+        <cost name="Starting Experience" typeId="e014-8910-0a32-ebf4" value="0"/>
+      </costs>
       <entryLinks>
         <entryLink name="Experience" id="1f4a-ce61-f5e7-9d72" hidden="false" import="true" sortIndex="2" targetId="724c-5ced-65aa-6cfe" type="selectionEntry">
           <modifiers>
@@ -1274,6 +1281,13 @@ Take armor saves as normal.</description>
         </entryLink>
         <entryLink name="Henchmen Equipment List" id="82c2-8a33-e667-c4d3" hidden="false" import="true" sortIndex="3" targetId="9d91-dd71-9e38-e3ec" type="selectionEntryGroup"/>
       </entryLinks>
+      <modifiers>
+        <modifier field="points" type="cumulative-multiply" value="2">
+          <repeats>
+            <repeat childId="f69c-642b-76af-c611" childName="Henchmen" field="selections" includeChildSelections="true" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
+          </repeats>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile name="Night Goblin Warrior" id="1f73-26d5-bbc5-2214" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
           <characteristics>
@@ -1629,41 +1643,6 @@ Because of the special attention (kicks, prods) the herder gives the Trained Squ
     </selectionEntryGroup>
     <selectionEntryGroup name="Advancements" id="2a96-4264-42bb-563e" collapsible="true" hidden="false">
       <comment>Heroes</comment>
-      <constraints>
-        <constraint id="ba61-c225-701d-be86" field="selections" scope="parent" shared="true" type="max" value="0"/>
-      </constraints>
-      <modifiers>
-        <modifier field="ba61-c225-701d-be86" type="increment" value="1">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="d769-0d85-e810-df60" childName="Experience" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="2"/>
-                <condition childId="any" field="e014-8910-0a32-ebf4" includeChildSelections="true" scope="model-or-unit-self" shared="true" type="lessThan" value="2"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier field="ba61-c225-701d-be86" type="increment" value="1">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="d769-0d85-e810-df60" childName="Experience" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="4"/>
-                <condition childId="any" field="e014-8910-0a32-ebf4" includeChildSelections="true" scope="model-or-unit-self" shared="true" type="lessThan" value="4"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier field="ba61-c225-701d-be86" type="increment" value="1">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="d769-0d85-e810-df60" childName="Experience" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="6"/>
-                <condition childId="any" field="e014-8910-0a32-ebf4" includeChildSelections="true" scope="model-or-unit-self" shared="true" type="lessThan" value="6"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <selectionEntries>
         <selectionEntry name="Advancement" id="aa85-1858-e5ef-7f8c" collapsible="true" hidden="false" import="true" type="upgrade">
           <selectionEntryGroups>
@@ -1701,6 +1680,40 @@ Because of the special attention (kicks, prods) the herder gives the Trained Squ
                       </conditions>
                     </modifier>
                   </modifiers>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Advancements" id="cf0e-bc32-65c5-eaed" collapsible="true" hidden="false">
+      <comment>Henchmen</comment>
+      <selectionEntries>
+        <selectionEntry name="Advancement" id="9be0-22a9-7cc3-c0b2" collapsible="true" hidden="false" import="true" type="upgrade">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Advancement Options" id="f32f-8405-d245-d4a9" collapsible="true" hidden="false">
+              <constraints>
+                <constraint id="bdf9-d7e9-049f-c2e9" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry name="Characteristic Increase" id="ff61-416e-a577-5158" hidden="false" import="true" type="upgrade">
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Characteristic Increases" id="10c8-5649-33b6-c923" flatten="true" hidden="false">
+                      <constraints>
+                        <constraint id="5e34-518c-704d-25da-min" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+                        <constraint id="5e34-518c-704d-25da-max" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink name="+1 A" id="ac45-769c-5f86-5390" collective="false" hidden="false" import="true" targetId="37c4-dcb1-8949-d4eb" type="selectionEntry"/>
+                        <entryLink name="+1 BS" id="524f-3178-cf52-0541" collective="false" hidden="false" import="true" targetId="5a83-274a-bba8-f498" type="selectionEntry"/>
+                        <entryLink name="+1 I" id="fbd5-2197-46d6-2b28" collective="false" hidden="false" import="true" targetId="da26-8381-781a-6149" type="selectionEntry"/>
+                        <entryLink name="+1 LD" id="6b0a-012d-ccd7-8cb6" collective="false" hidden="false" import="true" targetId="27d8-c790-a4c1-b9cc" type="selectionEntry"/>
+                        <entryLink name="+1 S" id="a459-2785-26a6-4bf3" collective="false" hidden="false" import="true" targetId="9368-3616-516f-5178" type="selectionEntry"/>
+                        <entryLink name="+1 WS" id="7f9d-98ea-6f95-4361" collective="false" hidden="false" import="true" targetId="7418-394e-fe13-2a96" type="selectionEntry"/>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
