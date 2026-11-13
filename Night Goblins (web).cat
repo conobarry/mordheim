@@ -323,7 +323,7 @@ Take armor saves as normal.</description>
           </constraints>
         </entryLink>
         <entryLink name="Goblin Magic" id="58d7-8eaf-d857-9936" hidden="false" import="true" sortIndex="3" targetId="73fe-ed12-2804-6835" type="selectionEntryGroup"/>
-        <entryLink name="Wizard" id="b9e5-b103-ff6e-e882" hidden="false" import="true" targetId="1f32-e374-77aa-206a" type="selectionEntry"/>
+        <entryLink name="Wizard" id="b9e5-b103-ff6e-e882" exportable="false" hidden="false" import="true" targetId="1f32-e374-77aa-206a" type="selectionEntry"/>
         <entryLink name="Advancements" id="b75f-9a61-083d-eabc" hidden="false" import="true" targetId="2a96-4264-42bb-563e" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
@@ -1057,24 +1057,48 @@ Because of the special attention (kicks, prods) the herder gives the Trained Squ
     </selectionEntryGroup>
     <selectionEntryGroup name="Advancements" id="2a96-4264-42bb-563e" hidden="false">
       <comment>Heroes</comment>
-      <constraints>
-        <constraint id="da87-6def-a49f-dda4" field="selections" scope="parent" shared="true" type="max" value="1"/>
-      </constraints>
       <selectionEntries>
-        <selectionEntry name="New Skill" id="7508-bde2-ada3-6cbd" hidden="false" import="true" type="upgrade"/>
-        <selectionEntry name="New Spell" id="310a-7648-3202-8fc1" hidden="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier field="hidden" type="set" value="true">
-              <conditions>
-                <condition childId="1f32-e374-77aa-206a" childName="Wizard" field="selections" scope="parent" shared="true" type="lessThan" value="1"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </selectionEntry>
-        <selectionEntry name="Characteristic Increase" id="85b8-aca1-937b-2dc1" hidden="false" import="true" type="upgrade">
-          <entryLinks>
-            <entryLink name="Characteristic Increases" id="60dc-75b7-e1bf-5b8d" hidden="false" import="true" targetId="7879-46ac-5598-aa00" type="selectionEntryGroup"/>
-          </entryLinks>
+        <selectionEntry name="Advancement" id="aa85-1858-e5ef-7f8c" hidden="false" import="true" type="upgrade">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Advancement Options" id="6216-7460-e737-9778" hidden="false">
+              <constraints>
+                <constraint id="ab9c-f022-b8b1-97b1-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="ab9c-f022-b8b1-97b1-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry name="Characteristic Increase" id="85b8-aca1-937b-2dc1" hidden="false" import="true" type="upgrade">
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Characteristic Increases" id="5950-6f54-7201-4738" flatten="true" hidden="false">
+                      <constraints>
+                        <constraint id="f8dd-1edf-4562-4fa6-min" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+                        <constraint id="f8dd-1edf-4562-4fa6-max" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink name="+1 A" id="cf91-e8eb-5520-affe" collective="false" hidden="false" import="true" targetId="37c4-dcb1-8949-d4eb" type="selectionEntry"/>
+                        <entryLink name="+1 BS" id="7047-184e-9160-76af" collective="false" hidden="false" import="true" targetId="5a83-274a-bba8-f498" type="selectionEntry"/>
+                        <entryLink name="+1 I" id="ba71-1933-8f96-1d8f" collective="false" hidden="false" import="true" targetId="da26-8381-781a-6149" type="selectionEntry"/>
+                        <entryLink name="+1 LD" id="d178-36c7-b5bb-c5ce" collective="false" hidden="false" import="true" targetId="27d8-c790-a4c1-b9cc" type="selectionEntry"/>
+                        <entryLink name="+1 S" id="20bb-ea7f-7f94-c0f7" collective="false" hidden="false" import="true" targetId="9368-3616-516f-5178" type="selectionEntry"/>
+                        <entryLink name="+1 T" id="e1ea-e4e0-6adb-ee4e" collective="false" hidden="false" import="true" targetId="6fe1-7bba-3ca0-06b7" type="selectionEntry"/>
+                        <entryLink name="+1 W" id="43db-be4d-a8bf-f655" collective="false" hidden="false" import="true" targetId="7918-b440-5d63-bd5e" type="selectionEntry"/>
+                        <entryLink name="+1 WS" id="c980-fc82-a380-d533" collective="false" hidden="false" import="true" targetId="7418-394e-fe13-2a96" type="selectionEntry"/>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+                <selectionEntry name="New Skill" id="7508-bde2-ada3-6cbd" hidden="false" import="true" type="upgrade"/>
+                <selectionEntry name="New Spell" id="310a-7648-3202-8fc1" hidden="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier field="hidden" type="set" value="true">
+                      <conditions>
+                        <condition childId="1f32-e374-77aa-206a" childName="Wizard" field="selections" scope="parent" shared="true" type="lessThan" value="1"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>

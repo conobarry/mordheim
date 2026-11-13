@@ -3646,7 +3646,7 @@ Additionally, only 1 attack is allowed, no matter the number on the wielder’s 
         <cost name="Warband Rating" typeId="wb-rating" value="1"/>
       </costs>
     </selectionEntry>
-    <selectionEntry name="Wizard" id="1f32-e374-77aa-206a" hidden="true" import="true" type="upgrade">
+    <selectionEntry name="Wizard" id="1f32-e374-77aa-206a" exportable="false" hidden="false" import="true" type="upgrade">
       <profiles>
         <profile name="Wizard" id="c931-c7f4-2aab-d965" hidden="false" typeId="aa94-5d6e-9b87-dda7" typeName="Special Rules">
           <characteristics>
