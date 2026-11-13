@@ -14,7 +14,7 @@
     <costType name="Gold Crowns" id="points" defaultCostLimit="500" hidden="false"/>
     <costType name="Warband Rating" id="wb-rating" defaultCostLimit="-1" hidden="false"/>
     <costType name="Warriors" id="b677-8cc2-f3d9-d65e" defaultCostLimit="12"/>
-    <costType name="Starting Experience" id="e014-8910-0a32-ebf4" defaultCostLimit="-1" hidden="true"/>
+    <costType name="Starting Experience" id="e014-8910-0a32-ebf4" defaultCostLimit="-1" hidden="false"/>
   </costTypes>
   <entryLinks>
     <entryLink name="Enable Homebrew" id="6d1f-7b9c-0dd8-ab0b" hidden="false" import="true" targetId="1d6f-c93f-6523-75ab" type="selectionEntry"/>
