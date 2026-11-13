@@ -435,6 +435,46 @@ Take armor saves as normal.</description>
         <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Night Goblin Warriors Test" hidden="false" id="eac3-9eca-505c-5d64">
+      <entryLinks>
+        <entryLink import="true" name="Night Goblin Warrior" hidden="false" id="46e1-7aa2-c99e-534e" type="selectionEntry" targetId="0c7c-5c24-98d4-5a4d" sortIndex="3">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4e96-e964-fa6f-2ca6-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4e96-e964-fa6f-2ca6-max"/>
+          </constraints>
+          <costs>
+            <cost name="Gold Crowns" typeId="points" value="0"/>
+            <cost name="Warband Rating" typeId="wb-rating" value="0"/>
+            <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Experience" hidden="false" id="1f4a-ce61-f5e7-9d72" type="selectionEntry" targetId="724c-5ced-65aa-6cfe" sortIndex="2">
+          <modifiers>
+            <modifier type="increment" value="1" field="wb-rating">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="f69c-642b-76af-c611" shared="true" roundUp="false" childName="Henchmen"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Henchmen" hidden="false" id="5906-92d1-55cb-81b8" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Henchmen" hidden="false" id="f69c-642b-76af-c611" sortIndex="1">
+          <costs>
+            <cost name="Gold Crowns" typeId="points" value="15"/>
+            <cost name="Warband Rating" typeId="wb-rating" value="5"/>
+            <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="732e-fa49-148a-5ae9"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="de4a-2e7e-3bbf-0449"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="New Catalogue (link)" id="3a9e-545f-3fdd-52bf" targetId="e020-c282-277b-b173"/>
@@ -554,5 +594,6 @@ Take armor saves as normal.</description>
     <entryLink import="true" name="Cave Squigs" hidden="false" id="0707-d70a-e7bc-8070" type="selectionEntry" targetId="20e6-7796-3377-452a"/>
     <entryLink import="true" name="Troll" hidden="false" id="f1a7-47ff-db6b-188c" type="selectionEntry" targetId="4038-4cc8-456f-8466"/>
     <entryLink import="true" name="Great Squig" hidden="false" id="7aa4-c8eb-0832-abc8" type="selectionEntry" targetId="6059-315f-1e1a-0bea"/>
+    <entryLink import="true" name="Night Goblin Warriors Test" hidden="false" id="c7d9-f368-4982-27e5" type="selectionEntry" targetId="eac3-9eca-505c-5d64"/>
   </entryLinks>
 </catalogue>
