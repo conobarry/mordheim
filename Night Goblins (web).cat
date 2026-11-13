@@ -8,7 +8,7 @@
         <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Hero Equipment List" hidden="false" id="b6db-c9dc-ef80-aaa5" type="selectionEntryGroup" targetId="33ef-718a-29db-760c" sortIndex="2"/>
+        <entryLink import="true" name="Hero Equipment List" hidden="false" id="b6db-c9dc-ef80-aaa5" type="selectionEntryGroup" targetId="33ef-718a-29db-760c" sortIndex="3" collapsible="true"/>
         <entryLink import="true" name="Experience" hidden="false" id="9765-e3e7-8707-1531" type="selectionEntry" targetId="f080-f218-cc3b-6b2c" sortIndex="1">
           <constraints>
             <constraint type="min" value="17" field="selections" scope="parent" shared="true" id="957f-49d9-7faa-43a5"/>
@@ -36,6 +36,17 @@
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7d2e-d7e6-93e7-7aa6" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Skills" id="6cf7-e83d-bef0-3483" hidden="false" collapsible="true" sortIndex="2">
+          <entryLinks>
+            <entryLink import="true" name="Combat Skills" hidden="false" id="c1a6-e3c7-d32f-dfa5" type="selectionEntryGroup" targetId="ee2c-89e3-489b-d0cb" sortIndex="1"/>
+            <entryLink import="true" name="Shooting Skills" hidden="false" id="72b4-cd04-c582-33f0" type="selectionEntryGroup" targetId="0073-d2d6-15c0-45b1" sortIndex="2"/>
+            <entryLink import="true" name="Strength Skills" hidden="false" id="ba47-9eba-16c7-2caa" type="selectionEntryGroup" targetId="e5ac-cd5b-9057-e096" sortIndex="3"/>
+            <entryLink import="true" name="Speed Skills" hidden="false" id="12f7-a15c-b7b2-e925" type="selectionEntryGroup" targetId="e134-0fdf-67a2-4684" sortIndex="4"/>
+            <entryLink import="true" name="Special Skills" hidden="false" id="3939-eed7-b914-f628" type="selectionEntryGroup" targetId="8fa3-7d96-9b73-093a" sortIndex="5"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Poison Daggers" hidden="false" id="fcf8-f138-133e-1d6d">
       <costs>
@@ -84,7 +95,7 @@ Take armor saves as normal.</description>
         <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Hero Equipment List" hidden="false" id="31e7-4fdc-a525-ec52" type="selectionEntryGroup" targetId="33ef-718a-29db-760c" sortIndex="2"/>
+        <entryLink import="true" name="Hero Equipment List" hidden="false" id="31e7-4fdc-a525-ec52" type="selectionEntryGroup" targetId="33ef-718a-29db-760c" sortIndex="3"/>
         <entryLink import="true" name="Experience" hidden="false" id="9d37-bad1-4247-4094" type="selectionEntry" targetId="f080-f218-cc3b-6b2c" sortIndex="1">
           <constraints>
             <constraint type="min" value="6" field="selections" scope="parent" shared="true" id="9a9c-500d-5aaf-d66f"/>
@@ -109,6 +120,15 @@ Take armor saves as normal.</description>
           </characteristics>
         </profile>
       </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Skills" id="519e-a3a1-5637-cd61" hidden="false" collapsible="true" sortIndex="2">
+          <entryLinks>
+            <entryLink import="true" name="Combat Skills" hidden="false" id="322d-513a-33f0-6910" type="selectionEntryGroup" targetId="ee2c-89e3-489b-d0cb" sortIndex="1"/>
+            <entryLink import="true" name="Speed Skills" hidden="false" id="c9a1-c8e5-4857-9eb0" type="selectionEntryGroup" targetId="e134-0fdf-67a2-4684" sortIndex="4"/>
+            <entryLink import="true" name="Special Skills" hidden="false" id="0a0e-13b0-c0e7-99f1" type="selectionEntryGroup" targetId="8fa3-7d96-9b73-093a" sortIndex="5"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Goon" hidden="false" id="82dc-015b-1d97-1525">
       <costs>
@@ -132,7 +152,7 @@ Take armor saves as normal.</description>
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink import="true" name="Hero Equipment List" hidden="false" id="f953-c944-78d1-ae57" type="selectionEntryGroup" targetId="33ef-718a-29db-760c" sortIndex="2"/>
+        <entryLink import="true" name="Hero Equipment List" hidden="false" id="f953-c944-78d1-ae57" type="selectionEntryGroup" targetId="33ef-718a-29db-760c" sortIndex="3"/>
         <entryLink import="true" name="Experience" hidden="false" id="a1c7-b90b-6d72-4fe8" type="selectionEntry" targetId="f080-f218-cc3b-6b2c" sortIndex="1">
           <constraints>
             <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="976f-18f8-4a35-448b"/>
@@ -145,6 +165,16 @@ Take armor saves as normal.</description>
       <categoryLinks>
         <categoryLink name="Heroes" hidden="false" id="87b1-9323-a994-cc62" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Skills" id="e167-7c12-54d3-b009" hidden="false" collapsible="true" sortIndex="2">
+          <entryLinks>
+            <entryLink import="true" name="Combat Skills" hidden="false" id="1063-db08-6062-9a89" type="selectionEntryGroup" targetId="ee2c-89e3-489b-d0cb" sortIndex="1"/>
+            <entryLink import="true" name="Shooting Skills" hidden="false" id="7e08-fc67-a099-2243" type="selectionEntryGroup" targetId="0073-d2d6-15c0-45b1" sortIndex="2"/>
+            <entryLink import="true" name="Speed Skills" hidden="false" id="af60-5214-cd5b-0dd5" type="selectionEntryGroup" targetId="e134-0fdf-67a2-4684" sortIndex="4"/>
+            <entryLink import="true" name="Special Skills" hidden="false" id="9a36-67db-bd17-16de" type="selectionEntryGroup" targetId="8fa3-7d96-9b73-093a" sortIndex="5"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Shaman" hidden="false" id="2dc0-7fac-36da-d74c">
       <constraints>
@@ -166,7 +196,7 @@ Take armor saves as normal.</description>
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink import="true" name="Hero Equipment List" hidden="false" id="63b0-8075-28e8-28fc" type="selectionEntryGroup" targetId="33ef-718a-29db-760c" sortIndex="2"/>
+        <entryLink import="true" name="Hero Equipment List" hidden="false" id="63b0-8075-28e8-28fc" type="selectionEntryGroup" targetId="33ef-718a-29db-760c" sortIndex="3"/>
         <entryLink import="true" name="Experience" hidden="false" id="19a6-c0b6-743f-3224" type="selectionEntry" targetId="f080-f218-cc3b-6b2c" sortIndex="1">
           <constraints>
             <constraint type="min" value="6" field="selections" scope="parent" shared="true" id="accf-3d16-1ca5-591e"/>
@@ -181,6 +211,15 @@ Take armor saves as normal.</description>
       <categoryLinks>
         <categoryLink name="Heroes" hidden="false" id="6e87-8c76-5963-7a80" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Skills" id="9b1e-53f4-6388-6235" hidden="false" collapsible="true" sortIndex="2">
+          <entryLinks>
+            <entryLink import="true" name="Speed Skills" hidden="false" id="7b0d-4e28-d80b-9db1" type="selectionEntryGroup" targetId="e134-0fdf-67a2-4684" sortIndex="2"/>
+            <entryLink import="true" name="Special Skills" hidden="false" id="a383-446d-f806-2144" type="selectionEntryGroup" targetId="8fa3-7d96-9b73-093a" sortIndex="3"/>
+            <entryLink import="true" name="Academic Skills" hidden="false" id="d358-fe90-c804-0852" type="selectionEntryGroup" targetId="df9d-8724-d362-9d7c" sortIndex="1"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Night Goblin Warrior" hidden="false" id="0c7c-5c24-98d4-5a4d">
       <costs>
@@ -401,7 +440,7 @@ Take armor saves as normal.</description>
     <catalogueLink type="catalogue" name="New Catalogue (link)" id="3a9e-545f-3fdd-52bf" targetId="e020-c282-277b-b173"/>
   </catalogueLinks>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Hero Equipment List" id="33ef-718a-29db-760c" hidden="false">
+    <selectionEntryGroup name="Hero Equipment List" id="33ef-718a-29db-760c" hidden="false" collapsible="true">
       <selectionEntryGroups>
         <selectionEntryGroup name="Hand-to-Hand Combat Weapons" id="b9c8-5165-588e-d8f0" hidden="false">
           <entryLinks>
@@ -443,7 +482,7 @@ Take armor saves as normal.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Henchmen Equipment List" id="9d91-dd71-9e38-e3ec" hidden="false">
+    <selectionEntryGroup name="Henchmen Equipment List" id="9d91-dd71-9e38-e3ec" hidden="false" collapsible="true">
       <selectionEntryGroups>
         <selectionEntryGroup name="Hand-to-Hand Combat Weapons" id="40c9-dd48-6223-c004" hidden="false">
           <entryLinks>
@@ -482,7 +521,7 @@ Take armor saves as normal.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Fanatic Equipment List" id="182d-6571-6c68-f645" hidden="false">
+    <selectionEntryGroup name="Fanatic Equipment List" id="182d-6571-6c68-f645" hidden="false" collapsible="true">
       <selectionEntryGroups>
         <selectionEntryGroup name="Hand-to-Hand Combat Weapons" id="ad0d-a813-ca4d-2191" hidden="false">
           <entryLinks>
@@ -502,6 +541,7 @@ Take armor saves as normal.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
+    <selectionEntryGroup name="Special Skills" id="8fa3-7d96-9b73-093a" hidden="false"/>
   </sharedSelectionEntryGroups>
   <entryLinks>
     <entryLink import="true" name="Boss" hidden="false" id="93b6-25ef-cbd5-4b60" type="selectionEntry" targetId="1007-8550-ef2c-ea8f"/>
