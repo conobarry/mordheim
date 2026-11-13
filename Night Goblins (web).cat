@@ -323,7 +323,12 @@ Take armor saves as normal.</description>
           </constraints>
         </entryLink>
         <entryLink name="Goblin Magic" id="58d7-8eaf-d857-9936" hidden="false" import="true" sortIndex="3" targetId="73fe-ed12-2804-6835" type="selectionEntryGroup"/>
-        <entryLink name="Wizard" id="b9e5-b103-ff6e-e882" exportable="false" hidden="false" import="true" targetId="1f32-e374-77aa-206a" type="selectionEntry"/>
+        <entryLink name="Wizard" id="b9e5-b103-ff6e-e882" exportable="false" hidden="false" import="true" targetId="1f32-e374-77aa-206a" type="selectionEntry">
+          <constraints>
+            <constraint id="1523-294f-10ee-d04d-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="1523-294f-10ee-d04d-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
         <entryLink name="Advancements" id="b75f-9a61-083d-eabc" hidden="false" import="true" targetId="2a96-4264-42bb-563e" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
@@ -1091,7 +1096,7 @@ Because of the special attention (kicks, prods) the herder gives the Trained Squ
                   <modifiers>
                     <modifier field="hidden" type="set" value="true">
                       <conditions>
-                        <condition childId="1f32-e374-77aa-206a" childName="Wizard" field="selections" scope="parent" shared="true" type="lessThan" value="1"/>
+                        <condition childId="1f32-e374-77aa-206a" childName="Wizard" field="selections" includeChildSelections="false" scope="model-or-unit" shared="true" type="lessThan" value="1"/>
                       </conditions>
                     </modifier>
                   </modifiers>
