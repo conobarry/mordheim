@@ -57,8 +57,8 @@
       <characteristics>
         <characteristic name="Description" typeId="f258-8283-7780-a442">Before a battle, the Shaman may brew a special batch of Fungus Brew using 1 to 3 Mad Cap Mushrooms, and various other fungi they have collected. The brew must be consumed immediately, and affects a single Night Goblin Warrior henchmen group until the end of the battle. Roll on the Fungus Brew Table once for each Mad Cap Mushroom used in the brewing process. If any of the dice come up with the same result, the batch is ruined and provides no effect other than a nasty headache!
 
-|||
-|:--|:--|
+|D6|Result|
+|--|--|
 |D6|Result|
 |1|**Rowdy**: Affected by Animosity on a 1 or 2.|
 |2|**Dizzy**: -1 Initiative.|
@@ -583,6 +583,7 @@ Take armor saves as normal.</description>
     <selectionEntry name="Shaman" id="2dc0-7fac-36da-d74c" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Heroes" id="6e87-8c76-5963-7a80" hidden="false" primary="true" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94"/>
+        <categoryLink name="Wizard" id="a2f9-56fd-ec4b-104e" hidden="false" primary="false" targetId="92b4-b7e6-138b-7611"/>
       </categoryLinks>
       <constraints>
         <constraint id="ce52-486e-8e40-6ff5" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
@@ -1645,6 +1646,8 @@ Because of the special attention (kicks, prods) the herder gives the Trained Squ
                 <condition childId="d769-0d85-e810-df60" childName="Experience" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="6"/>
                 <condition childId="d769-0d85-e810-df60" childName="Experience" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="8"/>
                 <condition childId="d769-0d85-e810-df60" childName="Experience" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="11"/>
+                <condition childId="any" field="selections" scope="parent" shared="true" type="atLeast" value="1"/>
+                <condition childId="any" field="selections" scope="parent" shared="true" type="notInstanceOf" value="1"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1684,7 +1687,7 @@ Because of the special attention (kicks, prods) the herder gives the Trained Squ
                   <modifiers>
                     <modifier field="hidden" type="set" value="true">
                       <conditions>
-                        <condition childId="1f32-e374-77aa-206a" childName="Wizard" field="selections" includeChildSelections="false" scope="model-or-unit" shared="true" type="lessThan" value="1"/>
+                        <condition childId="92b4-b7e6-138b-7611" childName="Wizard" field="selections" includeChildSelections="false" scope="model-or-unit" shared="true" type="lessThan" value="1"/>
                       </conditions>
                     </modifier>
                   </modifiers>

@@ -8,6 +8,7 @@
     <categoryEntry name="Dramatis Personae" id="0aea-26b8-980b-28aa" hidden="false"/>
     <categoryEntry name="Hired Swords" id="71f7-5ee6-ab09-7fd9" hidden="false"/>
     <categoryEntry name="Configuration" id="e1f1-ce7b-e13e-5dcf" hidden="false"/>
+    <categoryEntry name="Wizard" id="92b4-b7e6-138b-7611" hidden="false"/>
   </categoryEntries>
   <costTypes>
     <costType name="Gold Crowns" id="points" defaultCostLimit="500" hidden="false"/>
