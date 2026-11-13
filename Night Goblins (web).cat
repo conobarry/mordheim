@@ -76,9 +76,9 @@
 |||
 |:--|:--|
 |D6|Result|
-|1|&quot;I &apos;Erd Dat!&quot;: If there is a friendly Orc or Goblin Henchman or Hired Sword within charge reach (if there are multiple targets within reach, choose the one nearest to the mad model), the offended warrior will immediately charge and fight a round of hand-to-hand combat against the source of his ire. At the end of this round of combat, the models will immediately move 1&quot; apart and no longer count as being in close combat (unless one of them fails another Animosity test and rolls this result again). If there are no friendly Orc or Goblin Henchmen or Hired Swords within charge reach, and the warrior is armed with a missile weapon, he immediately takes a shot at the nearest friendly Orc or Goblin Henchman or Hired Sword. If none of the above applies, or if the nearest friendly model is an Orc Hero, the warrior behaves as if a 2-5 had been rolled on this chart. In any case, the warrior in question may take no other action this turn, though he may defend himself if attacked in hand-to-hand combat.|
-|2-5|&quot;Wud Yoo Say?&quot;: He may do nothing else this turn, though he may defend himself if attacked in hand-to-hand combat.|
-|6|&quot;I&apos;ll Show Yer!&quot;: This model must move as quickly as possible towards the nearest enemy model, charging into combat if possible. If there are no enemy models within sight, the Orc or Goblin warrior may make a normal move immediately. This move is in addition to his regular move in the Movement phase, so he may therefore move twice in a single turn if you wish. If the extra move takes the Orc or Goblin warrior within charge reach of an enemy model, the warrior must charge into close combat during his regular movement.|</characteristic>
+|1|**&quot;I &apos;Erd Dat!&quot;**: If there is a friendly Orc or Goblin Henchman or Hired Sword within charge reach (if there are multiple targets within reach, choose the one nearest to the mad model), the offended warrior will immediately charge and fight a round of hand-to-hand combat against the source of his ire. At the end of this round of combat, the models will immediately move 1&quot; apart and no longer count as being in close combat (unless one of them fails another Animosity test and rolls this result again). If there are no friendly Orc or Goblin Henchmen or Hired Swords within charge reach, and the warrior is armed with a missile weapon, he immediately takes a shot at the nearest friendly Orc or Goblin Henchman or Hired Sword. If none of the above applies, or if the nearest friendly model is an Orc Hero, the warrior behaves as if a 2-5 had been rolled on this chart. In any case, the warrior in question may take no other action this turn, though he may defend himself if attacked in hand-to-hand combat.|
+|2-5|**&quot;Wud Yoo Say?&quot;**: He may do nothing else this turn, though he may defend himself if attacked in hand-to-hand combat.|
+|6|**&quot;I&apos;ll Show Yer!&quot;**: This model must move as quickly as possible towards the nearest enemy model, charging into combat if possible. If there are no enemy models within sight, the Orc or Goblin warrior may make a normal move immediately. This move is in addition to his regular move in the Movement phase, so he may therefore move twice in a single turn if you wish. If the extra move takes the Orc or Goblin warrior within charge reach of an enemy model, the warrior must charge into close combat during his regular movement.|</characteristic>
       </characteristics>
     </profile>
     <profile name="Hate Stunties" id="1340-8f93-2b7d-0e93" hidden="false" typeId="aa94-5d6e-9b87-dda7" typeName="Special Rules">
@@ -132,6 +132,7 @@
             <constraint id="957f-49d9-7faa-43a5" field="selections" scope="parent" shared="true" type="min" value="17"/>
           </constraints>
         </entryLink>
+        <entryLink name="Characteristic Increases" id="3f5a-bb12-a471-d3c3" hidden="false" import="true" targetId="7879-46ac-5598-aa00" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Leader" id="79a2-4dfa-949f-e771" hidden="false" targetId="2dcf-8d94-c623-8cad" type="profile"/>
@@ -322,6 +323,8 @@ Take armor saves as normal.</description>
           </constraints>
         </entryLink>
         <entryLink name="Goblin Magic" id="58d7-8eaf-d857-9936" hidden="false" import="true" sortIndex="3" targetId="73fe-ed12-2804-6835" type="selectionEntryGroup"/>
+        <entryLink name="Wizard" id="b9e5-b103-ff6e-e882" hidden="false" import="true" targetId="1f32-e374-77aa-206a" type="selectionEntry"/>
+        <entryLink name="Advancements" id="b75f-9a61-083d-eabc" hidden="false" import="true" targetId="2a96-4264-42bb-563e" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Wizard" id="b4b2-fc3d-259c-1bfb" hidden="false" targetId="17eb-8d73-da63-89d3" type="profile"/>
@@ -1049,6 +1052,29 @@ Because of the special attention (kicks, prods) the herder gives the Trained Squ
               </characteristics>
             </profile>
           </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Advancements" id="2a96-4264-42bb-563e" hidden="false">
+      <comment>Heroes</comment>
+      <constraints>
+        <constraint id="da87-6def-a49f-dda4" field="selections" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry name="New Skill" id="7508-bde2-ada3-6cbd" hidden="false" import="true" type="upgrade"/>
+        <selectionEntry name="New Spell" id="310a-7648-3202-8fc1" hidden="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier field="hidden" type="set" value="true">
+              <conditions>
+                <condition childId="1f32-e374-77aa-206a" childName="Wizard" field="selections" scope="parent" shared="true" type="lessThan" value="1"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry name="Characteristic Increase" id="85b8-aca1-937b-2dc1" hidden="false" import="true" type="upgrade">
+          <entryLinks>
+            <entryLink name="Characteristic Increases" id="60dc-75b7-e1bf-5b8d" hidden="false" import="true" targetId="7879-46ac-5598-aa00" type="selectionEntryGroup"/>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>

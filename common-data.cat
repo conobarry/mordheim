@@ -3646,6 +3646,15 @@ Additionally, only 1 attack is allowed, no matter the number on the wielder’s 
         <cost name="Warband Rating" typeId="wb-rating" value="1"/>
       </costs>
     </selectionEntry>
+    <selectionEntry name="Wizard" id="1f32-e374-77aa-206a" hidden="true" import="true" type="upgrade">
+      <profiles>
+        <profile name="Wizard" id="c931-c7f4-2aab-d965" hidden="false" typeId="aa94-5d6e-9b87-dda7" typeName="Special Rules">
+          <characteristics>
+            <characteristic name="Description" typeId="f258-8283-7780-a442">This model is a Wizard and may use spells from their spell table.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Academic Skills" id="df9d-8724-d362-9d7c" collective="false" hidden="false" import="true">
