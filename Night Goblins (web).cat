@@ -936,6 +936,11 @@
             <condition childId="4038-4cc8-456f-8466" childName="Troll" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
           </conditions>
         </modifier>
+        <modifier field="points" type="set" value="200">
+          <conditions>
+            <condition childId="6d1f-7b9c-0dd8-ab0b" childName="Enable Homebrew" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <profiles>
         <profile name="Great Squig" id="7742-fe1d-1631-81e0" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
@@ -950,6 +955,13 @@
             <characteristic name="A" typeId="bf393c37-9d10-fc85-c147-62b1c01a89fe">3</characteristic>
             <characteristic name="LD" typeId="e234eaea-a02a-2fb7-3e1f-605392aabb89">5</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier field="54f4796b-dedb-c296-8b1a-ff7f8043293a" type="set" value="4">
+              <conditions>
+                <condition childId="6d1f-7b9c-0dd8-ab0b" childName="Enable Homebrew" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
         <profile name="Movement" id="261c-f49c-faa6-a9e5" hidden="false" typeId="aa94-5d6e-9b87-dda7" typeName="Special Rules">
           <characteristics>
@@ -970,6 +982,18 @@
           <characteristics>
             <characteristic name="Description" typeId="f258-8283-7780-a442">Great Squigs are animals of a sort and so do not gain experience, or climb ladders. They can move up to higher levels or over obstacles using the normal climb rules, just imagine it as a particularly high bounce.</characteristic>
           </characteristics>
+        </profile>
+        <profile name="Tough" id="cbca-25fc-299f-4096" hidden="false" typeId="aa94-5d6e-9b87-dda7" typeName="Special Rules">
+          <characteristics>
+            <characteristic name="Description" typeId="f258-8283-7780-a442">The Great Squig rolls on the Heroes&apos; serious injuries chart if taken out of action.</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier field="hidden" type="set" value="true">
+              <conditions>
+                <condition childId="6d1f-7b9c-0dd8-ab0b" childName="Enable Homebrew" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
     </selectionEntry>
