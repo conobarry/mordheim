@@ -449,6 +449,7 @@ Take armor saves as normal.</description>
         <cost name="Gold Crowns" typeId="points" value="20"/>
         <cost name="Warband Rating" typeId="wb-rating" value="5"/>
         <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
+        <cost name="Starting Experience" typeId="e014-8910-0a32-ebf4" value="4"/>
       </costs>
       <entryLinks>
         <entryLink name="Hero Equipment List" id="f953-c944-78d1-ae57" hidden="false" import="true" sortIndex="4" targetId="33ef-718a-29db-760c" type="selectionEntryGroup"/>
@@ -592,6 +593,7 @@ Take armor saves as normal.</description>
         <cost name="Gold Crowns" typeId="points" value="25"/>
         <cost name="Warband Rating" typeId="wb-rating" value="5"/>
         <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
+        <cost name="Starting Experience" typeId="e014-8910-0a32-ebf4" value="6"/>
       </costs>
       <entryLinks>
         <entryLink name="Hero Equipment List" id="63b0-8075-28e8-28fc" hidden="false" import="true" sortIndex="5" targetId="33ef-718a-29db-760c" type="selectionEntryGroup"/>
@@ -601,12 +603,6 @@ Take armor saves as normal.</description>
           </constraints>
         </entryLink>
         <entryLink name="Goblin Magic" id="58d7-8eaf-d857-9936" hidden="false" import="true" sortIndex="4" targetId="73fe-ed12-2804-6835" type="selectionEntryGroup"/>
-        <entryLink name="Wizard" id="b9e5-b103-ff6e-e882" exportable="false" hidden="true" import="true" targetId="1f32-e374-77aa-206a" type="selectionEntry">
-          <constraints>
-            <constraint id="1523-294f-10ee-d04d-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
-            <constraint id="1523-294f-10ee-d04d-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-        </entryLink>
         <entryLink name="Advancements" id="b75f-9a61-083d-eabc" hidden="false" import="true" sortIndex="2" targetId="2a96-4264-42bb-563e" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
@@ -1639,24 +1635,39 @@ Because of the special attention (kicks, prods) the herder gives the Trained Squ
       <modifiers>
         <modifier field="ba61-c225-701d-be86" type="increment" value="1">
           <conditionGroups>
-            <conditionGroup type="add">
+            <conditionGroup type="and">
               <conditions>
                 <condition childId="d769-0d85-e810-df60" childName="Experience" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="2"/>
+                <condition childId="any" field="e014-8910-0a32-ebf4" scope="parent" shared="true" type="lessThan" value="2"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier field="ba61-c225-701d-be86" type="increment" value="1">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
                 <condition childId="d769-0d85-e810-df60" childName="Experience" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="4"/>
+                <condition childId="any" field="e014-8910-0a32-ebf4" scope="parent" shared="true" type="lessThan" value="4"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier field="ba61-c225-701d-be86" type="increment" value="1">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
                 <condition childId="d769-0d85-e810-df60" childName="Experience" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="6"/>
-                <condition childId="d769-0d85-e810-df60" childName="Experience" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="8"/>
-                <condition childId="d769-0d85-e810-df60" childName="Experience" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="11"/>
-                <condition childId="any" field="selections" scope="parent" shared="true" type="atLeast" value="1"/>
-                <condition childId="any" field="selections" scope="parent" shared="true" type="notInstanceOf" value="1"/>
+                <condition childId="any" field="e014-8910-0a32-ebf4" scope="parent" shared="true" type="lessThan" value="6"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
       </modifiers>
       <selectionEntries>
-        <selectionEntry name="Advancement" id="aa85-1858-e5ef-7f8c" hidden="false" import="true" type="upgrade">
+        <selectionEntry name="Advancement" id="aa85-1858-e5ef-7f8c" collapsible="true" hidden="false" import="true" type="upgrade">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Advancement Options" id="6216-7460-e737-9778" hidden="false">
+            <selectionEntryGroup name="Advancement Options" id="6216-7460-e737-9778" collapsible="true" hidden="false">
               <constraints>
                 <constraint id="ab9c-f022-b8b1-97b1-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
                 <constraint id="ab9c-f022-b8b1-97b1-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
@@ -1682,16 +1693,12 @@ Because of the special attention (kicks, prods) the herder gives the Trained Squ
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                 </selectionEntry>
-                <selectionEntry name="New Skill" id="7508-bde2-ada3-6cbd" hidden="false" import="true" type="upgrade">
-                  <associations>
-                    <association name="New Association" id="12b8-3991-5162-cd61" childId="8fa3-7d96-9b73-093a" childName="Special Skills" max="1" min="1" scope="parent"/>
-                  </associations>
-                </selectionEntry>
+                <selectionEntry name="New Skill" id="7508-bde2-ada3-6cbd" hidden="false" import="true" type="upgrade"/>
                 <selectionEntry name="New Spell" id="310a-7648-3202-8fc1" hidden="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier field="hidden" type="set" value="true">
                       <conditions>
-                        <condition childId="92b4-b7e6-138b-7611" childName="Wizard" field="selections" includeChildSelections="true" scope="parent" shared="true" type="notInstanceOf" value="1"/>
+                        <condition childId="92b4-b7e6-138b-7611" childName="Wizard" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="notInstanceOf" value="1"/>
                       </conditions>
                     </modifier>
                   </modifiers>
