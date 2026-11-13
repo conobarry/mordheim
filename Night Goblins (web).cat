@@ -1,25 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="1c0d-be8b-247d-d853" name="Night Goblins (web) (1c)" gameSystemId="9481a749-7900-614b-1695-bdc2899069c1" gameSystemRevision="16" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Night Goblins (web) (1c)" id="1c0d-be8b-247d-d853" battleScribeVersion="2.03" gameSystemId="9481a749-7900-614b-1695-bdc2899069c1" gameSystemRevision="16" library="false" revision="1" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink name="New Catalogue (link)" id="3a9e-545f-3fdd-52bf" targetId="e020-c282-277b-b173" type="catalogue"/>
+  </catalogueLinks>
+  <entryLinks>
+    <entryLink name="Boss" id="93b6-25ef-cbd5-4b60" hidden="false" import="true" targetId="1007-8550-ef2c-ea8f" type="selectionEntry"/>
+    <entryLink name="Goon" id="9279-72de-a58f-e24d" hidden="false" import="true" targetId="82dc-015b-1d97-1525" type="selectionEntry"/>
+    <entryLink name="Shaman" id="d78b-5d43-c121-b329" hidden="false" import="true" targetId="2dc0-7fac-36da-d74c" type="selectionEntry"/>
+    <entryLink name="Squig Herder" id="cd09-dfe2-99d3-c847" hidden="false" import="true" targetId="4d73-43b1-6a59-3fc8" type="selectionEntry"/>
+    <entryLink name="Night Goblin Warriors" id="10ca-a03f-0dfc-df13" hidden="false" import="true" targetId="c0b9-dd67-5092-7a54" type="selectionEntry"/>
+    <entryLink name="Night Goblin Fanatics" id="7d34-c2cf-7897-86e2" hidden="false" import="true" targetId="635e-6a45-0490-a729" type="selectionEntry"/>
+    <entryLink name="Snotlings" id="3876-5285-a7b6-65ae" hidden="false" import="true" targetId="905e-6322-5b92-0703" type="selectionEntry"/>
+    <entryLink name="Cave Squigs" id="0707-d70a-e7bc-8070" hidden="false" import="true" targetId="20e6-7796-3377-452a" type="selectionEntry"/>
+    <entryLink name="Troll" id="f1a7-47ff-db6b-188c" hidden="false" import="true" targetId="4038-4cc8-456f-8466" type="selectionEntry"/>
+    <entryLink name="Great Squig" id="7aa4-c8eb-0832-abc8" hidden="false" import="true" targetId="6059-315f-1e1a-0bea" type="selectionEntry"/>
+    <entryLink name="Night Goblin Warriors Test" id="c7d9-f368-4982-27e5" hidden="false" import="true" targetId="eac3-9eca-505c-5d64" type="selectionEntry"/>
+  </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry type="model" import="true" name="Boss" hidden="false" id="1007-8550-ef2c-ea8f">
+    <selectionEntry name="Boss" id="1007-8550-ef2c-ea8f" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Heroes" id="4101-6f69-4450-2318" hidden="false" primary="true" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="7d2e-d7e6-93e7-7aa6" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
       <costs>
         <cost name="Gold Crowns" typeId="points" value="45"/>
         <cost name="Warband Rating" typeId="wb-rating" value="5"/>
         <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Hero Equipment List" hidden="false" id="b6db-c9dc-ef80-aaa5" type="selectionEntryGroup" targetId="33ef-718a-29db-760c" sortIndex="3" collapsible="true"/>
-        <entryLink import="true" name="Experience" hidden="false" id="9765-e3e7-8707-1531" type="selectionEntry" targetId="f080-f218-cc3b-6b2c" sortIndex="1">
+        <entryLink name="Hero Equipment List" id="b6db-c9dc-ef80-aaa5" collapsible="true" hidden="false" import="true" sortIndex="3" targetId="33ef-718a-29db-760c" type="selectionEntryGroup"/>
+        <entryLink name="Experience" id="9765-e3e7-8707-1531" hidden="false" import="true" sortIndex="1" targetId="f080-f218-cc3b-6b2c" type="selectionEntry">
           <constraints>
-            <constraint type="min" value="17" field="selections" scope="parent" shared="true" id="957f-49d9-7faa-43a5"/>
+            <constraint id="957f-49d9-7faa-43a5" field="selections" scope="parent" shared="true" type="min" value="17"/>
           </constraints>
         </entryLink>
       </entryLinks>
-      <categoryLinks>
-        <categoryLink name="Heroes" hidden="false" id="4101-6f69-4450-2318" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" primary="true"/>
-      </categoryLinks>
       <profiles>
-        <profile name="Boss" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model" hidden="false" id="7369-9d7c-b37a-12ba">
+        <profile name="Boss" id="7369-9d7c-b37a-12ba" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
           <characteristics>
             <characteristic name="M" typeId="2a0bcc4c-8266-418f-13d6-a6b44def5e92">4</characteristic>
             <characteristic name="WS" typeId="d5aca8ba-0204-b324-b976-c2b536e09924">3</characteristic>
@@ -33,28 +52,25 @@
           </characteristics>
         </profile>
       </profiles>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7d2e-d7e6-93e7-7aa6" includeChildSelections="true" includeChildForces="true"/>
-      </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Skills" id="6cf7-e83d-bef0-3483" hidden="false" collapsible="true" sortIndex="2">
+        <selectionEntryGroup name="Skills" id="6cf7-e83d-bef0-3483" collapsible="true" hidden="false" sortIndex="2">
           <entryLinks>
-            <entryLink import="true" name="Combat Skills" hidden="false" id="c1a6-e3c7-d32f-dfa5" type="selectionEntryGroup" targetId="ee2c-89e3-489b-d0cb" sortIndex="1"/>
-            <entryLink import="true" name="Shooting Skills" hidden="false" id="72b4-cd04-c582-33f0" type="selectionEntryGroup" targetId="0073-d2d6-15c0-45b1" sortIndex="2"/>
-            <entryLink import="true" name="Strength Skills" hidden="false" id="ba47-9eba-16c7-2caa" type="selectionEntryGroup" targetId="e5ac-cd5b-9057-e096" sortIndex="3"/>
-            <entryLink import="true" name="Speed Skills" hidden="false" id="12f7-a15c-b7b2-e925" type="selectionEntryGroup" targetId="e134-0fdf-67a2-4684" sortIndex="4"/>
-            <entryLink import="true" name="Special Skills" hidden="false" id="3939-eed7-b914-f628" type="selectionEntryGroup" targetId="8fa3-7d96-9b73-093a" sortIndex="5"/>
+            <entryLink name="Combat Skills" id="c1a6-e3c7-d32f-dfa5" hidden="false" import="true" sortIndex="1" targetId="ee2c-89e3-489b-d0cb" type="selectionEntryGroup"/>
+            <entryLink name="Shooting Skills" id="72b4-cd04-c582-33f0" hidden="false" import="true" sortIndex="2" targetId="0073-d2d6-15c0-45b1" type="selectionEntryGroup"/>
+            <entryLink name="Strength Skills" id="ba47-9eba-16c7-2caa" hidden="false" import="true" sortIndex="3" targetId="e5ac-cd5b-9057-e096" type="selectionEntryGroup"/>
+            <entryLink name="Speed Skills" id="12f7-a15c-b7b2-e925" hidden="false" import="true" sortIndex="4" targetId="e134-0fdf-67a2-4684" type="selectionEntryGroup"/>
+            <entryLink name="Special Skills" id="3939-eed7-b914-f628" hidden="false" import="true" sortIndex="5" targetId="8fa3-7d96-9b73-093a" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Poison Daggers" hidden="false" id="fcf8-f138-133e-1d6d">
+    <selectionEntry name="Poison Daggers" id="fcf8-f138-133e-1d6d" hidden="false" import="true" type="upgrade">
       <costs>
         <cost name="pts" typeId="points" value="25"/>
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
       <profiles>
-        <profile name="Poison Daggers" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon" hidden="false" id="6105-02d6-96bc-9bd4">
+        <profile name="Poison Daggers" id="6105-02d6-96bc-9bd4" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">As User</characteristic>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Paired, Poisoned</characteristic>
@@ -85,28 +101,28 @@ Take armor saves as normal.</description>
         </rule>
       </rules>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Squig Herder" hidden="false" id="4d73-43b1-6a59-3fc8">
+    <selectionEntry name="Squig Herder" id="4d73-43b1-6a59-3fc8" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="Heroes" hidden="false" id="9a13-0158-b011-68f1" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" primary="true"/>
+        <categoryLink name="Heroes" id="9a13-0158-b011-68f1" hidden="false" primary="true" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="74b9-0234-b22d-29ee" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
       <costs>
         <cost name="Gold Crowns" typeId="points" value="35"/>
         <cost name="Warband Rating" typeId="wb-rating" value="5"/>
         <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Hero Equipment List" hidden="false" id="31e7-4fdc-a525-ec52" type="selectionEntryGroup" targetId="33ef-718a-29db-760c" sortIndex="3"/>
-        <entryLink import="true" name="Experience" hidden="false" id="9d37-bad1-4247-4094" type="selectionEntry" targetId="f080-f218-cc3b-6b2c" sortIndex="1">
+        <entryLink name="Hero Equipment List" id="31e7-4fdc-a525-ec52" hidden="false" import="true" sortIndex="3" targetId="33ef-718a-29db-760c" type="selectionEntryGroup"/>
+        <entryLink name="Experience" id="9d37-bad1-4247-4094" hidden="false" import="true" sortIndex="1" targetId="f080-f218-cc3b-6b2c" type="selectionEntry">
           <constraints>
-            <constraint type="min" value="6" field="selections" scope="parent" shared="true" id="9a9c-500d-5aaf-d66f"/>
+            <constraint id="9a9c-500d-5aaf-d66f" field="selections" scope="parent" shared="true" type="min" value="6"/>
           </constraints>
         </entryLink>
       </entryLinks>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="74b9-0234-b22d-29ee" includeChildSelections="true" includeChildForces="true"/>
-      </constraints>
       <profiles>
-        <profile name="Squig Herder" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model" hidden="false" id="a8df-8d66-c89e-1c16">
+        <profile name="Squig Herder" id="a8df-8d66-c89e-1c16" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
           <characteristics>
             <characteristic name="M" typeId="2a0bcc4c-8266-418f-13d6-a6b44def5e92">4</characteristic>
             <characteristic name="WS" typeId="d5aca8ba-0204-b324-b976-c2b536e09924">3</characteristic>
@@ -121,23 +137,37 @@ Take armor saves as normal.</description>
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Skills" id="519e-a3a1-5637-cd61" hidden="false" collapsible="true" sortIndex="2">
+        <selectionEntryGroup name="Skills" id="519e-a3a1-5637-cd61" collapsible="true" hidden="false" sortIndex="2">
           <entryLinks>
-            <entryLink import="true" name="Combat Skills" hidden="false" id="322d-513a-33f0-6910" type="selectionEntryGroup" targetId="ee2c-89e3-489b-d0cb" sortIndex="1"/>
-            <entryLink import="true" name="Speed Skills" hidden="false" id="c9a1-c8e5-4857-9eb0" type="selectionEntryGroup" targetId="e134-0fdf-67a2-4684" sortIndex="4"/>
-            <entryLink import="true" name="Special Skills" hidden="false" id="0a0e-13b0-c0e7-99f1" type="selectionEntryGroup" targetId="8fa3-7d96-9b73-093a" sortIndex="5"/>
+            <entryLink name="Combat Skills" id="322d-513a-33f0-6910" hidden="false" import="true" sortIndex="1" targetId="ee2c-89e3-489b-d0cb" type="selectionEntryGroup"/>
+            <entryLink name="Speed Skills" id="c9a1-c8e5-4857-9eb0" hidden="false" import="true" sortIndex="4" targetId="e134-0fdf-67a2-4684" type="selectionEntryGroup"/>
+            <entryLink name="Special Skills" id="0a0e-13b0-c0e7-99f1" hidden="false" import="true" sortIndex="5" targetId="8fa3-7d96-9b73-093a" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Goon" hidden="false" id="82dc-015b-1d97-1525">
+    <selectionEntry name="Goon" id="82dc-015b-1d97-1525" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Heroes" id="87b1-9323-a994-cc62" hidden="false" primary="true" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="bcc6-e78f-abe8-a7dd" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="3"/>
+      </constraints>
       <costs>
         <cost name="Gold Crowns" typeId="points" value="20"/>
         <cost name="Warband Rating" typeId="wb-rating" value="5"/>
         <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
       </costs>
+      <entryLinks>
+        <entryLink name="Hero Equipment List" id="f953-c944-78d1-ae57" hidden="false" import="true" sortIndex="3" targetId="33ef-718a-29db-760c" type="selectionEntryGroup"/>
+        <entryLink name="Experience" id="a1c7-b90b-6d72-4fe8" hidden="false" import="true" sortIndex="1" targetId="f080-f218-cc3b-6b2c" type="selectionEntry">
+          <constraints>
+            <constraint id="976f-18f8-4a35-448b" field="selections" scope="parent" shared="true" type="min" value="4"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <profiles>
-        <profile name="Goon" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model" hidden="false" id="2dc3-80e4-9bc3-19fb">
+        <profile name="Goon" id="2dc3-80e4-9bc3-19fb" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
           <characteristics>
             <characteristic name="M" typeId="2a0bcc4c-8266-418f-13d6-a6b44def5e92">4</characteristic>
             <characteristic name="WS" typeId="d5aca8ba-0204-b324-b976-c2b536e09924">3</characteristic>
@@ -151,84 +181,73 @@ Take armor saves as normal.</description>
           </characteristics>
         </profile>
       </profiles>
-      <entryLinks>
-        <entryLink import="true" name="Hero Equipment List" hidden="false" id="f953-c944-78d1-ae57" type="selectionEntryGroup" targetId="33ef-718a-29db-760c" sortIndex="3"/>
-        <entryLink import="true" name="Experience" hidden="false" id="a1c7-b90b-6d72-4fe8" type="selectionEntry" targetId="f080-f218-cc3b-6b2c" sortIndex="1">
-          <constraints>
-            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="976f-18f8-4a35-448b"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <constraints>
-        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="bcc6-e78f-abe8-a7dd" includeChildSelections="true" includeChildForces="true"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink name="Heroes" hidden="false" id="87b1-9323-a994-cc62" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" primary="true"/>
-      </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Skills" id="e167-7c12-54d3-b009" hidden="false" collapsible="true" sortIndex="2">
+        <selectionEntryGroup name="Skills" id="e167-7c12-54d3-b009" collapsible="true" hidden="false" sortIndex="2">
           <entryLinks>
-            <entryLink import="true" name="Combat Skills" hidden="false" id="1063-db08-6062-9a89" type="selectionEntryGroup" targetId="ee2c-89e3-489b-d0cb" sortIndex="1"/>
-            <entryLink import="true" name="Shooting Skills" hidden="false" id="7e08-fc67-a099-2243" type="selectionEntryGroup" targetId="0073-d2d6-15c0-45b1" sortIndex="2"/>
-            <entryLink import="true" name="Speed Skills" hidden="false" id="af60-5214-cd5b-0dd5" type="selectionEntryGroup" targetId="e134-0fdf-67a2-4684" sortIndex="4"/>
-            <entryLink import="true" name="Special Skills" hidden="false" id="9a36-67db-bd17-16de" type="selectionEntryGroup" targetId="8fa3-7d96-9b73-093a" sortIndex="5"/>
+            <entryLink name="Combat Skills" id="1063-db08-6062-9a89" hidden="false" import="true" sortIndex="1" targetId="ee2c-89e3-489b-d0cb" type="selectionEntryGroup"/>
+            <entryLink name="Shooting Skills" id="7e08-fc67-a099-2243" hidden="false" import="true" sortIndex="2" targetId="0073-d2d6-15c0-45b1" type="selectionEntryGroup"/>
+            <entryLink name="Speed Skills" id="af60-5214-cd5b-0dd5" hidden="false" import="true" sortIndex="4" targetId="e134-0fdf-67a2-4684" type="selectionEntryGroup"/>
+            <entryLink name="Special Skills" id="9a36-67db-bd17-16de" hidden="false" import="true" sortIndex="5" targetId="8fa3-7d96-9b73-093a" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Shaman" hidden="false" id="2dc0-7fac-36da-d74c">
+    <selectionEntry name="Shaman" id="2dc0-7fac-36da-d74c" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Heroes" id="6e87-8c76-5963-7a80" hidden="false" primary="true" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94"/>
+      </categoryLinks>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ce52-486e-8e40-6ff5" includeChildSelections="true" includeChildForces="true"/>
+        <constraint id="ce52-486e-8e40-6ff5" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
       </constraints>
-      <profiles>
-        <profile name="Shaman" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model" hidden="false" id="efdc-35b2-c6b4-87d5">
-          <characteristics>
-            <characteristic name="M" typeId="2a0bcc4c-8266-418f-13d6-a6b44def5e92">4</characteristic>
-            <characteristic name="WS" typeId="d5aca8ba-0204-b324-b976-c2b536e09924">2</characteristic>
-            <characteristic name="BS" typeId="5b4d181b-23ae-5ed7-9262-c1d2f79246a8">3</characteristic>
-            <characteristic name="S" typeId="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">3</characteristic>
-            <characteristic name="T" typeId="54f4796b-dedb-c296-8b1a-ff7f8043293a">3</characteristic>
-            <characteristic name="W" typeId="3172c8dc-ebe4-0c40-72ab-8fd0076b9442">1</characteristic>
-            <characteristic name="I" typeId="a6fd52b0-be0a-655e-6314-87b392c9c90e">4</characteristic>
-            <characteristic name="A" typeId="bf393c37-9d10-fc85-c147-62b1c01a89fe">1</characteristic>
-            <characteristic name="LD" typeId="e234eaea-a02a-2fb7-3e1f-605392aabb89">6</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <entryLinks>
-        <entryLink import="true" name="Hero Equipment List" hidden="false" id="63b0-8075-28e8-28fc" type="selectionEntryGroup" targetId="33ef-718a-29db-760c" sortIndex="3"/>
-        <entryLink import="true" name="Experience" hidden="false" id="19a6-c0b6-743f-3224" type="selectionEntry" targetId="f080-f218-cc3b-6b2c" sortIndex="1">
-          <constraints>
-            <constraint type="min" value="6" field="selections" scope="parent" shared="true" id="accf-3d16-1ca5-591e"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <costs>
         <cost name="Gold Crowns" typeId="points" value="25"/>
         <cost name="Warband Rating" typeId="wb-rating" value="5"/>
         <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
       </costs>
-      <categoryLinks>
-        <categoryLink name="Heroes" hidden="false" id="6e87-8c76-5963-7a80" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" primary="true"/>
-      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Hero Equipment List" id="63b0-8075-28e8-28fc" hidden="false" import="true" sortIndex="3" targetId="33ef-718a-29db-760c" type="selectionEntryGroup"/>
+        <entryLink name="Experience" id="19a6-c0b6-743f-3224" hidden="false" import="true" sortIndex="1" targetId="f080-f218-cc3b-6b2c" type="selectionEntry">
+          <constraints>
+            <constraint id="accf-3d16-1ca5-591e" field="selections" scope="parent" shared="true" type="min" value="6"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="Shaman" id="efdc-35b2-c6b4-87d5" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="2a0bcc4c-8266-418f-13d6-a6b44def5e92">4</characteristic>
+            <characteristic name="WS" typeId="d5aca8ba-0204-b324-b976-c2b536e09924">2</characteristic>
+            <characteristic name="BS" typeId="5b4d181b-23ae-5ed7-9262-c1d2f79246a8">3</characteristic>
+            <characteristic name="S" typeId="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">3</characteristic>
+            <characteristic name="T" typeId="54f4796b-dedb-c296-8b1a-ff7f8043293a">3</characteristic>
+            <characteristic name="W" typeId="3172c8dc-ebe4-0c40-72ab-8fd0076b9442">1</characteristic>
+            <characteristic name="I" typeId="a6fd52b0-be0a-655e-6314-87b392c9c90e">4</characteristic>
+            <characteristic name="A" typeId="bf393c37-9d10-fc85-c147-62b1c01a89fe">1</characteristic>
+            <characteristic name="LD" typeId="e234eaea-a02a-2fb7-3e1f-605392aabb89">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Skills" id="9b1e-53f4-6388-6235" hidden="false" collapsible="true" sortIndex="2">
+        <selectionEntryGroup name="Skills" id="9b1e-53f4-6388-6235" collapsible="true" hidden="false" sortIndex="2">
           <entryLinks>
-            <entryLink import="true" name="Speed Skills" hidden="false" id="7b0d-4e28-d80b-9db1" type="selectionEntryGroup" targetId="e134-0fdf-67a2-4684" sortIndex="2"/>
-            <entryLink import="true" name="Special Skills" hidden="false" id="a383-446d-f806-2144" type="selectionEntryGroup" targetId="8fa3-7d96-9b73-093a" sortIndex="3"/>
-            <entryLink import="true" name="Academic Skills" hidden="false" id="d358-fe90-c804-0852" type="selectionEntryGroup" targetId="df9d-8724-d362-9d7c" sortIndex="1"/>
+            <entryLink name="Speed Skills" id="7b0d-4e28-d80b-9db1" hidden="false" import="true" sortIndex="2" targetId="e134-0fdf-67a2-4684" type="selectionEntryGroup"/>
+            <entryLink name="Special Skills" id="a383-446d-f806-2144" hidden="false" import="true" sortIndex="3" targetId="8fa3-7d96-9b73-093a" type="selectionEntryGroup"/>
+            <entryLink name="Academic Skills" id="d358-fe90-c804-0852" hidden="false" import="true" sortIndex="1" targetId="df9d-8724-d362-9d7c" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Night Goblin Warrior" hidden="false" id="0c7c-5c24-98d4-5a4d">
+    <selectionEntry name="Night Goblin Warrior" id="0c7c-5c24-98d4-5a4d" hidden="false" import="true" type="model">
       <costs>
         <cost name="Gold Crowns" typeId="points" value="15"/>
         <cost name="Warband Rating" typeId="wb-rating" value="5"/>
         <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
       </costs>
+      <entryLinks>
+        <entryLink name="Henchmen Equipment List" id="8d03-3b67-e0bd-7b22" hidden="false" import="true" targetId="9d91-dd71-9e38-e3ec" type="selectionEntryGroup"/>
+      </entryLinks>
       <profiles>
-        <profile name="Night Goblin Warrior" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model" hidden="false" id="4a72-3efe-4a27-a825">
+        <profile name="Night Goblin Warrior" id="4a72-3efe-4a27-a825" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
           <characteristics>
             <characteristic name="M" typeId="2a0bcc4c-8266-418f-13d6-a6b44def5e92">4</characteristic>
             <characteristic name="WS" typeId="d5aca8ba-0204-b324-b976-c2b536e09924">2</characteristic>
@@ -242,21 +261,21 @@ Take armor saves as normal.</description>
           </characteristics>
         </profile>
       </profiles>
-      <entryLinks>
-        <entryLink import="true" name="Henchmen Equipment List" hidden="false" id="8d03-3b67-e0bd-7b22" type="selectionEntryGroup" targetId="9d91-dd71-9e38-e3ec"/>
-      </entryLinks>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Night Goblin Fanatic" hidden="false" id="6acb-85ba-b36b-c336">
+    <selectionEntry name="Night Goblin Fanatic" id="6acb-85ba-b36b-c336" hidden="false" import="true" type="model">
+      <constraints>
+        <constraint id="3851-738c-08ab-af3d" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="3"/>
+      </constraints>
       <costs>
         <cost name="Gold Crowns" typeId="points" value="20"/>
         <cost name="Warband Rating" typeId="wb-rating" value="5"/>
         <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
       </costs>
-      <constraints>
-        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="3851-738c-08ab-af3d" includeChildSelections="true" includeChildForces="true"/>
-      </constraints>
+      <entryLinks>
+        <entryLink name="Fanatic Equipment List" id="f335-4556-ba50-bded" hidden="false" import="true" targetId="182d-6571-6c68-f645" type="selectionEntryGroup"/>
+      </entryLinks>
       <profiles>
-        <profile name="Night Goblin Fanatic" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model" hidden="false" id="727c-daa8-cde9-9d35">
+        <profile name="Night Goblin Fanatic" id="727c-daa8-cde9-9d35" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
           <characteristics>
             <characteristic name="M" typeId="2a0bcc4c-8266-418f-13d6-a6b44def5e92">4</characteristic>
             <characteristic name="WS" typeId="d5aca8ba-0204-b324-b976-c2b536e09924">3</characteristic>
@@ -270,18 +289,18 @@ Take armor saves as normal.</description>
           </characteristics>
         </profile>
       </profiles>
-      <entryLinks>
-        <entryLink import="true" name="Fanatic Equipment List" hidden="false" id="f335-4556-ba50-bded" type="selectionEntryGroup" targetId="182d-6571-6c68-f645"/>
-      </entryLinks>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Cave Squig" hidden="false" id="e168-a345-3df7-b0d3">
+    <selectionEntry name="Cave Squig" id="e168-a345-3df7-b0d3" hidden="false" import="true" type="model">
+      <constraints>
+        <constraint id="e672-896e-733f-a8aa" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="5"/>
+      </constraints>
       <costs>
         <cost name="Gold Crowns" typeId="points" value="15"/>
         <cost name="Warband Rating" typeId="wb-rating" value="5"/>
         <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
       </costs>
       <profiles>
-        <profile name="Cave Squig" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model" hidden="false" id="c050-6331-571d-aaaa">
+        <profile name="Cave Squig" id="c050-6331-571d-aaaa" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
           <characteristics>
             <characteristic name="M" typeId="2a0bcc4c-8266-418f-13d6-a6b44def5e92">2D6</characteristic>
             <characteristic name="WS" typeId="d5aca8ba-0204-b324-b976-c2b536e09924">4</characteristic>
@@ -295,18 +314,18 @@ Take armor saves as normal.</description>
           </characteristics>
         </profile>
       </profiles>
-      <constraints>
-        <constraint type="max" value="5" field="selections" scope="roster" shared="true" id="e672-896e-733f-a8aa" includeChildSelections="true" includeChildForces="true"/>
-      </constraints>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Snotling" hidden="false" id="3484-1703-dd3e-52f6">
+    <selectionEntry name="Snotling" id="3484-1703-dd3e-52f6" hidden="false" import="true" type="model">
+      <constraints>
+        <constraint id="2ff9-e1d2-5602-943d" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="5"/>
+      </constraints>
       <costs>
         <cost name="Gold Crowns" typeId="points" value="10"/>
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
         <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="0"/>
       </costs>
       <profiles>
-        <profile name="Snotling" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model" hidden="false" id="70e8-7be7-dca3-d03f">
+        <profile name="Snotling" id="70e8-7be7-dca3-d03f" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
           <characteristics>
             <characteristic name="M" typeId="2a0bcc4c-8266-418f-13d6-a6b44def5e92">4</characteristic>
             <characteristic name="WS" typeId="d5aca8ba-0204-b324-b976-c2b536e09924">2</characteristic>
@@ -320,21 +339,21 @@ Take armor saves as normal.</description>
           </characteristics>
         </profile>
       </profiles>
-      <constraints>
-        <constraint type="max" value="5" field="selections" scope="roster" shared="true" id="2ff9-e1d2-5602-943d" includeChildSelections="true" includeChildForces="true"/>
-      </constraints>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Great Squig" hidden="false" id="6059-315f-1e1a-0bea">
+    <selectionEntry name="Great Squig" id="6059-315f-1e1a-0bea" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="Henchmen" hidden="false" id="ab48-6c20-a707-fff6" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
+        <categoryLink name="Henchmen" id="ab48-6c20-a707-fff6" hidden="false" primary="true" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="f606-0f4b-13fe-ea4f" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
       <costs>
         <cost name="Gold Crowns" typeId="points" value="210"/>
         <cost name="Warband Rating" typeId="wb-rating" value="20"/>
         <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
       </costs>
       <profiles>
-        <profile name="Great Squig" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model" hidden="false" id="7742-fe1d-1631-81e0">
+        <profile name="Great Squig" id="7742-fe1d-1631-81e0" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
           <characteristics>
             <characteristic name="M" typeId="2a0bcc4c-8266-418f-13d6-a6b44def5e92">3D6</characteristic>
             <characteristic name="WS" typeId="d5aca8ba-0204-b324-b976-c2b536e09924">4</characteristic>
@@ -348,21 +367,21 @@ Take armor saves as normal.</description>
           </characteristics>
         </profile>
       </profiles>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f606-0f4b-13fe-ea4f" includeChildSelections="true" includeChildForces="true"/>
-      </constraints>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Troll" hidden="false" id="4038-4cc8-456f-8466">
+    <selectionEntry name="Troll" id="4038-4cc8-456f-8466" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Henchmen" id="6e8c-1076-02d3-67f1" hidden="false" primary="true" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="1f6d-bd78-c747-b8cb" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
       <costs>
         <cost name="Gold Crowns" typeId="points" value="200"/>
         <cost name="Warband Rating" typeId="wb-rating" value="20"/>
         <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
       </costs>
-      <categoryLinks>
-        <categoryLink name="Henchmen" hidden="false" id="6e8c-1076-02d3-67f1" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
-      </categoryLinks>
       <profiles>
-        <profile name="Troll" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model" hidden="false" id="23a4-6ebb-0454-3cd2">
+        <profile name="Troll" id="23a4-6ebb-0454-3cd2" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
           <characteristics>
             <characteristic name="M" typeId="2a0bcc4c-8266-418f-13d6-a6b44def5e92">6</characteristic>
             <characteristic name="WS" typeId="d5aca8ba-0204-b324-b976-c2b536e09924">3</characteristic>
@@ -376,144 +395,144 @@ Take armor saves as normal.</description>
           </characteristics>
         </profile>
       </profiles>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1f6d-bd78-c747-b8cb" includeChildSelections="true" includeChildForces="true"/>
-      </constraints>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Night Goblin Warriors" hidden="false" id="c0b9-dd67-5092-7a54">
+    <selectionEntry name="Night Goblin Warriors" id="c0b9-dd67-5092-7a54" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Henchmen" id="ee74-e6da-8e33-2d83" hidden="false" primary="true" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8"/>
+      </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Night Goblin Warrior" hidden="false" id="d67f-9cdb-b3d4-c52d" type="selectionEntry" targetId="0c7c-5c24-98d4-5a4d" collective="true" sortIndex="2">
+        <entryLink name="Night Goblin Warrior" id="d67f-9cdb-b3d4-c52d" collective="true" hidden="false" import="true" sortIndex="2" targetId="0c7c-5c24-98d4-5a4d" type="selectionEntry">
           <constraints>
-            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="224a-6907-8ed3-351a"/>
+            <constraint id="224a-6907-8ed3-351a" field="selections" scope="parent" shared="true" type="max" value="5"/>
+            <constraint id="0f6f-74d0-ad43-f3e8" field="selections" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Experience" hidden="false" id="939a-4107-dd5f-548a" type="selectionEntry" targetId="724c-5ced-65aa-6cfe" sortIndex="1"/>
+        <entryLink name="Experience" id="939a-4107-dd5f-548a" hidden="false" import="true" sortIndex="1" targetId="724c-5ced-65aa-6cfe" type="selectionEntry"/>
       </entryLinks>
-      <categoryLinks>
-        <categoryLink name="Henchmen" hidden="false" id="ee74-e6da-8e33-2d83" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
-      </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Night Goblin Fanatics" hidden="false" id="635e-6a45-0490-a729">
+    <selectionEntry name="Night Goblin Fanatics" id="635e-6a45-0490-a729" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Henchmen" id="2592-e669-6901-26c4" hidden="false" primary="true" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8"/>
+      </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Night Goblin Fanatic" hidden="false" id="ec66-b15d-9d2a-bd2e" type="selectionEntry" targetId="6acb-85ba-b36b-c336" collective="true" sortIndex="2">
+        <entryLink name="Night Goblin Fanatic" id="ec66-b15d-9d2a-bd2e" collective="true" hidden="false" import="true" sortIndex="2" targetId="6acb-85ba-b36b-c336" type="selectionEntry">
           <constraints>
-            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="6a56-12ce-6952-875f"/>
+            <constraint id="6a56-12ce-6952-875f" field="selections" scope="parent" shared="true" type="max" value="5"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Experience" hidden="false" id="347b-6181-9e3f-7089" type="selectionEntry" targetId="724c-5ced-65aa-6cfe" sortIndex="1"/>
+        <entryLink name="Experience" id="347b-6181-9e3f-7089" hidden="false" import="true" sortIndex="1" targetId="724c-5ced-65aa-6cfe" type="selectionEntry"/>
       </entryLinks>
-      <categoryLinks>
-        <categoryLink name="Henchmen" hidden="false" id="2592-e669-6901-26c4" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
-      </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Cave Squigs" hidden="false" id="20e6-7796-3377-452a">
+    <selectionEntry name="Cave Squigs" id="20e6-7796-3377-452a" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Henchmen" hidden="false" id="8557-2c40-69c2-25e2" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
+        <categoryLink name="Henchmen" id="8557-2c40-69c2-25e2" hidden="false" primary="true" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Cave Squig" hidden="false" id="4cb7-fbbb-73a0-700a" type="selectionEntry" targetId="e168-a345-3df7-b0d3" collective="true">
+        <entryLink name="Cave Squig" id="4cb7-fbbb-73a0-700a" collective="true" hidden="false" import="true" targetId="e168-a345-3df7-b0d3" type="selectionEntry">
           <constraints>
-            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="0084-33f2-0154-c9d6"/>
+            <constraint id="0084-33f2-0154-c9d6" field="selections" scope="parent" shared="true" type="max" value="5"/>
           </constraints>
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Snotlings" hidden="false" id="905e-6322-5b92-0703">
+    <selectionEntry name="Snotlings" id="905e-6322-5b92-0703" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Henchmen" hidden="false" id="d024-10c0-fd4c-def2" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
+        <categoryLink name="Henchmen" id="d024-10c0-fd4c-def2" hidden="false" primary="true" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink import="true" name="Snotling" hidden="false" id="8331-aa91-a52b-6c18" type="selectionEntry" targetId="3484-1703-dd3e-52f6" collective="true">
-          <constraints>
-            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="f9a5-0daf-8361-76d4"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <costs>
         <cost name="Gold Crowns" typeId="points" value="0"/>
         <cost name="Warband Rating" typeId="wb-rating" value="5"/>
         <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
       </costs>
-    </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Night Goblin Warriors Test" hidden="false" id="eac3-9eca-505c-5d64">
       <entryLinks>
-        <entryLink import="true" name="Night Goblin Warrior" hidden="false" id="46e1-7aa2-c99e-534e" type="selectionEntry" targetId="0c7c-5c24-98d4-5a4d" sortIndex="3">
+        <entryLink name="Snotling" id="8331-aa91-a52b-6c18" collective="true" hidden="false" import="true" targetId="3484-1703-dd3e-52f6" type="selectionEntry">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4e96-e964-fa6f-2ca6-min"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4e96-e964-fa6f-2ca6-max"/>
+            <constraint id="f9a5-0daf-8361-76d4" field="selections" scope="parent" shared="true" type="max" value="5"/>
           </constraints>
-          <costs>
-            <cost name="Gold Crowns" typeId="points" value="0"/>
-            <cost name="Warband Rating" typeId="wb-rating" value="0"/>
-            <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="0"/>
-          </costs>
         </entryLink>
-        <entryLink import="true" name="Experience" hidden="false" id="1f4a-ce61-f5e7-9d72" type="selectionEntry" targetId="724c-5ced-65aa-6cfe" sortIndex="2">
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry name="Night Goblin Warriors Test" id="eac3-9eca-505c-5d64" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Henchmen" id="5906-92d1-55cb-81b8" hidden="false" primary="true" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Experience" id="1f4a-ce61-f5e7-9d72" hidden="false" import="true" sortIndex="2" targetId="724c-5ced-65aa-6cfe" type="selectionEntry">
           <modifiers>
-            <modifier type="increment" value="1" field="wb-rating">
+            <modifier field="wb-rating" type="increment" value="1">
               <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="f69c-642b-76af-c611" shared="true" roundUp="false" childName="Henchmen"/>
+                <repeat childId="f69c-642b-76af-c611" childName="Henchmen" field="selections" repeats="1" roundUp="false" scope="parent" shared="true" value="1"/>
               </repeats>
             </modifier>
           </modifiers>
         </entryLink>
+        <entryLink name="Henchmen Equipment List" id="82c2-8a33-e667-c4d3" hidden="false" import="true" sortIndex="3" targetId="9d91-dd71-9e38-e3ec" type="selectionEntryGroup"/>
       </entryLinks>
-      <categoryLinks>
-        <categoryLink name="Henchmen" hidden="false" id="5906-92d1-55cb-81b8" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
-      </categoryLinks>
+      <profiles>
+        <profile name="Night Goblin Warrior" id="1f73-26d5-bbc5-2214" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="2a0bcc4c-8266-418f-13d6-a6b44def5e92">4</characteristic>
+            <characteristic name="WS" typeId="d5aca8ba-0204-b324-b976-c2b536e09924">2</characteristic>
+            <characteristic name="BS" typeId="5b4d181b-23ae-5ed7-9262-c1d2f79246a8">3</characteristic>
+            <characteristic name="S" typeId="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">3</characteristic>
+            <characteristic name="T" typeId="54f4796b-dedb-c296-8b1a-ff7f8043293a">3</characteristic>
+            <characteristic name="W" typeId="3172c8dc-ebe4-0c40-72ab-8fd0076b9442">1</characteristic>
+            <characteristic name="I" typeId="a6fd52b0-be0a-655e-6314-87b392c9c90e">3</characteristic>
+            <characteristic name="A" typeId="bf393c37-9d10-fc85-c147-62b1c01a89fe">1</characteristic>
+            <characteristic name="LD" typeId="e234eaea-a02a-2fb7-3e1f-605392aabb89">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Henchmen" hidden="false" id="f69c-642b-76af-c611" sortIndex="1">
+        <selectionEntry name="Henchmen" id="f69c-642b-76af-c611" hidden="false" import="true" sortIndex="1" type="upgrade">
+          <constraints>
+            <constraint id="732e-fa49-148a-5ae9" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="de4a-2e7e-3bbf-0449" field="selections" scope="parent" shared="true" type="max" value="5"/>
+          </constraints>
           <costs>
             <cost name="Gold Crowns" typeId="points" value="15"/>
             <cost name="Warband Rating" typeId="wb-rating" value="5"/>
             <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
           </costs>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="732e-fa49-148a-5ae9"/>
-            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="de4a-2e7e-3bbf-0449"/>
-          </constraints>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
-  <catalogueLinks>
-    <catalogueLink type="catalogue" name="New Catalogue (link)" id="3a9e-545f-3fdd-52bf" targetId="e020-c282-277b-b173"/>
-  </catalogueLinks>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Hero Equipment List" id="33ef-718a-29db-760c" hidden="false" collapsible="true">
+    <selectionEntryGroup name="Hero Equipment List" id="33ef-718a-29db-760c" collapsible="true" hidden="false">
       <selectionEntryGroups>
         <selectionEntryGroup name="Hand-to-Hand Combat Weapons" id="b9c8-5165-588e-d8f0" hidden="false">
           <entryLinks>
-            <entryLink import="true" name="Dagger" hidden="false" id="490e-b1c8-6859-798c" type="selectionEntry" targetId="64e0-0bb6-542b-4beb"/>
-            <entryLink import="true" name="Club" hidden="false" id="6974-e0c7-2f3c-b1d0" type="selectionEntry" targetId="07fc-ee77-165f-5cde"/>
-            <entryLink import="true" name="Sword" hidden="false" id="fdb0-2777-85a2-05f9" type="selectionEntry" targetId="34fd-d6a3-50ee-ee06"/>
-            <entryLink import="true" name="Spear" hidden="false" id="e49f-586a-e12a-3546" type="selectionEntry" targetId="005e-e397-8108-f198"/>
-            <entryLink import="true" name="Halberd" hidden="false" id="b246-715a-779c-1b20" type="selectionEntry" targetId="3c52-9e92-25ec-1939"/>
-            <entryLink import="true" name="Double Handed Weapon" hidden="false" id="e887-98c3-c88e-3a48" type="selectionEntry" targetId="a0a1-b311-e3aa-6c3b"/>
-            <entryLink import="true" name="Boss Pole" hidden="false" id="37fe-c16e-7a23-861b" type="selectionEntry" targetId="9510-d071-4cce-6d20"/>
-            <entryLink import="true" name="Poison Daggers" hidden="false" id="1714-3697-41fb-75d5" type="selectionEntry" targetId="fcf8-f138-133e-1d6d"/>
-            <entryLink import="true" name="Free Dagger" hidden="false" id="a8e1-ece6-5ec5-d1b5" type="selectionEntry" targetId="0d0b-ed37-d8b0-4cbf"/>
+            <entryLink name="Dagger" id="490e-b1c8-6859-798c" hidden="false" import="true" targetId="64e0-0bb6-542b-4beb" type="selectionEntry"/>
+            <entryLink name="Club" id="6974-e0c7-2f3c-b1d0" hidden="false" import="true" targetId="07fc-ee77-165f-5cde" type="selectionEntry"/>
+            <entryLink name="Sword" id="fdb0-2777-85a2-05f9" hidden="false" import="true" targetId="34fd-d6a3-50ee-ee06" type="selectionEntry"/>
+            <entryLink name="Spear" id="e49f-586a-e12a-3546" hidden="false" import="true" targetId="005e-e397-8108-f198" type="selectionEntry"/>
+            <entryLink name="Halberd" id="b246-715a-779c-1b20" hidden="false" import="true" targetId="3c52-9e92-25ec-1939" type="selectionEntry"/>
+            <entryLink name="Double Handed Weapon" id="e887-98c3-c88e-3a48" hidden="false" import="true" targetId="a0a1-b311-e3aa-6c3b" type="selectionEntry"/>
+            <entryLink name="Boss Pole" id="37fe-c16e-7a23-861b" hidden="false" import="true" targetId="9510-d071-4cce-6d20" type="selectionEntry"/>
+            <entryLink name="Poison Daggers" id="1714-3697-41fb-75d5" hidden="false" import="true" targetId="fcf8-f138-133e-1d6d" type="selectionEntry"/>
+            <entryLink name="Free Dagger" id="a8e1-ece6-5ec5-d1b5" hidden="false" import="true" targetId="0d0b-ed37-d8b0-4cbf" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Missile Weapons" id="533d-4c13-a77a-6bce" hidden="false">
           <entryLinks>
-            <entryLink import="true" name="Short Bow" hidden="false" id="39fe-98ce-4ec4-0ffe" type="selectionEntry" targetId="3706-6421-53b4-940d"/>
-            <entryLink import="true" name="Sling" hidden="false" id="8b2f-4b10-54c3-ddb1" type="selectionEntry" targetId="87c7-49b5-f1e7-6662"/>
-            <entryLink import="true" name="Throwing Knives/Stars" hidden="false" id="053a-3f52-72ef-4a4b" type="selectionEntry" targetId="23f5-19c3-5a6c-a8fb"/>
+            <entryLink name="Short Bow" id="39fe-98ce-4ec4-0ffe" hidden="false" import="true" targetId="3706-6421-53b4-940d" type="selectionEntry"/>
+            <entryLink name="Sling" id="8b2f-4b10-54c3-ddb1" hidden="false" import="true" targetId="87c7-49b5-f1e7-6662" type="selectionEntry"/>
+            <entryLink name="Throwing Knives/Stars" id="053a-3f52-72ef-4a4b" hidden="false" import="true" targetId="23f5-19c3-5a6c-a8fb" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Armour" id="82f9-f499-d0e3-acee" hidden="false">
           <entryLinks>
-            <entryLink import="true" name="Shield" hidden="false" id="f4cd-0e43-5262-e7f6" type="selectionEntry" targetId="74fb-cc90-1361-df26"/>
-            <entryLink import="true" name="Helmet" hidden="false" id="77d7-d5a3-e247-b8a8" type="selectionEntry" targetId="d0e5-ca89-5f0d-f5d2"/>
-            <entryLink import="true" name="Light Armor" hidden="false" id="3699-27ab-fcea-488e" type="selectionEntry" targetId="3d2a-426a-c350-2a03"/>
+            <entryLink name="Shield" id="f4cd-0e43-5262-e7f6" hidden="false" import="true" targetId="74fb-cc90-1361-df26" type="selectionEntry"/>
+            <entryLink name="Helmet" id="77d7-d5a3-e247-b8a8" hidden="false" import="true" targetId="d0e5-ca89-5f0d-f5d2" type="selectionEntry"/>
+            <entryLink name="Light Armor" id="3699-27ab-fcea-488e" hidden="false" import="true" targetId="3d2a-426a-c350-2a03" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Miscellaneous" id="4b4c-4180-f45d-bd38" hidden="false">
           <entryLinks>
-            <entryLink import="true" name="Net" hidden="false" id="537d-1e0a-0608-e36a" type="selectionEntry" targetId="10cd-d2e1-7961-1ace"/>
-            <entryLink import="true" name="Squig Prodder" hidden="false" id="3dbd-5154-610f-567e" type="selectionEntry" targetId="5dcd-265b-9fef-751d"/>
-            <entryLink import="true" name="Mad Cap Mushrooms" hidden="false" id="6c8d-c38c-2a8a-d911" type="selectionEntry" targetId="edc4-3728-be2f-d50d">
+            <entryLink name="Net" id="537d-1e0a-0608-e36a" hidden="false" import="true" targetId="10cd-d2e1-7961-1ace" type="selectionEntry"/>
+            <entryLink name="Squig Prodder" id="3dbd-5154-610f-567e" hidden="false" import="true" targetId="5dcd-265b-9fef-751d" type="selectionEntry"/>
+            <entryLink name="Mad Cap Mushrooms" id="6c8d-c38c-2a8a-d911" hidden="false" import="true" targetId="edc4-3728-be2f-d50d" type="selectionEntry">
               <costs>
                 <cost name="Gold Crowns" typeId="points" value="15"/>
               </costs>
@@ -522,37 +541,37 @@ Take armor saves as normal.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Henchmen Equipment List" id="9d91-dd71-9e38-e3ec" hidden="false" collapsible="true">
+    <selectionEntryGroup name="Henchmen Equipment List" id="9d91-dd71-9e38-e3ec" collapsible="true" hidden="false">
       <selectionEntryGroups>
         <selectionEntryGroup name="Hand-to-Hand Combat Weapons" id="40c9-dd48-6223-c004" hidden="false">
           <entryLinks>
-            <entryLink import="true" name="Dagger" hidden="false" id="ab2e-2abc-7aeb-ca0d" type="selectionEntry" targetId="64e0-0bb6-542b-4beb"/>
-            <entryLink import="true" name="Club" hidden="false" id="cdf7-59dd-f5c4-ded4" type="selectionEntry" targetId="07fc-ee77-165f-5cde"/>
-            <entryLink import="true" name="Sword" hidden="false" id="4837-6faf-e589-d9d8" type="selectionEntry" targetId="34fd-d6a3-50ee-ee06"/>
-            <entryLink import="true" name="Spear" hidden="false" id="831d-300a-4063-a19f" type="selectionEntry" targetId="005e-e397-8108-f198">
+            <entryLink name="Dagger" id="ab2e-2abc-7aeb-ca0d" hidden="false" import="true" targetId="64e0-0bb6-542b-4beb" type="selectionEntry"/>
+            <entryLink name="Club" id="cdf7-59dd-f5c4-ded4" hidden="false" import="true" targetId="07fc-ee77-165f-5cde" type="selectionEntry"/>
+            <entryLink name="Sword" id="4837-6faf-e589-d9d8" hidden="false" import="true" targetId="34fd-d6a3-50ee-ee06" type="selectionEntry"/>
+            <entryLink name="Spear" id="831d-300a-4063-a19f" hidden="false" import="true" targetId="005e-e397-8108-f198" type="selectionEntry">
               <costs>
                 <cost name="Gold Crowns" typeId="points" value="5"/>
               </costs>
             </entryLink>
-            <entryLink import="true" name="Free Dagger" hidden="false" id="2886-15a1-3644-af43" type="selectionEntry" targetId="0d0b-ed37-d8b0-4cbf"/>
+            <entryLink name="Free Dagger" id="2886-15a1-3644-af43" hidden="false" import="true" targetId="0d0b-ed37-d8b0-4cbf" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Missile Weapons" id="cb0f-a22b-a1ce-3e49" hidden="false">
           <entryLinks>
-            <entryLink import="true" name="Short Bow" hidden="false" id="e33e-4a47-373f-7ac9" type="selectionEntry" targetId="3706-6421-53b4-940d"/>
+            <entryLink name="Short Bow" id="e33e-4a47-373f-7ac9" hidden="false" import="true" targetId="3706-6421-53b4-940d" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Armour" id="5757-e699-8130-5d49" hidden="false">
           <entryLinks>
-            <entryLink import="true" name="Shield" hidden="false" id="705d-a2fd-38fc-c26c" type="selectionEntry" targetId="74fb-cc90-1361-df26"/>
-            <entryLink import="true" name="Light Armor" hidden="false" id="1e2d-e595-acfd-ed32" type="selectionEntry" targetId="3d2a-426a-c350-2a03"/>
+            <entryLink name="Shield" id="705d-a2fd-38fc-c26c" hidden="false" import="true" targetId="74fb-cc90-1361-df26" type="selectionEntry"/>
+            <entryLink name="Light Armor" id="1e2d-e595-acfd-ed32" hidden="false" import="true" targetId="3d2a-426a-c350-2a03" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Miscellaneous" id="1fa1-d84f-f8bb-d1b5" hidden="false">
           <entryLinks>
-            <entryLink import="true" name="Net" hidden="false" id="0a62-f26c-e3f4-996c" type="selectionEntry" targetId="10cd-d2e1-7961-1ace"/>
-            <entryLink import="true" name="Squig Prodder" hidden="false" id="ddc8-6948-2582-55f9" type="selectionEntry" targetId="5dcd-265b-9fef-751d"/>
-            <entryLink import="true" name="Mad Cap Mushrooms" hidden="false" id="f9fd-63ae-6cc5-aede" type="selectionEntry" targetId="edc4-3728-be2f-d50d">
+            <entryLink name="Net" id="0a62-f26c-e3f4-996c" hidden="false" import="true" targetId="10cd-d2e1-7961-1ace" type="selectionEntry"/>
+            <entryLink name="Squig Prodder" id="ddc8-6948-2582-55f9" hidden="false" import="true" targetId="5dcd-265b-9fef-751d" type="selectionEntry"/>
+            <entryLink name="Mad Cap Mushrooms" id="f9fd-63ae-6cc5-aede" hidden="false" import="true" targetId="edc4-3728-be2f-d50d" type="selectionEntry">
               <costs>
                 <cost name="Gold Crowns" typeId="points" value="15"/>
               </costs>
@@ -561,18 +580,18 @@ Take armor saves as normal.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Fanatic Equipment List" id="182d-6571-6c68-f645" hidden="false" collapsible="true">
+    <selectionEntryGroup name="Fanatic Equipment List" id="182d-6571-6c68-f645" collapsible="true" hidden="false">
       <selectionEntryGroups>
         <selectionEntryGroup name="Hand-to-Hand Combat Weapons" id="ad0d-a813-ca4d-2191" hidden="false">
           <entryLinks>
-            <entryLink import="true" name="Double Handed Weapon" hidden="false" id="a978-351b-e62f-f17a" type="selectionEntry" targetId="a0a1-b311-e3aa-6c3b"/>
-            <entryLink import="true" name="Ball and Chain" hidden="false" id="9240-433c-c906-7537" type="selectionEntry" targetId="ae81-7b68-5718-38e1"/>
-            <entryLink import="true" name="Poison Daggers" hidden="false" id="0997-8211-42cc-0610" type="selectionEntry" targetId="fcf8-f138-133e-1d6d"/>
+            <entryLink name="Double Handed Weapon" id="a978-351b-e62f-f17a" hidden="false" import="true" targetId="a0a1-b311-e3aa-6c3b" type="selectionEntry"/>
+            <entryLink name="Ball and Chain" id="9240-433c-c906-7537" hidden="false" import="true" targetId="ae81-7b68-5718-38e1" type="selectionEntry"/>
+            <entryLink name="Poison Daggers" id="0997-8211-42cc-0610" hidden="false" import="true" targetId="fcf8-f138-133e-1d6d" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Miscellaneous" id="ad49-69d8-f2bf-a623" hidden="false">
           <entryLinks>
-            <entryLink import="true" name="Mad Cap Mushrooms" hidden="false" id="0ada-71c1-2175-c8dc" type="selectionEntry" targetId="edc4-3728-be2f-d50d">
+            <entryLink name="Mad Cap Mushrooms" id="0ada-71c1-2175-c8dc" hidden="false" import="true" targetId="edc4-3728-be2f-d50d" type="selectionEntry">
               <costs>
                 <cost name="Gold Crowns" typeId="points" value="15"/>
               </costs>
@@ -583,17 +602,4 @@ Take armor saves as normal.</description>
     </selectionEntryGroup>
     <selectionEntryGroup name="Special Skills" id="8fa3-7d96-9b73-093a" hidden="false"/>
   </sharedSelectionEntryGroups>
-  <entryLinks>
-    <entryLink import="true" name="Boss" hidden="false" id="93b6-25ef-cbd5-4b60" type="selectionEntry" targetId="1007-8550-ef2c-ea8f"/>
-    <entryLink import="true" name="Goon" hidden="false" id="9279-72de-a58f-e24d" type="selectionEntry" targetId="82dc-015b-1d97-1525"/>
-    <entryLink import="true" name="Shaman" hidden="false" id="d78b-5d43-c121-b329" type="selectionEntry" targetId="2dc0-7fac-36da-d74c"/>
-    <entryLink import="true" name="Squig Herder" hidden="false" id="cd09-dfe2-99d3-c847" type="selectionEntry" targetId="4d73-43b1-6a59-3fc8"/>
-    <entryLink import="true" name="Night Goblin Warriors" hidden="false" id="10ca-a03f-0dfc-df13" type="selectionEntry" targetId="c0b9-dd67-5092-7a54"/>
-    <entryLink import="true" name="Night Goblin Fanatics" hidden="false" id="7d34-c2cf-7897-86e2" type="selectionEntry" targetId="635e-6a45-0490-a729"/>
-    <entryLink import="true" name="Snotlings" hidden="false" id="3876-5285-a7b6-65ae" type="selectionEntry" targetId="905e-6322-5b92-0703"/>
-    <entryLink import="true" name="Cave Squigs" hidden="false" id="0707-d70a-e7bc-8070" type="selectionEntry" targetId="20e6-7796-3377-452a"/>
-    <entryLink import="true" name="Troll" hidden="false" id="f1a7-47ff-db6b-188c" type="selectionEntry" targetId="4038-4cc8-456f-8466"/>
-    <entryLink import="true" name="Great Squig" hidden="false" id="7aa4-c8eb-0832-abc8" type="selectionEntry" targetId="6059-315f-1e1a-0bea"/>
-    <entryLink import="true" name="Night Goblin Warriors Test" hidden="false" id="c7d9-f368-4982-27e5" type="selectionEntry" targetId="eac3-9eca-505c-5d64"/>
-  </entryLinks>
 </catalogue>

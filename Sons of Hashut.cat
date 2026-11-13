@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="cd0a-cc34-9315-94b7" name="Sons of Hashut" gameSystemId="9481a749-7900-614b-1695-bdc2899069c1" gameSystemRevision="15" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Sons of Hashut" id="cd0a-cc34-9315-94b7" battleScribeVersion="2.03" gameSystemId="9481a749-7900-614b-1695-bdc2899069c1" gameSystemRevision="15" library="false" revision="1" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink name="common-data" id="3cc3-e013-737f-b04f" targetId="e020-c282-277b-b173" type="catalogue"/>
+  </catalogueLinks>
   <rules>
     <rule name="Hard Head" id="99c6-f9b5-ef8e-6c4a" hidden="false">
       <description>Chaos Dwarfs ignore the special rules for maces, clubs, etc. They are not easy to knock out!</description>
@@ -50,55 +53,52 @@ They may never hire Elves of any sort!</description>
     <selectionEntryGroup name="Chaos Dwarf Equipment" id="488-a356-477f-481c" hidden="false">
       <selectionEntryGroups>
         <selectionEntryGroup name="Hand-to-hand Weapons" id="abd9-39a7-e635-8ac1" hidden="false" sortIndex="1">
+          <constraints>
+            <constraint id="7379-3082-1f27-431f" field="selections" scope="parent" shared="true" type="max" value="2"/>
+          </constraints>
           <entryLinks>
-            <entryLink import="true" name="Free Dagger" hidden="false" id="349-c02d-c6df-e7c1" type="selectionEntry" targetId="0d0b-ed37-d8b0-4cbf" sortIndex="1"/>
-            <entryLink import="true" name="Dagger" hidden="false" id="9029-a15f-d2a6-d66b" type="selectionEntry" targetId="64e0-0bb6-542b-4beb" sortIndex="2"/>
-            <entryLink import="true" name="Hammer, staff, mace or club" hidden="false" id="4384-728-3c61-9111" type="selectionEntry" targetId="cfcc-39fd-aeb4-876a" sortIndex="3">
+            <entryLink name="Free Dagger" id="349-c02d-c6df-e7c1" hidden="false" import="true" sortIndex="1" targetId="0d0b-ed37-d8b0-4cbf" type="selectionEntry"/>
+            <entryLink name="Dagger" id="9029-a15f-d2a6-d66b" hidden="false" import="true" sortIndex="2" targetId="64e0-0bb6-542b-4beb" type="selectionEntry"/>
+            <entryLink name="Hammer, staff, mace or club" id="4384-728-3c61-9111" hidden="false" import="true" sortIndex="3" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
               <modifiers>
-                <modifier type="set" value="Mace, Hammer" field="name"/>
+                <modifier field="name" type="set" value="Mace, Hammer"/>
               </modifiers>
             </entryLink>
-            <entryLink import="true" name="Sword" hidden="false" id="6c3-e4be-a3e0-207a" type="selectionEntry" targetId="34fd-d6a3-50ee-ee06" sortIndex="5"/>
-            <entryLink import="true" name="Double Handed Weapon" hidden="false" id="2dc8-bccd-9aa2-950e" type="selectionEntry" targetId="a0a1-b311-e3aa-6c3b" sortIndex="6"/>
-            <entryLink import="true" name="Axe" hidden="false" id="5fa4-31e2-9875-5a4f" type="selectionEntry" targetId="5d01-06b9-3a86-73c9" sortIndex="4">
+            <entryLink name="Sword" id="6c3-e4be-a3e0-207a" hidden="false" import="true" sortIndex="5" targetId="34fd-d6a3-50ee-ee06" type="selectionEntry"/>
+            <entryLink name="Double Handed Weapon" id="2dc8-bccd-9aa2-950e" hidden="false" import="true" sortIndex="6" targetId="a0a1-b311-e3aa-6c3b" type="selectionEntry"/>
+            <entryLink name="Axe" id="5fa4-31e2-9875-5a4f" hidden="false" import="true" sortIndex="4" targetId="5d01-06b9-3a86-73c9" type="selectionEntry">
               <modifiers>
-                <modifier type="set" value="Battleaxe" field="name"/>
+                <modifier field="name" type="set" value="Battleaxe"/>
               </modifiers>
             </entryLink>
           </entryLinks>
-          <constraints>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7379-3082-1f27-431f"/>
-          </constraints>
           <modifiers>
-            <modifier type="set" value="3" field="7379-3082-1f27-431f">
+            <modifier field="7379-3082-1f27-431f" type="set" value="3">
               <conditions>
-                <condition type="equalTo" value="1" field="selections" scope="parent" childId="0d0b-ed37-d8b0-4cbf" shared="true"/>
+                <condition childId="0d0b-ed37-d8b0-4cbf" field="selections" scope="parent" shared="true" type="equalTo" value="1"/>
               </conditions>
             </modifier>
           </modifiers>
         </selectionEntryGroup>
         <selectionEntryGroup name="Armor" id="bbcb-d564-98ad-275a" hidden="false" sortIndex="3">
           <entryLinks>
-            <entryLink import="true" name="Light Armor" hidden="false" id="9340-9298-1d98-6048" type="selectionEntry" targetId="3d2a-426a-c350-2a03" sortIndex="1"/>
-            <entryLink import="true" name="Shield" hidden="false" id="d012-6a1d-5454-c311" type="selectionEntry" targetId="74fb-cc90-1361-df26" sortIndex="3"/>
-            <entryLink import="true" name="Heavy Armor" hidden="false" id="2f9f-3bfd-3e5d-21ea" type="selectionEntry" targetId="4e34-bbc5-c7ef-6bd6" sortIndex="2"/>
-            <entryLink import="true" name="Buckler" hidden="false" id="ee33-b000-31b-815a" type="selectionEntry" targetId="0871-44c2-f0f0-c27a" sortIndex="4"/>
-            <entryLink import="true" name="Helmet" hidden="false" id="cdb-ae88-168f-d574" type="selectionEntry" targetId="d0e5-ca89-5f0d-f5d2" sortIndex="5"/>
+            <entryLink name="Light Armor" id="9340-9298-1d98-6048" hidden="false" import="true" sortIndex="1" targetId="3d2a-426a-c350-2a03" type="selectionEntry"/>
+            <entryLink name="Shield" id="d012-6a1d-5454-c311" hidden="false" import="true" sortIndex="3" targetId="74fb-cc90-1361-df26" type="selectionEntry"/>
+            <entryLink name="Heavy Armor" id="2f9f-3bfd-3e5d-21ea" hidden="false" import="true" sortIndex="2" targetId="4e34-bbc5-c7ef-6bd6" type="selectionEntry"/>
+            <entryLink name="Buckler" id="ee33-b000-31b-815a" hidden="false" import="true" sortIndex="4" targetId="0871-44c2-f0f0-c27a" type="selectionEntry"/>
+            <entryLink name="Helmet" id="cdb-ae88-168f-d574" hidden="false" import="true" sortIndex="5" targetId="d0e5-ca89-5f0d-f5d2" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Missile weapons" id="e2a2-666a-ee21-9352" hidden="false" sortIndex="2">
-          <entryLinks>
-            <entryLink import="true" name="Bow" hidden="false" id="277f-9360-be67-b1f3" type="selectionEntry" targetId="311a-bf3f-67ff-46e7" sortIndex="2"/>
-            <entryLink import="true" name="Shortbow" hidden="false" id="748a-f615-8f80-a7a0" type="selectionEntry" targetId="3706-6421-53b4-940d" sortIndex="1"/>
-          </entryLinks>
           <constraints>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="c5af-6eb5-7989-2a9c"/>
+            <constraint id="c5af-6eb5-7989-2a9c" field="selections" scope="parent" shared="true" type="max" value="2"/>
           </constraints>
+          <entryLinks>
+            <entryLink name="Bow" id="277f-9360-be67-b1f3" hidden="false" import="true" sortIndex="2" targetId="311a-bf3f-67ff-46e7" type="selectionEntry"/>
+            <entryLink name="Shortbow" id="748a-f615-8f80-a7a0" hidden="false" import="true" sortIndex="1" targetId="3706-6421-53b4-940d" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
-  <catalogueLinks>
-    <catalogueLink type="catalogue" name="common-data" id="3cc3-e013-737f-b04f" targetId="e020-c282-277b-b173"/>
-  </catalogueLinks>
 </catalogue>
