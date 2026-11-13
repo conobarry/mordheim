@@ -3646,7 +3646,7 @@ Additionally, only 1 attack is allowed, no matter the number on the wielder’s 
         <cost name="Warband Rating" typeId="wb-rating" value="1"/>
       </costs>
     </selectionEntry>
-    <selectionEntry name="Wizard" id="1f32-e374-77aa-206a" exportable="false" hidden="true" import="true" type="upgrade">
+    <selectionEntry name="Wizard" id="1f32-e374-77aa-206a" exportable="false" hidden="false" import="true" type="upgrade">
       <profiles>
         <profile name="Wizard" id="c931-c7f4-2aab-d965" hidden="false" typeId="aa94-5d6e-9b87-dda7" typeName="Special Rules">
           <characteristics>
@@ -3657,7 +3657,7 @@ Additionally, only 1 attack is allowed, no matter the number on the wielder’s 
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Academic Skills" id="df9d-8724-d362-9d7c" collective="false" hidden="false" import="true">
+    <selectionEntryGroup name="Academic Skills" id="df9d-8724-d362-9d7c" collapsible="true" collective="false" hidden="false" import="true">
       <constraints>
         <constraint id="6c69-fc2a-5033-ebcf" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="0"/>
       </constraints>
@@ -3926,7 +3926,7 @@ This counts as an academic skill.</description>
         <entryLink name="+1 WS" id="1d4b-f425-6e4c-b130" collective="false" hidden="false" import="true" targetId="7418-394e-fe13-2a96" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Combat Skills" id="ee2c-89e3-489b-d0cb" collective="false" hidden="false" import="true">
+    <selectionEntryGroup name="Combat Skills" id="ee2c-89e3-489b-d0cb" collapsible="true" collective="false" hidden="false" import="true">
       <constraints>
         <constraint id="b43e-f5a8-b370-a340" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="0"/>
       </constraints>
@@ -4138,7 +4138,7 @@ with a bow or crossbow (but not a crossbow pistol).</description>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Speed Skills" id="e134-0fdf-67a2-4684" collective="false" hidden="false" import="true">
+    <selectionEntryGroup name="Speed Skills" id="e134-0fdf-67a2-4684" collapsible="true" hidden="false" import="true">
       <constraints>
         <constraint id="2ef7-5338-d8ef-cad0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="0"/>
       </constraints>
@@ -4246,7 +4246,7 @@ charging), the order of attack between the charger(s) and the warrior with this 
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Strength Skills" id="e5ac-cd5b-9057-e096" collective="false" hidden="false" import="true">
+    <selectionEntryGroup name="Strength Skills" id="e5ac-cd5b-9057-e096" collapsible="true" collective="false" hidden="false" import="true">
       <constraints>
         <constraint id="eb1d-d235-c34f-c0c4" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="0"/>
       </constraints>

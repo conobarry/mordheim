@@ -599,7 +599,7 @@ Take armor saves as normal.</description>
           </constraints>
         </entryLink>
         <entryLink name="Goblin Magic" id="58d7-8eaf-d857-9936" hidden="false" import="true" sortIndex="4" targetId="73fe-ed12-2804-6835" type="selectionEntryGroup"/>
-        <entryLink name="Wizard" id="b9e5-b103-ff6e-e882" exportable="false" hidden="true" import="true" targetId="1f32-e374-77aa-206a" type="selectionEntry">
+        <entryLink name="Wizard" id="b9e5-b103-ff6e-e882" exportable="false" hidden="false" import="true" targetId="1f32-e374-77aa-206a" type="selectionEntry">
           <constraints>
             <constraint id="1523-294f-10ee-d04d-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
             <constraint id="1523-294f-10ee-d04d-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
@@ -1544,7 +1544,7 @@ Because of the special attention (kicks, prods) the herder gives the Trained Squ
       <modifiers>
         <modifier field="b0cb-a5bc-5870-d48d" type="increment" value="1">
           <repeats>
-            <repeat childId="7508-bde2-ada3-6cbd" childName="New Skill" field="selections" includeChildSelections="true" repeats="1" roundUp="false" scope="parent" shared="true" value="1"/>
+            <repeat childId="310a-7648-3202-8fc1" childName="New Spell" field="selections" includeChildSelections="true" repeats="1" roundUp="false" scope="parent" shared="true" value="1"/>
           </repeats>
         </modifier>
       </modifiers>
