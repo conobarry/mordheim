@@ -1638,7 +1638,7 @@ Because of the special attention (kicks, prods) the herder gives the Trained Squ
             <conditionGroup type="and">
               <conditions>
                 <condition childId="d769-0d85-e810-df60" childName="Experience" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="2"/>
-                <condition childId="any" field="e014-8910-0a32-ebf4" includeChildSelections="true" scope="model-or-unit" shared="true" type="lessThan" value="2"/>
+                <condition childId="any" field="e014-8910-0a32-ebf4" includeChildSelections="true" scope="model-or-unit-self" shared="true" type="lessThan" value="2"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1648,7 +1648,7 @@ Because of the special attention (kicks, prods) the herder gives the Trained Squ
             <conditionGroup type="and">
               <conditions>
                 <condition childId="d769-0d85-e810-df60" childName="Experience" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="4"/>
-                <condition childId="any" field="e014-8910-0a32-ebf4" includeChildSelections="true" scope="model-or-unit" shared="true" type="lessThan" value="4"/>
+                <condition childId="any" field="e014-8910-0a32-ebf4" includeChildSelections="true" scope="model-or-unit-self" shared="true" type="lessThan" value="4"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1658,7 +1658,7 @@ Because of the special attention (kicks, prods) the herder gives the Trained Squ
             <conditionGroup type="and">
               <conditions>
                 <condition childId="d769-0d85-e810-df60" childName="Experience" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="6"/>
-                <condition childId="any" field="e014-8910-0a32-ebf4" includeChildSelections="true" scope="model-or-unit" shared="true" type="lessThan" value="6"/>
+                <condition childId="any" field="e014-8910-0a32-ebf4" includeChildSelections="true" scope="model-or-unit-self" shared="true" type="lessThan" value="6"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1669,8 +1669,7 @@ Because of the special attention (kicks, prods) the herder gives the Trained Squ
           <selectionEntryGroups>
             <selectionEntryGroup name="Advancement Options" id="6216-7460-e737-9778" collapsible="true" hidden="false">
               <constraints>
-                <constraint id="ab9c-f022-b8b1-97b1-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
-                <constraint id="ab9c-f022-b8b1-97b1-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="ab9c-f022-b8b1-97b1" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry name="Characteristic Increase" id="85b8-aca1-937b-2dc1" hidden="false" import="true" type="upgrade">
