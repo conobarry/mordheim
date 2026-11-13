@@ -1618,8 +1618,8 @@ Re-roll all results of ‘The lad’s got talent’ for them.</description>
         <cost name="Warband Rating" id="bb83-4fab-95a9-41d" hidden="false" typeId="wb-rating" value="0"/>
       </costs>
       <entryLinks>
-        <entryLink name="Gold" id="9d9c-16a7-2ea6-8c6" collective="false" hidden="false" import="true" targetId="deca-5737-6234-23a1" type="selectionEntry"/>
-        <entryLink name="Wyrdstone" id="5280-8994-f8d6-5bb2" collective="false" hidden="false" import="true" targetId="60f8-e6e7-c2ea-0dad" type="selectionEntry"/>
+        <entryLink name="Gold Crowns" id="9d9c-16a7-2ea6-8c6" collective="false" hidden="false" import="true" targetId="deca-5737-6234-23a1" type="selectionEntry"/>
+        <entryLink name="Wyrdstone Shards" id="5280-8994-f8d6-5bb2" collective="false" hidden="false" import="true" targetId="60f8-e6e7-c2ea-0dad" type="selectionEntry"/>
         <entryLink name="Equipment" id="3bbd-8884-567-7413" collective="false" hidden="false" import="true" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
@@ -1772,9 +1772,9 @@ Captives     Hashut’s Reward
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
       <profiles>
-        <profile name="Mechanical suit" id="5a69-81b-a174-c668" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+        <profile name="Mechanical suit" id="5a69-81b-a174-c668" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armour">
           <characteristics>
-            <characteristic name="Armor Save" id="2093-ed77-2d2d-605b" hidden="false" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">4+</characteristic>
+            <characteristic name="Armour Save" id="2093-ed77-2d2d-605b" hidden="false" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">4+</characteristic>
             <characteristic name="Special" id="ddee-5cb6-a64-6ccd" hidden="false" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f"/>
           </characteristics>
         </profile>
@@ -1809,7 +1809,7 @@ It can never be removed.</description>
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
       <profiles>
-        <profile name="Steel Whip" id="156-d991-36ec-b151" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Steel Whip" id="156-d991-36ec-b151" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" id="a36-6ddd-671e-e4b1" hidden="false" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">As User</characteristic>
             <characteristic name="Special" id="8807-a332-6570-1c06" hidden="false" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Cannot be Parried, Whipcrack</characteristic>
@@ -1847,7 +1847,7 @@ If the wielder is using two whips at the same time then they get +1A for the add
         <infoLink name="Two Handed" id="b532-a44d-4556-4ad2" hidden="false" targetId="2fb3-525b-86c3-2cd6" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Man-catcher" id="fe-3c96-fc20-dfd7" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Man-catcher" id="fe-3c96-fc20-dfd7" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" id="b955-3179-634b-1bb5" hidden="false" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">As User</characteristic>
             <characteristic name="Special" id="f27b-e94c-8737-15a9" hidden="false" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Capture, Two Handed</characteristic>
@@ -1879,7 +1879,7 @@ Large models, such as Ogres, Trolls and Minotaurs, cannot be captured this way
           <entryLinks>
             <entryLink name="Dagger" id="996e-24a4-38db-696f" collective="false" hidden="false" import="true" sortIndex="2" targetId="64e0-0bb6-542b-4beb" type="selectionEntry"/>
             <entryLink name="Free Dagger" id="3b01-fcf0-cfa6-f06d" collective="false" hidden="false" import="true" sortIndex="1" targetId="0d0b-ed37-d8b0-4cbf" type="selectionEntry"/>
-            <entryLink name="Hammer, staff, mace or club" id="8379-c2b7-8521-8378" collective="false" hidden="false" import="true" sortIndex="3" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
+            <entryLink name="Hammer" id="8379-c2b7-8521-8378" collective="false" hidden="false" import="true" sortIndex="3" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
               <modifiers>
                 <modifier field="name" type="set" value="Hammer, Mace"/>
               </modifiers>
@@ -1965,7 +1965,7 @@ Large models, such as Ogres, Trolls and Minotaurs, cannot be captured this way
           <entryLinks>
             <entryLink name="Dagger" id="d5ca-8cb0-7fff-18ea" collective="false" hidden="false" import="true" sortIndex="2" targetId="64e0-0bb6-542b-4beb" type="selectionEntry"/>
             <entryLink name="Free Dagger" id="700e-e816-3bc6-4b4f" collective="false" hidden="false" import="true" sortIndex="1" targetId="0d0b-ed37-d8b0-4cbf" type="selectionEntry"/>
-            <entryLink name="Hammer, staff, mace or club" id="fa84-d20f-4d19-b7c8" collective="false" hidden="false" import="true" sortIndex="3" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
+            <entryLink name="Hammer" id="fa84-d20f-4d19-b7c8" collective="false" hidden="false" import="true" sortIndex="3" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
               <modifiers>
                 <modifier field="name" type="set" value="Mace"/>
               </modifiers>

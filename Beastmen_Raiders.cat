@@ -1288,8 +1288,8 @@ If an Ungor rolls ‘That lad’s got talent’ it must be re-rolled.</descripti
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
       <entryLinks>
-        <entryLink name="Gold" id="16b7-704b-249a-4199" collective="false" hidden="false" import="true" targetId="deca-5737-6234-23a1" type="selectionEntry"/>
-        <entryLink name="Wyrdstone" id="e743-b303-078d-580e" collective="false" hidden="false" import="true" targetId="60f8-e6e7-c2ea-0dad" type="selectionEntry"/>
+        <entryLink name="Gold Crowns" id="16b7-704b-249a-4199" collective="false" hidden="false" import="true" targetId="deca-5737-6234-23a1" type="selectionEntry"/>
+        <entryLink name="Wyrdstone Shards" id="e743-b303-078d-580e" collective="false" hidden="false" import="true" targetId="60f8-e6e7-c2ea-0dad" type="selectionEntry"/>
         <entryLink name="Equipment" id="04c3-6648-7241-e5c1" collective="false" hidden="false" import="true" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
@@ -1306,9 +1306,9 @@ If an Ungor rolls ‘That lad’s got talent’ it must be re-rolled.</descripti
             <cost name="Warband Rating" typeId="wb-rating" value="0"/>
           </costs>
           <profiles>
-            <profile name="Shaggy Hide" id="61d7-1538-a916-51a8" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+            <profile name="Shaggy Hide" id="61d7-1538-a916-51a8" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armour">
               <characteristics>
-                <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">6+</characteristic>
+                <characteristic name="Armour Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">6+</characteristic>
                 <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">The Beastman’s massively shaggy hide acts as armor, deflecting sword strokes and protecting him from harm. The model gains a 6+ Armor Save that can be combined with other armor as normal</characteristic>
               </characteristics>
             </profile>
@@ -1416,7 +1416,7 @@ See Mutants section on special rules.</description>
       <entryLinks>
         <entryLink name="Free Dagger" id="2d53-e865-11e5-9a71" collective="false" hidden="false" import="true" targetId="0d0b-ed37-d8b0-4cbf" type="selectionEntry"/>
         <entryLink name="Dagger" id="1dbd-fee6-5b46-c89e" collective="false" hidden="false" import="true" targetId="64e0-0bb6-542b-4beb" type="selectionEntry"/>
-        <entryLink name="Hammer, staff, mace or club" id="1dca-7399-f47d-11f9" collective="false" hidden="false" import="true" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
+        <entryLink name="Hammer" id="1dca-7399-f47d-11f9" collective="false" hidden="false" import="true" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
           <modifiers>
             <modifier field="name" type="set" value="Mace, Hammer"/>
           </modifiers>
@@ -1475,7 +1475,7 @@ See Mutants section on special rules.</description>
       <entryLinks>
         <entryLink name="Free Dagger" id="225b-551c-cb1d-ced5" collective="false" hidden="false" import="true" targetId="0d0b-ed37-d8b0-4cbf" type="selectionEntry"/>
         <entryLink name="Dagger" id="08d8-82d7-c91e-6a65" collective="false" hidden="false" import="true" targetId="64e0-0bb6-542b-4beb" type="selectionEntry"/>
-        <entryLink name="Hammer, staff, mace or club" id="4444-2e7b-e9b0-499e" collective="false" hidden="false" import="true" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
+        <entryLink name="Hammer" id="4444-2e7b-e9b0-499e" collective="false" hidden="false" import="true" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
           <modifiers>
             <modifier field="name" type="set" value="Mace, Hammer"/>
           </modifiers>

@@ -36,7 +36,7 @@ Their abilities vary from undeveloped to talented, but they are always very well
     <selectionEntry name="Senior Gunnery Officer" id="9f1a-92b8-d83a-9ee4" collective="false" hidden="false" import="true" page="5" publicationId="79c4-b7d0-8643-3ab1" type="model">
       <comment>Each warband must start with a single Senior Gunnery Officer, no more, no less.</comment>
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="4cd9-d837-96d9-93c9" hidden="false" primary="true" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94"/>
+        <categoryLink name="Heroes" id="4cd9-d837-96d9-93c9" hidden="false" primary="true" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94"/>
       </categoryLinks>
       <constraints>
         <constraint id="f45e-1da4-ca9f-68b4" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="false" type="min" value="1"/>
@@ -359,7 +359,7 @@ with a bow or crossbow (but not a crossbow pistol).</description>
     <selectionEntry name="Instructor" id="0346-ca28-2660-5f62" collective="false" hidden="false" import="true" page="5" publicationId="79c4-b7d0-8643-3ab1" type="model">
       <comment>Each warband must start with a single Senior Gunnery Officer, no more, no less.</comment>
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="ecd5-5f53-3a21-943b" hidden="false" primary="true" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94"/>
+        <categoryLink name="Heroes" id="ecd5-5f53-3a21-943b" hidden="false" primary="true" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94"/>
       </categoryLinks>
       <constraints>
         <constraint id="2edc-99a0-7720-11f8" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="false" type="max" value="1"/>
@@ -550,7 +550,7 @@ While there is an Instructor in the warband all Pistol weapons receive a +3” r
     </selectionEntry>
     <selectionEntry name="Senior Student" id="15f3-d871-3bef-07c0" collective="false" hidden="false" import="true" page="5" publicationId="79c4-b7d0-8643-3ab1" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="94ac-b5bd-324d-a425" hidden="false" primary="true" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94"/>
+        <categoryLink name="Heroes" id="94ac-b5bd-324d-a425" hidden="false" primary="true" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94"/>
       </categoryLinks>
       <constraints>
         <constraint id="e41b-36ca-53d7-343a" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="false" type="max" value="1"/>
@@ -736,7 +736,7 @@ While there is an Instructor in the warband all Pistol weapons receive a +3” r
     </selectionEntry>
     <selectionEntry name="Underclassmen" id="a6dd-10cf-6557-19c3" collective="false" hidden="false" import="true" page="5" publicationId="79c4-b7d0-8643-3ab1" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="a56f-23a5-cf4e-8e6c" hidden="false" primary="true" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94"/>
+        <categoryLink name="Heroes" id="a56f-23a5-cf4e-8e6c" hidden="false" primary="true" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94"/>
       </categoryLinks>
       <constraints>
         <constraint id="2008-40b7-93a6-54a9" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="false" type="max" value="2"/>
@@ -1096,7 +1096,7 @@ While there is an Instructor in the warband all Pistol weapons receive a +3” r
     </selectionEntry>
     <selectionEntry name="Marksmen" id="a502-ac53-7795-1e08" collective="false" hidden="false" import="true" page="6" publicationId="79c4-b7d0-8643-3ab1" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="6034-b5d6-c3e9-a020" hidden="false" primary="true" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8"/>
+        <categoryLink name="Henchmen" id="6034-b5d6-c3e9-a020" hidden="false" primary="true" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8"/>
       </categoryLinks>
       <constraints>
         <constraint id="aa90-8223-5f1d-58ed" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="false" type="max" value="7"/>
@@ -1285,7 +1285,7 @@ A Marksman who becomes a Hero gains no further effect from taking the Hunter ski
     </selectionEntry>
     <selectionEntry name="Pistoliers" id="e8d5-5918-c900-382b" collective="false" hidden="false" import="true" page="6" publicationId="79c4-b7d0-8643-3ab1" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="4ece-5e7c-60f3-b634" hidden="false" primary="true" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8"/>
+        <categoryLink name="Henchmen" id="4ece-5e7c-60f3-b634" hidden="false" primary="true" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8"/>
       </categoryLinks>
       <constraints>
         <constraint id="0425-fe36-38bf-3a3c" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="false" type="max" value="5"/>
@@ -1473,7 +1473,7 @@ When using pistols in close combat, they may re-roll any missed to-hit rolls wit
     </selectionEntry>
     <selectionEntry name="Stash" id="886a-790c-0bd1-bec9" collective="false" hidden="false" import="true" type="upgrade">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="764b-b45e-0d5c-3efc" hidden="false" primary="true" targetId="a31acb39-8ce9-d6d7-bcc9-f3144d63db48"/>
+        <categoryLink name="Stash" id="764b-b45e-0d5c-3efc" hidden="false" primary="true" targetId="a31acb39-8ce9-d6d7-bcc9-f3144d63db48"/>
       </categoryLinks>
       <constraints>
         <constraint id="e66f-2409-ce39-45d6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="roster" shared="true" type="min" value="1"/>
@@ -1501,20 +1501,20 @@ When using pistols in close combat, they may re-roll any missed to-hit rolls wit
     </selectionEntry>
   </selectionEntries>
   <sharedProfiles>
-    <profile name="Dagger" id="f948-0505-5ef5-81d3" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+    <profile name="Dagger" id="f948-0505-5ef5-81d3" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
       <characteristics>
         <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">As User</characteristic>
         <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">+1 Enemy armour save: Daggers are not the best weapons to use for penetrating an enemy model’s armour.
 An enemy wounded by a dagger gains a +1 bonus to his armour save, and a 6+ armour save if he has none normally.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Axe" id="ace6-4ac0-ca3e-f77e" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+    <profile name="Axe" id="ace6-4ac0-ca3e-f77e" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
       <characteristics>
         <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">As User</characteristic>
         <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">An axe has an extra save modifier of -1, so a model with Strength 4 using an axe has a -2 save modifier when he hits an opponent in hand-to-hand combat.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Double-handed weapon" id="3c1a-4adb-d28e-b7d2" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+    <profile name="Double-handed weapon" id="3c1a-4adb-d28e-b7d2" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
       <characteristics>
         <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">As user +2</characteristic>
         <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Two-handed: A model armed with a double-handed weapon may not use a shield, buckler or additional weapon in close
@@ -1524,14 +1524,14 @@ If the model is equipped with a shield he will still get a +1 bonus to his armou
 Strike last: Double-handed weapons are so heavy that the model using them always strikes last, even when charging.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Mace/Hammer" id="fd4f-b453-e210-c247" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+    <profile name="Mace/Hammer" id="fd4f-b453-e210-c247" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
       <characteristics>
         <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">As User</characteristic>
         <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Concussion: Hammers and other bludgeoning weapons are excellent to use for striking your enemy senseless.
 When using a hammer, club or mace, a roll of 2-4 is treated as stunned when rolling to see the extent of a model’s injuries.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Sword" id="9f77-01f8-bf58-2a35" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+    <profile name="Sword" id="9f77-01f8-bf58-2a35" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
       <characteristics>
         <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">As User</characteristic>
         <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Parry: 
@@ -1542,14 +1542,14 @@ A model may not parry attacks made with double or more its own Strength – they
 too powerful to be stopped.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Halberd" id="a953-2dab-1166-dbd1" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+    <profile name="Halberd" id="a953-2dab-1166-dbd1" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
       <characteristics>
         <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">As user +1</characteristic>
         <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Two-handed: A model armed with a halberd may not use a shield, buckler or additional weapon in close combat.
 If the model has a shield he still gets a +1 bonus to his armour save against shooting.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Morning star" id="8b78-0262-766e-3553" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+    <profile name="Morning star" id="8b78-0262-766e-3553" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
       <characteristics>
         <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">As user +1</characteristic>
         <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Heavy: The morning star is extremely tiring to use, so its +1 Strength bonus applies only in the first turn of each hand-to-hand combat.
@@ -1558,7 +1558,7 @@ Difficult to use: A model with a morning star may not use a second weapon or buc
 He may carry a shield as normal though.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Spear" id="74f4-9888-73a7-6a24" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+    <profile name="Spear" id="74f4-9888-73a7-6a24" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
       <characteristics>
         <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">As user</characteristic>
         <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Strike first: A warrior with a spear strikes first in the first turn of hand-to-hand combat.
@@ -1570,7 +1570,7 @@ Cavalry bonus: If using the rules for mounted models, a mounted warrior armed wi
 This bonus only applies for that turn.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Duelling Pistols" id="1047-f381-53ae-1453" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+    <profile name="Duelling Pistols" id="1047-f381-53ae-1453" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
       <characteristics>
         <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">10</characteristic>
         <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
@@ -1590,7 +1590,7 @@ These attacks are resolved with a model’s Weapon Skill like any normal close c
 Successful hits are resolved at Strength 4 and with a -2 save modifier, regardless of the firer’s Strength.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Double Barrelled Pistols" id="80a3-4357-11fb-cc65" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+    <profile name="Double Barrelled Pistols" id="80a3-4357-11fb-cc65" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
       <characteristics>
         <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">6</characteristic>
         <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
@@ -1622,7 +1622,7 @@ colours (one for each pistol in the brace).
 Remove one token of each colour every turn.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Handgun" id="42ad-83d3-2ff8-19c3" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+    <profile name="Handgun" id="42ad-83d3-2ff8-19c3" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
       <characteristics>
         <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">24</characteristic>
         <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
@@ -1633,7 +1633,7 @@ Move or fire: You may not move and fire a handgun in the same turn, other than t
 Save Modifier. Handguns are even better at penetrating armour than their Strength 4 suggests. A warrior wounded by a handgun must take its armour save with a -2 modifier.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Double Barrelled Duelling Pistols" id="5155-1a5c-674c-a729" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+    <profile name="Double Barrelled Duelling Pistols" id="5155-1a5c-674c-a729" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
       <characteristics>
         <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">9</characteristic>
         <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
@@ -1668,7 +1668,7 @@ colours (one for each pistol in the brace).
 Remove one token of each colour every turn.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Double Barrelled Handgun" id="eee6-114b-dc5f-2c65" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+    <profile name="Double Barrelled Handgun" id="eee6-114b-dc5f-2c65" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
       <characteristics>
         <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">24</characteristic>
         <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
@@ -1691,7 +1691,7 @@ Reloading: After firing both barrels, place 2 tokens on the model. In your next 
 Token removal should be the last thing done in your shooting phase and you cannot shoot in the same phase as your reload.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Pistols" id="dd34-e1fd-759d-f21a" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+    <profile name="Pistols" id="dd34-e1fd-759d-f21a" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
       <characteristics>
         <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">6</characteristic>
         <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
@@ -1708,42 +1708,42 @@ These attacks are resolved with a model’s Weapon Skill like any normal close c
 Successful hits are resolved at Strength 4 and with a -2 save modifier, regardless of the firer’s Strength.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Buckler" id="aecb-d8b6-4879-5ec1" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+    <profile name="Buckler" id="aecb-d8b6-4879-5ec1" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armour">
       <characteristics>
-        <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b"/>
+        <characteristic name="Armour Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b"/>
         <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">Parry: A model equipped with a buckler may parry the first blow in each round of hand-to-hand combat.
 When his opponent scores a hit, a model with a buckler may roll 1D6.
 If the score is greater than the highest to hit score of his opponent, the model has parried the blow, and that attack is discarded.
 A model may not parry attacks made with double or more its own Strength – they are simply too powerful to be stopped.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Heavy armour" id="4cf1-db4c-5e3c-b43a" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+    <profile name="Heavy armour" id="4cf1-db4c-5e3c-b43a" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armour">
       <characteristics>
-        <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">5+</characteristic>
+        <characteristic name="Armour Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">5+</characteristic>
         <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">Movement: A warrior that is armed with both heavy armour and a shield suffers a -1 Movement penalty.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Helmet" id="9800-c88c-2d5b-fd3f" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+    <profile name="Helmet" id="9800-c88c-2d5b-fd3f" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armour">
       <characteristics>
-        <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b"/>
+        <characteristic name="Armour Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b"/>
         <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">Avoid stun: A model that is equipped with a helmet has a special 4+ save on a D6 against being stunned.
 If the save is made, treat the stunned result as knocked down instead.
 This save is not modified by the opponent’s Strength.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Light armour" id="3f6f-ff98-a2f4-9d68" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+    <profile name="Light armour" id="3f6f-ff98-a2f4-9d68" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armour">
       <characteristics>
-        <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">6+</characteristic>
+        <characteristic name="Armour Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">6+</characteristic>
         <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f"/>
       </characteristics>
     </profile>
-    <profile name="Shield" id="625d-ad1e-d45b-59a4" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+    <profile name="Shield" id="625d-ad1e-d45b-59a4" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armour">
       <characteristics>
-        <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">6+</characteristic>
+        <characteristic name="Armour Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">6+</characteristic>
         <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f"/>
       </characteristics>
     </profile>
-    <profile name="Blunderbuss" id="5138-6937-7c3b-10d2" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+    <profile name="Blunderbuss" id="5138-6937-7c3b-10d2" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
       <characteristics>
         <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">Special (16)</characteristic>
         <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">3</characteristic>
@@ -1753,7 +1753,7 @@ Any and all models in its path are automatically hit by a Strength 3 hit.
 Fire Once: It takes a very long time to load a blunderbuss so it may only be fired it once per battle.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Hand-Held Mortar" id="0c50-1598-0a0b-9404" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+    <profile name="Hand-Held Mortar" id="0c50-1598-0a0b-9404" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
       <characteristics>
         <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">24</characteristic>
         <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
@@ -1772,7 +1772,7 @@ Explosive Radius: After determining the final landing spot, the explosion create
 The target and any models within 1 ½” of him each take a single S4 hit from the blast.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Hochland long rifle" id="cd85-619a-cff5-ba7d" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+    <profile name="Hochland long rifle" id="cd85-619a-cff5-ba7d" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
       <characteristics>
         <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">48</characteristic>
         <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
@@ -1785,7 +1785,7 @@ Pick target: A model armed with a Hochland long rifle can target any enemy model
 Save modifier: Hochland long rifles are even better at penetrating armour than their Strength 4 suggests. A warrior wounded by a long rifle must make his armour save with a -2 modifier.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Hersten-Wenkler Pigeon Bombs" id="bc5d-3bd5-32df-0321" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+    <profile name="Hersten-Wenkler Pigeon Bombs" id="bc5d-3bd5-32df-0321" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
       <characteristics>
         <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">Unlimited</characteristic>
         <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
@@ -1799,7 +1799,7 @@ Tempermental: When launching a pigeon bomb, do not use the BS of the warrior. In
 Pigeon Roost: Once a Hero buys pigeon bombs, he has enough for the full game, and his supply gets replenished at the start of each new game.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Repeater Handgun" id="a2b8-151a-51d3-7c08" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+    <profile name="Repeater Handgun" id="a2b8-151a-51d3-7c08" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
       <characteristics>
         <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">24</characteristic>
         <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
@@ -1818,7 +1818,7 @@ Slow Reload: To reload a Repeater Handgun takes a long time and a bit of focus.
 The warrior must do nothing (no moving, no shooting, no fighting in close combat, etc.) for a complete turn in order to reload the weapon.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Repeater Pistol" id="2153-cc3e-bb6e-fe85" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+    <profile name="Repeater Pistol" id="2153-cc3e-bb6e-fe85" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
       <characteristics>
         <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">6</characteristic>
         <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
@@ -2520,18 +2520,18 @@ combat, roll a D6.
     </selectionEntryGroup>
     <selectionEntryGroup name="Gunnery School Equipment List" id="3401-49f9-24b2-d1f7" collective="false" hidden="false" import="true">
       <entryLinks>
-        <entryLink name="Gunnery School Equipment List (Armour)" id="abfb-c331-00ea-2396" collective="false" hidden="false" import="true" targetId="99f5-d53a-5edd-6a69" type="selectionEntryGroup"/>
+        <entryLink name="Armour" id="abfb-c331-00ea-2396" collective="false" hidden="false" import="true" targetId="99f5-d53a-5edd-6a69" type="selectionEntryGroup"/>
         <entryLink name="Melee" id="0f03-d35c-5af0-a314" collective="false" hidden="false" import="true" targetId="22b9-06dc-e9c7-161f" type="selectionEntryGroup"/>
         <entryLink name="Miscellaneous" id="181a-a315-0d1b-6a66" collective="false" hidden="false" import="true" targetId="df16-2297-d0f1-8e36" type="selectionEntryGroup"/>
-        <entryLink name="Missile" id="f6ad-f969-cb8e-2b18" collective="false" hidden="false" import="true" targetId="a631-8ebd-b27b-bdb2" type="selectionEntryGroup"/>
+        <entryLink name="Ranged" id="f6ad-f969-cb8e-2b18" collective="false" hidden="false" import="true" targetId="a631-8ebd-b27b-bdb2" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name="Marksmen Equipment List" id="00b7-59a2-6908-f08e" collective="false" hidden="false" import="true">
       <entryLinks>
-        <entryLink name="Marksmen Equipment List (Armour)" id="719f-f704-6887-1f31" collective="false" hidden="false" import="true" targetId="97f2-3a43-8f5c-534e" type="selectionEntryGroup"/>
+        <entryLink name="Armour" id="719f-f704-6887-1f31" collective="false" hidden="false" import="true" targetId="97f2-3a43-8f5c-534e" type="selectionEntryGroup"/>
         <entryLink name="Melee" id="26f7-4b0d-75ae-0dc3" collective="false" hidden="false" import="true" targetId="ca3a-373c-3f4c-a66f" type="selectionEntryGroup"/>
         <entryLink name="Miscellaneous" id="3edc-15a1-db32-f133" collective="false" hidden="false" import="true" targetId="60d6-da0f-48db-d2ca" type="selectionEntryGroup"/>
-        <entryLink name="Missile" id="768b-8ce9-3e6b-623a" collective="false" hidden="false" import="true" targetId="033e-f818-e0eb-81a0" type="selectionEntryGroup"/>
+        <entryLink name="Ranged" id="768b-8ce9-3e6b-623a" collective="false" hidden="false" import="true" targetId="033e-f818-e0eb-81a0" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name="Characteristic Increases" id="74a2-012b-b556-e736" collective="false" hidden="false" import="true">
@@ -2565,7 +2565,7 @@ combat, roll a D6.
             <cost name="Warband Rating" typeId="wb-rating" value="0"/>
           </costs>
           <entryLinks>
-            <entryLink id="4f36-f960-253e-5dae" collective="false" hidden="false" import="true" targetId="bf7c1f26-0442-54db-cacc-44dc499dcebc" type="selectionEntry">
+            <entryLink name="-1 M" id="4f36-f960-253e-5dae" collective="false" hidden="false" import="true" targetId="bf7c1f26-0442-54db-cacc-44dc499dcebc" type="selectionEntry">
               <modifiers>
                 <modifier field="5da5-ec71-c528-7c00" type="set" value="1"/>
               </modifiers>
@@ -2612,7 +2612,7 @@ combat, roll a D6.
             <cost name="Warband Rating" typeId="wb-rating" value="0"/>
           </costs>
           <entryLinks>
-            <entryLink id="247c-1bad-2abc-39f7" collective="false" hidden="false" import="true" targetId="d4b94626-ea08-5302-d7a8-7783f7e1fdc8" type="selectionEntry">
+            <entryLink name="-1 T" id="247c-1bad-2abc-39f7" collective="false" hidden="false" import="true" targetId="d4b94626-ea08-5302-d7a8-7783f7e1fdc8" type="selectionEntry">
               <modifiers>
                 <modifier field="2c67-e413-6bf6-e238" type="set" value="1"/>
               </modifiers>
@@ -2660,7 +2660,7 @@ must retire from the warband.</description>
             <cost name="Warband Rating" typeId="wb-rating" value="0"/>
           </costs>
           <entryLinks>
-            <entryLink id="108e-5b88-fbab-ee28" collective="false" hidden="false" import="true" targetId="ceb4c328-6b8b-79ef-05fe-d4858b4bb69f" type="selectionEntry">
+            <entryLink name="-1 I" id="108e-5b88-fbab-ee28" collective="false" hidden="false" import="true" targetId="ceb4c328-6b8b-79ef-05fe-d4858b4bb69f" type="selectionEntry">
               <modifiers>
                 <modifier field="20ec-fcd6-f65c-267d" type="set" value="1"/>
               </modifiers>
@@ -2678,7 +2678,7 @@ must retire from the warband.</description>
             <cost name="Warband Rating" typeId="wb-rating" value="0"/>
           </costs>
           <entryLinks>
-            <entryLink id="4335-154b-73f5-d6eb" collective="false" hidden="false" import="true" targetId="abc4f440-9124-351f-831d-aaf5be4d3ae4" type="selectionEntry">
+            <entryLink name="-1 WS" id="4335-154b-73f5-d6eb" collective="false" hidden="false" import="true" targetId="abc4f440-9124-351f-831d-aaf5be4d3ae4" type="selectionEntry">
               <modifiers>
                 <modifier field="62f1-39a4-3caa-7864" type="set" value="1"/>
               </modifiers>
@@ -3601,7 +3601,7 @@ Strength is used for close combat weapons, the bonus applies to all such weapons
             <cost name="Warband Rating" typeId="wb-rating" value="0"/>
           </costs>
           <infoLinks>
-            <infoLink name="Double Barrelled Duelling Pistols" id="b577-fa98-ce4c-006d" hidden="false" targetId="1047-f381-53ae-1453" type="profile"/>
+            <infoLink name="Duelling Pistols" id="b577-fa98-ce4c-006d" hidden="false" targetId="1047-f381-53ae-1453" type="profile"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry name="Double Barreled Duelling Pistol (Brace)" id="cdfe-e44a-5651-37eb" collective="false" hidden="false" import="true" type="upgrade">
@@ -3610,7 +3610,7 @@ Strength is used for close combat weapons, the bonus applies to all such weapons
             <cost name="Warband Rating" typeId="wb-rating" value="0"/>
           </costs>
           <infoLinks>
-            <infoLink name="Double Barrelled Duelling Pistols" id="6089-6a70-800c-d0f8" hidden="false" targetId="1047-f381-53ae-1453" type="profile"/>
+            <infoLink name="Duelling Pistols" id="6089-6a70-800c-d0f8" hidden="false" targetId="1047-f381-53ae-1453" type="profile"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry name="Duelling Pistol" id="3bc6-4a13-47c0-b4f7" collective="false" hidden="false" import="true" type="upgrade">

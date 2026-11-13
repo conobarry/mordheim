@@ -978,7 +978,7 @@ This ability can save the Conqueror only one time.</description>
             <infoLink name="Parry" id="19bd-1d9f-8933-129f" hidden="false" targetId="17dc-9c49-08e1-af45" type="rule"/>
           </infoLinks>
           <profiles>
-            <profile name="Sword" id="4400-16ff-93b-158" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+            <profile name="Sword" id="4400-16ff-93b-158" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
               <characteristics>
                 <characteristic name="Str" id="5d1a-69af-47e6-27a2" hidden="false" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
                 <characteristic name="Special" id="2623-e101-a387-5cb3" hidden="false" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Parry</characteristic>
@@ -1012,9 +1012,9 @@ This ability can save the Conqueror only one time.</description>
                 <cost name="Warband Rating" typeId="wb-rating" value="0"/>
               </costs>
               <profiles>
-                <profile name="Lizardmen Skin Cloak" id="496e-2944-74cb-5421" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+                <profile name="Lizardmen Skin Cloak" id="496e-2944-74cb-5421" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armour">
                   <characteristics>
-                    <characteristic name="Armor Save" id="e936-bcf1-2f32-45c" hidden="false" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">6+</characteristic>
+                    <characteristic name="Armour Save" id="e936-bcf1-2f32-45c" hidden="false" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">6+</characteristic>
                     <characteristic name="Special" id="d95d-7331-f396-3078" hidden="false" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">not reduced by enemy strength or other modifiers</characteristic>
                   </characteristics>
                 </profile>
@@ -2874,7 +2874,7 @@ Remove the counters when the trap is sprung.</description>
         <infoLink name="+1 Enemy armour save" id="6f7a-6247-5982-ce17" hidden="false" targetId="98ac-2376-00c1-4f65" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Misericordia" id="45e1-fdf5-ad19-1dd0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Misericordia" id="45e1-fdf5-ad19-1dd0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" id="84ad-5462-a3df-4e6b" hidden="false" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">As User</characteristic>
             <characteristic name="Special" id="6961-d538-7f2c-ab28" hidden="false" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">+1 enemy armor save, Kill Wounded</characteristic>
@@ -2902,9 +2902,9 @@ Uses same rules as dagger, but when attacking enemies that are down you get to 
         </entryLink>
       </entryLinks>
       <profiles>
-        <profile name="Heavy Armor" id="cd62-7a8-70a6-a7c3" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+        <profile name="Heavy Armor" id="cd62-7a8-70a6-a7c3" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armour">
           <characteristics>
-            <characteristic name="Armor Save" id="5c17-b60-8dfb-f8f5" hidden="false" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">4+</characteristic>
+            <characteristic name="Armour Save" id="5c17-b60-8dfb-f8f5" hidden="false" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">4+</characteristic>
             <characteristic name="Special" id="dea4-433a-e84d-9b8a" hidden="false" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">A warrior that is equipped with this armor suffers a -1 Movement penalty.</characteristic>
           </characteristics>
         </profile>
@@ -2912,7 +2912,7 @@ Uses same rules as dagger, but when attacking enemies that are down you get to 
     </selectionEntry>
     <selectionEntry name="Bec de Corbin" id="1bfd-fed1-64b5-e480" hidden="false" import="true" type="upgrade">
       <profiles>
-        <profile name="Bec de Corbin" id="76dc-3a28-58a9-3181" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Bec de Corbin" id="76dc-3a28-58a9-3181" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" id="6476-26b2-22c-469d" hidden="false" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">+1</characteristic>
             <characteristic name="Special" id="e0cf-3345-3052-2984" hidden="false" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Negates Charge, Concussion</characteristic>
@@ -2933,7 +2933,7 @@ Dwarfs are immune to this effect.</description>
     </selectionEntry>
     <selectionEntry name="Firepots of Miragliano" id="cf93-bb6a-efe1-a06" hidden="false" import="true" type="upgrade">
       <profiles>
-        <profile name="Firepots of Miragliano" id="d646-2689-32db-fee9" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Firepots of Miragliano" id="d646-2689-32db-fee9" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" id="1bc3-77eb-6dd4-2b2a" hidden="false" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">8</characteristic>
             <characteristic name="Str" id="2c09-7c7a-9a0a-5c1d" hidden="false" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">2</characteristic>
@@ -2971,7 +2971,7 @@ If the model fails, it cannot charge or shoot until the beginning of its next t
           <entryLinks>
             <entryLink name="Free Dagger" id="1622-30dc-6ac2-8bf0" hidden="false" import="true" sortIndex="1" targetId="0d0b-ed37-d8b0-4cbf" type="selectionEntry"/>
             <entryLink name="Dagger" id="24cb-175c-b0e0-8fdd" hidden="false" import="true" sortIndex="2" targetId="64e0-0bb6-542b-4beb" type="selectionEntry"/>
-            <entryLink name="Hammer, staff, mace or club" id="2d6a-7c43-114-68b0" hidden="false" import="true" sortIndex="4" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
+            <entryLink name="Hammer" id="2d6a-7c43-114-68b0" hidden="false" import="true" sortIndex="4" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
               <modifiers>
                 <modifier field="name" type="set" value="Mace"/>
               </modifiers>
@@ -3053,7 +3053,7 @@ If the model fails, it cannot charge or shoot until the beginning of its next t
           <entryLinks>
             <entryLink name="Free Dagger" id="ac6c-eba2-2c83-633b" hidden="false" import="true" sortIndex="1" targetId="0d0b-ed37-d8b0-4cbf" type="selectionEntry"/>
             <entryLink name="Dagger" id="1c20-38cd-e9d1-e344" hidden="false" import="true" sortIndex="2" targetId="64e0-0bb6-542b-4beb" type="selectionEntry"/>
-            <entryLink name="Hammer, staff, mace or club" id="b471-f0c8-e2e5-2388" hidden="false" import="true" sortIndex="4" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
+            <entryLink name="Hammer" id="b471-f0c8-e2e5-2388" hidden="false" import="true" sortIndex="4" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
               <modifiers>
                 <modifier field="name" type="set" value="Mace"/>
               </modifiers>
@@ -3078,7 +3078,7 @@ If the model fails, it cannot charge or shoot until the beginning of its next t
             <constraint id="56a4-c0bd-edda-f28a" field="selections" scope="parent" shared="true" type="max" value="2"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Shortbow" id="cb50-ada0-e4ad-9abc" hidden="false" import="true" sortIndex="4" targetId="3706-6421-53b4-940d" type="selectionEntry"/>
+            <entryLink name="Short Bow" id="cb50-ada0-e4ad-9abc" hidden="false" import="true" sortIndex="4" targetId="3706-6421-53b4-940d" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Armor" id="b66-9ac8-80df-6f55" hidden="false" sortIndex="3">

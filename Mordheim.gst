@@ -43,7 +43,7 @@
     </forceEntry>
   </forceEntries>
   <profileTypes>
-    <profileType name="Model" id="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9">
+    <profileType name="Model" id="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" sortIndex="1">
       <characteristicTypes>
         <characteristicType name="M" id="2a0bcc4c-8266-418f-13d6-a6b44def5e92"/>
         <characteristicType name="WS" id="d5aca8ba-0204-b324-b976-c2b536e09924"/>
@@ -56,34 +56,39 @@
         <characteristicType name="LD" id="e234eaea-a02a-2fb7-3e1f-605392aabb89"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Ranged Weapon" id="c4b0233c-e5d1-2b41-3446-45a745fbbbec">
+    <profileType name="Missile Weapons" id="c4b0233c-e5d1-2b41-3446-45a745fbbbec" sortIndex="3">
       <characteristicTypes>
         <characteristicType name="Range" id="a275054b-9b3d-9e68-49e9-7fbb6c714412"/>
         <characteristicType name="Str" id="0e9e02bf-4d20-7ac3-d67f-67172b142b5c"/>
         <characteristicType name="Special" id="fde90816-abbb-f019-75a0-0c24662facf3"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="HtH Weapon" id="9db87680-6ee5-b46c-48ca-dcd1c5de1bad">
+    <profileType name="Hand-to-hand Combat Weapons" id="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" sortIndex="4">
       <characteristicTypes>
         <characteristicType name="Str" id="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
         <characteristicType name="Special" id="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Armor" id="94239014-ea28-23eb-4142-f492dc4caf17">
+    <profileType name="Armour" id="94239014-ea28-23eb-4142-f492dc4caf17" sortIndex="2">
       <characteristicTypes>
-        <characteristicType name="Armor Save" id="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b"/>
+        <characteristicType name="Armour Save" id="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b"/>
         <characteristicType name="Special" id="ff797ec4-8d7e-cab1-656e-896ae3ed005f"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Magic" id="d891-ee2b-b7dc-f545">
+    <profileType name="Magic" id="d891-ee2b-b7dc-f545" sortIndex="5">
       <characteristicTypes>
         <characteristicType name="Difficulty" id="dd91-3f4d-8b72-7905"/>
         <characteristicType name="Effect" id="0592-3510-8508-7263"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Skill" id="a74f-171c-7826-bc9c" hidden="false" kind="ability">
+    <profileType name="Skills" id="a74f-171c-7826-bc9c" hidden="false" kind="ability" sortIndex="7">
       <characteristicTypes>
         <characteristicType name="Description" id="a93a-adfe-16de-faaa" kind="longText"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Special Rules" id="aa94-5d6e-9b87-dda7" hidden="false" kind="rule" sortIndex="6">
+      <characteristicTypes>
+        <characteristicType name="Description" id="f258-8283-7780-a442"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>

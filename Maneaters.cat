@@ -34,7 +34,7 @@ An Ogre warband may never hire any Hired Swords, except for Halflings (Scout, Th
   <selectionEntries>
     <selectionEntry name="Captain" id="ea05-7e6b-115f-542a" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="934e-08df-c67f-abd2" hidden="false" primary="true" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94"/>
+        <categoryLink name="Heroes" id="934e-08df-c67f-abd2" hidden="false" primary="true" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94"/>
       </categoryLinks>
       <constraints>
         <constraint id="1249-c408-07db-5a84" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -58,7 +58,7 @@ An Ogre warband may never hire any Hired Swords, except for Halflings (Scout, Th
         <infoLink name="Fear" id="ebce-b066-d48a-6cd3" hidden="false" targetId="cdc8-da3b-a2ed-d841" type="rule"/>
         <infoLink name="Large Target" id="7403-e457-e7fc-2e4e" hidden="false" targetId="069e-ecc0-275d-765c" type="rule"/>
         <infoLink name="Leader" id="9432-f767-17f1-4247" hidden="false" targetId="8712-d0f2-fe64-07bd" type="rule"/>
-        <infoLink name="Orge max" id="72a2-5906-5203-421a" hidden="false" targetId="2fa4-2362-07c1-3433" type="profile"/>
+        <infoLink name="Ogre max" id="72a2-5906-5203-421a" hidden="false" targetId="2fa4-2362-07c1-3433" type="profile"/>
       </infoLinks>
       <profiles>
         <profile name="Captain" id="e96e-0384-afa5-869b" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
@@ -200,7 +200,7 @@ An Ogre warband may never hire any Hired Swords, except for Halflings (Scout, Th
     </selectionEntry>
     <selectionEntry name="Mountain Guide" id="f8d0-3e0f-eaf0-edf2" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="230d-427b-d20b-88ac" hidden="false" primary="true" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94"/>
+        <categoryLink name="Heroes" id="230d-427b-d20b-88ac" hidden="false" primary="true" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94"/>
       </categoryLinks>
       <constraints>
         <constraint id="3d7d-f138-5a16-a449" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -222,7 +222,7 @@ An Ogre warband may never hire any Hired Swords, except for Halflings (Scout, Th
       <infoLinks>
         <infoLink name="Fear" id="50e0-d4c2-ae79-b0dd" hidden="false" targetId="cdc8-da3b-a2ed-d841" type="rule"/>
         <infoLink name="Large Target" id="4ef0-b793-91b7-244d" hidden="false" targetId="069e-ecc0-275d-765c" type="rule"/>
-        <infoLink name="Orge max" id="8922-0cc0-681d-d9d5" hidden="false" targetId="2fa4-2362-07c1-3433" type="profile"/>
+        <infoLink name="Ogre max" id="8922-0cc0-681d-d9d5" hidden="false" targetId="2fa4-2362-07c1-3433" type="profile"/>
       </infoLinks>
       <profiles>
         <profile name="Mountain Guide" id="bba2-8814-b953-09c7" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
@@ -380,7 +380,7 @@ They are immune to All Alone tests and may never become the warband leader.</des
     </selectionEntry>
     <selectionEntry name="Youngbloods" id="cf6d-fa3b-39e7-badc" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="53f9-7679-1ef3-c0ac" hidden="false" primary="true" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94"/>
+        <categoryLink name="Heroes" id="53f9-7679-1ef3-c0ac" hidden="false" primary="true" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94"/>
       </categoryLinks>
       <constraints>
         <constraint id="5b35-d136-d01e-48e7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3"/>
@@ -396,7 +396,7 @@ They are immune to All Alone tests and may never become the warband leader.</des
         <entryLink name="Serious Injuries" id="e662-a0d5-5925-dd1c" collective="false" hidden="false" import="true" targetId="313b-a816-0a89-926c" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Orge max" id="e84b-7736-7c18-8e76" hidden="false" targetId="2fa4-2362-07c1-3433" type="profile"/>
+        <infoLink name="Ogre max" id="e84b-7736-7c18-8e76" hidden="false" targetId="2fa4-2362-07c1-3433" type="profile"/>
       </infoLinks>
       <profiles>
         <profile name="Youngbloods" id="86e1-fb5e-b0cf-7199" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
@@ -538,7 +538,7 @@ They are immune to All Alone tests and may never become the warband leader.</des
     </selectionEntry>
     <selectionEntry name="Half-growns" id="8737-06c4-b1a7-9dc2" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="03f4-9248-3120-e514" hidden="false" primary="true" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8"/>
+        <categoryLink name="Henchmen" id="03f4-9248-3120-e514" hidden="false" primary="true" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8"/>
       </categoryLinks>
       <costs>
         <cost name="Warband Rating" typeId="wb-rating" value="5"/>
@@ -570,7 +570,7 @@ They are immune to All Alone tests and may never become the warband leader.</des
       </entryLinks>
       <infoLinks>
         <infoLink name="Fear" id="92e1-7fdc-98e8-8960" hidden="false" targetId="cdc8-da3b-a2ed-d841" type="rule"/>
-        <infoLink name="Orge max" id="05e1-de56-5102-81c0" hidden="false" targetId="2fa4-2362-07c1-3433" type="profile"/>
+        <infoLink name="Ogre max" id="05e1-de56-5102-81c0" hidden="false" targetId="2fa4-2362-07c1-3433" type="profile"/>
       </infoLinks>
       <profiles>
         <profile name="Half-growns" id="05fa-c9ba-de74-ef15" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
@@ -697,7 +697,7 @@ They are immune to All Alone tests and may never become the warband leader.</des
     </selectionEntry>
     <selectionEntry name="Sabretusks" id="71b3-727e-a0c1-c0cb" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="9366-78fe-a15b-12d9" hidden="false" primary="true" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8"/>
+        <categoryLink name="Henchmen" id="9366-78fe-a15b-12d9" hidden="false" primary="true" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8"/>
       </categoryLinks>
       <constraints>
         <constraint id="17f2-8d0c-3397-3aca" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="0"/>
@@ -756,7 +756,7 @@ An uncontrolled Sabretusk may charge models from his own warband!</description>
     </selectionEntry>
     <selectionEntry name="Bulls" id="02b5-2ebd-abd3-cf6a" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="1725-29da-11b6-61fa" hidden="false" primary="true" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8"/>
+        <categoryLink name="Henchmen" id="1725-29da-11b6-61fa" hidden="false" primary="true" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8"/>
       </categoryLinks>
       <constraints>
         <constraint id="1d9b-9663-a1d7-6d88" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
@@ -792,7 +792,7 @@ An uncontrolled Sabretusk may charge models from his own warband!</description>
       <infoLinks>
         <infoLink name="Fear" id="d123-ece0-d0d3-62f3" hidden="false" targetId="cdc8-da3b-a2ed-d841" type="rule"/>
         <infoLink name="Large Target" id="5dac-e341-5297-362d" hidden="false" targetId="069e-ecc0-275d-765c" type="rule"/>
-        <infoLink name="Orge max" id="9b99-e830-86d9-b351" hidden="false" targetId="2fa4-2362-07c1-3433" type="profile"/>
+        <infoLink name="Ogre max" id="9b99-e830-86d9-b351" hidden="false" targetId="2fa4-2362-07c1-3433" type="profile"/>
       </infoLinks>
       <profiles>
         <profile name="Bulls" id="5972-81ea-81ca-71c1" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
@@ -926,7 +926,7 @@ If successful the enemy model is automatically knocked down.</description>
     </selectionEntry>
     <selectionEntry name="Stash" id="1e73-9980-56e2-b129" collective="false" hidden="false" import="true" type="upgrade">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="68a7-0da7-c574-49ae" hidden="false" primary="true" targetId="a31acb39-8ce9-d6d7-bcc9-f3144d63db48"/>
+        <categoryLink name="Stash" id="68a7-0da7-c574-49ae" hidden="false" primary="true" targetId="a31acb39-8ce9-d6d7-bcc9-f3144d63db48"/>
       </categoryLinks>
       <constraints>
         <constraint id="9672-2ffb-8d1b-02d3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -937,9 +937,9 @@ If successful the enemy model is automatically knocked down.</description>
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
       <entryLinks>
-        <entryLink name="Gold" id="45ab-498d-c7bb-49e6" collective="false" hidden="false" import="true" targetId="deca-5737-6234-23a1" type="selectionEntry"/>
-        <entryLink name="Wyrdstone" id="df9f-b323-fc3b-4db7" collective="false" hidden="false" import="true" targetId="60f8-e6e7-c2ea-0dad" type="selectionEntry"/>
-        <entryLink name="Looted Equip" id="3e01-b258-354f-70d5" collective="false" hidden="false" import="true" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup"/>
+        <entryLink name="Gold Crowns" id="45ab-498d-c7bb-49e6" collective="false" hidden="false" import="true" targetId="deca-5737-6234-23a1" type="selectionEntry"/>
+        <entryLink name="Wyrdstone Shards" id="df9f-b323-fc3b-4db7" collective="false" hidden="false" import="true" targetId="60f8-e6e7-c2ea-0dad" type="selectionEntry"/>
+        <entryLink name="Equipment" id="3e01-b258-354f-70d5" collective="false" hidden="false" import="true" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
   </selectionEntries>
@@ -953,7 +953,7 @@ If successful the enemy model is automatically knocked down.</description>
         <infoLink name="Parry" id="e604-99db-382b-5438" hidden="false" targetId="17dc-9c49-08e1-af45" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Iron Fist" id="50c1-85fa-4bc9-6b10" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Iron Fist" id="50c1-85fa-4bc9-6b10" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">as user</characteristic>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Parry, Gloved, Dual-role</characteristic>
@@ -985,7 +985,7 @@ This means that an iron fist allows the wearer to re-roll failed parry attempts 
         <infoLink name="Concussion" id="273a-43c2-ec83-62b1" hidden="false" targetId="f08e-fc7a-fca1-6a49" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Ogre Club" id="0c69-1f6e-70c2-7295" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Ogre Club" id="0c69-1f6e-70c2-7295" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">as user</characteristic>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Concussion, Crushing attack</characteristic>
@@ -1015,7 +1015,7 @@ Crushing Attack only applies if the Ogre uses the club with both hands.</descrip
         <infoLink name="Prepare shot" id="998c-5b71-8029-08b5" hidden="false" targetId="4f7f-29ec-a9da-82fc" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Harpoon Crossbow" id="aab5-02d4-57df-f098" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Harpoon Crossbow" id="aab5-02d4-57df-f098" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">30</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">5</characteristic>
@@ -1040,10 +1040,10 @@ Crushing Attack only applies if the Ogre uses the club with both hands.</descrip
         <infoLink name="Explosive Radius 1-½" id="7340-0154-5cd6-253b" hidden="false" targetId="2849-7263-7081-cb4e" type="rule"/>
         <infoLink name="Move or fire" id="644f-7fa1-c7ff-4b74" hidden="false" targetId="3984-543f-6873-12c0" type="rule"/>
         <infoLink name="Prepare shot" id="4add-99b3-f6eb-b8c6" hidden="false" targetId="4f7f-29ec-a9da-82fc" type="rule"/>
-        <infoLink name="Firearm save modifier" id="bbb6-28cf-9de1-d22a" hidden="false" targetId="5d21-2b30-4219-ec86" type="rule"/>
+        <infoLink name="Save modifier" id="bbb6-28cf-9de1-d22a" hidden="false" targetId="5d21-2b30-4219-ec86" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Hand-Held Mortar" id="a52b-c393-8a0b-f475" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Hand-Held Mortar" id="a52b-c393-8a0b-f475" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">24</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>

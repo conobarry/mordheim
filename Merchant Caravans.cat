@@ -2644,7 +2644,7 @@ If no model in the warband is allowed to become the leader, an Apprentice must 
         <infoLink name="Two Handed" id="5201-bc05-612e-71e9" hidden="false" targetId="2fb3-525b-86c3-2cd6" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Pike" id="d8c1-8511-db74-eaee" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Pike" id="d8c1-8511-db74-eaee" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" id="b96c-b97c-52e-3763" hidden="false" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">As User</characteristic>
             <characteristic name="Special" id="6d4f-2825-d05d-edab" hidden="false" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Two-handed, Strike First</characteristic>
@@ -2674,7 +2674,7 @@ For that turn he gains +1 Initiative representing the pike&apos;s long shaft th
           <entryLinks>
             <entryLink name="Free Dagger" id="4392-49da-eeb6-1c18" hidden="false" import="true" sortIndex="1" targetId="0d0b-ed37-d8b0-4cbf" type="selectionEntry"/>
             <entryLink name="Dagger" id="7d69-3aff-825d-6d54" hidden="false" import="true" sortIndex="2" targetId="64e0-0bb6-542b-4beb" type="selectionEntry"/>
-            <entryLink name="Hammer, staff, mace or club" id="1987-479-6a0a-60be" hidden="false" import="true" sortIndex="3" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
+            <entryLink name="Hammer" id="1987-479-6a0a-60be" hidden="false" import="true" sortIndex="3" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
               <modifiers>
                 <modifier field="name" type="set" value="Hammer"/>
               </modifiers>
@@ -2707,7 +2707,7 @@ For that turn he gains +1 Initiative representing the pike&apos;s long shaft th
             <constraint id="df58-229a-f973-db28" field="selections" scope="parent" shared="true" type="max" value="2"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Dueling Pistol" id="eb2f-5342-6ae2-679f" hidden="false" import="true" sortIndex="2" targetId="da24-6a7f-725b-5bcb" type="selectionEntry"/>
+            <entryLink name="Duelling Pistol" id="eb2f-5342-6ae2-679f" hidden="false" import="true" sortIndex="2" targetId="da24-6a7f-725b-5bcb" type="selectionEntry"/>
             <entryLink name="Pistol" id="b033-ad7e-b3e8-9d98" hidden="false" import="true" sortIndex="1" targetId="67e9-a4f5-8f76-168c" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -2732,7 +2732,7 @@ For that turn he gains +1 Initiative representing the pike&apos;s long shaft th
           <entryLinks>
             <entryLink name="Free Dagger" id="f0bd-eabb-f7ec-86e4" hidden="false" import="true" sortIndex="1" targetId="0d0b-ed37-d8b0-4cbf" type="selectionEntry"/>
             <entryLink name="Dagger" id="85df-4f2-1585-493b" hidden="false" import="true" sortIndex="2" targetId="64e0-0bb6-542b-4beb" type="selectionEntry"/>
-            <entryLink name="Hammer, staff, mace or club" id="96b1-49a8-60a6-ddfc" hidden="false" import="true" sortIndex="3" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
+            <entryLink name="Hammer" id="96b1-49a8-60a6-ddfc" hidden="false" import="true" sortIndex="3" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
               <modifiers>
                 <modifier field="name" type="set" value="Hammer"/>
               </modifiers>
@@ -2781,7 +2781,7 @@ For that turn he gains +1 Initiative representing the pike&apos;s long shaft th
           <entryLinks>
             <entryLink name="Free Dagger" id="cb1-1d2-d158-c64b" hidden="false" import="true" sortIndex="1" targetId="0d0b-ed37-d8b0-4cbf" type="selectionEntry"/>
             <entryLink name="Dagger" id="8744-e0ae-bdce-2895" hidden="false" import="true" sortIndex="2" targetId="64e0-0bb6-542b-4beb" type="selectionEntry"/>
-            <entryLink name="Hammer, staff, mace or club" id="b08a-1a64-2c0d-4421" hidden="false" import="true" sortIndex="3" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
+            <entryLink name="Hammer" id="b08a-1a64-2c0d-4421" hidden="false" import="true" sortIndex="3" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
               <modifiers>
                 <modifier field="name" type="set" value="Club"/>
               </modifiers>
@@ -2916,7 +2916,7 @@ Note that though the Merchant may buy items using the table above he can never s
           <entryLinks>
             <entryLink name="Free Dagger" id="184-bbd9-68cd-5062" hidden="false" import="true" sortIndex="1" targetId="0d0b-ed37-d8b0-4cbf" type="selectionEntry"/>
             <entryLink name="Dagger" id="3446-c2f-bb23-c8fb" hidden="false" import="true" sortIndex="2" targetId="64e0-0bb6-542b-4beb" type="selectionEntry"/>
-            <entryLink name="Hammer, staff, mace or club" id="e12f-fa46-8117-cef9" hidden="false" import="true" sortIndex="3" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
+            <entryLink name="Hammer" id="e12f-fa46-8117-cef9" hidden="false" import="true" sortIndex="3" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
               <modifiers>
                 <modifier field="name" type="set" value="Hammer"/>
               </modifiers>
@@ -2951,7 +2951,7 @@ Note that though the Merchant may buy items using the table above he can never s
             <constraint id="691e-769d-d5a1-b38e" field="selections" scope="parent" shared="true" type="max" value="2"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Dueling Pistol" id="64c5-d533-1624-ef1b" hidden="false" import="true" sortIndex="2" targetId="da24-6a7f-725b-5bcb" type="selectionEntry"/>
+            <entryLink name="Duelling Pistol" id="64c5-d533-1624-ef1b" hidden="false" import="true" sortIndex="2" targetId="da24-6a7f-725b-5bcb" type="selectionEntry"/>
             <entryLink name="Pistol" id="8d7a-3133-3090-826e" hidden="false" import="true" sortIndex="1" targetId="67e9-a4f5-8f76-168c" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>

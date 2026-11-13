@@ -1197,7 +1197,7 @@ The Gigantic Spider no longer has to check for stupidity if it is being ridden
         <infoLink name="Cavalry bonus" id="93df-3679-a8f8-37c1" hidden="false" targetId="ef77-8d02-8707-afc4" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Spear" id="3254-66c7-5593-fd97" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Spear" id="3254-66c7-5593-fd97" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">As User</characteristic>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Unwieldy, Strike First, Cavalry Bonus</characteristic>
@@ -1335,7 +1335,7 @@ Note even if the rider has the Running Dismount skill, the maximum diving charg
         </selectionEntryGroup>
         <selectionEntryGroup name="Missile weapons" id="f6a1-73fc-5627-f400" hidden="false">
           <entryLinks>
-            <entryLink name="Shortbow" id="5d6b-8a63-f6f2-c4da" hidden="false" import="true" targetId="3706-6421-53b4-940d" type="selectionEntry"/>
+            <entryLink name="Short Bow" id="5d6b-8a63-f6f2-c4da" hidden="false" import="true" targetId="3706-6421-53b4-940d" type="selectionEntry"/>
             <entryLink name="Blowpipe" id="2489-b181-8c56-80b0" hidden="false" import="true" targetId="b6b-2ea5-1f65-a84b" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>

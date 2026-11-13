@@ -42,7 +42,7 @@ A 1-3 means he remains the Pit Fighters captive and may be fielded in the pits 
   <selectionEntries>
     <selectionEntry name="Stash" id="83ade99f-e9ef-d25a-59ac-ca3f3def011c" collective="false" hidden="false" import="true" page="0" type="upgrade">
       <categoryLinks>
-        <categoryLink id="83ade99f-e9ef-d25a-59ac-ca3f3def011c-a31acb39-8ce9-d6d7-bcc9-f3144d63db48" hidden="false" primary="true" targetId="a31acb39-8ce9-d6d7-bcc9-f3144d63db48"/>
+        <categoryLink name="Stash" id="83ade99f-e9ef-d25a-59ac-ca3f3def011c-a31acb39-8ce9-d6d7-bcc9-f3144d63db48" hidden="false" primary="true" targetId="a31acb39-8ce9-d6d7-bcc9-f3144d63db48"/>
       </categoryLinks>
       <constraints>
         <constraint id="maxInRoster" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="false" type="max" value="1"/>
@@ -2548,7 +2548,7 @@ On a successful Initiative test it is considered a failed charge and the norma
         <infoLink name="Thrown weapon" id="3a3b-f431-f40a-ea0b" hidden="false" targetId="1015-45da-ae71-d59b" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Javelin" id="648b-2f82-f1-f1ec" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Javelin" id="648b-2f82-f1-f1ec" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" id="cc72-a98b-e44b-e19f" hidden="false" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">10</characteristic>
             <characteristic name="Str" id="af32-3b9c-faed-2edc" hidden="false" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">As User</characteristic>
@@ -2567,7 +2567,7 @@ On a successful Initiative test it is considered a failed charge and the norma
         <infoLink name="Parry" id="337c-a14b-a358-d9bd" hidden="false" targetId="17dc-9c49-08e1-af45" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Trident" id="1da5-feb9-8b23-a313" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Trident" id="1da5-feb9-8b23-a313" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" id="6ad6-638f-fa4-a0e9" hidden="false" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">As User</characteristic>
             <characteristic name="Special" id="db5b-4be-9f37-d794" hidden="false" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Strike First, Parry</characteristic>
@@ -2589,7 +2589,7 @@ On a successful Initiative test it is considered a failed charge and the norma
         <infoLink name="Parry" id="8c73-9378-d05e-56e6" hidden="false" targetId="17dc-9c49-08e1-af45" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Spiked Gauntlet" id="f497-4321-934a-13c9" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Spiked Gauntlet" id="f497-4321-934a-13c9" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" id="61fd-e407-2969-4880" hidden="false" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">As User</characteristic>
             <characteristic name="Special" id="cb42-8c9d-7039-9795" hidden="false" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Counts as both weapon and buckler</characteristic>
@@ -2608,7 +2608,7 @@ On a successful Initiative test it is considered a failed charge and the norma
           <entryLinks>
             <entryLink name="Free Dagger" id="c953-6f49-e3aa-6642" hidden="false" import="true" targetId="0d0b-ed37-d8b0-4cbf" type="selectionEntry"/>
             <entryLink name="Dagger" id="f513-6e9b-620-92d1" hidden="false" import="true" targetId="64e0-0bb6-542b-4beb" type="selectionEntry"/>
-            <entryLink name="Hammer, staff, mace or club" id="d5d4-278d-4548-f9c2" hidden="false" import="true" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
+            <entryLink name="Hammer" id="d5d4-278d-4548-f9c2" hidden="false" import="true" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
               <modifiers>
                 <modifier field="name" type="set" value="Mace, Hammer"/>
               </modifiers>
@@ -2671,9 +2671,9 @@ On a successful Initiative test it is considered a failed charge and the norma
                 <infoLink name="Avoid stun" id="b604-4e2b-dd8e-5dfa" hidden="false" targetId="8747-e16d-0f7e-5561" type="rule"/>
               </infoLinks>
               <profiles>
-                <profile name="Helmet" id="b404-c1e9-c54-8da" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+                <profile name="Helmet" id="b404-c1e9-c54-8da" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armour">
                   <characteristics>
-                    <characteristic name="Armor Save" id="401-1088-c4b9-1beb" hidden="false" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b"/>
+                    <characteristic name="Armour Save" id="401-1088-c4b9-1beb" hidden="false" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b"/>
                     <characteristic name="Special" id="3b25-b4cf-1c12-da40" hidden="false" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">Avoid stun</characteristic>
                   </characteristics>
                 </profile>
@@ -2693,7 +2693,7 @@ On a successful Initiative test it is considered a failed charge and the norma
                 <infoLink name="Two Handed" id="db15-620d-5128-5ac3" hidden="false" targetId="2fb3-525b-86c3-2cd6" type="rule"/>
               </infoLinks>
               <profiles>
-                <profile name="Flail" id="4012-65db-e5a0-9fe7" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+                <profile name="Flail" id="4012-65db-e5a0-9fe7" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
                   <characteristics>
                     <characteristic name="Str" id="b19-c2bd-b7ab-c1bd" hidden="false" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">+2</characteristic>
                     <characteristic name="Special" id="188-9644-573-f26" hidden="false" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Heavy, Two-handed</characteristic>
@@ -2714,7 +2714,7 @@ On a successful Initiative test it is considered a failed charge and the norma
                 <infoLink name="+1 Enemy armour save" id="717e-cbe0-82e9-30a1" hidden="false" targetId="98ac-2376-00c1-4f65" type="rule"/>
               </infoLinks>
               <profiles>
-                <profile name="Dagger" id="4e0b-12e9-5e15-ead4" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+                <profile name="Dagger" id="4e0b-12e9-5e15-ead4" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
                   <characteristics>
                     <characteristic name="Str" id="daa-2bce-b1c-4278" hidden="false" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
                     <characteristic name="Special" id="81ff-f56d-7a88-75cb" hidden="false" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">+1 enemy armor save</characteristic>
@@ -2732,9 +2732,9 @@ On a successful Initiative test it is considered a failed charge and the norma
                 <cost name="Warband Rating" typeId="wb-rating" value="0"/>
               </costs>
               <profiles>
-                <profile name="Shield" id="a0d0-cc33-eda0-73a9" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+                <profile name="Shield" id="a0d0-cc33-eda0-73a9" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armour">
                   <characteristics>
-                    <characteristic name="Armor Save" id="5ce7-d42a-15be-ce26" hidden="false" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">+1</characteristic>
+                    <characteristic name="Armour Save" id="5ce7-d42a-15be-ce26" hidden="false" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">+1</characteristic>
                     <characteristic name="Special" id="959e-e417-f2e1-1ccf" hidden="false" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f"/>
                   </characteristics>
                 </profile>
@@ -2750,9 +2750,9 @@ On a successful Initiative test it is considered a failed charge and the norma
                 <cost name="Warband Rating" typeId="wb-rating" value="0"/>
               </costs>
               <profiles>
-                <profile name="Light Armor" id="c39b-ea9b-bd6e-1707" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+                <profile name="Light Armor" id="c39b-ea9b-bd6e-1707" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armour">
                   <characteristics>
-                    <characteristic name="Armor Save" id="f15f-7c58-fc5e-61" hidden="false" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">6+</characteristic>
+                    <characteristic name="Armour Save" id="f15f-7c58-fc5e-61" hidden="false" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">6+</characteristic>
                     <characteristic name="Special" id="4599-bb9a-ae9b-fde4" hidden="false" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f"/>
                   </characteristics>
                 </profile>
@@ -2779,9 +2779,9 @@ On a successful Initiative test it is considered a failed charge and the norma
                 <infoLink name="Avoid stun" id="bd10-d29b-e92f-be4" hidden="false" targetId="8747-e16d-0f7e-5561" type="rule"/>
               </infoLinks>
               <profiles>
-                <profile name="Helmet" id="cd4d-aa3a-5cbc-2139" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+                <profile name="Helmet" id="cd4d-aa3a-5cbc-2139" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armour">
                   <characteristics>
-                    <characteristic name="Armor Save" id="519b-3d7b-7b8d-94f1" hidden="false" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b"/>
+                    <characteristic name="Armour Save" id="519b-3d7b-7b8d-94f1" hidden="false" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b"/>
                     <characteristic name="Special" id="c320-2c4-502e-c575" hidden="false" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">Avoid stun</characteristic>
                   </characteristics>
                 </profile>
@@ -2800,7 +2800,7 @@ On a successful Initiative test it is considered a failed charge and the norma
                 <infoLink name="+1 Enemy armour save" id="bc4e-f981-789b-cd8f" hidden="false" targetId="98ac-2376-00c1-4f65" type="rule"/>
               </infoLinks>
               <profiles>
-                <profile name="Dagger" id="b2ce-cb31-b14-8e6e" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+                <profile name="Dagger" id="b2ce-cb31-b14-8e6e" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
                   <characteristics>
                     <characteristic name="Str" id="2cea-40d4-9737-1cb9" hidden="false" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
                     <characteristic name="Special" id="7c34-9baa-9433-4047" hidden="false" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">+1 enemy armor save</characteristic>
@@ -2821,7 +2821,7 @@ On a successful Initiative test it is considered a failed charge and the norma
                 <infoLink name="Parry" id="f1ff-78f6-2483-1b9" hidden="false" targetId="17dc-9c49-08e1-af45" type="rule"/>
               </infoLinks>
               <profiles>
-                <profile name="Spiked Gauntlet" id="3d20-23ce-b9c-e9c6" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+                <profile name="Spiked Gauntlet" id="3d20-23ce-b9c-e9c6" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
                   <characteristics>
                     <characteristic name="Str" id="61fd-e407-2969-4880" hidden="false" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">As User</characteristic>
                     <characteristic name="Special" id="cb42-8c9d-7039-9795" hidden="false" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Counts as both weapon and buckler</characteristic>
@@ -2842,7 +2842,7 @@ On a successful Initiative test it is considered a failed charge and the norma
                 <infoLink name="Parry" id="2bd8-497b-bddd-2ab2" hidden="false" targetId="17dc-9c49-08e1-af45" type="rule"/>
               </infoLinks>
               <profiles>
-                <profile name="Sword" id="105f-4fde-2720-b30c" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+                <profile name="Sword" id="105f-4fde-2720-b30c" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
                   <characteristics>
                     <characteristic name="Str" id="4117-aba0-c345-8d98" hidden="false" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
                     <characteristic name="Special" id="95c9-7fdb-e464-c63" hidden="false" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Parry</characteristic>
@@ -2871,9 +2871,9 @@ On a successful Initiative test it is considered a failed charge and the norma
                 <infoLink name="Avoid stun" id="10d4-fa68-f21e-c78e" hidden="false" targetId="8747-e16d-0f7e-5561" type="rule"/>
               </infoLinks>
               <profiles>
-                <profile name="Helmet" id="de7a-f920-7d35-4145" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+                <profile name="Helmet" id="de7a-f920-7d35-4145" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armour">
                   <characteristics>
-                    <characteristic name="Armor Save" id="bc1-20af-d8d1-a45" hidden="false" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b"/>
+                    <characteristic name="Armour Save" id="bc1-20af-d8d1-a45" hidden="false" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b"/>
                     <characteristic name="Special" id="6e77-56df-93fc-fd52" hidden="false" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">Avoid stun</characteristic>
                   </characteristics>
                 </profile>
@@ -2892,7 +2892,7 @@ On a successful Initiative test it is considered a failed charge and the norma
                 <infoLink name="+1 Enemy armour save" id="a16b-18ca-f595-4db8" hidden="false" targetId="98ac-2376-00c1-4f65" type="rule"/>
               </infoLinks>
               <profiles>
-                <profile name="Dagger" id="c17c-60d2-1a81-557b" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+                <profile name="Dagger" id="c17c-60d2-1a81-557b" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
                   <characteristics>
                     <characteristic name="Str" id="8881-1115-a462-44d1" hidden="false" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
                     <characteristic name="Special" id="f780-eccc-3870-e78f" hidden="false" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">+1 enemy armor save</characteristic>
@@ -2910,9 +2910,9 @@ On a successful Initiative test it is considered a failed charge and the norma
                 <cost name="Warband Rating" id="2e79-9f-90d4-1700" hidden="false" typeId="wb-rating" value="0"/>
               </costs>
               <profiles>
-                <profile name="Light Armor" id="da21-9001-c7e3-ed10" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+                <profile name="Light Armor" id="da21-9001-c7e3-ed10" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armour">
                   <characteristics>
-                    <characteristic name="Armor Save" id="1514-6c5e-cc74-467a" hidden="false" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">6+</characteristic>
+                    <characteristic name="Armour Save" id="1514-6c5e-cc74-467a" hidden="false" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">6+</characteristic>
                     <characteristic name="Special" id="2668-825d-463f-3b11" hidden="false" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f"/>
                   </characteristics>
                 </profile>
@@ -2932,7 +2932,7 @@ On a successful Initiative test it is considered a failed charge and the norma
                 <infoLink name="Two Handed" id="2896-1e1-5a3e-dcd6" hidden="false" targetId="2fb3-525b-86c3-2cd6" type="rule"/>
               </infoLinks>
               <profiles>
-                <profile name="Double Handed Weapon" id="a188-3098-6eb6-bc30" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+                <profile name="Double Handed Weapon" id="a188-3098-6eb6-bc30" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
                   <characteristics>
                     <characteristic name="Str" id="df4d-1c2e-acbb-8ef" hidden="false" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">+2</characteristic>
                     <characteristic name="Special" id="cdda-5e30-dec3-67c0" hidden="false" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Two-handed,  Strike last</characteristic>
@@ -2961,9 +2961,9 @@ On a successful Initiative test it is considered a failed charge and the norma
                 <infoLink name="Avoid stun" id="bec1-eaf1-bebe-e5b9" hidden="false" targetId="8747-e16d-0f7e-5561" type="rule"/>
               </infoLinks>
               <profiles>
-                <profile name="Helmet" id="5841-599d-ff7c-aea" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+                <profile name="Helmet" id="5841-599d-ff7c-aea" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armour">
                   <characteristics>
-                    <characteristic name="Armor Save" id="e57a-f770-f1c9-bd43" hidden="false" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b"/>
+                    <characteristic name="Armour Save" id="e57a-f770-f1c9-bd43" hidden="false" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b"/>
                     <characteristic name="Special" id="dc93-a5cc-d5e3-d6e9" hidden="false" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">Avoid stun</characteristic>
                   </characteristics>
                 </profile>
@@ -2982,7 +2982,7 @@ On a successful Initiative test it is considered a failed charge and the norma
                 <infoLink name="+1 Enemy armour save" id="9f1e-b11d-3522-f87e" hidden="false" targetId="98ac-2376-00c1-4f65" type="rule"/>
               </infoLinks>
               <profiles>
-                <profile name="Dagger" id="57b6-16f1-47df-7821" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+                <profile name="Dagger" id="57b6-16f1-47df-7821" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
                   <characteristics>
                     <characteristic name="Str" id="9e6c-c014-4174-ffb2" hidden="false" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
                     <characteristic name="Special" id="4d97-6943-1bd0-fdc9" hidden="false" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">+1 enemy armor save</characteristic>
@@ -3000,9 +3000,9 @@ On a successful Initiative test it is considered a failed charge and the norma
                 <cost name="Warband Rating" id="66d6-af8d-4f0d-faf6" hidden="false" typeId="wb-rating" value="0"/>
               </costs>
               <profiles>
-                <profile name="Shield" id="a9f6-aeb2-ef37-82a4" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+                <profile name="Shield" id="a9f6-aeb2-ef37-82a4" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armour">
                   <characteristics>
-                    <characteristic name="Armor Save" id="86e1-3e94-90c5-ce09" hidden="false" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">+1</characteristic>
+                    <characteristic name="Armour Save" id="86e1-3e94-90c5-ce09" hidden="false" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">+1</characteristic>
                     <characteristic name="Special" id="96c4-5d5b-ac1d-567f" hidden="false" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f"/>
                   </characteristics>
                 </profile>
@@ -3018,7 +3018,7 @@ On a successful Initiative test it is considered a failed charge and the norma
                 <cost name="Warband Rating" typeId="wb-rating" value="0"/>
               </costs>
               <profiles>
-                <profile name="Axe" id="6c55-6d3d-3771-a113" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+                <profile name="Axe" id="6c55-6d3d-3771-a113" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
                   <characteristics>
                     <characteristic name="Str" id="1a7e-e9c2-3cd0-fa25" hidden="false" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
                     <characteristic name="Special" id="3e99-23f1-400b-6a8e" hidden="false" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Cutting edge</characteristic>
@@ -3055,9 +3055,9 @@ On a successful Initiative test it is considered a failed charge and the norma
                 <infoLink name="Avoid stun" id="2d83-194f-c94f-fe61" hidden="false" targetId="8747-e16d-0f7e-5561" type="rule"/>
               </infoLinks>
               <profiles>
-                <profile name="Helmet" id="5f8e-7fe5-892d-d8a4" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+                <profile name="Helmet" id="5f8e-7fe5-892d-d8a4" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armour">
                   <characteristics>
-                    <characteristic name="Armor Save" id="f930-c3db-dd2f-52a9" hidden="false" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b"/>
+                    <characteristic name="Armour Save" id="f930-c3db-dd2f-52a9" hidden="false" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b"/>
                     <characteristic name="Special" id="a82f-fc18-e619-9312" hidden="false" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">Avoid stun</characteristic>
                   </characteristics>
                 </profile>
@@ -3076,7 +3076,7 @@ On a successful Initiative test it is considered a failed charge and the norma
                 <infoLink name="+1 Enemy armour save" id="f261-7eeb-b966-4090" hidden="false" targetId="98ac-2376-00c1-4f65" type="rule"/>
               </infoLinks>
               <profiles>
-                <profile name="Dagger" id="3c2-67d6-c20e-cfc4" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+                <profile name="Dagger" id="3c2-67d6-c20e-cfc4" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
                   <characteristics>
                     <characteristic name="Str" id="a9d8-6e4c-252-f55" hidden="false" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
                     <characteristic name="Special" id="da8f-ad1a-7a06-8190" hidden="false" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">+1 enemy armor save</characteristic>
@@ -3101,7 +3101,7 @@ On a successful Initiative test it is considered a failed charge and the norma
                     <infoLink name="Thrown weapon" id="9f07-46df-1705-ac49" hidden="false" targetId="1015-45da-ae71-d59b" type="rule"/>
                   </infoLinks>
                   <profiles>
-                    <profile name="Javelin" id="dfd1-759-fbe8-b667" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+                    <profile name="Javelin" id="dfd1-759-fbe8-b667" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
                       <characteristics>
                         <characteristic name="Range" id="cc72-a98b-e44b-e19f" hidden="false" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">10</characteristic>
                         <characteristic name="Str" id="af32-3b9c-faed-2edc" hidden="false" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">As User</characteristic>
@@ -3120,7 +3120,7 @@ On a successful Initiative test it is considered a failed charge and the norma
                     <infoLink name="Parry" id="a8a3-5209-9b0d-9589" hidden="false" targetId="17dc-9c49-08e1-af45" type="rule"/>
                   </infoLinks>
                   <profiles>
-                    <profile name="Trident" id="4110-2367-4da5-af3c" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+                    <profile name="Trident" id="4110-2367-4da5-af3c" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
                       <characteristics>
                         <characteristic name="Str" id="6ad6-638f-fa4-a0e9" hidden="false" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">As User</characteristic>
                         <characteristic name="Special" id="db5b-4be-9f37-d794" hidden="false" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Strike First, Parry</characteristic>
@@ -3150,9 +3150,9 @@ On a successful Initiative test it is considered a failed charge and the norma
                     <infoLink name="Parry" id="d30-5209-fbf4-832d" hidden="false" targetId="17dc-9c49-08e1-af45" type="rule"/>
                   </infoLinks>
                   <profiles>
-                    <profile name="Buckler" id="b81a-7e47-f5a4-6843" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+                    <profile name="Buckler" id="b81a-7e47-f5a4-6843" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armour">
                       <characteristics>
-                        <characteristic name="Armor Save" id="7bac-1207-aadc-8274" hidden="false" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b"/>
+                        <characteristic name="Armour Save" id="7bac-1207-aadc-8274" hidden="false" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b"/>
                         <characteristic name="Special" id="e4f-11b1-2396-14ee" hidden="false" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">Parry</characteristic>
                       </characteristics>
                     </profile>
@@ -3193,9 +3193,9 @@ model’s BS to determine whether the net hits or not – there are no movement 
                 <infoLink name="Avoid stun" id="8fc-e1ca-a524-ed29" hidden="false" targetId="8747-e16d-0f7e-5561" type="rule"/>
               </infoLinks>
               <profiles>
-                <profile name="Helmet" id="a67c-3829-4fa2-2203" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+                <profile name="Helmet" id="a67c-3829-4fa2-2203" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armour">
                   <characteristics>
-                    <characteristic name="Armor Save" id="8fc9-3a4-5053-6c6a" hidden="false" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b"/>
+                    <characteristic name="Armour Save" id="8fc9-3a4-5053-6c6a" hidden="false" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b"/>
                     <characteristic name="Special" id="2145-5b8b-8895-c40c" hidden="false" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">Avoid stun</characteristic>
                   </characteristics>
                 </profile>
@@ -3214,7 +3214,7 @@ model’s BS to determine whether the net hits or not – there are no movement 
                 <infoLink name="+1 Enemy armour save" id="11a3-30e6-6a18-5e42" hidden="false" targetId="98ac-2376-00c1-4f65" type="rule"/>
               </infoLinks>
               <profiles>
-                <profile name="Dagger" id="1af0-adc5-f9a3-7069" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+                <profile name="Dagger" id="1af0-adc5-f9a3-7069" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
                   <characteristics>
                     <characteristic name="Str" id="7027-8bfb-eab2-93c0" hidden="false" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
                     <characteristic name="Special" id="f79d-e8c8-5064-9abe" hidden="false" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">+1 enemy armor save</characteristic>
@@ -3235,7 +3235,7 @@ model’s BS to determine whether the net hits or not – there are no movement 
                 <infoLink name="Parry" id="a4f6-c4eb-8061-c4e8" hidden="false" targetId="17dc-9c49-08e1-af45" type="rule"/>
               </infoLinks>
               <profiles>
-                <profile name="Spiked Gauntlet" id="4d3a-5655-f32e-c30b" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+                <profile name="Spiked Gauntlet" id="4d3a-5655-f32e-c30b" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
                   <characteristics>
                     <characteristic name="Str" id="f080-2dd-b265-3c53" hidden="false" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">As User</characteristic>
                     <characteristic name="Special" id="87eb-8b38-1133-1b7c" hidden="false" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Counts as both weapon and buckler</characteristic>
@@ -3266,7 +3266,7 @@ model’s BS to determine whether the net hits or not – there are no movement 
                         <infoLink name="Parry" id="ca5c-2cb4-7338-7fa6" hidden="false" targetId="17dc-9c49-08e1-af45" type="rule"/>
                       </infoLinks>
                       <profiles>
-                        <profile name="Sword" id="f57e-d1b4-35a7-dca" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+                        <profile name="Sword" id="f57e-d1b4-35a7-dca" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
                           <characteristics>
                             <characteristic name="Str" id="915f-f6b6-9669-ac4d" hidden="false" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
                             <characteristic name="Special" id="794f-a0d8-5ec4-c098" hidden="false" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Parry</characteristic>
@@ -3293,7 +3293,7 @@ model’s BS to determine whether the net hits or not – there are no movement 
                         <infoLink name="Unwieldy" id="5bba-812-1e6d-b9ed" hidden="false" targetId="2b45-f8c1-de87-638f" type="rule"/>
                       </infoLinks>
                       <profiles>
-                        <profile name="Spear" id="7ebe-7a70-9483-764f" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+                        <profile name="Spear" id="7ebe-7a70-9483-764f" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
                           <characteristics>
                             <characteristic name="Str" id="d0ee-306b-b827-838d" hidden="false" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
                             <characteristic name="Special" id="b45c-779d-e725-1496" hidden="false" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Unwieldy, Strike First, Calvary Bonus +1</characteristic>

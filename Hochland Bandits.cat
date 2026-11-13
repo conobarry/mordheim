@@ -3326,8 +3326,8 @@ Gutterscum do not gain experience.</description>
         <cost name="Warband Rating" id="c87c-e48c-2c-2284" hidden="false" typeId="wb-rating" value="0"/>
       </costs>
       <entryLinks>
-        <entryLink name="Gold" id="cf30-b16c-1fc2-1c05" collective="false" hidden="false" import="true" targetId="deca-5737-6234-23a1" type="selectionEntry"/>
-        <entryLink name="Wyrdstone" id="3202-ccd3-cd37-7ba7" collective="false" hidden="false" import="true" targetId="60f8-e6e7-c2ea-0dad" type="selectionEntry"/>
+        <entryLink name="Gold Crowns" id="cf30-b16c-1fc2-1c05" collective="false" hidden="false" import="true" targetId="deca-5737-6234-23a1" type="selectionEntry"/>
+        <entryLink name="Wyrdstone Shards" id="3202-ccd3-cd37-7ba7" collective="false" hidden="false" import="true" targetId="60f8-e6e7-c2ea-0dad" type="selectionEntry"/>
         <entryLink name="Equipment" id="3801-d53b-ebb9-a2e0" collective="false" hidden="false" import="true" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
@@ -3343,7 +3343,7 @@ Gutterscum do not gain experience.</description>
         <infoLink name="+1 Enemy armour save" id="5f40-c6b5-2bd2-4f2e" hidden="false" targetId="98ac-2376-00c1-4f65" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Main Gauche" id="753e-bfa9-53a9-7082" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Main Gauche" id="753e-bfa9-53a9-7082" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Parry, Armour save</characteristic>
@@ -3454,7 +3454,7 @@ If an Enemy warrior is attempting to detect the bandit While he is Hidden, rol
           <entryLinks>
             <entryLink name="Dagger" id="8488-c598-435d-811c" collective="false" hidden="false" import="true" targetId="64e0-0bb6-542b-4beb" type="selectionEntry"/>
             <entryLink name="Free Dagger" id="8201-82eb-953d-40e9" collective="false" hidden="false" import="true" targetId="0d0b-ed37-d8b0-4cbf" type="selectionEntry"/>
-            <entryLink name="Hammer, staff, mace or club" id="e664-2b40-3e2-ec4b" collective="false" hidden="false" import="true" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
+            <entryLink name="Hammer" id="e664-2b40-3e2-ec4b" collective="false" hidden="false" import="true" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
               <modifiers>
                 <modifier field="name" type="set" value="Hammer"/>
               </modifiers>
@@ -3506,7 +3506,7 @@ If an Enemy warrior is attempting to detect the bandit While he is Hidden, rol
           <entryLinks>
             <entryLink name="Dagger" id="b224-98d6-264e-e68a" collective="false" hidden="false" import="true" targetId="64e0-0bb6-542b-4beb" type="selectionEntry"/>
             <entryLink name="Free Dagger" id="6ace-f201-9c83-8021" collective="false" hidden="false" import="true" targetId="0d0b-ed37-d8b0-4cbf" type="selectionEntry"/>
-            <entryLink name="Hammer, staff, mace or club" id="9a0b-f275-8d55-f506" collective="false" hidden="false" import="true" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
+            <entryLink name="Hammer" id="9a0b-f275-8d55-f506" collective="false" hidden="false" import="true" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
               <modifiers>
                 <modifier field="name" type="set" value="Hammer"/>
               </modifiers>
@@ -3558,7 +3558,7 @@ If an Enemy warrior is attempting to detect the bandit While he is Hidden, rol
                 <modifier field="name" type="set" value="Pistol *"/>
               </modifiers>
             </entryLink>
-            <entryLink name="Dueling Pistol" id="4dfd-89bc-7358-29ac" hidden="false" import="true" targetId="da24-6a7f-725b-5bcb" type="selectionEntry">
+            <entryLink name="Duelling Pistol" id="4dfd-89bc-7358-29ac" hidden="false" import="true" targetId="da24-6a7f-725b-5bcb" type="selectionEntry">
               <modifiers>
                 <modifier field="name" type="set" value="Dueling Pistol *"/>
               </modifiers>
@@ -3607,7 +3607,7 @@ If an Enemy warrior is attempting to detect the bandit While he is Hidden, rol
           </constraints>
           <entryLinks>
             <entryLink name="Pistol" id="18ae-56aa-7770-79ba" collective="false" hidden="false" import="true" targetId="67e9-a4f5-8f76-168c" type="selectionEntry"/>
-            <entryLink name="Dueling Pistol" id="df20-64f6-bb87-94b9" hidden="false" import="true" targetId="da24-6a7f-725b-5bcb" type="selectionEntry"/>
+            <entryLink name="Duelling Pistol" id="df20-64f6-bb87-94b9" hidden="false" import="true" targetId="da24-6a7f-725b-5bcb" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Armor" id="44c3-1586-684f-b3c9" collective="false" hidden="false" import="true">
@@ -3671,7 +3671,7 @@ If an Enemy warrior is attempting to detect the bandit While he is Hidden, rol
             <constraint id="93f3-5fb6-68c5-f53f" field="selections" scope="parent" shared="true" type="max" value="2"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Shortbow" id="fec1-ef6e-574c-b6fe" collective="false" hidden="false" import="true" targetId="3706-6421-53b4-940d" type="selectionEntry"/>
+            <entryLink name="Short Bow" id="fec1-ef6e-574c-b6fe" collective="false" hidden="false" import="true" targetId="3706-6421-53b4-940d" type="selectionEntry"/>
             <entryLink name="Bow" id="7473-179a-f369-86b1" hidden="false" import="true" targetId="311a-bf3f-67ff-46e7" type="selectionEntry"/>
             <entryLink name="Longbow" id="9c39-5f14-7e0a-e7fa" hidden="false" import="true" targetId="afa2-2d5c-54dd-d435" type="selectionEntry"/>
             <entryLink name="Crossbow" id="f6f6-d63d-136e-1c3e" hidden="false" import="true" targetId="38cc-bc0b-7f19-8039" type="selectionEntry"/>

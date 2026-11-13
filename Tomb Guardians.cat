@@ -33,7 +33,7 @@ A Tomb Guardian warband always roll one extra dice in the Exploration phase.</
         <entryLink name="Undead Equipment" id="c51e-a10f-a589-ddb2" collective="false" hidden="false" import="true" targetId="982b-baae-2892-3979" type="selectionEntryGroup"/>
         <entryLink name="Characteristic Increases" id="acf-6940-652f-a948" collective="false" hidden="false" import="true" targetId="7879-46ac-5598-aa00" type="selectionEntryGroup"/>
         <entryLink name="Serious Injuries" id="3a83-a4bf-968f-ab1c" collective="false" hidden="false" import="true" targetId="313b-a816-0a89-926c" type="selectionEntryGroup"/>
-        <entryLink name="Advancement" id="3516-e568-d2e-da90" hidden="false" import="true" targetId="c26e-414e-293-2621" type="selectionEntry">
+        <entryLink name="Advancement (Hero)" id="3516-e568-d2e-da90" hidden="false" import="true" targetId="c26e-414e-293-2621" type="selectionEntry">
           <modifiers>
             <modifier field="f983-fe4b-65c8-b54f" type="increment" value="1">
               <conditions>
@@ -171,13 +171,13 @@ A Tomb Guardian warband always roll one extra dice in the Exploration phase.</
       </entryLinks>
       <infoLinks>
         <infoLink name="Leader" id="9fcf-3754-28b5-901d" hidden="false" targetId="8712-d0f2-fe64-07bd" type="rule"/>
-        <infoLink name="Unknown" id="c014-7118-2dbe-28a0" hidden="false" targetId="4276-a1f7-88b6-ae4c" type="profile"/>
+        <infoLink name="Tomb Lord (Mummy) max" id="c014-7118-2dbe-28a0" hidden="false" targetId="4276-a1f7-88b6-ae4c" type="profile"/>
         <infoLink name="Fear" id="10a8-b6dd-3e92-e1d4" hidden="false" targetId="cdc8-da3b-a2ed-d841" type="rule"/>
-        <infoLink name="Unknown" id="969-37f7-6d6e-ce03" hidden="false" targetId="114e-939e-220b-403" type="rule"/>
+        <infoLink name="Immune to Psychology" id="969-37f7-6d6e-ce03" hidden="false" targetId="114e-939e-220b-403" type="rule"/>
         <infoLink name="Do not Drink" id="5b8b-d267-2d4-64c1" hidden="false" targetId="78d7-f07e-65e2-b830" type="rule"/>
         <infoLink name="No Pain" id="fef2-6a04-47da-b60a" hidden="false" targetId="54c4-5d87-e5c5-f0dc" type="rule"/>
-        <infoLink name="Immune to poison" id="6aa6-52eb-e39b-84eb" hidden="false" targetId="f654-2dea-4f11-5730" type="rule"/>
-        <infoLink name="May not run" id="1fec-61ae-3157-2b8c" hidden="false" targetId="8f9a-f7a4-45f0-6918" type="rule"/>
+        <infoLink name="Immune to Poison" id="6aa6-52eb-e39b-84eb" hidden="false" targetId="f654-2dea-4f11-5730" type="rule"/>
+        <infoLink name="May not Run" id="1fec-61ae-3157-2b8c" hidden="false" targetId="8f9a-f7a4-45f0-6918" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Tomb Lord" id="e1cb-4efb-e2ae-f851" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
@@ -528,8 +528,8 @@ A hit from a fire-based attack will cause double the normal number of wounds o
         <infoLink name="Immune to Psychology" id="ca42-2484-949e-2689" hidden="false" targetId="114e-939e-220b-403" type="rule"/>
         <infoLink name="Do not Drink" id="6d25-5386-8959-d0c" hidden="false" targetId="78d7-f07e-65e2-b830" type="rule"/>
         <infoLink name="No Pain" id="269a-5afd-8d35-6555" hidden="false" targetId="54c4-5d87-e5c5-f0dc" type="rule"/>
-        <infoLink name="Immune to poison" id="82f5-d1d1-ea85-1e3b" hidden="false" targetId="f654-2dea-4f11-5730" type="rule"/>
-        <infoLink name="May not run" id="edc3-60d6-84ce-b4ac" hidden="false" targetId="8f9a-f7a4-45f0-6918" type="rule"/>
+        <infoLink name="Immune to Poison" id="82f5-d1d1-ea85-1e3b" hidden="false" targetId="f654-2dea-4f11-5730" type="rule"/>
+        <infoLink name="May not Run" id="edc3-60d6-84ce-b4ac" hidden="false" targetId="8f9a-f7a4-45f0-6918" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Liche Priest" id="4042-fec1-7c1e-2b35" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
@@ -905,8 +905,8 @@ A hit from a fire-based attack will cause double the normal number of wounds o
         <infoLink name="Immune to Psychology" id="9ebc-41d0-d971-8ad5" hidden="false" targetId="114e-939e-220b-403" type="rule"/>
         <infoLink name="Do not Drink" id="6ecc-da11-ac08-e16" hidden="false" targetId="78d7-f07e-65e2-b830" type="rule"/>
         <infoLink name="No Pain" id="c5df-8d1a-25c5-9b58" hidden="false" targetId="54c4-5d87-e5c5-f0dc" type="rule"/>
-        <infoLink name="Immune to poison" id="536e-5535-f22d-5303" hidden="false" targetId="f654-2dea-4f11-5730" type="rule"/>
-        <infoLink name="May not run" id="88a9-6911-443b-4321" hidden="false" targetId="8f9a-f7a4-45f0-6918" type="rule"/>
+        <infoLink name="Immune to Poison" id="536e-5535-f22d-5303" hidden="false" targetId="f654-2dea-4f11-5730" type="rule"/>
+        <infoLink name="May not Run" id="88a9-6911-443b-4321" hidden="false" targetId="8f9a-f7a4-45f0-6918" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Acolytes" id="74cf-a0f3-2679-1774" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
@@ -1060,10 +1060,10 @@ A hit from a fire-based attack will cause double the normal number of wounds o
         <infoLink name="Do not Drink" id="2595-7ec-fbdd-e3d0" hidden="false" targetId="78d7-f07e-65e2-b830" type="rule"/>
         <infoLink name="Fear" id="b214-4bb6-1b89-9275" hidden="false" targetId="cdc8-da3b-a2ed-d841" type="rule"/>
         <infoLink name="Immune to Psychology" id="7337-dce4-256b-a334" hidden="false" targetId="114e-939e-220b-403" type="rule"/>
-        <infoLink name="Unknown" id="1bd2-c707-3c83-af4" hidden="false" targetId="52a8-95d9-6982-5db5" type="rule"/>
+        <infoLink name="No Brain" id="1bd2-c707-3c83-af4" hidden="false" targetId="52a8-95d9-6982-5db5" type="rule"/>
         <infoLink name="No Pain" id="111e-44b7-98ce-a26a" hidden="false" targetId="54c4-5d87-e5c5-f0dc" type="rule"/>
-        <infoLink name="Immune to poison" id="c869-e59e-8c54-2e2" hidden="false" targetId="f654-2dea-4f11-5730" type="rule"/>
-        <infoLink name="May not run" id="ab31-b55f-2929-5e1d" hidden="false" targetId="8f9a-f7a4-45f0-6918" type="rule"/>
+        <infoLink name="Immune to Poison" id="c869-e59e-8c54-2e2" hidden="false" targetId="f654-2dea-4f11-5730" type="rule"/>
+        <infoLink name="May not Run" id="ab31-b55f-2929-5e1d" hidden="false" targetId="8f9a-f7a4-45f0-6918" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Skeleton Warriors" id="2fda-4164-3ae5-c034" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
@@ -1418,8 +1418,8 @@ A hit from a fire-based attack will cause double the normal number of wounds o
         <infoLink name="Immune to Psychology" id="afe9-ccda-b125-b16c" hidden="false" targetId="114e-939e-220b-403" type="rule"/>
         <infoLink name="No Brain" id="fb7-79f0-263-63d4" hidden="false" targetId="52a8-95d9-6982-5db5" type="rule"/>
         <infoLink name="No Pain" id="fe66-646f-d0ab-88fd" hidden="false" targetId="54c4-5d87-e5c5-f0dc" type="rule"/>
-        <infoLink name="Immune to poison" id="3292-5e8a-c9ff-2576" hidden="false" targetId="f654-2dea-4f11-5730" type="rule"/>
-        <infoLink name="May not run" id="10b3-964d-bdd1-4418" hidden="false" targetId="8f9a-f7a4-45f0-6918" type="rule"/>
+        <infoLink name="Immune to Poison" id="3292-5e8a-c9ff-2576" hidden="false" targetId="f654-2dea-4f11-5730" type="rule"/>
+        <infoLink name="May not Run" id="10b3-964d-bdd1-4418" hidden="false" targetId="8f9a-f7a4-45f0-6918" type="rule"/>
         <infoLink name="Liche &amp; Accolyte (Mummy) max" id="2500-9035-a5f5-3c8f" hidden="false" targetId="8bc-2e8-d672-82d4" type="profile"/>
       </infoLinks>
       <profiles>
@@ -1643,7 +1643,7 @@ This attack is worked out exactly as if the scorpion was attacking with Black 
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
       <entryLinks>
-        <entryLink name="Extra Gold Cost" id="77ae-a4e-9947-de2d" hidden="false" import="true" targetId="deca-5737-6234-23a1" type="selectionEntry">
+        <entryLink name="Gold Crowns" id="77ae-a4e-9947-de2d" hidden="false" import="true" targetId="deca-5737-6234-23a1" type="selectionEntry">
           <constraints>
             <constraint id="8e4c-4856-ad2c-e3d2" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="60"/>
             <constraint id="c07-2a87-1acd-500e" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="6"/>
@@ -1758,8 +1758,8 @@ If the chariot is hit, roll a D6 to see where it is hit: 1-2 steed, 3-4 chari
         <cost name="Warband Rating" id="5bf8-9e99-5de-2367" hidden="false" typeId="wb-rating" value="0"/>
       </costs>
       <entryLinks>
-        <entryLink name="Gold" id="8864-7d5e-f08e-36d5" collective="false" hidden="false" import="true" targetId="deca-5737-6234-23a1" type="selectionEntry"/>
-        <entryLink name="Wyrdstone" id="48f6-41e6-a802-efd0" collective="false" hidden="false" import="true" targetId="60f8-e6e7-c2ea-0dad" type="selectionEntry"/>
+        <entryLink name="Gold Crowns" id="8864-7d5e-f08e-36d5" collective="false" hidden="false" import="true" targetId="deca-5737-6234-23a1" type="selectionEntry"/>
+        <entryLink name="Wyrdstone Shards" id="48f6-41e6-a802-efd0" collective="false" hidden="false" import="true" targetId="60f8-e6e7-c2ea-0dad" type="selectionEntry"/>
         <entryLink name="Equipment" id="7709-d489-f21c-438f" collective="false" hidden="false" import="true" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
@@ -1774,7 +1774,7 @@ If the chariot is hit, roll a D6 to see where it is hit: 1-2 steed, 3-4 chari
           <entryLinks>
             <entryLink name="Free Dagger" id="7d5c-8375-6ad5-7941" hidden="false" import="true" targetId="0d0b-ed37-d8b0-4cbf" type="selectionEntry"/>
             <entryLink name="Dagger" id="2c93-1b29-c17d-3d00" hidden="false" import="true" targetId="64e0-0bb6-542b-4beb" type="selectionEntry"/>
-            <entryLink name="Hammer, staff, mace or club" id="d9e0-5145-7cb4-aa5" hidden="false" import="true" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
+            <entryLink name="Hammer" id="d9e0-5145-7cb4-aa5" hidden="false" import="true" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
               <modifiers>
                 <modifier field="name" type="set" value="Mace"/>
               </modifiers>
@@ -1826,7 +1826,7 @@ If the chariot is hit, roll a D6 to see where it is hit: 1-2 steed, 3-4 chari
                 </modifier>
               </modifiers>
               <profiles>
-                <profile name="Nehekharan Javelins" id="17a2-dce4-663c-1fd6" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+                <profile name="Nehekharan Javelins" id="17a2-dce4-663c-1fd6" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
                   <characteristics>
                     <characteristic name="Range" id="15c0-e6dc-64af-9295" hidden="false" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">8</characteristic>
                     <characteristic name="Str" id="e327-3c94-bc52-a1a4" hidden="false" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">As user</characteristic>
@@ -1872,7 +1872,7 @@ Any attack with a ranged weapon performed using these arrows benefits from a +1 
           <entryLinks>
             <entryLink name="Free Dagger" id="2128-55da-7c41-703a" hidden="false" import="true" targetId="0d0b-ed37-d8b0-4cbf" type="selectionEntry"/>
             <entryLink name="Dagger" id="d21b-b6e9-19a3-d53f" hidden="false" import="true" targetId="64e0-0bb6-542b-4beb" type="selectionEntry"/>
-            <entryLink name="Hammer, staff, mace or club" id="a1ee-bebd-85aa-1c03" hidden="false" import="true" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
+            <entryLink name="Hammer" id="a1ee-bebd-85aa-1c03" hidden="false" import="true" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
               <modifiers>
                 <modifier field="name" type="set" value="Mace, Staff"/>
               </modifiers>
@@ -1905,7 +1905,7 @@ Any attack with a ranged weapon performed using these arrows benefits from a +1 
                 </modifier>
               </modifiers>
               <profiles>
-                <profile name="Serpent Staff" id="4b92-7e25-5536-62b6" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+                <profile name="Serpent Staff" id="4b92-7e25-5536-62b6" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
                   <characteristics>
                     <characteristic name="Str" id="b93b-6af3-29f2-278e" hidden="false" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">As User</characteristic>
                     <characteristic name="Special" id="87e6-a444-e925-7708" hidden="false" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Two Handed, Parry, Animate</characteristic>

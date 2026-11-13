@@ -688,9 +688,9 @@ If the extra move takes the Orc or Goblin warrior within charge reach of an enem
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
       <profiles>
-        <profile name="Barding" id="675f-2126-9108-d6e0" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+        <profile name="Barding" id="675f-2126-9108-d6e0" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armour">
           <characteristics>
-            <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">+1</characteristic>
+            <characteristic name="Armour Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">+1</characteristic>
             <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">+1 Armor save, Warhorse Only</characteristic>
           </characteristics>
         </profile>
@@ -717,9 +717,9 @@ Warhorses only.</description>
         <infoLink name="Parry" id="362e-9b2e-c04d-89e3" hidden="false" targetId="17dc-9c49-08e1-af45" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Buckler" id="8b6c-9980-e7ef-799a" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+        <profile name="Buckler" id="8b6c-9980-e7ef-799a" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armour">
           <characteristics>
-            <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b"/>
+            <characteristic name="Armour Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b"/>
             <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">Parry</characteristic>
           </characteristics>
           <modifiers>
@@ -738,9 +738,9 @@ Warhorses only.</description>
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
       <profiles>
-        <profile name="Gromril Armour" id="dda4-b2d8-d680-6abe" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+        <profile name="Gromril Armour" id="dda4-b2d8-d680-6abe" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armour">
           <characteristics>
-            <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">4+</characteristic>
+            <characteristic name="Armour Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">4+</characteristic>
             <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">Not Showed By Shield</characteristic>
           </characteristics>
         </profile>
@@ -757,9 +757,9 @@ Warhorses only.</description>
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
       <profiles>
-        <profile name="Heavy Armor" id="ec5d-8870-ca16-a030" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+        <profile name="Heavy Armor" id="ec5d-8870-ca16-a030" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armour">
           <characteristics>
-            <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">5+</characteristic>
+            <characteristic name="Armour Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">5+</characteristic>
             <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">A warrior that is armed with both heavy armour and a shield suffers a -1 Movement penalty.</characteristic>
           </characteristics>
         </profile>
@@ -774,9 +774,9 @@ Warhorses only.</description>
         <infoLink name="Avoid stun" id="7717-307b-23a1-70cf" hidden="false" targetId="8747-e16d-0f7e-5561" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Helmet" id="23e6-4bf8-79b0-7c88" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+        <profile name="Helmet" id="23e6-4bf8-79b0-7c88" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armour">
           <characteristics>
-            <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b"/>
+            <characteristic name="Armour Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b"/>
             <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">Avoid stun</characteristic>
           </characteristics>
         </profile>
@@ -788,9 +788,9 @@ Warhorses only.</description>
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
       <profiles>
-        <profile name="Ithilmar Armour" id="e528-41b5-0030-f74d" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+        <profile name="Ithilmar Armour" id="e528-41b5-0030-f74d" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armour">
           <characteristics>
-            <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">5+</characteristic>
+            <characteristic name="Armour Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">5+</characteristic>
             <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">Not slowed by Shield</characteristic>
           </characteristics>
         </profile>
@@ -807,9 +807,9 @@ Warhorses only.</description>
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
       <profiles>
-        <profile name="Light Armor" id="a2ac-a89e-b243-b760" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+        <profile name="Light Armor" id="a2ac-a89e-b243-b760" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armour">
           <characteristics>
-            <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">6+</characteristic>
+            <characteristic name="Armour Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">6+</characteristic>
             <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f"/>
           </characteristics>
         </profile>
@@ -821,9 +821,9 @@ Warhorses only.</description>
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
       <profiles>
-        <profile name="Shield" id="5609-d9de-b234-dbe7" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+        <profile name="Shield" id="5609-d9de-b234-dbe7" hidden="false" page="0" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armour">
           <characteristics>
-            <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">+1</characteristic>
+            <characteristic name="Armour Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">+1</characteristic>
             <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f"/>
           </characteristics>
           <modifiers>
@@ -842,7 +842,7 @@ Warhorses only.</description>
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
       <profiles>
-        <profile name="Axe" id="0692-950c-5004-5679" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Axe" id="0692-950c-5004-5679" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Cutting edge</characteristic>
@@ -888,7 +888,7 @@ Warhorses only.</description>
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
       <profiles>
-        <profile name="Ball and Chain" id="902b-66e2-0dcd-d1e0" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Ball and Chain" id="902b-66e2-0dcd-d1e0" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">+2</characteristic>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Incredible Force, Random, Two-handed, Cumbersome, Unwieldy</characteristic>
@@ -932,7 +932,7 @@ ignores the special rules for Animosity.</description>
         <infoLink name="+1 Enemy armour save" id="efd9-a513-0429-1183" hidden="false" targetId="98ac-2376-00c1-4f65" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Dagger" id="f2a6-ed25-f24d-bddb" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Dagger" id="f2a6-ed25-f24d-bddb" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">+1 enemy armor save</characteristic>
@@ -982,7 +982,7 @@ ignores the special rules for Animosity.</description>
         <infoLink name="Two Handed" id="24a9-f38e-b775-7b5b" hidden="false" targetId="2fb3-525b-86c3-2cd6" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Double Handed Weapon" id="e6e2-1f59-2a2b-d7ff" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Double Handed Weapon" id="e6e2-1f59-2a2b-d7ff" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">+2</characteristic>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Two-handed,  Strike last</characteristic>
@@ -1031,7 +1031,7 @@ ignores the special rules for Animosity.</description>
         <infoLink name="+1 Enemy armour save" id="14b0-2fd8-eccb-79d6" hidden="false" targetId="98ac-2376-00c1-4f65" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Fist" id="b5ff-67a8-d330-c45e" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Fist" id="b5ff-67a8-d330-c45e" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">+1 Enemy armour save:</characteristic>
@@ -1049,7 +1049,7 @@ ignores the special rules for Animosity.</description>
         <infoLink name="Two Handed" id="0bdf-fd1e-9108-453f" hidden="false" targetId="2fb3-525b-86c3-2cd6" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Flail" id="7888-0782-642f-92ae" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Flail" id="7888-0782-642f-92ae" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">+2</characteristic>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Heavy, Two-handed</characteristic>
@@ -1099,7 +1099,7 @@ ignores the special rules for Animosity.</description>
         <infoLink name="Two Handed" id="0bdf-fd1e-9108-453f" hidden="false" targetId="2fb3-525b-86c3-2cd6" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Flail" id="7888-0782-642f-92ae" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Flail" id="7888-0782-642f-92ae" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">+2</characteristic>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Heavy, Two-handed</characteristic>
@@ -1151,7 +1151,7 @@ ignores the special rules for Animosity.</description>
         <infoLink name="+1 Enemy armour save" id="32f5-b851-e62c-a445" hidden="false" targetId="98ac-2376-00c1-4f65" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Free Dagger" id="425b-6472-8e74-fb9b" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Free Dagger" id="425b-6472-8e74-fb9b" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">+1 enemy save</characteristic>
@@ -1168,7 +1168,7 @@ ignores the special rules for Animosity.</description>
         <infoLink name="Two Handed" id="a20d-4767-d8c6-8fc2" hidden="false" targetId="2fb3-525b-86c3-2cd6" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Halberd" id="637f-1511-b329-afe6" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Halberd" id="637f-1511-b329-afe6" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">+1</characteristic>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Two-handed</characteristic>
@@ -1217,7 +1217,7 @@ ignores the special rules for Animosity.</description>
         <infoLink name="Concussion" id="cab8-4d87-fe08-7e99" hidden="false" targetId="f08e-fc7a-fca1-6a49" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Hammer" id="1400-2232-33fe-8e88" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Hammer" id="1400-2232-33fe-8e88" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Concussion</characteristic>
@@ -1267,7 +1267,7 @@ ignores the special rules for Animosity.</description>
         <infoLink name="Cavalry Weapon" id="0c3d-a4da-6abc-80ef" hidden="false" targetId="033a-b64b-4bfc-e285" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Lance" id="d223-0ac6-78ab-7255" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Lance" id="d223-0ac6-78ab-7255" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">+2</characteristic>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Calvary Weapon, Calvary Bonus +2</characteristic>
@@ -1322,7 +1322,7 @@ ignores the special rules for Animosity.</description>
         <infoLink name="Heavy" id="a39d-6453-f377-6ebc" hidden="false" targetId="c097-af8b-c2de-ac04" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Morning Star" id="65fd-bebc-e651-04bf" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Morning Star" id="65fd-bebc-e651-04bf" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">+1</characteristic>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Heavy, Difficult to use</characteristic>
@@ -1373,7 +1373,7 @@ ignores the special rules for Animosity.</description>
         <infoLink name="Unwieldy" id="4e58-2513-010b-b28f" hidden="false" targetId="2b45-f8c1-de87-638f" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Spear" id="ceaa-14c3-f1cc-3f4f" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Spear" id="ceaa-14c3-f1cc-3f4f" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Unwieldy, Strike First, Calvary Bonus +1</characteristic>
@@ -1422,7 +1422,7 @@ ignores the special rules for Animosity.</description>
         <infoLink name="Parry" id="fda2-d73b-5b2a-4ede" hidden="false" targetId="17dc-9c49-08e1-af45" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Sword" id="5d0e-0dc2-f724-9184" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Sword" id="5d0e-0dc2-f724-9184" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Parry</characteristic>
@@ -1472,7 +1472,7 @@ ignores the special rules for Animosity.</description>
         <infoLink name="Parry" id="fda2-d73b-5b2a-4ede" hidden="false" targetId="17dc-9c49-08e1-af45" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Trident" id="5d0e-0dc2-f724-9185" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Trident" id="5d0e-0dc2-f724-9185" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Parry</characteristic>
@@ -1518,7 +1518,7 @@ ignores the special rules for Animosity.</description>
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
       <profiles>
-        <profile name="Blunderbuss" id="4bd1-fe99-7649-1966" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Blunderbuss" id="4bd1-fe99-7649-1966" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">16x1</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">3</characteristic>
@@ -1546,7 +1546,7 @@ Any and all models in its path are automatically hit by a Strength 3 hit.</descr
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
       <profiles>
-        <profile name="Bow" id="14c3-6aab-3730-8586" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Bow" id="14c3-6aab-3730-8586" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">24</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">3</characteristic>
@@ -1561,7 +1561,7 @@ Any and all models in its path are automatically hit by a Strength 3 hit.</descr
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
       <profiles>
-        <profile name="Bow" id="14c3-6aab-3730-8586" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Bow" id="14c3-6aab-3730-8586" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">24</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">3</characteristic>
@@ -1579,7 +1579,7 @@ Any and all models in its path are automatically hit by a Strength 3 hit.</descr
         <infoLink name="Move or fire" id="3655-a5c1-4fea-d10f" hidden="false" targetId="3984-543f-6873-12c0" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Crossbow" id="d298-56a9-fc56-136b" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Crossbow" id="d298-56a9-fc56-136b" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">30</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
@@ -1594,7 +1594,7 @@ Any and all models in its path are automatically hit by a Strength 3 hit.</descr
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
       <profiles>
-        <profile name="Crossbow Pistol" id="1c50-4dfc-474c-b753" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Crossbow Pistol" id="1c50-4dfc-474c-b753" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">10</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
@@ -1618,7 +1618,7 @@ Any and all models in its path are automatically hit by a Strength 3 hit.</descr
         <infoLink name="Prepare shot" id="3585-8791-1dce-1a51" hidden="false" targetId="4f7f-29ec-a9da-82fc" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Duelling Pistol" id="6f37-7303-125c-3bda" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Duelling Pistol" id="6f37-7303-125c-3bda" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">10</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
@@ -1648,7 +1648,7 @@ Any and all models in its path are automatically hit by a Strength 3 hit.</descr
         <infoLink name="Prepare shot" id="3585-8791-1dce-1a51" hidden="false" targetId="4f7f-29ec-a9da-82fc" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Brace of Duelling Pistols" id="6f37-7303-125c-3bda" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Brace of Duelling Pistols" id="6f37-7303-125c-3bda" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">10</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
@@ -1674,7 +1674,7 @@ Any and all models in its path are automatically hit by a Strength 3 hit.</descr
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
       <profiles>
-        <profile name="Elf Bow" id="1a0b-6390-c1cd-d185" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Elf Bow" id="1a0b-6390-c1cd-d185" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">36</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">3</characteristic>
@@ -1702,7 +1702,7 @@ Any and all models in its path are automatically hit by a Strength 3 hit.</descr
         <infoLink name="Save modifier" id="439d-a819-6021-4dfb" hidden="false" targetId="5d21-2b30-4219-ec86" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Hand Gun" id="ddf9-f7f0-800a-a7d7" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Hand Gun" id="ddf9-f7f0-800a-a7d7" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">24</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
@@ -1728,7 +1728,7 @@ Any and all models in its path are automatically hit by a Strength 3 hit.</descr
         <infoLink name="Pick Target" id="3a27-4ecc-2731-23ea" hidden="false" targetId="f03e-1638-faca-49d7" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Hochland Long Rifle" id="097d-efc0-36a2-8ff5" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Hochland Long Rifle" id="097d-efc0-36a2-8ff5" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">48</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
@@ -1748,7 +1748,7 @@ Any and all models in its path are automatically hit by a Strength 3 hit.</descr
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
       <profiles>
-        <profile name="Longbow" id="88f3-6d77-484c-6ca8" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Longbow" id="88f3-6d77-484c-6ca8" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">30</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">3</characteristic>
@@ -1766,7 +1766,7 @@ Any and all models in its path are automatically hit by a Strength 3 hit.</descr
         <infoLink name="Save modifier" id="bcb2-4f05-6757-ad68" hidden="false" targetId="5d21-2b30-4219-ec86" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Pistol" id="d0ea-a831-4462-5301" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Pistol" id="d0ea-a831-4462-5301" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">6</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
@@ -1793,7 +1793,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
         <infoLink name="Save modifier" id="bcb2-4f05-6757-ad68" hidden="false" targetId="5d21-2b30-4219-ec86" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Brace of Pistols" id="d0ea-a831-4462-5301" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Brace of Pistols" id="d0ea-a831-4462-5301" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">6</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
@@ -1820,7 +1820,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
         <infoLink name="Fire twice" id="e02e-52f5-dc0f-9cc0" hidden="false" targetId="07df-708f-f103-6b32" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Repeater Crossbow" id="c5c1-b208-eb06-8d86" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Repeater Crossbow" id="c5c1-b208-eb06-8d86" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">24</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">3</characteristic>
@@ -1840,7 +1840,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
       <profiles>
-        <profile name="Short Bow" id="6bae-8763-feca-a52f" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Short Bow" id="6bae-8763-feca-a52f" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">16</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">3</characteristic>
@@ -1869,7 +1869,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
         </modifier>
       </modifiers>
       <profiles>
-        <profile name="Sling" id="81c2-c5ab-4b0b-f623" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Sling" id="81c2-c5ab-4b0b-f623" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">18</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">3</characteristic>
@@ -1893,7 +1893,7 @@ If the model fires twice then each shot is at -1 to hit.</description>
         <infoLink name="Thrown weapon" id="8e17-b560-7e9b-939d" hidden="false" targetId="1015-45da-ae71-d59b" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Throwing Knives/stars" id="c0d5-f5bf-5b7f-ce8b" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Throwing Knives/stars" id="c0d5-f5bf-5b7f-ce8b" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">6</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">U</characteristic>
@@ -2333,7 +2333,7 @@ model’s BS to determine whether the net hits or not – there are no movement 
         <infoLink name="Unwieldy" id="2437-8402-4d22-b92c" hidden="false" targetId="2b45-f8c1-de87-638f" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Squig Prodder" id="a932-eba6-7b9d-8c77" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Squig Prodder" id="a932-eba6-7b9d-8c77" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Unwieldy, Strike First, Calvary Bonus +1</characteristic>
@@ -2484,7 +2484,7 @@ Only available to Humans.</description>
         <infoLink name="Save modifier" id="2794-a9df-e85e-86aa" hidden="false" targetId="5d21-2b30-4219-ec86" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Double Barreled Pistol" id="6235-ef83-cc2c-e691" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Double Barreled Pistol" id="6235-ef83-cc2c-e691" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">6</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
@@ -2515,7 +2515,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
         <infoLink name="Double-barrelled" id="a0ac-9bee-206b-fac3" hidden="false" targetId="54a8-cbd7-7ba5-6778" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Double Barreled Hochland Long Rifle" id="19b9-813d-1ffb-bb01" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Double Barreled Hochland Long Rifle" id="19b9-813d-1ffb-bb01" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">48</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
@@ -2540,7 +2540,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
         <infoLink name="+1 Enemy armour save" id="9838-37ca-4a36-da16" hidden="false" targetId="98ac-2376-00c1-4f65" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Rapier" id="6731-8dce-da8e-84d5" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Rapier" id="6731-8dce-da8e-84d5" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Parry, Barrage, Armour save</characteristic>
@@ -2563,7 +2563,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
         <infoLink name="Two Handed" id="4fa1-902c-db5b-90ed" hidden="false" targetId="2fb3-525b-86c3-2cd6" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Horseman&apos;s Hammer" id="a354-5579-9e36-3daa" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Horseman&apos;s Hammer" id="a354-5579-9e36-3daa" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">+1</characteristic>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Two Handed, Cavalry Charge</characteristic>
@@ -2609,7 +2609,7 @@ Any models that have a Regeneration special rule (like Trolls) will not be able 
         <infoLink name="Parry" id="cb31-a8c7-6c39-c9ef" hidden="false" targetId="17dc-9c49-08e1-af45" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Fighting Claws" id="3527-2794-7012-9361" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Fighting Claws" id="3527-2794-7012-9361" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Pair, Parry, Climb, Cumbersome</characteristic>
@@ -2652,7 +2652,7 @@ Any models that have a Regeneration special rule (like Trolls) will not be able 
         <infoLink name="-3 Save Modifier" id="6a4f-2568-1dde-574c" hidden="false" targetId="f8a4-02ae-0f3c-3da0" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Warplock Pistol" id="ca09-3e89-0c7a-6755" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Warplock Pistol" id="ca09-3e89-0c7a-6755" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">8</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">5</characteristic>
@@ -2670,7 +2670,7 @@ Any models that have a Regeneration special rule (like Trolls) will not be able 
         <infoLink name="Concussion" id="d274-6e56-4bde-daeb" hidden="false" targetId="f08e-fc7a-fca1-6a49" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Sigmarite Warhammer" id="fdf9-610c-e8fc-eaf8" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Sigmarite Warhammer" id="fdf9-610c-e8fc-eaf8" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">+1</characteristic>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Concussion, Holy Weapon</characteristic>
@@ -2696,7 +2696,7 @@ Only Matriarchs and Sister Superiors may carry two Sigmarite  warhammers.</descr
         <infoLink name="Cutting edge" id="6174-85b5-16ec-632c" hidden="false" targetId="4b68-6905-29fd-e549" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Cathayan Longsword" id="500a-be39-3a90-f03b" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Cathayan Longsword" id="500a-be39-3a90-f03b" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">As user</characteristic>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Parry Cutting Edge, Mastercrafted</characteristic>
@@ -2785,7 +2785,7 @@ On a result of 1 the Gnoblar starts to bicker, insult and/or bully the other Gno
                 <infoLink name="Fire twice" id="5500-8b64-0148-ac53" hidden="false" targetId="07df-708f-f103-6b32" type="rule"/>
               </infoLinks>
               <profiles>
-                <profile name="Sharp stuff" id="16c8-c27d-e872-e01c" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+                <profile name="Sharp stuff" id="16c8-c27d-e872-e01c" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
                   <characteristics>
                     <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">8</characteristic>
                     <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">2</characteristic>
@@ -2807,7 +2807,7 @@ On a result of 1 the Gnoblar starts to bicker, insult and/or bully the other Gno
         <infoLink name="Ignores Armor" id="0f10-9171-ebde-1ee2" hidden="false" targetId="1f6d-8599-e2d3-1062" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Starsword" id="73b3-a618-a714-56fa" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Starsword" id="73b3-a618-a714-56fa" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">+1</characteristic>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Parry, Ignores Armor</characteristic>
@@ -2849,13 +2849,13 @@ The amulet also confers a special save of 5+ against missile fire.</description>
         <infoLink name="Concussion" id="2fb4-5aa4-b53f-e0cb" hidden="false" targetId="f08e-fc7a-fca1-6a49" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Sunstaff (HtH)" id="fba7-6d0d-985d-3bbc" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Sunstaff (HtH)" id="fba7-6d0d-985d-3bbc" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">as user</characteristic>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Concussion</characteristic>
           </characteristics>
         </profile>
-        <profile name="Sunstaff (Missile)" id="130c-be5a-cd72-8b26" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Sunstaff (Missile)" id="130c-be5a-cd72-8b26" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">12</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
@@ -2881,9 +2881,9 @@ Aside from ward and dodge saves a Sunbolt ignores armour saves and penalties for
         <cost name="pts" typeId="points" value="20"/>
       </costs>
       <profiles>
-        <profile name="Enchanted Skins" id="5b70-d443-2ddc-509d" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+        <profile name="Enchanted Skins" id="5b70-d443-2ddc-509d" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armour">
           <characteristics>
-            <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">special 6+</characteristic>
+            <characteristic name="Armour Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">special 6+</characteristic>
             <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">The protective skins and charms that the Amazons wear have been warded with defensive magic.
 To represent this, any model wearing Skins and Charms receives a 6+ special save versus any wounds inflicted.
 In addition, the wearer of Skins and Charms is unaffected by enemy magic on a roll of 5+.</characteristic>
@@ -2905,7 +2905,7 @@ In addition, the wearer of Skins and Charms is unaffected by enemy magic on a ro
         <infoLink name="+1 Enemy armour save" id="2b73-c094-6f9a-f53b" hidden="false" targetId="98ac-2376-00c1-4f65" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Starblade" id="1a3a-6cfb-dd07-494a" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Starblade" id="1a3a-6cfb-dd07-494a" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">+1 enemy armor save, Enhanced Parry</characteristic>
@@ -2930,7 +2930,7 @@ It is a close combat weapon and attacks like a dagger but can parry the first su
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
       <profiles>
-        <profile name="Bolas" id="6404-1b34-fbb8-f9bf" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Bolas" id="6404-1b34-fbb8-f9bf" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">16</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">Not Applicable</characteristic>
@@ -2953,7 +2953,7 @@ If he rolls 4+ on a D6 he is freed and may move and fight normally.</characteris
         <infoLink name="Thrown weapon" id="9ca0-9dd8-0bfe-e1e9" hidden="false" targetId="1015-45da-ae71-d59b" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Javelin/Harpoon" id="25bc-e3b5-378d-9f92" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Javelin/Harpoon" id="25bc-e3b5-378d-9f92" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">8</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">As User</characteristic>
@@ -2975,7 +2975,7 @@ If he rolls 4+ on a D6 he is freed and may move and fight normally.</characteris
         <infoLink name="Thrown weapon" id="589c-3912-debf-2b05" hidden="false" targetId="1015-45da-ae71-d59b" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Gladiators’ Javelins" id="ac34-73dc-91ff-cbdc" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Gladiators’ Javelins" id="ac34-73dc-91ff-cbdc" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">10</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">As User</characteristic>
@@ -2998,7 +2998,7 @@ If he rolls 4+ on a D6 he is freed and may move and fight normally.</characteris
         <infoLink name="Parry" id="f7cd-5e9e-f946-ef2f" hidden="false" targetId="17dc-9c49-08e1-af45" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Claw of the Old Ones" id="2095-a1c0-3e5e-ae50" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Claw of the Old Ones" id="2095-a1c0-3e5e-ae50" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">+1</characteristic>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">No save, Parry</characteristic>
@@ -3025,7 +3025,7 @@ The blade of this weapon glows white hot and can cut through armour as if it wer
         <infoLink name="Ignores Armor" id="4480-5973-1bc5-bd3f" hidden="false" targetId="1f6d-8599-e2d3-1062" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Sunstaff (Missile)" id="b166-93c9-52d2-7b0b" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Sunstaff (Missile)" id="b166-93c9-52d2-7b0b" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">24</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
@@ -3048,7 +3048,7 @@ The blade of this weapon glows white hot and can cut through armour as if it wer
         <infoLink name="Ignores Armor" id="3208-dfbd-d9dd-74f4" hidden="false" targetId="1f6d-8599-e2d3-1062" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Sun Gauntlet" id="809b-d7af-b338-d4c3" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Sun Gauntlet" id="809b-d7af-b338-d4c3" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">12</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
@@ -3077,7 +3077,7 @@ Because it does not require prepared shot, this bonus attack may be used in each
         <infoLink name="Fire Damage" id="411-e6b3-93db-9188" hidden="false" targetId="640a-9b4c-8a93-59b2" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Tufenk" id="dbf4-917-cddb-6d92" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Tufenk" id="dbf4-917-cddb-6d92" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">8</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">2</characteristic>
@@ -3102,7 +3102,7 @@ Khemri setting</description>
         <infoLink name="Cutting edge" id="7486-649e-62d-166c" hidden="false" targetId="4b68-6905-29fd-e549" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Katar" id="1589-5d73-589b-2763" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Katar" id="1589-5d73-589b-2763" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">As User</characteristic>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">-1 Armor save</characteristic>
@@ -3125,7 +3125,7 @@ Khemri setting</description>
         <infoLink name="Parry" id="d921-f56c-d92c-7cc4" hidden="false" targetId="17dc-9c49-08e1-af45" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Dwarf Axe" id="6915-9c71-88c8-6e14" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Dwarf Axe" id="6915-9c71-88c8-6e14" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Cutting edge, Parry</characteristic>
@@ -3180,7 +3180,7 @@ Khemri setting</description>
         <infoLink name="+1 Enemy armour save" id="e5af-5e66-444-147c" hidden="false" targetId="98ac-2376-00c1-4f65" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Blowpipe" id="3a36-cb26-be28-e33d" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Blowpipe" id="3a36-cb26-be28-e33d" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">8</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">1</characteristic>
@@ -3245,9 +3245,9 @@ A blessed hide bestows unchallenged grace to the wearer allowing the re-roll of 
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
       <profiles>
-        <profile name="Toughened Leathers" id="d961-5c8b-37be-340f" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+        <profile name="Toughened Leathers" id="d961-5c8b-37be-340f" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armour">
           <characteristics>
-            <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">6+</characteristic>
+            <characteristic name="Armour Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">6+</characteristic>
             <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">Toughened Leathers</characteristic>
           </characteristics>
         </profile>
@@ -3273,7 +3273,7 @@ Toughened leathers cannot be sold back at the Trading Posts; the stench alone is
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
       <profiles>
-        <profile name="Pike" id="d7b5-68c6-efaa-add4" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Pike" id="d7b5-68c6-efaa-add4" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Two-handed</characteristic>
@@ -3346,7 +3346,7 @@ Additionally, only 1 attack is allowed, no matter the number on the wielder’s 
         <infoLink name="Difficult to use" id="a7f7-a72a-2ca8-1cf3" hidden="false" targetId="14b3-65c8-02c4-ae65" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Scythe" id="a9d7-bfda-5316-6684" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Scythe" id="a9d7-bfda-5316-6684" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">+1</characteristic>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Difficult to use</characteristic>
@@ -3402,7 +3402,7 @@ Additionally, only 1 attack is allowed, no matter the number on the wielder’s 
         <infoLink name="Two Handed" id="b608-1a62-aabf-c90a" hidden="false" targetId="2fb3-525b-86c3-2cd6" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Boat Hook" id="d807-f424-2528-1363" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Boat Hook" id="d807-f424-2528-1363" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" id="b8c3-45cb-f701-24d2" hidden="false" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">-1</characteristic>
             <characteristic name="Special" id="9043-a3f6-9643-57f0" hidden="false" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Strike First, Two-handed</characteristic>
@@ -3419,7 +3419,7 @@ Additionally, only 1 attack is allowed, no matter the number on the wielder’s 
         <infoLink name="+1 Enemy armour save" id="ffce-21c-c13e-69ab" hidden="false" targetId="98ac-2376-00c1-4f65" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Boat Hook" id="c7ee-dea2-d55f-1f73" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Boat Hook" id="c7ee-dea2-d55f-1f73" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" id="db8b-16d4-725c-8dfd" hidden="false" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">6</characteristic>
             <characteristic name="Str" id="2023-8179-6beb-8eec" hidden="false" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">-1</characteristic>
@@ -3443,7 +3443,7 @@ Additionally, only 1 attack is allowed, no matter the number on the wielder’s 
         <infoLink name="Parry" id="c068-9967-a764-ae12" hidden="false" targetId="17dc-9c49-08e1-af45" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Dragon Sword" id="2a16-1960-d2ff-5316" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Dragon Sword" id="2a16-1960-d2ff-5316" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" id="4ea7-6ced-2d7c-e4f3" hidden="false" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">+1</characteristic>
             <characteristic name="Special" id="1b7b-b588-9969-2de2" hidden="false" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Two Handed, Parry</characteristic>
@@ -3465,7 +3465,7 @@ Additionally, only 1 attack is allowed, no matter the number on the wielder’s 
         <infoLink name="Concussion" id="8457-dc03-da7c-bca2" hidden="false" targetId="f08e-fc7a-fca1-6a49" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Staff" id="d4fb-402f-be65-f311" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Staff" id="d4fb-402f-be65-f311" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Concussion</characteristic>
@@ -3514,7 +3514,7 @@ Additionally, only 1 attack is allowed, no matter the number on the wielder’s 
         <infoLink name="Concussion" id="7b03-1921-de43-d3b3" hidden="false" targetId="f08e-fc7a-fca1-6a49" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Mace" id="ad24-75ac-ad80-32c9" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Mace" id="ad24-75ac-ad80-32c9" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Concussion</characteristic>
@@ -3563,7 +3563,7 @@ Additionally, only 1 attack is allowed, no matter the number on the wielder’s 
         <infoLink name="Concussion" id="193c-6c57-6416-4c06" hidden="false" targetId="f08e-fc7a-fca1-6a49" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Club" id="074f-7465-a42a-f899" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Club" id="074f-7465-a42a-f899" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Concussion</characteristic>
@@ -3613,7 +3613,7 @@ Additionally, only 1 attack is allowed, no matter the number on the wielder’s 
         <infoLink name="Cavalry bonus" id="93df-3679-a8f8-37c1" hidden="false" targetId="ef77-8d02-8707-afc4" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Boss Pole" id="3254-66c7-5593-fd97" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Boss Pole" id="3254-66c7-5593-fd97" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">As User</characteristic>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Strike First, Cavalry Bonus</characteristic>

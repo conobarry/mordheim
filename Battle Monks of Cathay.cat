@@ -1982,8 +1982,8 @@ The model is immediately taken out of action.</description>
         <cost name="Warband Rating" id="5138-9a98-8d3e-c73a" hidden="false" typeId="wb-rating" value="0"/>
       </costs>
       <entryLinks>
-        <entryLink name="Gold" id="aedd-4f11-98c9-6a" collective="false" hidden="false" import="true" targetId="deca-5737-6234-23a1" type="selectionEntry"/>
-        <entryLink name="Wyrdstone" id="4c00-f2e1-25d9-6ea9" collective="false" hidden="false" import="true" targetId="60f8-e6e7-c2ea-0dad" type="selectionEntry"/>
+        <entryLink name="Gold Crowns" id="aedd-4f11-98c9-6a" collective="false" hidden="false" import="true" targetId="deca-5737-6234-23a1" type="selectionEntry"/>
+        <entryLink name="Wyrdstone Shards" id="4c00-f2e1-25d9-6ea9" collective="false" hidden="false" import="true" targetId="60f8-e6e7-c2ea-0dad" type="selectionEntry"/>
         <entryLink name="Equipment" id="5c93-c3e5-27af-c68a" collective="false" hidden="false" import="true" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
@@ -1998,7 +1998,7 @@ The model is immediately taken out of action.</description>
         <infoLink name="Parry" id="447f-c0a9-cb81-494" hidden="false" targetId="17dc-9c49-08e1-af45" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Quarter Staff" id="3c6c-5f85-449b-dfcf" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Quarter Staff" id="3c6c-5f85-449b-dfcf" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" id="74c6-a93b-a1ca-ac13" hidden="false" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
             <characteristic name="Special" id="1190-8030-7023-1d9c" hidden="false" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Balanced, Parry, Freestyle</characteristic>
@@ -2026,7 +2026,7 @@ This means that the Monk is still getting +1 Attack.</description>
         <infoLink name="Two Handed" id="721d-80b5-c600-348" hidden="false" targetId="2fb3-525b-86c3-2cd6" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Chain Sticks" id="9f2d-1550-40c0-827e" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Chain Sticks" id="9f2d-1550-40c0-827e" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" id="67b-aa23-f219-5ad5" hidden="false" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">As User</characteristic>
             <characteristic name="Special" id="a9fb-d361-1c47-15d0" hidden="false" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Flurry, Two Handed</characteristic>
@@ -2058,7 +2058,7 @@ Using chain sticks otherwise counts as having two hand weapons.</description>
         <infoLink name="Thrown weapon" id="abf2-e1b7-299d-1f15" hidden="false" targetId="1015-45da-ae71-d59b" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Chain Sticks" id="2e6-3eaf-d7c3-f019" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+        <profile name="Chain Sticks" id="2e6-3eaf-d7c3-f019" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" id="b78b-9aac-981e-e2f6" hidden="false" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">3</characteristic>
             <characteristic name="Str" id="18ec-caba-fde8-15b7" hidden="false" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">3</characteristic>
@@ -2127,7 +2127,7 @@ When a mount gets knocked down, the rider falls off (see 3-4 on the Whoa Boy! 
           </constraints>
           <entryLinks>
             <entryLink name="Handgun" id="994e-1634-55a-948c" collective="false" hidden="false" import="true" targetId="7f5a-d04d-153d-d334" type="selectionEntry"/>
-            <entryLink name="Dueling Pistol" id="1652-b8b0-5718-b558" hidden="false" import="true" targetId="da24-6a7f-725b-5bcb" type="selectionEntry">
+            <entryLink name="Duelling Pistol" id="1652-b8b0-5718-b558" hidden="false" import="true" targetId="da24-6a7f-725b-5bcb" type="selectionEntry">
               <modifiers>
                 <modifier field="points" type="set" value="25"/>
               </modifiers>

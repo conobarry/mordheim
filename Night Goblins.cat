@@ -3099,7 +3099,7 @@ Trolls do not gain experience.</description>
         <infoLink name="Unwieldy" id="15c5-44ed-d52c-9da4" hidden="false" targetId="2b45-f8c1-de87-638f" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Boss Pole" id="bdc2-a575-e1b-f069" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Boss Pole" id="bdc2-a575-e1b-f069" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Unwieldy, Strike First, Calvary Bonus +1</characteristic>
@@ -3122,7 +3122,7 @@ In addition, the Boss Pole acts as a spear in close combat.</description>
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
       <profiles>
-        <profile name="Poisoned Daggers" id="4e52-738f-f75f-6e44" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Poisoned Daggers" id="4e52-738f-f75f-6e44" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">As User</characteristic>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Paired, Poisoned</characteristic>
@@ -3164,7 +3164,7 @@ Take armor saves as normal.</description>
           <entryLinks>
             <entryLink name="Free Dagger" id="ab43-2e28-36ba-b5a" hidden="false" import="true" sortIndex="1" targetId="0d0b-ed37-d8b0-4cbf" type="selectionEntry"/>
             <entryLink name="Dagger" id="c3b4-b098-5821-9505" hidden="false" import="true" sortIndex="2" targetId="64e0-0bb6-542b-4beb" type="selectionEntry"/>
-            <entryLink name="Hammer, staff, mace or club" id="74d6-4c25-f9df-3afc" hidden="false" import="true" sortIndex="3" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
+            <entryLink name="Hammer" id="74d6-4c25-f9df-3afc" hidden="false" import="true" sortIndex="3" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
               <modifiers>
                 <modifier field="name" type="set" value="Club"/>
               </modifiers>
@@ -3175,7 +3175,7 @@ Take armor saves as normal.</description>
             <entryLink name="Halberd" id="a34d-ad34-66b3-7158" hidden="false" import="true" sortIndex="7" targetId="3c52-9e92-25ec-1939" type="selectionEntry"/>
             <entryLink name="Boss Pole" id="34c5-c983-d7fd-2e88" hidden="false" import="true" sortIndex="8" targetId="ab51-370c-d0b-a529" type="selectionEntry"/>
             <entryLink name="Poisoned Daggers" id="715f-bf2d-daaa-19ff" hidden="false" import="true" sortIndex="9" targetId="b349-284-ee91-47c5" type="selectionEntry"/>
-            <entryLink name="Squigg Prodder" id="bd28-4422-b021-3d68" hidden="false" import="true" sortIndex="10" targetId="5dcd-265b-9fef-751d" type="selectionEntry"/>
+            <entryLink name="Squig Prodder" id="bd28-4422-b021-3d68" hidden="false" import="true" sortIndex="10" targetId="5dcd-265b-9fef-751d" type="selectionEntry"/>
           </entryLinks>
           <modifiers>
             <modifier field="924a-f602-aac8-4689" type="set" value="3">
@@ -3198,7 +3198,7 @@ Take armor saves as normal.</description>
           </constraints>
           <entryLinks>
             <entryLink name="Sling" id="33dc-483c-1508-41f1" hidden="false" import="true" sortIndex="2" targetId="87c7-49b5-f1e7-6662" type="selectionEntry"/>
-            <entryLink name="Shortbow" id="e179-888-d708-60da" hidden="false" import="true" sortIndex="1" targetId="3706-6421-53b4-940d" type="selectionEntry"/>
+            <entryLink name="Short Bow" id="e179-888-d708-60da" hidden="false" import="true" sortIndex="1" targetId="3706-6421-53b4-940d" type="selectionEntry"/>
             <entryLink name="Throwing Knives/Stars" id="ca5-a4ce-eaf2-7440" hidden="false" import="true" sortIndex="3" targetId="23f5-19c3-5a6c-a8fb" type="selectionEntry">
               <modifiers>
                 <modifier field="name" type="set" value="Throwing Knives"/>
@@ -3261,14 +3261,14 @@ Take armor saves as normal.</description>
           <entryLinks>
             <entryLink name="Free Dagger" id="45ec-f795-586b-82bd" hidden="false" import="true" sortIndex="1" targetId="0d0b-ed37-d8b0-4cbf" type="selectionEntry"/>
             <entryLink name="Dagger" id="4963-f1b2-494b-88a0" hidden="false" import="true" sortIndex="2" targetId="64e0-0bb6-542b-4beb" type="selectionEntry"/>
-            <entryLink name="Hammer, staff, mace or club" id="91ee-3a49-29f0-de69" hidden="false" import="true" sortIndex="3" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
+            <entryLink name="Hammer" id="91ee-3a49-29f0-de69" hidden="false" import="true" sortIndex="3" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
               <modifiers>
                 <modifier field="name" type="set" value="Club"/>
               </modifiers>
             </entryLink>
             <entryLink name="Sword" id="9ecf-5cb6-e729-d5d7" hidden="false" import="true" sortIndex="4" targetId="34fd-d6a3-50ee-ee06" type="selectionEntry"/>
             <entryLink name="Spear" id="908b-62ff-6480-d9b6" hidden="false" import="true" sortIndex="5" targetId="005e-e397-8108-f198" type="selectionEntry"/>
-            <entryLink name="Squigg Prodder" id="bf34-a40c-b309-f824" hidden="false" import="true" sortIndex="6" targetId="5dcd-265b-9fef-751d" type="selectionEntry"/>
+            <entryLink name="Squig Prodder" id="bf34-a40c-b309-f824" hidden="false" import="true" sortIndex="6" targetId="5dcd-265b-9fef-751d" type="selectionEntry"/>
           </entryLinks>
           <modifiers>
             <modifier field="59e8-93a3-7fce-6674" type="set" value="3">
@@ -3289,7 +3289,7 @@ Take armor saves as normal.</description>
             <constraint id="892a-e9f1-9c39-61ef" field="selections" scope="parent" shared="true" type="max" value="2"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Shortbow" id="ffaf-3371-26aa-3aab" hidden="false" import="true" sortIndex="1" targetId="3706-6421-53b4-940d" type="selectionEntry"/>
+            <entryLink name="Short Bow" id="ffaf-3371-26aa-3aab" hidden="false" import="true" sortIndex="1" targetId="3706-6421-53b4-940d" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Miscellaneous Equipment" id="e530-c5b4-7bdd-88be" hidden="false" sortIndex="4">

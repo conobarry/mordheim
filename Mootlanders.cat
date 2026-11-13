@@ -1928,9 +1928,9 @@ Halfling thieves always have a -1 to hit modifier when being shot at, this add
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
       <profiles>
-        <profile name="Cooking Pot Helmet" id="103c-1f8c-c97-cb2" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+        <profile name="Cooking Pot Helmet" id="103c-1f8c-c97-cb2" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armour">
           <characteristics>
-            <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b"/>
+            <characteristic name="Armour Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b"/>
             <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">Halfling Avoid Stun</characteristic>
           </characteristics>
         </profile>
@@ -1950,7 +1950,7 @@ This save is never modified.</description>
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
       <profiles>
-        <profile name="Ladle" id="4402-8df9-86e1-fda5" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+        <profile name="Ladle" id="4402-8df9-86e1-fda5" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">-1</characteristic>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">No save except shields/skills, Knuckle Cracking</characteristic>
@@ -1988,7 +1988,7 @@ The only saving throws allowed are from shields or skills.</description>
               </modifiers>
             </entryLink>
             <entryLink name="Free Dagger" id="6615-9a21-6075-65ec" collective="false" hidden="false" import="true" targetId="0d0b-ed37-d8b0-4cbf" type="selectionEntry"/>
-            <entryLink name="Hammer, staff, mace or club" id="21ad-debc-1b9d-d4d4" collective="false" hidden="false" import="true" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
+            <entryLink name="Hammer" id="21ad-debc-1b9d-d4d4" collective="false" hidden="false" import="true" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
               <modifiers>
                 <modifier field="name" type="set" value="Staff">
                   <conditions>
@@ -2049,7 +2049,7 @@ The only saving throws allowed are from shields or skills.</description>
             </entryLink>
             <entryLink name="Sling" id="fb54-4beb-74af-53c4" hidden="false" import="true" targetId="87c7-49b5-f1e7-6662" type="selectionEntry"/>
             <entryLink name="Bow" id="ad89-65ba-4a4a-77bc" hidden="false" import="true" targetId="311a-bf3f-67ff-46e7" type="selectionEntry"/>
-            <entryLink name="Shortbow" id="d5a6-36ea-fa76-58b1" hidden="false" import="true" targetId="3706-6421-53b4-940d" type="selectionEntry"/>
+            <entryLink name="Short Bow" id="d5a6-36ea-fa76-58b1" hidden="false" import="true" targetId="3706-6421-53b4-940d" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Armor" id="e78b-bf88-f679-b22f" collective="false" hidden="false" import="true">
