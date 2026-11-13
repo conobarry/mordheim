@@ -1099,7 +1099,7 @@ ignores the special rules for Animosity.</description>
         <infoLink name="Two Handed" id="0bdf-fd1e-9108-453f" hidden="false" targetId="2fb3-525b-86c3-2cd6" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Flail" id="7888-0782-642f-92ae" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
+        <profile name="Flail" id="0373-e19a-f6a0-a585" hidden="false" page="0" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
           <characteristics>
             <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">+2</characteristic>
             <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Heavy, Two-handed</characteristic>
@@ -1107,7 +1107,7 @@ ignores the special rules for Animosity.</description>
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry name="Gromril Weapon" id="dd42-b744-e614-9fc8" collective="false" hidden="false" import="true" page="0" type="upgrade">
+        <selectionEntry name="Gromril Weapon" id="5433-d016-e5f2-34dd" collective="false" hidden="false" import="true" page="0" type="upgrade">
           <constraints>
             <constraint id="494e-45b1-ecd7-44c3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
@@ -1122,7 +1122,7 @@ ignores the special rules for Animosity.</description>
             <modifier field="points" type="set" value="45"/>
           </modifiers>
         </selectionEntry>
-        <selectionEntry name="Ithilmar weapon" id="9eea-481f-cd5f-a837" collective="false" hidden="false" import="true" page="0" type="upgrade">
+        <selectionEntry name="Ithilmar weapon" id="7f94-505f-e4af-1e90" collective="false" hidden="false" import="true" page="0" type="upgrade">
           <constraints>
             <constraint id="9b1f-8d60-2e38-8193" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
@@ -1480,7 +1480,7 @@ ignores the special rules for Animosity.</description>
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry name="Gromril Weapon" id="5115-a954-b8d7-b4a0" collective="false" hidden="false" import="true" page="0" type="upgrade">
+        <selectionEntry name="Gromril Weapon" id="813e-51a8-ec0e-f011" collective="false" hidden="false" import="true" page="0" type="upgrade">
           <constraints>
             <constraint id="5d01-3554-4ccb-4b89" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
@@ -1495,7 +1495,7 @@ ignores the special rules for Animosity.</description>
             <modifier field="points" type="set" value="45"/>
           </modifiers>
         </selectionEntry>
-        <selectionEntry name="Ithilmar weapon" id="d934-5ef1-ce0d-9f6d" collective="false" hidden="false" import="true" page="0" type="upgrade">
+        <selectionEntry name="Ithilmar weapon" id="e71c-c913-c7eb-edf3" collective="false" hidden="false" import="true" page="0" type="upgrade">
           <constraints>
             <constraint id="2348-f738-5385-fffb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
@@ -1543,21 +1543,6 @@ Any and all models in its path are automatically hit by a Strength 3 hit.</descr
     <selectionEntry name="Bow" id="311a-bf3f-67ff-46e7" collective="false" hidden="false" import="true" page="0" type="upgrade">
       <costs>
         <cost name="pts" typeId="points" value="10"/>
-        <cost name="Warband Rating" typeId="wb-rating" value="0"/>
-      </costs>
-      <profiles>
-        <profile name="Bow" id="14c3-6aab-3730-8586" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
-          <characteristics>
-            <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">24</characteristic>
-            <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">3</characteristic>
-            <characteristic name="Special" typeId="fde90816-abbb-f019-75a0-0c24662facf3"/>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry name="Bow" id="311a-bf3f-67ff-46e8" collective="false" hidden="false" import="true" page="0" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="points" value="15"/>
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
       <profiles>
@@ -1648,7 +1633,7 @@ Any and all models in its path are automatically hit by a Strength 3 hit.</descr
         <infoLink name="Prepare shot" id="3585-8791-1dce-1a51" hidden="false" targetId="4f7f-29ec-a9da-82fc" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Brace of Duelling Pistols" id="6f37-7303-125c-3bda" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
+        <profile name="Brace of Duelling Pistols" id="84b7-2ed5-187c-d84d" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">10</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
@@ -1657,13 +1642,13 @@ Any and all models in its path are automatically hit by a Strength 3 hit.</descr
         </profile>
       </profiles>
       <rules>
-        <rule name="Hand-to-hand" id="6ccf-79f5-36de-d39b" hidden="false" page="0">
+        <rule name="Hand-to-hand" id="a9df-e038-bb79-638d" hidden="false" page="0">
           <description>A brace of duelling pistols can be used in hand-to-hand combat as well as for shooting. A model armed with a duelling pistol and another close combat weapon gains +1 Attack, which is resolved at Strength 4 with a -2 save modifier. This bonus attack can be used only once per combat. If you are firing a brace of duelling pistols, your model can fight with 2 Attacks in the first turn of close combat. These attacks are resolved with a model’s Weapon Skill like any normal close combat attack and likewise may be parried. Successful hits are resolved at Strength 4 and with a -2 save modifier, regardless of the firer’s Strength.</description>
         </rule>
-        <rule name="Accuracy" id="a464-64e4-d774-9211" hidden="false" page="0">
+        <rule name="Accuracy" id="e0ad-52d4-767d-c254" hidden="false" page="0">
           <description>A brace of duelling pistols is built for accuracy as a skilled duellist is able to hit a coin from twenty paces. All shots and close combat attacks from a duelling pistol have a +1 bonus to hit.</description>
         </rule>
-        <rule name="Rarity" id="36e7-c544-5b8d-ce3e" hidden="false">
+        <rule name="Rarity" id="3a6f-cb7d-79bd-aa99" hidden="false">
           <description>Rarity 10</description>
         </rule>
       </rules>
@@ -1793,7 +1778,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
         <infoLink name="Save modifier" id="bcb2-4f05-6757-ad68" hidden="false" targetId="5d21-2b30-4219-ec86" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Brace of Pistols" id="d0ea-a831-4462-5301" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
+        <profile name="Brace of Pistols" id="b676-c44e-268f-1ef7" hidden="false" page="0" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Missile Weapons">
           <characteristics>
             <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">6</characteristic>
             <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
@@ -1802,11 +1787,11 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
         </profile>
       </profiles>
       <rules>
-        <rule name="Hand-to-hand" id="22fb-6bcd-b828-f355" hidden="false" page="0">
+        <rule name="Hand-to-hand" id="d7f5-841e-86e6-4642" hidden="false" page="0">
           <description>A brace of pistols can be used in hand-to-hand combat as well as for shooting. A model armed with a pistol and another close combat weapon gains +1 Attack, which is resolved at Strength 4 with a -2 save modifier. This bonus attack can be used only once per combat. If you are firing a brace of pistols, your model can fight with 2 Attacks in the first turn of close combat. These attacks are resolved with a model’s Weapon Skill like any normal close combat attack and likewise may be parried. Successful hits are resolved at Strength 4 and with
 a -2 save modifier, regardless of the firer’s Strength.</description>
         </rule>
-        <rule name="Rarity" id="0494-6268-f136-0793" hidden="false">
+        <rule name="Rarity" id="9758-1898-609b-5922" hidden="false">
           <description>Rarity 8</description>
         </rule>
       </rules>
@@ -5297,5 +5282,24 @@ Warriors without Ride may not use this skill.</description>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name="Campaign" id="c9ed-449e-6799-ca69" hidden="false"/>
+    <selectionEntryGroup name="Stash" id="cc4b-1c50-6e53-dd35" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Stash" id="cbe0-9338-dfd0-bdbf" hidden="false" primary="true" targetId="a31acb39-8ce9-d6d7-bcc9-f3144d63db48"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Equipment" id="035a-0fda-c3e3-9a57" hidden="false" import="true" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup"/>
+        <entryLink name="Wyrdstone Shards" id="f949-23ef-b4d1-694d" hidden="false" import="true" targetId="60f8-e6e7-c2ea-0dad" type="selectionEntry"/>
+      </entryLinks>
+      <selectionEntries>
+        <selectionEntry name="Gold Crowns" id="16d3-8b24-f5bf-d279" hidden="false" import="true" type="upgrade">
+          <costs>
+            <cost name="Gold Crowns" typeId="points" value="1"/>
+            <cost name="Warband Rating" typeId="wb-rating" value="0"/>
+            <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="0"/>
+            <cost name="Starting Experience" typeId="e014-8910-0a32-ebf4" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </catalogue>

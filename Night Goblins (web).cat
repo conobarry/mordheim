@@ -15,6 +15,7 @@
     <entryLink name="Troll" id="f1a7-47ff-db6b-188c" hidden="false" import="true" targetId="4038-4cc8-456f-8466" type="selectionEntry"/>
     <entryLink name="Great Squig" id="7aa4-c8eb-0832-abc8" hidden="false" import="true" targetId="6059-315f-1e1a-0bea" type="selectionEntry"/>
     <entryLink name="Night Goblin Warriors Test" id="c7d9-f368-4982-27e5" hidden="false" import="true" targetId="eac3-9eca-505c-5d64" type="selectionEntry"/>
+    <entryLink name="Stash" id="d432-c22c-9e64-af1a" hidden="false" import="true" targetId="e037-c3d4-6e7b-ca79" type="selectionEntry"/>
   </entryLinks>
   <sharedInfoGroups>
     <infoGroup name="Night Goblin Special Rules" id="9f5d-5ec8-ba0f-04c5" hidden="false">
@@ -257,43 +258,6 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-    </selectionEntry>
-    <selectionEntry name="Poison Daggers" id="fcf8-f138-133e-1d6d" hidden="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="points" value="25"/>
-        <cost name="Warband Rating" typeId="wb-rating" value="0"/>
-      </costs>
-      <profiles>
-        <profile name="Poison Daggers" id="6105-02d6-96bc-9bd4" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
-          <characteristics>
-            <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">As User</characteristic>
-            <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Paired, Poisoned</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule name="Paired" id="a269-a152-bfbd-187c" hidden="false">
-          <description>Poisoned Daggers are traditionally used in pairs, one in each hand.
-
-
-A warrior armed with Poisoned Daggers gets an additional attack.</description>
-        </rule>
-        <rule name="Poisoned" id="5b3e-4aa0-896f-4d97" hidden="false">
-          <description>These blades are coated in Death Cap Mushroom juice.
-
-
-The daggers are re-coated for free after every game, and they have the same effect as Black Lotus.
-
-
-For reference: they will wound the target automatically if you roll a 6 to hit.
-Note that you can still roll a dice for every wound inflicted in this way.
-If you roll a 6, you will inflict a critical hit with that roll.
-If you do not roll a 6, you will cause a normal wound.
-
-
-Take armor saves as normal.</description>
-        </rule>
-      </rules>
     </selectionEntry>
     <selectionEntry name="Squig Herder" id="4d73-43b1-6a59-3fc8" hidden="false" import="true" type="model">
       <categoryLinks>
@@ -1316,6 +1280,64 @@ Take armor saves as normal.</description>
           </costs>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Poison Daggers" id="fcf8-f138-133e-1d6d" hidden="false" import="true" type="upgrade">
+      <comment>Night Goblins</comment>
+      <costs>
+        <cost name="pts" typeId="points" value="25"/>
+        <cost name="Warband Rating" typeId="wb-rating" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Poison Daggers" id="6105-02d6-96bc-9bd4" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="Hand-to-hand Combat Weapons">
+          <characteristics>
+            <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">As User</characteristic>
+            <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Paired, Poisoned</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Paired" id="a269-a152-bfbd-187c" hidden="false">
+          <description>Poisoned Daggers are traditionally used in pairs, one in each hand.
+
+
+A warrior armed with Poisoned Daggers gets an additional attack.</description>
+        </rule>
+        <rule name="Poisoned" id="5b3e-4aa0-896f-4d97" hidden="false">
+          <description>These blades are coated in Death Cap Mushroom juice.
+
+
+The daggers are re-coated for free after every game, and they have the same effect as Black Lotus.
+
+
+For reference: they will wound the target automatically if you roll a 6 to hit.
+Note that you can still roll a dice for every wound inflicted in this way.
+If you roll a 6, you will inflict a critical hit with that roll.
+If you do not roll a 6, you will cause a normal wound.
+
+
+Take armor saves as normal.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry name="Stash" id="e037-c3d4-6e7b-ca79" hidden="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Stash" id="3d4e-eec5-4ed7-97cd" hidden="false" primary="true" targetId="a31acb39-8ce9-d6d7-bcc9-f3144d63db48"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Missile Weapons" id="70ab-7638-b677-419d" collapsible="true" hidden="false" import="true" sortIndex="3" targetId="1937-df4f-3c68-e0be" type="selectionEntryGroup"/>
+        <entryLink name="Miscellaneous Equipment" id="c265-cc72-0ea4-c676" collapsible="true" hidden="false" import="true" sortIndex="5" targetId="a2cf-6f28-f7c2-275d" type="selectionEntryGroup"/>
+        <entryLink name="Armor" id="5d9e-8aad-950a-58af" hidden="false" import="true" sortIndex="4" targetId="975d-a3e5-9029-58d5" type="selectionEntryGroup"/>
+        <entryLink name="Gold Crowns" id="a499-a49c-4cde-1d67" hidden="false" import="true" targetId="deca-5737-6234-23a1" type="selectionEntry"/>
+        <entryLink name="Wyrdstone Shards" id="045e-d6ec-2076-4f89" hidden="false" import="true" sortIndex="2" targetId="60f8-e6e7-c2ea-0dad" type="selectionEntry"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Hand to Hand Weapons" id="28bb-687e-e133-58e0" collapsible="true" hidden="false" sortIndex="1">
+          <entryLinks>
+            <entryLink name="Hand to Hand Weapons" id="c14c-83fb-4cfc-20aa" flatten="true" hidden="false" import="true" targetId="073c-d5ce-dcc0-b820" type="selectionEntryGroup"/>
+            <entryLink name="Poison Daggers" id="b228-ef9b-67f6-39b2" hidden="false" import="true" targetId="fcf8-f138-133e-1d6d" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
