@@ -81,6 +81,11 @@
         <characteristicType name="Effect" id="0592-3510-8508-7263"/>
       </characteristicTypes>
     </profileType>
+    <profileType name="Skill" id="a74f-171c-7826-bc9c" hidden="false" kind="ability">
+      <characteristicTypes>
+        <characteristicType name="Description" id="a93a-adfe-16de-faaa" kind="longText"/>
+      </characteristicTypes>
+    </profileType>
   </profileTypes>
   <publications>
     <publication name="GitHub" id="ff7c-2cb8-2105-563f" hidden="false" publisherUrl="https://github.com/BSData/mordheim"/>

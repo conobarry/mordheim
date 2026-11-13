@@ -600,6 +600,90 @@ Take armor saves as normal.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Special Skills" id="8fa3-7d96-9b73-093a" hidden="false"/>
+    <selectionEntryGroup name="Special Skills" id="8fa3-7d96-9b73-093a" hidden="false">
+      <selectionEntries>
+        <selectionEntry name="Fungus Farmer" id="3d1d-c154-0b20-2707" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="6e2f-58eb-33b1-1bb4" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <profiles>
+            <profile name="Fungus Farmer" id="4684-45b3-b408-f650" hidden="false" typeId="a74f-171c-7826-bc9c" typeName="Skill">
+              <characteristics>
+                <characteristic name="Description" typeId="a93a-adfe-16de-faaa">The industrious little git has a mushroom crop back at the cave. If the Hero doesn’t search for rare items, it may pick D3-1 Mad Cap Mushrooms instead. There is a chance of getting none, as there is no guarantee they will be ready for harvest. Each Mad Cap Mushroom must be used in the next battle, and they cannot be sold or traded to other warbands These are a special high yield/low shelf life crop.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Hide in Shadows" id="f1c9-b711-c539-770b" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="be81-9702-2f45-429f" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <profiles>
+            <profile name="Hide in Shadows" id="0c87-91ec-e475-3f30" hidden="false" typeId="a74f-171c-7826-bc9c" typeName="Skill">
+              <characteristics>
+                <characteristic name="Description" typeId="a93a-adfe-16de-faaa">The sneaky Goblin has become an expert at concealing themselves from enemies (and potential victims!). An enemy warrior attempting to detect this warrior when it is Hidden must halve their Initiative (round up) before measuring the distance.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Infiltrate" id="1191-4946-7fa3-2125" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="28db-ac7b-b131-fcf5" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <profiles>
+            <profile name="Infiltrate" id="4716-6632-f9f7-e165" hidden="false" typeId="a74f-171c-7826-bc9c" typeName="Skill">
+              <characteristics>
+                <characteristic name="Description" typeId="a93a-adfe-16de-faaa">A Night Goblin with this skill is always placed on the battlefield after the opposing warband and can be placed anywhere on the table as long as it is out of sight of the opposing warband, and more than 12&quot; away from any enemy model. If both players have models which infiltrate, roll a D6 for each, and the lowest roll sets up first.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Netter" id="7cf8-6ad4-9c0e-a97c" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="43bf-5d80-713f-8362" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <profiles>
+            <profile name="Netter" id="2df3-fbdc-25ca-8a35" hidden="false" typeId="a74f-171c-7826-bc9c" typeName="Skill">
+              <characteristics>
+                <characteristic name="Description" typeId="a93a-adfe-16de-faaa">The Goblin applies techniques learned hunting wild Cave Squigs in the depths of the mountains to disable charging enemies. Instead of their normal use, the Goblin may throw a Net they are equipped with at an enemy who is charging them. This will reduce the charge range of the attacker by D6 inches as the charger either slows down to avoid the net, or gets tangled up in it. If this means that the attacker cannot reach the Goblin then it is a failed charge. Regardless of the outcome the Net is lost when this skill is used.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Ride Squig" id="5a7b-0a46-9ba2-ad3a" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="321b-40c5-ca03-097b" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <profiles>
+            <profile name="Ride Squig" id="585d-e880-bd16-968a" hidden="false" typeId="a74f-171c-7826-bc9c" typeName="Skill">
+              <characteristics>
+                <characteristic name="Description" typeId="a93a-adfe-16de-faaa">This Goblin can ride one of the warband&apos;s Cave Squigs, or even a Great Squig! The pair deploy as a single model. Standard mount rules are not used, although the rider counts as being mounted for the Cavelry Bonus rule (see spears and lances). While the Squig is being ridden, it and the rider move as a single model using the Squig&apos;s movement rules, but attack separately in Close Combat. In this skill&apos;s text, the use of “Squig” refers to both Cave Squigs and Great Squigs.
+
+
+Any shooting or close combat attacks will hit the rider on a D6 roll of 1-2, and the Squig on a 3-6.
+
+
+If the Squig is stunned or taken out of action, the rider takes a Strength 2 hit with no Armour save as they crash to the ground. If the Rider is stunned or taken out of action, the Squig reverts to normal Squig behavior. In either case the rider is now dismounted for the rest of the battle.
+
+
+Squigs don&apos;t like being ridden. If the movement roll results in a double or triple, the rider must roll a D6 before the Squig moves. If the result is over the rider&apos;s Strength, they are thrown off before the Squig moves away, and take a Strength 2 hit with no Armour save as they crash to the ground. The rider is now dismounted for the rest of the battle. If the roll is equal to or below their Strength, the rider keeps their grip and remains atop the Squig.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Sneaky Git" id="5120-9b18-38c1-44f5" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="f9ae-6b20-861c-832e" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <profiles>
+            <profile name="Sneaky Git" id="6bbf-8079-39fb-a341" hidden="false" typeId="a74f-171c-7826-bc9c" typeName="Skill">
+              <characteristics>
+                <characteristic name="Description" typeId="a93a-adfe-16de-faaa">The Goblin specializes in attacking their targets from the shadows. They may charge an opponent from hiding, even if they cannot see the target. There is no need for an initiative test, and the target may be over the normal 4” limit for charging unseen targets. If the charge is successful, the Goblin surprises their opponent who will attack at half Weapon Skill and half Initiative, rounded up. This penalty lasts for the first round of combat only, as the opponent will swiftly recover their wits if the initial assault is survived.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </catalogue>
