@@ -1638,7 +1638,7 @@ Because of the special attention (kicks, prods) the herder gives the Trained Squ
             <conditionGroup type="and">
               <conditions>
                 <condition childId="d769-0d85-e810-df60" childName="Experience" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="2"/>
-                <condition childId="any" field="e014-8910-0a32-ebf4" scope="parent" shared="true" type="lessThan" value="2"/>
+                <condition childId="any" field="e014-8910-0a32-ebf4" includeChildSelections="true" scope="model-or-unit" shared="true" type="lessThan" value="2"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1648,7 +1648,7 @@ Because of the special attention (kicks, prods) the herder gives the Trained Squ
             <conditionGroup type="and">
               <conditions>
                 <condition childId="d769-0d85-e810-df60" childName="Experience" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="4"/>
-                <condition childId="any" field="e014-8910-0a32-ebf4" scope="parent" shared="true" type="lessThan" value="4"/>
+                <condition childId="any" field="e014-8910-0a32-ebf4" includeChildSelections="true" scope="model-or-unit" shared="true" type="lessThan" value="4"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1658,7 +1658,7 @@ Because of the special attention (kicks, prods) the herder gives the Trained Squ
             <conditionGroup type="and">
               <conditions>
                 <condition childId="d769-0d85-e810-df60" childName="Experience" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="6"/>
-                <condition childId="any" field="e014-8910-0a32-ebf4" scope="parent" shared="true" type="lessThan" value="6"/>
+                <condition childId="any" field="e014-8910-0a32-ebf4" includeChildSelections="true" scope="model-or-unit" shared="true" type="lessThan" value="6"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
