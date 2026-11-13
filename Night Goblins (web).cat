@@ -57,9 +57,9 @@
       <characteristics>
         <characteristic name="Description" typeId="f258-8283-7780-a442">Before a battle, the Shaman may brew a special batch of Fungus Brew using 1 to 3 Mad Cap Mushrooms, and various other fungi they have collected. The brew must be consumed immediately, and affects a single Night Goblin Warrior henchmen group until the end of the battle. Roll on the Fungus Brew Table once for each Mad Cap Mushroom used in the brewing process. If any of the dice come up with the same result, the batch is ruined and provides no effect other than a nasty headache!
 
-|D6|Result|
-|--|--|
-|D6|Result|
+|||
+|--|:--|
+|**D6**|**Result**|
 |1|**Rowdy**: Affected by Animosity on a 1 or 2.|
 |2|**Dizzy**: -1 Initiative.|
 |3|**Fearless**: Immune to fear and all alone tests.|
@@ -74,8 +74,8 @@
 
 
 |||
-|:--|:--|
-|D6|Result|
+|--|:--|
+|**D6**|**Result**|
 |1|**&quot;I &apos;Erd Dat!&quot;**: If there is a friendly Orc or Goblin Henchman or Hired Sword within charge reach (if there are multiple targets within reach, choose the one nearest to the mad model), the offended warrior will immediately charge and fight a round of hand-to-hand combat against the source of his ire. At the end of this round of combat, the models will immediately move 1&quot; apart and no longer count as being in close combat (unless one of them fails another Animosity test and rolls this result again). If there are no friendly Orc or Goblin Henchmen or Hired Swords within charge reach, and the warrior is armed with a missile weapon, he immediately takes a shot at the nearest friendly Orc or Goblin Henchman or Hired Sword. If none of the above applies, or if the nearest friendly model is an Orc Hero, the warrior behaves as if a 2-5 had been rolled on this chart. In any case, the warrior in question may take no other action this turn, though he may defend himself if attacked in hand-to-hand combat.|
 |2-5|**&quot;Wud Yoo Say?&quot;**: He may do nothing else this turn, though he may defend himself if attacked in hand-to-hand combat.|
 |6|**&quot;I&apos;ll Show Yer!&quot;**: This model must move as quickly as possible towards the nearest enemy model, charging into combat if possible. If there are no enemy models within sight, the Orc or Goblin warrior may make a normal move immediately. This move is in addition to his regular move in the Movement phase, so he may therefore move twice in a single turn if you wish. If the extra move takes the Orc or Goblin warrior within charge reach of an enemy model, the warrior must charge into close combat during his regular movement.|</characteristic>
@@ -601,7 +601,7 @@ Take armor saves as normal.</description>
           </constraints>
         </entryLink>
         <entryLink name="Goblin Magic" id="58d7-8eaf-d857-9936" hidden="false" import="true" sortIndex="4" targetId="73fe-ed12-2804-6835" type="selectionEntryGroup"/>
-        <entryLink name="Wizard" id="b9e5-b103-ff6e-e882" exportable="false" hidden="false" import="true" targetId="1f32-e374-77aa-206a" type="selectionEntry">
+        <entryLink name="Wizard" id="b9e5-b103-ff6e-e882" exportable="false" hidden="true" import="true" targetId="1f32-e374-77aa-206a" type="selectionEntry">
           <constraints>
             <constraint id="1523-294f-10ee-d04d-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
             <constraint id="1523-294f-10ee-d04d-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
@@ -1687,7 +1687,7 @@ Because of the special attention (kicks, prods) the herder gives the Trained Squ
                   <modifiers>
                     <modifier field="hidden" type="set" value="true">
                       <conditions>
-                        <condition childId="92b4-b7e6-138b-7611" childName="Wizard" field="selections" includeChildSelections="false" scope="model-or-unit" shared="true" type="lessThan" value="1"/>
+                        <condition childId="92b4-b7e6-138b-7611" childName="Wizard" field="selections" includeChildSelections="true" scope="parent" shared="true" type="lessThan" value="1"/>
                       </conditions>
                     </modifier>
                   </modifiers>
