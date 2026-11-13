@@ -451,12 +451,13 @@ Take armor saves as normal.</description>
         <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
       </costs>
       <entryLinks>
-        <entryLink name="Hero Equipment List" id="f953-c944-78d1-ae57" hidden="false" import="true" sortIndex="3" targetId="33ef-718a-29db-760c" type="selectionEntryGroup"/>
+        <entryLink name="Hero Equipment List" id="f953-c944-78d1-ae57" hidden="false" import="true" sortIndex="4" targetId="33ef-718a-29db-760c" type="selectionEntryGroup"/>
         <entryLink name="Experience" id="a1c7-b90b-6d72-4fe8" hidden="false" import="true" sortIndex="1" targetId="f080-f218-cc3b-6b2c" type="selectionEntry">
           <constraints>
             <constraint id="976f-18f8-4a35-448b" field="selections" scope="parent" shared="true" type="min" value="4"/>
           </constraints>
         </entryLink>
+        <entryLink name="Advancements" id="34b8-abdc-4f99-c0b6" collapsible="true" hidden="false" import="true" sortIndex="2" targetId="2a96-4264-42bb-563e" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Night Goblin Special Rules" id="dbb4-2551-7cb3-2a21" hidden="false" targetId="9f5d-5ec8-ba0f-04c5" type="infoGroup"/>
@@ -569,7 +570,7 @@ Take armor saves as normal.</description>
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Skills" id="e167-7c12-54d3-b009" collapsible="true" hidden="false" sortIndex="2">
+        <selectionEntryGroup name="Skills" id="e167-7c12-54d3-b009" collapsible="true" hidden="false" sortIndex="3">
           <entryLinks>
             <entryLink name="Combat Skills" id="1063-db08-6062-9a89" hidden="false" import="true" sortIndex="1" targetId="ee2c-89e3-489b-d0cb" type="selectionEntryGroup"/>
             <entryLink name="Shooting Skills" id="7e08-fc67-a099-2243" hidden="false" import="true" sortIndex="2" targetId="0073-d2d6-15c0-45b1" type="selectionEntryGroup"/>
@@ -1408,7 +1409,7 @@ Take armor saves as normal.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Special Skills" id="8fa3-7d96-9b73-093a" hidden="false">
+    <selectionEntryGroup name="Special Skills" id="8fa3-7d96-9b73-093a" collapsible="true" hidden="false">
       <selectionEntries>
         <selectionEntry name="Fungus Farmer" id="3d1d-c154-0b20-2707" hidden="false" import="true" type="upgrade">
           <constraints>
@@ -1536,7 +1537,7 @@ Because of the special attention (kicks, prods) the herder gives the Trained Squ
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Goblin Magic" id="73fe-ed12-2804-6835" hidden="false">
+    <selectionEntryGroup name="Goblin Magic" id="73fe-ed12-2804-6835" collapsible="true" hidden="false">
       <comment>Night Goblins (web)</comment>
       <constraints>
         <constraint id="b0cb-a5bc-5870-d48d" field="selections" scope="parent" shared="true" type="max" value="1"/>
@@ -1631,6 +1632,24 @@ Because of the special attention (kicks, prods) the herder gives the Trained Squ
     </selectionEntryGroup>
     <selectionEntryGroup name="Advancements" id="2a96-4264-42bb-563e" collapsible="true" hidden="false">
       <comment>Heroes</comment>
+      <constraints>
+        <constraint id="ba61-c225-701d-be86" field="selections" scope="parent" shared="true" type="max" value="0"/>
+      </constraints>
+      <modifiers>
+        <modifier field="ba61-c225-701d-be86" type="increment" value="1">
+          <conditionGroups>
+            <conditionGroup type="add">
+              <conditions>
+                <condition childId="d769-0d85-e810-df60" childName="Experience" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="2"/>
+                <condition childId="d769-0d85-e810-df60" childName="Experience" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="4"/>
+                <condition childId="d769-0d85-e810-df60" childName="Experience" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="6"/>
+                <condition childId="d769-0d85-e810-df60" childName="Experience" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="8"/>
+                <condition childId="d769-0d85-e810-df60" childName="Experience" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="11"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <selectionEntries>
         <selectionEntry name="Advancement" id="aa85-1858-e5ef-7f8c" hidden="false" import="true" type="upgrade">
           <selectionEntryGroups>
