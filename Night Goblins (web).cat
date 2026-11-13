@@ -16,13 +16,6 @@
     <entryLink name="Great Squig" id="7aa4-c8eb-0832-abc8" hidden="false" import="true" targetId="6059-315f-1e1a-0bea" type="selectionEntry"/>
     <entryLink name="Night Goblin Warriors Test" id="c7d9-f368-4982-27e5" hidden="false" import="true" targetId="eac3-9eca-505c-5d64" type="selectionEntry"/>
   </entryLinks>
-  <profileTypes>
-    <profileType name="Animosity Reference" id="e973-6771-34fc-60d7" hidden="false" kind="ability">
-      <characteristicTypes>
-        <characteristicType name="New Characteristic Type" id="7a48-70d0-ca96-d00b" kind="longText"/>
-      </characteristicTypes>
-    </profileType>
-  </profileTypes>
   <sharedInfoGroups>
     <infoGroup name="Night Goblin Special Rules" id="9f5d-5ec8-ba0f-04c5" hidden="false">
       <infoLinks>
@@ -64,30 +57,28 @@
       <characteristics>
         <characteristic name="Description" typeId="f258-8283-7780-a442">Before a battle, the Shaman may brew a special batch of Fungus Brew using 1 to 3 Mad Cap Mushrooms, and various other fungi they have collected. The brew must be consumed immediately, and affects a single Night Goblin Warrior henchmen group until the end of the battle. Roll on the Fungus Brew Table once for each Mad Cap Mushroom used in the brewing process. If any of the dice come up with the same result, the batch is ruined and provides no effect other than a nasty headache!
 
-
-D6   Result
- 1      Rowdy: Affected by Animosity on a 1 or 2.
- 2      Dizzy: -1 Initiative.
- 3      Fearless: Immune to fear and all alone tests.
- 4      Numbed: +1 Save which may not be reduced below 6+.
- 5      Belligerent: hatred against the opposing warband(s).
- 6      Loony: frenzy , followed by stupidity if it wears off by a Goblin being knocked down or stunned</characteristic>
+|||
+|:--|:--|
+|D6|Result|
+|1|**Rowdy**: Affected by Animosity on a 1 or 2.|
+|2|**Dizzy**: -1 Initiative.|
+|3|**Fearless**: Immune to fear and all alone tests.|
+|4|**Numbed**: +1 Save which may not be reduced below 6+.|
+|5|**Belligerent**: hatred against the opposing warband(s).|
+|6|**Loony**: frenzy , followed by stupidity if it wears off by a Goblin being knocked down or stunned|</characteristic>
       </characteristics>
     </profile>
     <profile name="Animosity Reference" id="aa97-e2f0-fd7d-e8ee" hidden="false" typeId="aa94-5d6e-9b87-dda7" typeName="Special Rules">
       <characteristics>
-        <characteristic name="Description" typeId="f258-8283-7780-a442">|||
+        <characteristic name="Description" typeId="f258-8283-7780-a442">At the start of the Night Goblin player’s turn, roll a D6 for each Night Goblin Warrior Henchman. A roll of 1 means that the warrior has taken offense to something one of their mates has done or said. Do not roll for models that are engaged in hand-to-hand combat (they’re already scrappin’!). To find out just how offended the model is, roll another D6 and consult the following chart to see what happens:
+
+
+|||
 |:--|:--|
 |D6|Result|
-|1|&quot;I &apos;Erd Dat!&quot;: If there is a friendly Orc or Goblin Henchman or Hired Sword within charge reach (if there are multiple targets within reach, choose the one nearest to the mad model), the offended warrior will immediately charge and fight a round of hand-to-hand combat against the source of his ire. At the end of this round of combat, the models will immediately move 1&quot; apart and no longer count as being in close combat (unless one of them fails another Animosity test and rolls this result again).
-
-
-If there are no friendly Orc or Goblin Henchmen or Hired Swords within charge reach, and the warrior is armed with a missile weapon, he immediately takes a shot at the nearest friendly Orc or Goblin Henchman or Hired Sword. If none of the above applies, or if the nearest friendly model is an Orc Hero, the warrior behaves as if a 2-5 had been rolled on this chart. In any case, the warrior in question may take no other action this turn, though he may defend himself if attacked in hand-to-hand combat.|
+|1|&quot;I &apos;Erd Dat!&quot;: If there is a friendly Orc or Goblin Henchman or Hired Sword within charge reach (if there are multiple targets within reach, choose the one nearest to the mad model), the offended warrior will immediately charge and fight a round of hand-to-hand combat against the source of his ire. At the end of this round of combat, the models will immediately move 1&quot; apart and no longer count as being in close combat (unless one of them fails another Animosity test and rolls this result again). If there are no friendly Orc or Goblin Henchmen or Hired Swords within charge reach, and the warrior is armed with a missile weapon, he immediately takes a shot at the nearest friendly Orc or Goblin Henchman or Hired Sword. If none of the above applies, or if the nearest friendly model is an Orc Hero, the warrior behaves as if a 2-5 had been rolled on this chart. In any case, the warrior in question may take no other action this turn, though he may defend himself if attacked in hand-to-hand combat.|
 |2-5|&quot;Wud Yoo Say?&quot;: He may do nothing else this turn, though he may defend himself if attacked in hand-to-hand combat.|
-|6|&quot;I&apos;ll Show Yer!&quot;: This model must move as quickly as possible towards the nearest enemy model, charging into combat if possible. If there are no enemy models within sight, the Orc or Goblin warrior may make a normal move immediately. This move is in addition to his regular move in the Movement phase, so he may therefore move twice in a single turn if you wish.
-
-
-If the extra move takes the Orc or Goblin warrior within charge reach of an enemy model, the warrior must charge into close combat during his regular movement.|</characteristic>
+|6|&quot;I&apos;ll Show Yer!&quot;: This model must move as quickly as possible towards the nearest enemy model, charging into combat if possible. If there are no enemy models within sight, the Orc or Goblin warrior may make a normal move immediately. This move is in addition to his regular move in the Movement phase, so he may therefore move twice in a single turn if you wish. If the extra move takes the Orc or Goblin warrior within charge reach of an enemy model, the warrior must charge into close combat during his regular movement.|</characteristic>
       </characteristics>
     </profile>
     <profile name="Hate Stunties" id="1340-8f93-2b7d-0e93" hidden="false" typeId="aa94-5d6e-9b87-dda7" typeName="Special Rules">
@@ -97,7 +88,7 @@ If the extra move takes the Orc or Goblin warrior within charge reach of an enem
     </profile>
     <profile name="Fear Elves" id="e4a7-7c4d-3329-261c" hidden="false" typeId="aa94-5d6e-9b87-dda7" typeName="Special Rules">
       <characteristics>
-        <characteristic name="Description" typeId="f258-8283-7780-a442">Night Goblins are terrified of the Elven race. This only affects Night Goblins, not any other models in the warband. Fanatics are so out of their skull that they are not affected.</characteristic>
+        <characteristic name="Description" typeId="f258-8283-7780-a442">Night Goblins are terrified of the Elven race and are subject to Fear against Elves. This only affects Night Goblins, not any other models in the warband. Fanatics are so out of their skull that they are not affected.</characteristic>
       </characteristics>
     </profile>
     <profile name="Mad Cap Masters" id="b1fd-b4fc-e969-1a90" hidden="false" typeId="aa94-5d6e-9b87-dda7" typeName="Special Rules">
@@ -108,6 +99,16 @@ If the extra move takes the Orc or Goblin warrior within charge reach of an enem
     <profile name="Animosity" id="2519-0d0e-4715-c626" hidden="false" typeId="aa94-5d6e-9b87-dda7" typeName="Special Rules">
       <characteristics>
         <characteristic name="Description" typeId="f258-8283-7780-a442">Night Goblins are subject to the rules for Animosity. See: Animosity Reference</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Addict" id="5861-c2e5-f21e-ce21" hidden="false" typeId="aa94-5d6e-9b87-dda7" typeName="Special Rules">
+      <characteristics>
+        <characteristic name="Description" typeId="f258-8283-7780-a442">Fanatics are dependent on a regular supply of Mad Cap Mushrooms which must be bought each game. If a fanatic can&apos;t get any before a battle they will stay in their cave foaming at the mouth and not take part. If available they will eat their mushrooms before the battle.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Loony" id="dd25-5bc7-286e-5316" hidden="false" typeId="aa94-5d6e-9b87-dda7" typeName="Special Rules">
+      <characteristics>
+        <characteristic name="Description" typeId="f258-8283-7780-a442">Fanatics are so far gone from reality that they are not subject to the rules for Animosity. Fanatics must re-roll results of “Lad&apos;s Got Talent.”</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -135,6 +136,7 @@ If the extra move takes the Orc or Goblin warrior within charge reach of an enem
       <infoLinks>
         <infoLink name="Leader" id="79a2-4dfa-949f-e771" hidden="false" targetId="2dcf-8d94-c623-8cad" type="profile"/>
         <infoLink name="Da Biggest Boss" id="3470-1146-dfc2-6b1f" hidden="false" targetId="7bfd-b510-ce34-3ec8" type="profile"/>
+        <infoLink name="Night Goblin Special Rules" id="c336-2b00-9d6b-be24" hidden="false" targetId="9f5d-5ec8-ba0f-04c5" type="infoGroup"/>
       </infoLinks>
       <profiles>
         <profile name="Boss" id="7369-9d7c-b37a-12ba" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
@@ -223,6 +225,7 @@ Take armor saves as normal.</description>
       <infoLinks>
         <infoLink name="Handle Animal - Squig" id="cf8e-9daa-4642-690e" hidden="false" targetId="6555-a0a9-8e92-cafe" type="profile"/>
         <infoLink name="Master Herder" id="5c6e-f7e5-2bd8-408d" hidden="false" targetId="7c64-a4fe-0d6e-9a0b" type="profile"/>
+        <infoLink name="Night Goblin Special Rules" id="28b2-c7a4-9577-00d7" hidden="false" targetId="9f5d-5ec8-ba0f-04c5" type="infoGroup"/>
       </infoLinks>
       <profiles>
         <profile name="Squig Herder" id="a8df-8d66-c89e-1c16" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
@@ -270,6 +273,9 @@ Take armor saves as normal.</description>
           </constraints>
         </entryLink>
       </entryLinks>
+      <infoLinks>
+        <infoLink name="Night Goblin Special Rules" id="dbb4-2551-7cb3-2a21" hidden="false" targetId="9f5d-5ec8-ba0f-04c5" type="infoGroup"/>
+      </infoLinks>
       <profiles>
         <profile name="Goon" id="2dc3-80e4-9bc3-19fb" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
           <characteristics>
@@ -320,6 +326,7 @@ Take armor saves as normal.</description>
       <infoLinks>
         <infoLink name="Wizard" id="b4b2-fc3d-259c-1bfb" hidden="false" targetId="17eb-8d73-da63-89d3" type="profile"/>
         <infoLink name="Fungus Brew" id="6cc9-08ab-7748-b345" hidden="false" targetId="f1d7-99d4-6542-6f37" type="profile"/>
+        <infoLink name="Night Goblin Special Rules" id="940b-7e1f-e6cc-2ffa" hidden="false" targetId="9f5d-5ec8-ba0f-04c5" type="infoGroup"/>
       </infoLinks>
       <profiles>
         <profile name="Shaman" id="efdc-35b2-c6b4-87d5" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
@@ -461,6 +468,13 @@ Take armor saves as normal.</description>
         <cost name="Warband Rating" typeId="wb-rating" value="20"/>
         <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
       </costs>
+      <modifiers>
+        <modifier field="f606-0f4b-13fe-ea4f" type="set" value="0">
+          <conditions>
+            <condition childId="4038-4cc8-456f-8466" childName="Troll" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile name="Great Squig" id="7742-fe1d-1631-81e0" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
           <characteristics>
@@ -473,6 +487,26 @@ Take armor saves as normal.</description>
             <characteristic name="I" typeId="a6fd52b0-be0a-655e-6314-87b392c9c90e">4</characteristic>
             <characteristic name="A" typeId="bf393c37-9d10-fc85-c147-62b1c01a89fe">3</characteristic>
             <characteristic name="LD" typeId="e234eaea-a02a-2fb7-3e1f-605392aabb89">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Movement" id="261c-f49c-faa6-a9e5" hidden="false" typeId="aa94-5d6e-9b87-dda7" typeName="Special Rules">
+          <characteristics>
+            <characteristic name="Description" typeId="f258-8283-7780-a442">Great Squigs do not have a set Movement characteristic but move with an ungainly bouncing stride. When moving a Great Squig, declare a direction of movement and roll 3D6 for the distance they move. Great Squigs never run and never declare charges. Instead, they are allowed to contact enemy models with their normal 3D6&quot; movement, stopping short if they do. If this happens, they count as charging for the following round of hand-to-hand combat, just as if they had declared a charge.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Cause Fear" id="d180-461b-72c8-6139" hidden="false" typeId="aa94-5d6e-9b87-dda7" typeName="Special Rules">
+          <characteristics>
+            <characteristic name="Description" typeId="f258-8283-7780-a442">Great Squigs are massive balls of flesh and teeth, they cause Fear.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Large Target" id="038b-148c-af0a-b3eb" hidden="false" typeId="aa94-5d6e-9b87-dda7" typeName="Special Rules">
+          <characteristics>
+            <characteristic name="Description" typeId="f258-8283-7780-a442">Great Squigs are large targets as defined in the shooting rules.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Animal" id="b263-869f-0587-3bbb" hidden="false" typeId="aa94-5d6e-9b87-dda7" typeName="Special Rules">
+          <characteristics>
+            <characteristic name="Description" typeId="f258-8283-7780-a442">Great Squigs are animals of a sort and so do not gain experience, or climb ladders. They can move up to higher levels or over obstacles using the normal climb rules, just imagine it as a particularly high bounce.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -489,6 +523,13 @@ Take armor saves as normal.</description>
         <cost name="Warband Rating" typeId="wb-rating" value="20"/>
         <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
       </costs>
+      <modifiers>
+        <modifier field="1f6d-bd78-c747-b8cb" type="set" value="0">
+          <conditions>
+            <condition childId="6059-315f-1e1a-0bea" childName="Great Squig" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile name="Troll" id="23a4-6ebb-0454-3cd2" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
           <characteristics>
@@ -501,6 +542,41 @@ Take armor saves as normal.</description>
             <characteristic name="I" typeId="a6fd52b0-be0a-655e-6314-87b392c9c90e">1</characteristic>
             <characteristic name="A" typeId="bf393c37-9d10-fc85-c147-62b1c01a89fe">3</characteristic>
             <characteristic name="LD" typeId="e234eaea-a02a-2fb7-3e1f-605392aabb89">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Fear" id="9fe0-0dda-d818-816b" hidden="false" typeId="aa94-5d6e-9b87-dda7" typeName="Special Rules">
+          <characteristics>
+            <characteristic name="Description" typeId="f258-8283-7780-a442">Trolls are frightening monsters which cause fear.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Stupidity" id="1bbf-31ae-93fa-6667" hidden="false" typeId="aa94-5d6e-9b87-dda7" typeName="Special Rules">
+          <characteristics>
+            <characteristic name="Description" typeId="f258-8283-7780-a442">A Troll is subject to the rules for Stupidity.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Regeneration" id="d61a-7c85-e968-3783" hidden="false" typeId="aa94-5d6e-9b87-dda7" typeName="Special Rules">
+          <characteristics>
+            <characteristic name="Description" typeId="f258-8283-7780-a442">Trolls have a unique physiology that allow them to regenerate wounds. Whenever an enemy successfully inflicts a wound on a Troll roll a D6, on a result of 4 or more the wound is ignored and the Troll is unhurt. Trolls may not regenerate wounds caused by fire or fire-based magic. Trolls never roll for Injury after a battle.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Dumb Monster" id="ed2c-6c8c-7a0f-f975" hidden="false" typeId="aa94-5d6e-9b87-dda7" typeName="Special Rules">
+          <characteristics>
+            <characteristic name="Description" typeId="f258-8283-7780-a442">A Troll is far too stupid to ever learn any new skills. Trolls do not gain experience.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Always Hungry" id="b43c-6cda-0938-c9a3" hidden="false" typeId="aa94-5d6e-9b87-dda7" typeName="Special Rules">
+          <characteristics>
+            <characteristic name="Description" typeId="f258-8283-7780-a442">A Troll requires an upkeep cost. This upkeep represents the copious amounts of food that must be fed to the Troll in order to keep him loyal to the warband. The warband must pay 15 gold crowns after every game in order to keep the Troll. If the warband lacks the gold to pay the upkeep, the Boss has the option of sacrificing two Goblin Warriors or Cave Squigs to the Troll in lieu of buying food (Trolls eat nearly anything). If this fee is not paid (either in gold or in warband members) the Troll gets hungry and wanders off in search of food.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Vomit Attack" id="f8e6-2902-2928-249a" hidden="false" typeId="aa94-5d6e-9b87-dda7" typeName="Special Rules">
+          <characteristics>
+            <characteristic name="Description" typeId="f258-8283-7780-a442">Instead of his normal attacks, a Troll can regurgitate its highly corrosive digestive juices on an unfortunate hand-to-hand combat opponent. This is a single attack that automatically hits with a Strength of 5 and ignores armour saves.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Large Target" id="1a00-b03a-1f77-4f3b" hidden="false" typeId="aa94-5d6e-9b87-dda7" typeName="Special Rules">
+          <characteristics>
+            <characteristic name="Description" typeId="f258-8283-7780-a442">Trolls are Large Targets as defined in the shooting rules.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -535,6 +611,11 @@ Take armor saves as normal.</description>
         </entryLink>
         <entryLink name="Experience" id="347b-6181-9e3f-7089" hidden="false" import="true" sortIndex="1" targetId="724c-5ced-65aa-6cfe" type="selectionEntry"/>
       </entryLinks>
+      <infoLinks>
+        <infoLink name="Night Goblin Special Rules" id="0d7c-4543-331f-5f66" hidden="false" targetId="9f5d-5ec8-ba0f-04c5" type="infoGroup"/>
+        <infoLink name="Addict" id="077c-62f8-8461-b0f0" hidden="false" targetId="5861-c2e5-f21e-ce21" type="profile"/>
+        <infoLink name="Loony" id="c2cf-ad45-100f-4470" hidden="false" targetId="dd25-5bc7-286e-5316" type="profile"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry name="Cave Squigs" id="20e6-7796-3377-452a" hidden="false" import="true" type="unit">
       <categoryLinks>
@@ -547,6 +628,28 @@ Take armor saves as normal.</description>
           </constraints>
         </entryLink>
       </entryLinks>
+      <profiles>
+        <profile name="Movement" id="29aa-b668-85c4-0b9f" hidden="false" typeId="aa94-5d6e-9b87-dda7" typeName="Special Rules">
+          <characteristics>
+            <characteristic name="Description" typeId="f258-8283-7780-a442">Cave Squigs do not have a set Movement characteristic but move with an ungainly bouncing stride. When moving Squigs, declare a direction of movement and roll 2D6 for the distance they move. Squigs never run and never declare charges. Instead, they are allowed to contact enemy models with their normal 2D6&quot; movement, stopping short if they do. If this happens, they count as charging for the following round of hand-to-hand combat, just as if they had declared a charge.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Minderz" id="9310-82d0-8969-62d7" hidden="false" typeId="aa94-5d6e-9b87-dda7" typeName="Special Rules">
+          <characteristics>
+            <characteristic name="Description" typeId="f258-8283-7780-a442">Each Cave Squig must always remain within 6&quot; of a Goblin, who keeps the creature in line. If a Cave Squig finds itself without a Goblin within 6&quot; at the start of its Movement phase, it will go wild. From that point on, move the Squig 2D6&quot; in a random direction during each of its Movement phases. If its movement takes it into contact with another model (friend or foe), it will engage the model in hand-tohand combat as normal. The Cave Squig is out of the Night Goblin player’s control until the end of the game.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Just Squigs" id="6764-4f0f-f71b-82cf" hidden="false" typeId="aa94-5d6e-9b87-dda7" typeName="Special Rules">
+          <characteristics>
+            <characteristic name="Description" typeId="f258-8283-7780-a442">Night Goblins don&apos;t care much whether Squigs die because there will always be more mysteriously popping up where ever the Goblins go. Squigs only count as a half a model for Rout test purposes.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Animals" id="3be2-6977-7ba1-5b69" hidden="false" typeId="aa94-5d6e-9b87-dda7" typeName="Special Rules">
+          <characteristics>
+            <characteristic name="Description" typeId="f258-8283-7780-a442">Cave Squigs are animals of a sort and so do not gain experience, or climb ladders. They can move to higher levels or over obstacles using the normal climb rules, just imagine it as a particularly high bounce.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry name="Snotlings" id="905e-6322-5b92-0703" hidden="false" import="true" type="unit">
       <categoryLinks>
@@ -564,6 +667,28 @@ Take armor saves as normal.</description>
           </constraints>
         </entryLink>
       </entryLinks>
+      <profiles>
+        <profile name="Mob" id="2e59-537b-2d3b-60c0" hidden="false" typeId="aa94-5d6e-9b87-dda7" typeName="Special Rules">
+          <characteristics>
+            <characteristic name="Description" typeId="f258-8283-7780-a442">All Snotlings in a warband count as one model for warband size.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Weedy" id="8c6e-a1b7-2d7d-786c" hidden="false" typeId="aa94-5d6e-9b87-dda7" typeName="Special Rules">
+          <characteristics>
+            <characteristic name="Description" typeId="f258-8283-7780-a442">Snotlings are not the most robust of creatures. If wounded they will be knocked down on a 1, stunned on a 2-3 and go out of action on a 4-6.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Dodgy" id="936c-bc88-ceed-3d97" hidden="false" typeId="aa94-5d6e-9b87-dda7" typeName="Special Rules">
+          <characteristics>
+            <characteristic name="Description" typeId="f258-8283-7780-a442">The little creatures are constantly ducking and diving in the most infuriating way. All hits from shooting or hand-to-hand suffer -1 to hit against Snotlings.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Insignificant" id="160a-0534-88ab-3447" hidden="false" typeId="aa94-5d6e-9b87-dda7" typeName="Special Rules">
+          <characteristics>
+            <characteristic name="Description" typeId="f258-8283-7780-a442">Nobody cares about the Snotlings. All Snotlings in the warband count as 1 model for rout tests purposes and warband maintenance costs. Each Snotling is worth half an experience point, rounded down at the end of the battle. Snotlings may be ignored for shooting priority purposes. Snotlings never gain experience, they usually don&apos;t last long enough, and if they do they&apos;re too stupid to learn anything of value!</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry name="Night Goblin Warriors Test" id="eac3-9eca-505c-5d64" hidden="false" import="true" type="unit">
       <categoryLinks>
