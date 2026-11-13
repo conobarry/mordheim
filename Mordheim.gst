@@ -55,8 +55,9 @@
     <categoryEntry name="Configuration" id="e1f1-ce7b-e13e-5dcf" hidden="false"/>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="7451d7da-3cc0-0299-775b-2f48162a731d" name="Warband" hidden="false">
+    <forceEntry id="7451d7da-3cc0-0299-775b-2f48162a731d" name="Warband" hidden="false" sortIndex="1">
       <categoryLinks>
+        <categoryLink name="Configuration" hidden="false" id="6fee-820a-861e-2ed0" targetId="e1f1-ce7b-e13e-5dcf"/>
         <categoryLink id="7451d7da-3cc0-0299-775b-2f48162a731d-a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" name="Heroes" hidden="false" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
@@ -69,10 +70,9 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Configuration" hidden="false" id="6fee-820a-861e-2ed0" targetId="e1f1-ce7b-e13e-5dcf"/>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="1f34-e353-569e-f6b9" name="Characters" hidden="false">
+    <forceEntry id="1f34-e353-569e-f6b9" name="Characters" hidden="true">
       <categoryLinks>
         <categoryLink id="1f34-e353-569e-f6b9-0aea-26b8-980b-28aa" name="Dramatis Personae" hidden="false" targetId="0aea-26b8-980b-28aa" primary="false"/>
         <categoryLink id="1f34-e353-569e-f6b9-71f7-5ee6-ab09-7fd9" name="Hired Swords" hidden="false" targetId="71f7-5ee6-ab09-7fd9" primary="false"/>

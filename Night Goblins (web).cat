@@ -8,7 +8,12 @@
         <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Hero Equipment List" hidden="false" id="b6db-c9dc-ef80-aaa5" type="selectionEntryGroup" targetId="33ef-718a-29db-760c"/>
+        <entryLink import="true" name="Hero Equipment List" hidden="false" id="b6db-c9dc-ef80-aaa5" type="selectionEntryGroup" targetId="33ef-718a-29db-760c" sortIndex="2"/>
+        <entryLink import="true" name="Experience" hidden="false" id="9765-e3e7-8707-1531" type="selectionEntry" targetId="f080-f218-cc3b-6b2c" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="17" field="selections" scope="parent" shared="true" id="957f-49d9-7faa-43a5"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <categoryLinks>
         <categoryLink name="Heroes" hidden="false" id="4101-6f69-4450-2318" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" primary="true"/>
@@ -79,7 +84,12 @@ Take armor saves as normal.</description>
         <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Hero Equipment List" hidden="false" id="31e7-4fdc-a525-ec52" type="selectionEntryGroup" targetId="33ef-718a-29db-760c"/>
+        <entryLink import="true" name="Hero Equipment List" hidden="false" id="31e7-4fdc-a525-ec52" type="selectionEntryGroup" targetId="33ef-718a-29db-760c" sortIndex="2"/>
+        <entryLink import="true" name="Experience" hidden="false" id="9d37-bad1-4247-4094" type="selectionEntry" targetId="f080-f218-cc3b-6b2c" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="6" field="selections" scope="parent" shared="true" id="9a9c-500d-5aaf-d66f"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="74b9-0234-b22d-29ee" includeChildSelections="true" includeChildForces="true"/>
@@ -122,7 +132,12 @@ Take armor saves as normal.</description>
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink import="true" name="Hero Equipment List" hidden="false" id="f953-c944-78d1-ae57" type="selectionEntryGroup" targetId="33ef-718a-29db-760c"/>
+        <entryLink import="true" name="Hero Equipment List" hidden="false" id="f953-c944-78d1-ae57" type="selectionEntryGroup" targetId="33ef-718a-29db-760c" sortIndex="2"/>
+        <entryLink import="true" name="Experience" hidden="false" id="a1c7-b90b-6d72-4fe8" type="selectionEntry" targetId="f080-f218-cc3b-6b2c" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="976f-18f8-4a35-448b"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="bcc6-e78f-abe8-a7dd" includeChildSelections="true" includeChildForces="true"/>
@@ -151,7 +166,12 @@ Take armor saves as normal.</description>
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink import="true" name="Hero Equipment List" hidden="false" id="63b0-8075-28e8-28fc" type="selectionEntryGroup" targetId="33ef-718a-29db-760c"/>
+        <entryLink import="true" name="Hero Equipment List" hidden="false" id="63b0-8075-28e8-28fc" type="selectionEntryGroup" targetId="33ef-718a-29db-760c" sortIndex="2"/>
+        <entryLink import="true" name="Experience" hidden="false" id="19a6-c0b6-743f-3224" type="selectionEntry" targetId="f080-f218-cc3b-6b2c" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="6" field="selections" scope="parent" shared="true" id="accf-3d16-1ca5-591e"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Gold Crowns" typeId="points" value="25"/>
@@ -323,11 +343,12 @@ Take armor saves as normal.</description>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Night Goblin Warriors" hidden="false" id="c0b9-dd67-5092-7a54">
       <entryLinks>
-        <entryLink import="true" name="Night Goblin Warrior" hidden="false" id="d67f-9cdb-b3d4-c52d" type="selectionEntry" targetId="0c7c-5c24-98d4-5a4d" collective="true">
+        <entryLink import="true" name="Night Goblin Warrior" hidden="false" id="d67f-9cdb-b3d4-c52d" type="selectionEntry" targetId="0c7c-5c24-98d4-5a4d" collective="true" sortIndex="2">
           <constraints>
             <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="224a-6907-8ed3-351a"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Experience" hidden="false" id="939a-4107-dd5f-548a" type="selectionEntry" targetId="724c-5ced-65aa-6cfe" sortIndex="1"/>
       </entryLinks>
       <categoryLinks>
         <categoryLink name="Henchmen" hidden="false" id="ee74-e6da-8e33-2d83" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
@@ -335,11 +356,12 @@ Take armor saves as normal.</description>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Night Goblin Fanatics" hidden="false" id="635e-6a45-0490-a729">
       <entryLinks>
-        <entryLink import="true" name="Night Goblin Fanatic" hidden="false" id="ec66-b15d-9d2a-bd2e" type="selectionEntry" targetId="6acb-85ba-b36b-c336" collective="true">
+        <entryLink import="true" name="Night Goblin Fanatic" hidden="false" id="ec66-b15d-9d2a-bd2e" type="selectionEntry" targetId="6acb-85ba-b36b-c336" collective="true" sortIndex="2">
           <constraints>
             <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="6a56-12ce-6952-875f"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Experience" hidden="false" id="347b-6181-9e3f-7089" type="selectionEntry" targetId="724c-5ced-65aa-6cfe" sortIndex="1"/>
       </entryLinks>
       <categoryLinks>
         <categoryLink name="Henchmen" hidden="false" id="2592-e669-6901-26c4" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>

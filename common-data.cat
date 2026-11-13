@@ -3074,6 +3074,26 @@ Additionally, only 1 attack is allowed, no matter the number on the wielder’s 
         </rule>
       </rules>
     </selectionEntry>
+    <selectionEntry id="f080-f218-cc3b-6b2c" name="Experience" page="0" hidden="false" collective="false" import="true" type="upgrade" collapsible="true">
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="Warband Rating" typeId="wb-rating" value="1"/>
+      </costs>
+      <comment>Hero</comment>
+      <constraints>
+        <constraint type="max" value="90" field="selections" scope="parent" shared="true" id="1b3c-f369-cccc-f1af"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry id="724c-5ced-65aa-6cfe" name="Experience" page="0" hidden="false" collective="false" import="true" type="upgrade" collapsible="true">
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="Warband Rating" typeId="wb-rating" value="1"/>
+      </costs>
+      <comment>Henchmen</comment>
+      <constraints>
+        <constraint type="max" value="14" field="selections" scope="parent" shared="true" id="f95a-94c8-4fec-164c"/>
+      </constraints>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="df9d-8724-d362-9d7c" name="Academic Skills" hidden="false" collective="false" import="true">
