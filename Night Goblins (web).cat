@@ -836,12 +836,12 @@
           <modifiers>
             <modifier field="d5aca8ba-0204-b324-b976-c2b536e09924" type="increment" value="1">
               <repeats>
-                <repeat childId="7418-394e-fe13-2a96" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
+                <repeat childId="7418-394e-fe13-2a96" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="model-or-unit" shared="true" value="1"/>
               </repeats>
             </modifier>
             <modifier field="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9" type="increment" value="1">
               <repeats>
-                <repeat childId="9368-3616-516f-5178" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
+                <repeat childId="9368-3616-516f-5178" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="parent" shared="true" value="1"/>
               </repeats>
             </modifier>
             <modifier field="e234eaea-a02a-2fb7-3e1f-605392aabb89" type="increment" value="1">
