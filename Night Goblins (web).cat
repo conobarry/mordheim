@@ -760,53 +760,6 @@
       <entryLinks>
         <entryLink name="Henchmen Equipment List" id="8d03-3b67-e0bd-7b22" hidden="false" import="true" targetId="9d91-dd71-9e38-e3ec" type="selectionEntryGroup"/>
       </entryLinks>
-      <profiles>
-        <profile name="Night Goblin Warrior" id="4a72-3efe-4a27-a825" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
-          <characteristics>
-            <characteristic name="M" typeId="2a0bcc4c-8266-418f-13d6-a6b44def5e92">4</characteristic>
-            <characteristic name="WS" typeId="d5aca8ba-0204-b324-b976-c2b536e09924">2</characteristic>
-            <characteristic name="BS" typeId="5b4d181b-23ae-5ed7-9262-c1d2f79246a8">3</characteristic>
-            <characteristic name="S" typeId="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">3</characteristic>
-            <characteristic name="T" typeId="54f4796b-dedb-c296-8b1a-ff7f8043293a">3</characteristic>
-            <characteristic name="W" typeId="3172c8dc-ebe4-0c40-72ab-8fd0076b9442">1</characteristic>
-            <characteristic name="I" typeId="a6fd52b0-be0a-655e-6314-87b392c9c90e">3</characteristic>
-            <characteristic name="A" typeId="bf393c37-9d10-fc85-c147-62b1c01a89fe">1</characteristic>
-            <characteristic name="LD" typeId="e234eaea-a02a-2fb7-3e1f-605392aabb89">5</characteristic>
-          </characteristics>
-          <modifiers>
-            <modifier field="d5aca8ba-0204-b324-b976-c2b536e09924" type="increment" value="1">
-              <repeats>
-                <repeat childId="7418-394e-fe13-2a96" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-            <modifier field="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9" type="increment" value="1">
-              <repeats>
-                <repeat childId="9368-3616-516f-5178" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-            <modifier field="e234eaea-a02a-2fb7-3e1f-605392aabb89" type="increment" value="1">
-              <repeats>
-                <repeat childId="27d8-c790-a4c1-b9cc" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-            <modifier field="a6fd52b0-be0a-655e-6314-87b392c9c90e" type="increment" value="1">
-              <repeats>
-                <repeat childId="da26-8381-781a-6149" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-            <modifier field="bf393c37-9d10-fc85-c147-62b1c01a89fe" type="increment" value="1">
-              <repeats>
-                <repeat childId="37c4-dcb1-8949-d4eb" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-            <modifier field="5b4d181b-23ae-5ed7-9262-c1d2f79246a8" type="increment" value="1">
-              <repeats>
-                <repeat childId="5a83-274a-bba8-f498" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </profile>
-      </profiles>
     </selectionEntry>
     <selectionEntry name="Night Goblin Fanatic" id="6acb-85ba-b36b-c336" hidden="false" import="true" type="model">
       <constraints>
@@ -1096,6 +1049,53 @@
         <infoLink name="Animosity" id="b05e-210f-0f5c-3c17" hidden="false" targetId="2519-0d0e-4715-c626" type="profile"/>
         <infoLink name="Night Goblin Special Rules" id="4663-5ee1-48bc-5380" hidden="false" targetId="9f5d-5ec8-ba0f-04c5" type="infoGroup"/>
       </infoLinks>
+      <profiles>
+        <profile name="Night Goblin Warrior" id="4a72-3efe-4a27-a825" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="2a0bcc4c-8266-418f-13d6-a6b44def5e92">4</characteristic>
+            <characteristic name="WS" typeId="d5aca8ba-0204-b324-b976-c2b536e09924">2</characteristic>
+            <characteristic name="BS" typeId="5b4d181b-23ae-5ed7-9262-c1d2f79246a8">3</characteristic>
+            <characteristic name="S" typeId="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">3</characteristic>
+            <characteristic name="T" typeId="54f4796b-dedb-c296-8b1a-ff7f8043293a">3</characteristic>
+            <characteristic name="W" typeId="3172c8dc-ebe4-0c40-72ab-8fd0076b9442">1</characteristic>
+            <characteristic name="I" typeId="a6fd52b0-be0a-655e-6314-87b392c9c90e">3</characteristic>
+            <characteristic name="A" typeId="bf393c37-9d10-fc85-c147-62b1c01a89fe">1</characteristic>
+            <characteristic name="LD" typeId="e234eaea-a02a-2fb7-3e1f-605392aabb89">5</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier field="d5aca8ba-0204-b324-b976-c2b536e09924" type="increment" value="1">
+              <repeats>
+                <repeat childId="7418-394e-fe13-2a96" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+            <modifier field="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9" type="increment" value="1">
+              <repeats>
+                <repeat childId="9368-3616-516f-5178" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+            <modifier field="e234eaea-a02a-2fb7-3e1f-605392aabb89" type="increment" value="1">
+              <repeats>
+                <repeat childId="27d8-c790-a4c1-b9cc" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+            <modifier field="a6fd52b0-be0a-655e-6314-87b392c9c90e" type="increment" value="1">
+              <repeats>
+                <repeat childId="da26-8381-781a-6149" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+            <modifier field="bf393c37-9d10-fc85-c147-62b1c01a89fe" type="increment" value="1">
+              <repeats>
+                <repeat childId="37c4-dcb1-8949-d4eb" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+            <modifier field="5b4d181b-23ae-5ed7-9262-c1d2f79246a8" type="increment" value="1">
+              <repeats>
+                <repeat childId="5a83-274a-bba8-f498" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry name="Night Goblin Fanatics" id="635e-6a45-0490-a729" hidden="false" import="true" type="unit">
       <categoryLinks>
