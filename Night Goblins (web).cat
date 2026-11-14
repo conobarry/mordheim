@@ -1078,7 +1078,18 @@
             <constraint id="0f6f-74d0-ad43-f3e8" field="selections" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
         </entryLink>
-        <entryLink name="Experience" id="939a-4107-dd5f-548a" hidden="false" import="true" sortIndex="1" targetId="724c-5ced-65aa-6cfe" type="selectionEntry"/>
+        <entryLink name="Experience" id="939a-4107-dd5f-548a" hidden="false" import="true" sortIndex="1" targetId="724c-5ced-65aa-6cfe" type="selectionEntry">
+          <costs>
+            <cost name="Warband Rating" typeId="wb-rating" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier field="wb-rating" type="increment" value="1">
+              <repeats>
+                <repeat childId="d67f-9cdb-b3d4-c52d" childName="Night Goblin Warrior" field="selections" includeChildSelections="true" repeats="1" roundUp="false" scope="model-or-unit" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
         <entryLink name="Advancements" id="e8c1-1bfe-40e0-7f7a" hidden="false" import="true" sortIndex="2" targetId="cf0e-bc32-65c5-eaed" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
@@ -1096,7 +1107,18 @@
             <constraint id="6a56-12ce-6952-875f" field="selections" scope="parent" shared="true" type="max" value="5"/>
           </constraints>
         </entryLink>
-        <entryLink name="Experience" id="347b-6181-9e3f-7089" hidden="false" import="true" sortIndex="1" targetId="724c-5ced-65aa-6cfe" type="selectionEntry"/>
+        <entryLink name="Experience" id="347b-6181-9e3f-7089" hidden="false" import="true" sortIndex="1" targetId="724c-5ced-65aa-6cfe" type="selectionEntry">
+          <costs>
+            <cost name="Warband Rating" typeId="wb-rating" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier field="wb-rating" type="increment" value="1">
+              <repeats>
+                <repeat childId="ec66-b15d-9d2a-bd2e" childName="Night Goblin Fanatic" field="selections" includeChildSelections="true" repeats="1" roundUp="false" scope="model-or-unit" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
         <entryLink name="Advancements" id="654f-a2e3-a55d-3faf" hidden="false" import="true" sortIndex="2" targetId="cf0e-bc32-65c5-eaed" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
