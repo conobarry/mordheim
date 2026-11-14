@@ -846,7 +846,7 @@
             </modifier>
             <modifier field="e234eaea-a02a-2fb7-3e1f-605392aabb89" type="increment" value="1">
               <repeats>
-                <repeat childId="27d8-c790-a4c1-b9cc" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
+                <repeat childId="27d8-c790-a4c1-b9cc" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="unit" shared="true" value="1"/>
               </repeats>
             </modifier>
             <modifier field="a6fd52b0-be0a-655e-6314-87b392c9c90e" type="increment" value="1">
