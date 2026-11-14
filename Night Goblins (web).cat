@@ -751,76 +751,6 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Night Goblin Warrior" id="0c7c-5c24-98d4-5a4d" hidden="false" import="true" type="model">
-      <costs>
-        <cost name="Gold Crowns" typeId="points" value="15"/>
-        <cost name="Warband Rating" typeId="wb-rating" value="5"/>
-        <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
-      </costs>
-      <entryLinks>
-        <entryLink name="Henchmen Equipment List" id="8d03-3b67-e0bd-7b22" hidden="false" import="true" targetId="9d91-dd71-9e38-e3ec" type="selectionEntryGroup"/>
-      </entryLinks>
-    </selectionEntry>
-    <selectionEntry name="Night Goblin Fanatic" id="6acb-85ba-b36b-c336" hidden="false" import="true" type="model">
-      <constraints>
-        <constraint id="3851-738c-08ab-af3d" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="3"/>
-      </constraints>
-      <costs>
-        <cost name="Gold Crowns" typeId="points" value="20"/>
-        <cost name="Warband Rating" typeId="wb-rating" value="5"/>
-        <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
-      </costs>
-      <entryLinks>
-        <entryLink name="Fanatic Equipment List" id="f335-4556-ba50-bded" hidden="false" import="true" targetId="182d-6571-6c68-f645" type="selectionEntryGroup"/>
-      </entryLinks>
-      <profiles>
-        <profile name="Night Goblin Fanatic" id="727c-daa8-cde9-9d35" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
-          <characteristics>
-            <characteristic name="M" typeId="2a0bcc4c-8266-418f-13d6-a6b44def5e92">4</characteristic>
-            <characteristic name="WS" typeId="d5aca8ba-0204-b324-b976-c2b536e09924">3</characteristic>
-            <characteristic name="BS" typeId="5b4d181b-23ae-5ed7-9262-c1d2f79246a8">3</characteristic>
-            <characteristic name="S" typeId="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">3</characteristic>
-            <characteristic name="T" typeId="54f4796b-dedb-c296-8b1a-ff7f8043293a">3</characteristic>
-            <characteristic name="W" typeId="3172c8dc-ebe4-0c40-72ab-8fd0076b9442">1</characteristic>
-            <characteristic name="I" typeId="a6fd52b0-be0a-655e-6314-87b392c9c90e">3</characteristic>
-            <characteristic name="A" typeId="bf393c37-9d10-fc85-c147-62b1c01a89fe">1</characteristic>
-            <characteristic name="LD" typeId="e234eaea-a02a-2fb7-3e1f-605392aabb89">5</characteristic>
-          </characteristics>
-          <modifiers>
-            <modifier field="d5aca8ba-0204-b324-b976-c2b536e09924" type="increment" value="1">
-              <repeats>
-                <repeat childId="7418-394e-fe13-2a96" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="model-or-unit" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-            <modifier field="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9" type="increment" value="1">
-              <repeats>
-                <repeat childId="9368-3616-516f-5178" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="parent" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-            <modifier field="e234eaea-a02a-2fb7-3e1f-605392aabb89" type="increment" value="1">
-              <repeats>
-                <repeat childId="27d8-c790-a4c1-b9cc" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="unit" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-            <modifier field="a6fd52b0-be0a-655e-6314-87b392c9c90e" type="increment" value="1">
-              <repeats>
-                <repeat childId="da26-8381-781a-6149" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-            <modifier field="bf393c37-9d10-fc85-c147-62b1c01a89fe" type="increment" value="1">
-              <repeats>
-                <repeat childId="37c4-dcb1-8949-d4eb" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-            <modifier field="5b4d181b-23ae-5ed7-9262-c1d2f79246a8" type="increment" value="1">
-              <repeats>
-                <repeat childId="5a83-274a-bba8-f498" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </profile>
-      </profiles>
-    </selectionEntry>
     <selectionEntry name="Cave Squig" id="e168-a345-3df7-b0d3" hidden="false" import="true" type="model">
       <constraints>
         <constraint id="e672-896e-733f-a8aa" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="5"/>
@@ -1025,12 +955,6 @@
         <categoryLink name="Henchmen" id="ee74-e6da-8e33-2d83" hidden="false" primary="true" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink name="Night Goblin Warrior" id="d67f-9cdb-b3d4-c52d" collective="true" hidden="false" import="true" sortIndex="3" targetId="0c7c-5c24-98d4-5a4d" type="selectionEntry">
-          <constraints>
-            <constraint id="224a-6907-8ed3-351a" field="selections" scope="parent" shared="true" type="max" value="5"/>
-            <constraint id="0f6f-74d0-ad43-f3e8" field="selections" scope="parent" shared="true" type="min" value="1"/>
-          </constraints>
-        </entryLink>
         <entryLink name="Experience" id="939a-4107-dd5f-548a" hidden="false" import="true" sortIndex="1" targetId="724c-5ced-65aa-6cfe" type="selectionEntry">
           <costs>
             <cost name="Warband Rating" typeId="wb-rating" value="0"/>
@@ -1096,17 +1020,28 @@
           </modifiers>
         </profile>
       </profiles>
+      <selectionEntries>
+        <selectionEntry name="Night Goblin Warrior" id="0c7c-5c24-98d4-5a4d" hidden="false" import="true" sortIndex="3" type="model">
+          <constraints>
+            <constraint id="224a-6907-8ed3-351a" field="selections" scope="parent" shared="true" type="max" value="5"/>
+            <constraint id="0f6f-74d0-ad43-f3e8" field="selections" scope="parent" shared="true" type="min" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="Gold Crowns" typeId="points" value="15"/>
+            <cost name="Warband Rating" typeId="wb-rating" value="5"/>
+            <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
+          </costs>
+          <entryLinks>
+            <entryLink name="Henchmen Equipment List" id="8d03-3b67-e0bd-7b22" hidden="false" import="true" targetId="9d91-dd71-9e38-e3ec" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry name="Night Goblin Fanatics" id="635e-6a45-0490-a729" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Henchmen" id="2592-e669-6901-26c4" hidden="false" primary="true" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink name="Night Goblin Fanatic" id="ec66-b15d-9d2a-bd2e" collective="true" hidden="false" import="true" sortIndex="3" targetId="6acb-85ba-b36b-c336" type="selectionEntry">
-          <constraints>
-            <constraint id="6a56-12ce-6952-875f" field="selections" scope="parent" shared="true" type="max" value="5"/>
-          </constraints>
-        </entryLink>
         <entryLink name="Experience" id="347b-6181-9e3f-7089" hidden="false" import="true" sortIndex="1" targetId="724c-5ced-65aa-6cfe" type="selectionEntry">
           <costs>
             <cost name="Warband Rating" typeId="wb-rating" value="0"/>
@@ -1126,6 +1061,70 @@
         <infoLink name="Addict" id="077c-62f8-8461-b0f0" hidden="false" targetId="5861-c2e5-f21e-ce21" type="profile"/>
         <infoLink name="Loony" id="c2cf-ad45-100f-4470" hidden="false" targetId="dd25-5bc7-286e-5316" type="profile"/>
       </infoLinks>
+      <profiles>
+        <profile name="Night Goblin Fanatic" id="727c-daa8-cde9-9d35" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="2a0bcc4c-8266-418f-13d6-a6b44def5e92">4</characteristic>
+            <characteristic name="WS" typeId="d5aca8ba-0204-b324-b976-c2b536e09924">3</characteristic>
+            <characteristic name="BS" typeId="5b4d181b-23ae-5ed7-9262-c1d2f79246a8">3</characteristic>
+            <characteristic name="S" typeId="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">3</characteristic>
+            <characteristic name="T" typeId="54f4796b-dedb-c296-8b1a-ff7f8043293a">3</characteristic>
+            <characteristic name="W" typeId="3172c8dc-ebe4-0c40-72ab-8fd0076b9442">1</characteristic>
+            <characteristic name="I" typeId="a6fd52b0-be0a-655e-6314-87b392c9c90e">3</characteristic>
+            <characteristic name="A" typeId="bf393c37-9d10-fc85-c147-62b1c01a89fe">1</characteristic>
+            <characteristic name="LD" typeId="e234eaea-a02a-2fb7-3e1f-605392aabb89">5</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier field="d5aca8ba-0204-b324-b976-c2b536e09924" type="increment" value="1">
+              <repeats>
+                <repeat childId="7418-394e-fe13-2a96" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+            <modifier field="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9" type="increment" value="1">
+              <repeats>
+                <repeat childId="9368-3616-516f-5178" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+            <modifier field="e234eaea-a02a-2fb7-3e1f-605392aabb89" type="increment" value="1">
+              <repeats>
+                <repeat childId="27d8-c790-a4c1-b9cc" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+            <modifier field="a6fd52b0-be0a-655e-6314-87b392c9c90e" type="increment" value="1">
+              <repeats>
+                <repeat childId="da26-8381-781a-6149" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+            <modifier field="bf393c37-9d10-fc85-c147-62b1c01a89fe" type="increment" value="1">
+              <repeats>
+                <repeat childId="37c4-dcb1-8949-d4eb" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+            <modifier field="5b4d181b-23ae-5ed7-9262-c1d2f79246a8" type="increment" value="1">
+              <repeats>
+                <repeat childId="5a83-274a-bba8-f498" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Night Goblin Fanatic" id="6acb-85ba-b36b-c336" hidden="false" import="true" sortIndex="3" type="model">
+          <constraints>
+            <constraint id="3851-738c-08ab-af3d" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="3"/>
+            <constraint id="cd9d-d83a-9002-87e3" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="6a56-12ce-6952-875f" field="selections" scope="parent" shared="true" type="max" value="5"/>
+          </constraints>
+          <costs>
+            <cost name="Gold Crowns" typeId="points" value="20"/>
+            <cost name="Warband Rating" typeId="wb-rating" value="5"/>
+            <cost name="Warriors" typeId="b677-8cc2-f3d9-d65e" value="1"/>
+          </costs>
+          <entryLinks>
+            <entryLink name="Fanatic Equipment List" id="f335-4556-ba50-bded" hidden="false" import="true" targetId="182d-6571-6c68-f645" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry name="Cave Squigs" id="20e6-7796-3377-452a" hidden="false" import="true" type="unit">
       <categoryLinks>
